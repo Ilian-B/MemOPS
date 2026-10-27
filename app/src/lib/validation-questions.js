@@ -20,6 +20,8 @@ function reformuler(e) {
       return `${ou} : champ inconnu « ${e.params.additionalProperty} »`
     case 'enum':
       return `${ou} : valeur non autorisée (attendu : ${e.params.allowedValues.join(', ')})`
+    case 'uniqueItems':
+      return `${ou} : élément en double`
     case 'type':
       return `${ou} : type attendu « ${e.params.type} »`
     case 'minLength':

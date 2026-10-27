@@ -1,0 +1,293 @@
+[
+  {
+    "id": "ssuap-0001",
+    "type": "qcm",
+    "enonce": "Lors de la prise en charge d’une victime, quelles mesures de prévention du risque infectieux le GDO prévoit-il ? (plusieurs réponses)",
+    "propositions": [
+      "Porter systématiquement des gants à usage unique",
+      "Se laver les mains après tout contact potentiellement contaminant, notamment après le retrait des EPI",
+      "Porter une protection oculaire lors de gestes à risque de projection sur le visage (aspiration, intubation, etc.)",
+      "Se frotter les yeux pour dégager d’éventuelles projections",
+      "Utiliser préférentiellement du matériel réutilisable"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Le GDO demande des gants à usage unique systématiques, le lavage des mains après tout contact potentiellement contaminant et une protection oculaire pour les gestes à risque de projection. Il interdit de se frotter les yeux et privilégie le matériel à usage unique.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 3, 2.1. La prévention du risque infectieux, p. 35-36",
+      "citation": "Dans le cadre de la prise en charge de victimes, il convient de : porter systématiquement des gants à usage unique ; […] porter une protection oculaire lors de gestes à risque de projection sur le visage (aspiration, intubation, etc.) ; […] ne pas porter ses mains au visage et à la bouche, se frotter les yeux ; se laver les mains (eau, savon, solutions hydro-alcooliques, etc.) après tout contact potentiellement contaminant, notamment après le retrait des EPI ; utiliser préférentiellement du matériel à usage unique et être vigilant lors des manipulations ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0002",
+    "type": "cas-concret",
+    "enonce": "Au cours d’une intervention, un équipier se coupe. Le SIS n’a pas de protocole « accident d’exposition au sang ». Quelle conduite le GDO indique-t-il pour la plaie ?",
+    "propositions": [
+      "Laver immédiatement la plaie à l’eau potable et au savon, puis désinfecter pendant 5 minutes minimum",
+      "Désinfecter d’abord la plaie, puis la laver à l’eau potable et au savon",
+      "Laver la plaie à l’eau potable et au savon, puis désinfecter pendant 1 minute",
+      "Attendre qu’un protocole soit défini avant toute action sur la plaie"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "En l’absence de protocole, le GDO prévoit de laver immédiatement la plaie à l’eau potable et au savon, puis de désinfecter pendant 5 minutes minimum. La note de bas de page 23 (p. 36) précise : « Se référer aux procédures en vigueur dans le SIS ».",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 3, 2.1. La prévention du risque infectieux, p. 36",
+      "citation": "En l’absence de protocole « accident d’exposition au sang » et cas de piqure ou coupure, laver immédiatement la plaie avec de l’eau potable et du savon puis désinfecter pendant 5 minutes minimum (Dakin, eau de javel diluée ou, à défaut, produits iodés ou autre biocide) 23. […] 23 Se référer aux procédures en vigueur dans le SIS."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0003",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : en situation d’urgence, la dérogation à la vitesse autorisée ne dispense pas le conducteur de rester maître du véhicule.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GDO précise que la dérogation à la vitesse ne dispense pas le conducteur de rester maître du véhicule, et que la vitesse est maîtrisée et adaptée dans tous les cas.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 3, 1.2.1. L’adaptation de la vitesse à l’urgence, p. 33",
+      "citation": "La dérogation à la vitesse autorisée pour un véhicule d’intérêt général prioritaire en situation d’urgence ne dispense pas le conducteur de rester maître du véhicule. Dans tous les cas, la vitesse est maîtrisée et adaptée aux conditions et à l’environnement de circulation ainsi qu’aux spécificités du véhicule (PL, utilitaire, VL, gabarit, poids, …)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0004",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lorsque le chef d’agrès est présent dans le véhicule, c’est lui qui est responsable de la conduite et non plus le conducteur.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le GDO indique que le conducteur reste responsable de sa conduite.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 2, 6. Le risque routier, p. 30",
+      "citation": "Le conducteur reste responsable de sa conduite. Le chef d’agrès veille à ce que le conducteur soit en état de conduire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0005",
+    "type": "qcm",
+    "enonce": "Au titre de la sécurité collective, comment évaluer les dangers persistants qui peuvent menacer la victime ?",
+    "propositions": [
+      "Par un balayage visuel autour de la victime, en restant à distance d’elle",
+      "Par un balayage visuel autour de la victime, en se tenant au plus près d’elle",
+      "Par une évaluation unique à l’arrivée, sans attention ultérieure"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GDO prévoit un balayage visuel autour de la victime en restant à distance d’elle, associé à une attention permanente.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 3, 1. La sécurité collective, p. 32",
+      "citation": "La sécurité collective passe par : […] un balayage visuel autour de la victime, en restant à distance d’elle afin d’évaluer les dangers persistants qui peuvent la menacer ; une attention permanente."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0006",
+    "type": "qcm",
+    "enonce": "En cas de menace ou de risque d’agression, à quoi le chef d’agrès veille-t-il ? (plusieurs réponses)",
+    "propositions": [
+      "Surveiller l’environnement extérieur",
+      "Demander l’engagement des forces de l’ordre",
+      "Conserver une attitude ferme mais non agressive",
+      "Exposer le personnel engagé en première ligne pour calmer la situation",
+      "Adopter une attitude agressive pour dissuader la victime ou son entourage"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Le chef d’agrès surveille l’environnement, demande les forces de l’ordre et garde une attitude ferme mais non agressive ; il doit éviter d’exposer le personnel.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 3, 1.3. La prévention du risque agression, p. 34",
+      "citation": "En cas de menace ou de risque d’agression, ou d’événement de nature à entraîner une éventuelle réaction violente ou disproportionnée de la victime ou de son entourage, le chef d’agrès veille à : surveiller l’environnement extérieur ; demander l’engagement des forces de l’ordre ; éviter d’exposer le personnel engagé ; isoler la victime (surveillance des mains, éloignement des objets dangereux etc.  ; conserver une attitude ferme mais non agressive."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "chef-agres-une-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0007",
+    "type": "cas-concret",
+    "enonce": "Lors d’une mission SUAP en effectif réduit, vous remarquez un couteau à portée d’un proche agité de la victime. Que prévoit le GDO ?",
+    "propositions": [
+      "Signifier cette observation à l’ensemble de l’équipage et éloigner ou cacher l’objet, en gardant son calme",
+      "Ne rien dire à l’équipage pour ne pas envenimer la situation",
+      "Laisser le couteau en place pour ne pas provoquer la personne",
+      "Élever la voix pour imposer le calme"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Toute observation anormale est signifiée à l’ensemble de l’équipage, les objets pouvant servir d’arme sont éloignés ou cachés, et l’on garde son calme pour faire retomber la tension.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 3, 1. La sécurité collective, p. 32 ; 1.3. La prévention du risque agression, p. 34",
+      "citation": "Il appartient à chacun des membres de l’équipe d’adopter une attitude basée sur une communication non violente […] notamment en […] écoutant et en parlant calmement de manière à apaiser, dédramatiser la situation. […] Les missions SUAP sont le plus souvent réalisées avec des effectifs réduits ce qui rend les personnels engagés plus vulnérables, il y a lieu de : signifier à l’ensemble de l’équipage toute observation anormale (ex : présence d’un couteau) ; éloigner ou cacher de l’agresseur tout objet pouvant être utilisé comme une arme (couteaux, outils, armes à feu, etc.) ; garder son calme face à l’agresseur pour faire retomber la tension ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0008",
+    "type": "qcm",
+    "enonce": "Quelle règle le GDO fixe-t-il pour les occupants du VSAV pendant les déplacements ?",
+    "propositions": [
+      "Tous les occupants doivent être ceinturés à chaque phase de déplacement, sauf justification médicale contraire pour la victime ou situation/contexte",
+      "Seuls le conducteur et le chef d’agrès doivent être ceinturés",
+      "Le ceinturage n’est exigé que lors du trajet vers le lieu de l’opération de secours",
+      "Le ceinturage est facultatif pour le personnel médical"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Tous les occupants du VSAV doivent être ceinturés à chaque phase de déplacement, particulièrement vers le lieu de l’opération, sauf justification médicale contraire ou situation/contexte.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 3, 1.2. La prévention du risque routier, p. 33",
+      "citation": "Tous les occupants du VSAV doivent être ceinturés à chaque phase de déplacement (sauf justification médicale contraire pour la victime ou situation/contexte) et particulièrement celle vers le lieu de l’opération de secours."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0009",
+    "type": "qcm",
+    "enonce": "Selon le GDO, quel est le premier facteur de risque routier ?",
+    "propositions": [
+      "Le facteur humain, notamment lié au conducteur",
+      "L’état de la chaussée",
+      "Les conditions climatiques",
+      "L’état mécanique du véhicule"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GDO indique que le facteur humain, notamment lié au conducteur, constitue le premier facteur de risque.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 2, 6. Le risque routier, p. 29",
+      "citation": "Toutes les études de sécurité routière démontrent que le facteur humain, notamment lié au conducteur, constitue le premier facteur de risque."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  },
+  {
+    "id": "ssuap-0010",
+    "type": "qcm",
+    "enonce": "Selon le GDO, quel risque est la première cause d’accidents liés à l’activité du SSUAP ?",
+    "propositions": [
+      "Les troubles musculo-squelettiques",
+      "Le risque infectieux",
+      "Le risque d’agression",
+      "Le risque psychologique"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Les troubles musculo-squelettiques sont la première cause d’accidents liés à l’activité du SSUAP, favorisés notamment par le port de charges lourdes et les postures inconfortables.",
+    "source": {
+      "document": "GDO Secours et soins d'urgence aux personnes (DGSCGC)",
+      "version": "V1.1 – novembre 2022",
+      "emplacement": "Chapitre 2, 5. Le risque de troubles musculo-squelettiques, p. 29",
+      "citation": "Les troubles musculo-squelettiques (TMS) regroupent une quinzaine de maladies qui affectent les muscles, les tendons ainsi que les nerfs des membres et de la colonne vertébrale. […] Il s’agit de la première cause d’accidents liés à l’activité du SSUAP, et plus particulièrement le port de charges lourdes, les postures inconfortables ou maintenues durant de longues périodes peuvent favoriser ces troubles."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+  }
+]

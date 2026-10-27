@@ -47,6 +47,10 @@ describe('validerQuestions', () => {
   it('b. refuse une question hors schéma', () => {
     expect(erreursDe({ difficulte: 5 })[0]).toContain('difficulte')
   })
+  it('b. refuse un emploi hors de la liste officielle', () => {
+    expect(erreursDe({ emplois: ['pompier'] }).join()).toContain('emplois')
+    expect(erreursDe({ emplois: ['equipier', 'equipier'] }).join()).toContain('élément en double')
+  })
   it('c. refuse un index inexistant ou en double', () => {
     expect(erreursDe({ bonnes_reponses: [7] }).join()).toContain('n\'existe pas')
     expect(erreursDe({ bonnes_reponses: [1, 1] }).join()).toContain('deux fois')
