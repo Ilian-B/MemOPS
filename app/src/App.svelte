@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <h1>Révision pompiers</h1>
+  <h1>MemOPS</h1>
   <p class="avertissement" role="note">{AVERTISSEMENT}</p>
 </main>
 

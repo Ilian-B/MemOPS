@@ -1,4 +1,4 @@
-# Révision pompiers
+# MemOPS
 
 Application de quiz mobile (PWA) pour entretenir ses connaissances opérationnelles de sapeur-pompier et de secouriste, à partir des seuls textes de référence officiels.
 

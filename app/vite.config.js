@@ -13,8 +13,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Révision pompiers',
-        short_name: 'Révision',
+        name: 'MemOPS',
+        short_name: 'MemOPS',
         lang: 'fr',
         display: 'standalone',
         start_url: './',
