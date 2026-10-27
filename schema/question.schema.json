@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question.schema.json",
+  "title": "Question de quiz secourisme",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "type", "enonce", "propositions", "bonnes_reponses", "explication",
+    "source", "theme", "emplois", "portee", "difficulte", "statut"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+-[0-9]{4}$" },
+    "type": { "enum": ["qcm", "vrai-faux", "ordre", "cas-concret"] },
+    "enonce": { "type": "string", "minLength": 10 },
+    "propositions": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "bonnes_reponses": {
+      "description": "Index (à partir de 0) des bonnes propositions ; pour le type 'ordre', l'ordre correct des index.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "integer", "minimum": 0 }
+    },
+    "explication": { "type": "string", "minLength": 10 },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["document", "version", "emplacement", "citation"],
+      "properties": {
+        "document": { "type": "string", "minLength": 3 },
+        "version": { "type": "string", "minLength": 1 },
+        "emplacement": { "type": "string", "minLength": 1 },
+        "citation": { "type": "string", "minLength": 10 }
+      }
+    },
+    "theme": { "type": "string", "minLength": 2 },
+    "emplois": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 2 }
+    },
+    "portee": {
+      "description": "'national' ou code de département (ex. '50').",
+      "type": "string",
+      "pattern": "^(national|[0-9]{2,3}|2A|2B)$"
+    },
+    "difficulte": { "type": "integer", "minimum": 1, "maximum": 3 },
+    "statut": { "enum": ["a_verifier", "validee", "rejetee"] },
+    "verifie_le": { "type": "string", "format": "date" },
+    "verification": {
+      "description": "Compte rendu du vérificateur des sources.",
+      "type": "string"
+    }
+  }
+}

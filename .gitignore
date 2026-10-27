@@ -1,0 +1,15 @@
+# Textes officiels : jamais publiés dans le dépôt
+sources/*
+!sources/LISEZMOI.md
+
+# Dépendances et builds
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Système
+.DS_Store
+*.log
+.env
+.env.*
