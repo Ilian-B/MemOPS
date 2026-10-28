@@ -1,6 +1,30 @@
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
+import { fileURLToPath } from 'node:url'
+import { chargerQuestions } from './src/lib/charger-questions.js'
+
+// Dossier questions/ (à la racine du projet), calculé depuis ce fichier de config
+const DOSSIER_QUESTIONS = fileURLToPath(new URL('../questions/', import.meta.url))
+
+// Plugin : expose le module virtuel « virtual:questions ».
+// En production (build) : questions validées seulement ; en dev (serve) : « a_verifier » aussi.
+function pluginQuestions() {
+  let modeDev = false
+  return {
+    name: 'memops-questions',
+    configResolved(config) {
+      modeDev = config.command === 'serve'
+    },
+    resolveId(id) {
+      if (id === 'virtual:questions') return '\0virtual:questions'
+    },
+    load(id) {
+      if (id !== '\0virtual:questions') return
+      return `export default ${JSON.stringify(chargerQuestions(DOSSIER_QUESTIONS, modeDev))}`
+    },
+  }
+}
 
 export default defineConfig({
   // Chemins relatifs : le nom du dépôt GitHub Pages n'est pas encore connu
@@ -9,6 +33,7 @@ export default defineConfig({
   test: { include: ['src/**/*.test.js'] },
   plugins: [
     svelte(),
+    pluginQuestions(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
