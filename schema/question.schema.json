@@ -122,7 +122,8 @@
         "a_verifier",
         "validee",
         "rejetee"
-      ]
+      ],
+      "description": "Les règles de cohérence (validee : verifie_le, verification et une relecture « conforme » ; rejetee : relecture « rejeter » ou verification) sont contrôlées par app/src/lib/validation-questions.js."
     },
     "verifie_le": {
       "type": "string",
