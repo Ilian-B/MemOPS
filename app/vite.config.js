@@ -8,20 +8,16 @@ import { chargerQuestions } from './src/lib/charger-questions.js'
 const DOSSIER_QUESTIONS = fileURLToPath(new URL('../questions/', import.meta.url))
 
 // Plugin : expose le module virtuel « virtual:questions ».
-// En production (build) : questions validées seulement ; en dev (serve) : « a_verifier » aussi.
+// Toutes les questions sauf « rejetee » (en production comme en développement).
 function pluginQuestions() {
-  let modeDev = false
   return {
     name: 'memops-questions',
-    configResolved(config) {
-      modeDev = config.command === 'serve'
-    },
     resolveId(id) {
       if (id === 'virtual:questions') return '\0virtual:questions'
     },
     load(id) {
       if (id !== '\0virtual:questions') return
-      return `export default ${JSON.stringify(chargerQuestions(DOSSIER_QUESTIONS, modeDev))}`
+      return `export default ${JSON.stringify(chargerQuestions(DOSSIER_QUESTIONS))}`
     },
   }
 }

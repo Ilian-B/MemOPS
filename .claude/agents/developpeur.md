@@ -10,5 +10,5 @@ Règles :
 - Petites étapes testables ; chaque fonctionnalité est accompagnée de tests Vitest.
 - L'appli fonctionne hors ligne et reste utilisable si l'API de classement est injoignable.
 - Aucune donnée personnelle collectée ; la progression reste en local (IndexedDB).
-- Seules les questions au statut `validee` sont chargées.
+- Toutes les questions sont chargées, sauf celles au statut `rejetee`.
 - L'avertissement obligatoire et la source de chaque question restent toujours visibles.

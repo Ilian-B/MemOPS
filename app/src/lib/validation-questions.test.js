@@ -19,6 +19,8 @@ const exemple = () => ({
   statut: 'a_verifier',
 })
 
+const ok = { par: 'AB', le: '2026-01-02', avis: 'conforme' }
+
 // Valide une seule question modifiée et renvoie les erreurs.
 const erreursDe = (modif) => validerQuestions([{ nom: 'test.json', contenu: [{ ...exemple(), ...modif }] }])
 
@@ -65,7 +67,24 @@ describe('validerQuestions', () => {
     const e = erreursDe({ statut: 'validee' }).join()
     expect(e).toContain('verifie_le')
     expect(e).toContain('verification')
-    expect(erreursDe({ statut: 'validee', verifie_le: '2026-01-01', verification: 'Vérifiée (fictif).' })).toEqual([])
+    expect(erreursDe({ statut: 'validee', verifie_le: '2026-01-01', verification: 'Vérifiée (fictif).', relectures: [ok] })).toEqual([])
+  })
+  it('h. exige une relecture « conforme » pour une question validée', () => {
+    const base = { statut: 'validee', verifie_le: '2026-01-01', verification: 'Vérifiée (fictif).' }
+    expect(erreursDe(base).join()).toContain('conforme')
+    expect(erreursDe({ ...base, relectures: [{ ...ok, avis: 'corriger' }] }).join()).toContain('conforme')
+  })
+  it('i. exige une justification pour une question rejetée', () => {
+    expect(erreursDe({ statut: 'rejetee' }).join()).toContain('rejeter')
+    expect(erreursDe({ statut: 'rejetee', relectures: [{ ...ok, avis: 'rejeter' }] })).toEqual([])
+    expect(erreursDe({ statut: 'rejetee', verification: 'Rejetée : citation introuvable.' })).toEqual([])
+    expect(erreursDe({ statut: 'rejetee', verification: '  ' }).join()).toContain('rejeter')
+  })
+  it('refuse une relecture mal formée', () => {
+    expect(erreursDe({ relectures: [{ ...ok, avis: 'peut-être' }] }).join()).toContain('relectures')
+    expect(erreursDe({ relectures: [{ ...ok, le: '2026-13-45' }] }).join()).toContain('format « date »')
+    expect(erreursDe({ relectures: [{ par: 'A', le: '2026-01-01', avis: 'conforme' }] }).join()).toContain('trop court')
+    expect(erreursDe({ relectures: [{ ...ok, extra: 1 }] }).join()).toContain('champ inconnu')
   })
   it('g. refuse un id en double, même entre deux fichiers', () => {
     const erreurs = validerQuestions([

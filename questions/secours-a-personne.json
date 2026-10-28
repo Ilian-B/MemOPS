@@ -28,8 +28,16 @@
     ],
     "portee": "national",
     "difficulte": 2,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0002",
@@ -57,8 +65,16 @@
     ],
     "portee": "national",
     "difficulte": 2,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0003",
@@ -84,8 +100,16 @@
     ],
     "portee": "national",
     "difficulte": 1,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0004",
@@ -111,8 +135,16 @@
     ],
     "portee": "national",
     "difficulte": 1,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0005",
@@ -139,8 +171,16 @@
     ],
     "portee": "national",
     "difficulte": 1,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0006",
@@ -171,8 +211,16 @@
     ],
     "portee": "national",
     "difficulte": 2,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0007",
@@ -200,8 +248,16 @@
     ],
     "portee": "national",
     "difficulte": 2,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0008",
@@ -229,8 +285,16 @@
     ],
     "portee": "national",
     "difficulte": 1,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0009",
@@ -258,8 +322,16 @@
     ],
     "portee": "national",
     "difficulte": 1,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   },
   {
     "id": "ssuap-0010",
@@ -287,7 +359,15 @@
     ],
     "portee": "national",
     "difficulte": 1,
-    "statut": "a_verifier",
-    "verification": "Vérificateur des sources (agent IA), 2026-10-27 : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes. En attente de relecture humaine (formateur) avant passage au statut « validee »."
+    "statut": "validee",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-27",
+    "relectures": [
+      {
+        "par": "Ilian T.",
+        "le": "2026-10-28",
+        "avis": "conforme"
+      }
+    ]
   }
 ]

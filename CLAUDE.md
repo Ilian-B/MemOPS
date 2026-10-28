@@ -21,7 +21,9 @@ Nous développons une application de quiz mobile (PWA) permettant aux sapeurs-po
 - Chaque question comporte : énoncé, propositions, bonne(s) réponse(s), explication courte, référence source, thème, emploi(s) concerné(s), portée, niveau de difficulté.
 - Les questions sont stockées dans des fichiers JSON versionnés (`questions/`), séparés du code, et validés par `schema/question.schema.json`.
 - Les distracteurs (mauvaises réponses) doivent être plausibles mais clairement faux au regard du texte.
-- Seules les questions au statut `validee` sont chargées dans l'appli.
+- Une question n'entre dans `questions/` qu'après le verdict `VALIDÉE` du vérificateur des sources ; elle y prend le statut `a_verifier`.
+- Toutes les questions de `questions/` sont chargées dans l'appli, sans distinction visible, sauf celles au statut `rejetee` (décision d'Ilian du 28/10/2026).
+- La relecture humaine se fait dans le back office (page claude.ai « accès prof ») : chaque avis y est tracé (qui, quand). Une question relue et jugée conforme passe au statut `validee`, avec la trace de la relecture (pseudonyme ou initiales du relecteur, date) dans le champ `relectures`. Voir `docs/back-office.md`.
 
 ## Fonctionnalités de l'appli
 
@@ -75,7 +77,7 @@ L'orchestrateur (session principale, Opus) pilote des sous-agents spécialisés 
 - Le porteur du projet n'est pas développeur : nous expliquons les choix simplement et sans jargon inutile.
 - Nous proposons les modifications avant de les appliquer, avec une justification courte, et attendons la validation avant chaque étape.
 - Nous avançons par petites étapes testables.
-- Toute question générée est relue et validée par un humain (idéalement un formateur ou conseiller technique) avant intégration.
+- Toute question générée est contrôlée par le vérificateur des sources avant intégration, puis relue par un humain (idéalement un formateur ou conseiller technique) dans le back office ; tant qu'elle n'est pas relue, elle reste repérable par son statut `a_verifier`.
 - Rédaction en français, en utilisant « nous » et jamais « on ».
 
 ## Arborescence

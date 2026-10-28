@@ -72,6 +72,16 @@ function controlerCoherence(q) {
     if (!q.verifie_le) erreurs.push('statut « validee » : la date de vérification (verifie_le) est obligatoire')
     if (typeof q.verification !== 'string' || !q.verification.trim()) erreurs.push('statut « validee » : le compte rendu de vérification (verification) est obligatoire')
   }
+  // h. relecture humaine : une validée doit avoir un avis « conforme »
+  const avis = (a) => Array.isArray(q.relectures) && q.relectures.some((r) => r && r.avis === a)
+  if (q.statut === 'validee' && !avis('conforme')) {
+    erreurs.push('statut « validee » : au moins une relecture d\'avis « conforme » est obligatoire (champ relectures)')
+  }
+  // i. une rejetée doit être justifiée (relecteur ou vérificateur)
+  const verifie = typeof q.verification === 'string' && q.verification.trim() !== ''
+  if (q.statut === 'rejetee' && !avis('rejeter') && !verifie) {
+    erreurs.push('statut « rejetee » : il faut une relecture d\'avis « rejeter » ou un compte rendu de vérification (verification)')
+  }
   return erreurs
 }
 
