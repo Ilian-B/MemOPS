@@ -2,13 +2,28 @@
   import { tick } from 'svelte'
   import questionsDispo from 'virtual:questions'
   import { AVERTISSEMENT } from './lib/avertissement.js'
-  import { tirerSession, estCorrecte, estJouable } from './lib/session.js'
+  import { estCorrecte, estJouable } from './lib/session.js'
+  import { ouvrirStockage } from './lib/stockage.js'
+  import {
+    enregistrerReponse, tirerSessionRevision, statistiques, libelleTheme,
+  } from './lib/revision.js'
 
   // Mode développement : on affiche un bandeau sur les questions non relues
   const modeDev = import.meta.env.DEV
 
   // Questions réellement jouables (le type « ordre » n'est pas encore géré)
-  const nbDispo = questionsDispo.filter(estJouable).length
+  const jouables = questionsDispo.filter(estJouable)
+  const nbDispo = jouables.length
+
+  // Progression locale : une fiche par question (Map id -> fiche), lue au démarrage.
+  // $state.raw : nous remplaçons toute la Map à chaque réponse.
+  let stockage
+  let fiches = $state.raw(new Map())
+  const chargement = ouvrirStockage().then(async (s) => {
+    stockage = s
+    fiches = await s.toutLire()
+  })
+  const stats = $derived(statistiques(jouables, fiches, new Date()))
 
   let ecran = $state('accueil') // 'accueil' | 'question' | 'fin'
   let session = $state([])
@@ -33,8 +48,9 @@
   const multiple = $derived(question ? question.bonnes_reponses.length > 1 : false)
   const reussie = $derived(question ? estCorrecte(question, choisis) : false)
 
-  function commencer() {
-    session = tirerSession(questionsDispo)
+  async function commencer() {
+    await chargement
+    session = tirerSessionRevision(jouables, fiches, new Date())
     index = 0
     score = 0
     preparerQuestion()
@@ -52,7 +68,12 @@
     if (repondu) return
     choisis = selection
     repondu = true
-    if (estCorrecte(question, selection)) score += 1
+    const juste = estCorrecte(question, selection)
+    if (juste) score += 1
+    // Nous enregistrons la réponse tout de suite (la mémoire se met à jour, puis le stockage)
+    const fiche = enregistrerReponse(fiches.get(question.id), question.id, juste, new Date())
+    fiches = new Map(fiches).set(question.id, fiche)
+    stockage?.enregistrer(fiche).catch(() => {})
     focaliser(() => retourEl)
   }
 
@@ -98,6 +119,24 @@
     {#if nbDispo > 0}
       <p class="compteur">{nbDispo} question{nbDispo > 1 ? 's' : ''} disponible{nbDispo > 1 ? 's' : ''}</p>
       <button class="gros principal" onclick={commencer}>Commencer</button>
+
+      <section class="progression-bloc" aria-labelledby="titre-progression">
+        <h2 id="titre-progression">Ma progression</h2>
+        <p class="a-revoir">À revoir aujourd'hui : <strong>{stats.aRevoir}</strong></p>
+        <ul class="themes">
+          {#each stats.parTheme as t (t.theme)}
+            <li>
+              <span class="theme-nom">{libelleTheme(t.theme)}</span>
+              <div class="barre" aria-hidden="true">
+                <div class="barre-remplie" style="width: {t.taux ?? 0}%"></div>
+              </div>
+              <span class="theme-detail">
+                {#if t.taux === null}Pas encore de réponse{:else}{t.taux} % sur {t.reponses} réponse{t.reponses > 1 ? 's' : ''}{/if}
+              </span>
+            </li>
+          {/each}
+        </ul>
+      </section>
     {:else}
       <p class="vide">
         Les premières questions sont en cours de relecture par des experts. Revenez très bientôt pour
@@ -156,6 +195,16 @@
     <h2>Session terminée</h2>
     <p class="score" tabindex="-1" bind:this={scoreEl}>{score} / {session.length}</p>
     <p>{messageFin(score, session.length)}</p>
+    <p class="a-venir">
+      {#if session.length - score > 0}
+        {session.length - score} question{session.length - score > 1 ? 's' : ''} ratée{session.length - score > 1 ? 's' : ''}
+        reviendr{session.length - score > 1 ? 'ont' : 'a'} demain.
+      {/if}
+      {#if score > 0}
+        {score} question{score > 1 ? 's' : ''} bien répondue{score > 1 ? 's' : ''}
+        reviendr{score > 1 ? 'ont' : 'a'} dans quelques jours.
+      {/if}
+    </p>
     <button class="gros principal" onclick={commencer}>Nouvelle session</button>
     <button class="gros secondaire" onclick={() => (ecran = 'accueil')}>Retour à l'accueil</button>
   {/if}
@@ -214,6 +263,42 @@
     font-weight: bold;
     color: #d62828;
     margin: 0.5rem 0;
+  }
+  .progression-bloc {
+    background: #fff;
+    border-radius: 12px;
+    padding: 0.5rem 1rem 1rem;
+    margin-top: 1.5rem;
+  }
+  .a-revoir,
+  .a-venir {
+    text-align: center;
+  }
+  .themes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .themes li {
+    margin-top: 0.8rem;
+  }
+  .theme-nom {
+    font-weight: bold;
+  }
+  .barre {
+    height: 14px;
+    background: #f1e6d0;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 0.25rem 0;
+  }
+  .barre-remplie {
+    height: 100%;
+    background: #1b7a3a;
+  }
+  .theme-detail {
+    font-size: 0.9rem;
+    color: #444;
   }
   .progression {
     text-align: right;
