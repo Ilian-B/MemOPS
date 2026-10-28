@@ -2,7 +2,7 @@
   {
     "id": "ssuap-0001",
     "type": "qcm",
-    "enonce": "Lors de la prise en charge d’une victime, quelles mesures de prévention du risque infectieux le GDO prévoit-il ? (plusieurs réponses)",
+    "enonce": "Lors de la prise en charge d’une victime, quelles mesures de prévention du risque infectieux faut-il appliquer ? (plusieurs réponses)",
     "propositions": [
       "Porter systématiquement des gants à usage unique",
       "Se laver les mains après tout contact potentiellement contaminant, notamment après le retrait des EPI",
@@ -34,7 +34,7 @@
   {
     "id": "ssuap-0002",
     "type": "cas-concret",
-    "enonce": "Au cours d’une intervention, un équipier se coupe. Le SIS n’a pas de protocole « accident d’exposition au sang ». Quelle conduite le GDO indique-t-il pour la plaie ?",
+    "enonce": "Au cours d’une intervention, un équipier se coupe. Le SIS n’a pas de protocole « accident d’exposition au sang ». Quelle conduite tenir pour la plaie ?",
     "propositions": [
       "Laver immédiatement la plaie à l’eau potable et au savon, puis désinfecter pendant 5 minutes minimum",
       "Désinfecter d’abord la plaie, puis la laver à l’eau potable et au savon",
@@ -177,7 +177,7 @@
   {
     "id": "ssuap-0007",
     "type": "cas-concret",
-    "enonce": "Lors d’une mission SUAP en effectif réduit, vous remarquez un couteau à portée d’un proche agité de la victime. Que prévoit le GDO ?",
+    "enonce": "Lors d’une mission SUAP en effectif réduit, vous remarquez un couteau à portée d’un proche agité de la victime. Que faites-vous ?",
     "propositions": [
       "Signifier cette observation à l’ensemble de l’équipage et éloigner ou cacher l’objet, en gardant son calme",
       "Ne rien dire à l’équipage pour ne pas envenimer la situation",
@@ -206,7 +206,7 @@
   {
     "id": "ssuap-0008",
     "type": "qcm",
-    "enonce": "Quelle règle le GDO fixe-t-il pour les occupants du VSAV pendant les déplacements ?",
+    "enonce": "Quelle règle s’applique aux occupants du VSAV pendant les déplacements ?",
     "propositions": [
       "Tous les occupants doivent être ceinturés à chaque phase de déplacement, sauf justification médicale contraire pour la victime ou situation/contexte",
       "Seuls le conducteur et le chef d’agrès doivent être ceinturés",
@@ -235,7 +235,7 @@
   {
     "id": "ssuap-0009",
     "type": "qcm",
-    "enonce": "Selon le GDO, quel est le premier facteur de risque routier ?",
+    "enonce": "Quel est le premier facteur de risque routier ?",
     "propositions": [
       "Le facteur humain, notamment lié au conducteur",
       "L’état de la chaussée",
@@ -264,7 +264,7 @@
   {
     "id": "ssuap-0010",
     "type": "qcm",
-    "enonce": "Selon le GDO, quel risque est la première cause d’accidents liés à l’activité du SSUAP ?",
+    "enonce": "Quel risque est la première cause d’accidents liés à l’activité de secours et de soins d’urgence aux personnes ?",
     "propositions": [
       "Les troubles musculo-squelettiques",
       "Le risque infectieux",

@@ -16,3 +16,4 @@ Règles :
 - Nous signalons toute ambiguïté ou contradiction entre textes au lieu de trancher.
 - Les citations sont recopiées exactement comme dans le texte source (image de la page pour un PDF non extractible), mot pour mot : orthographe, ponctuation et coquilles de la source comprises. Nous ne « corrigeons » jamais une citation ; une coupe est signalée par « […] » et ne doit pas changer le sens.
 - L'énoncé et l'explication n'évoquent aucune étude, statistique ou source que le texte ne cite pas lui-même.
+- Les énoncés sont tournés comme une situation ou une question directe, sans nommer le document source (pas de « selon le GDO », « que prévoit le GDO ») : le quiz doit se lire naturellement. Le document est cité dans l'explication et dans le champ `source`, obligatoirement.
