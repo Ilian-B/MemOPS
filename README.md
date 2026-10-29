@@ -2,6 +2,8 @@
 
 Application de quiz mobile (PWA) pour entretenir ses connaissances opérationnelles de sapeur-pompier et de secouriste, à partir des seuls textes de référence officiels.
 
+**Utiliser l'appli** : https://ilian-b.github.io/MemOPS/ (sur téléphone, « Ajouter à l'écran d'accueil » pour l'installer ; elle fonctionne ensuite hors ligne).
+
 > **Avertissement** : outil d'entraînement personnel. Ne remplace ni la formation, ni les textes officiels en vigueur.
 
 ## Principes
