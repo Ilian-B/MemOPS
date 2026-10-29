@@ -369,5 +369,2640 @@
         "avis": "conforme"
       }
     ]
+  },
+  {
+    "id": "pse-0301",
+    "type": "qcm",
+    "enonce": "Un secouriste vient de se piquer avec une aiguille souillée de sang pendant une intervention. Quelles conduites faut-il adopter ? (plusieurs réponses)",
+    "propositions": [
+      "Interrompre si possible l’action de secours en cours et se faire relayer",
+      "Nettoyer immédiatement la plaie à l’eau courante et au savon, puis rincer",
+      "Réaliser l’asepsie en assurant un temps de contact d’au moins cinq minutes",
+      "Faire saigner la plaie",
+      "Utiliser un produit pour traitement hygiénique des mains par friction"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Les références techniques PSE (fiche 03PR01) demandent d’interrompre l’action si possible, de se faire relayer, de nettoyer à l’eau et au savon puis de réaliser l’asepsie pendant au moins cinq minutes. Elles interdisent de faire saigner la plaie et d’utiliser les produits de friction pour les mains.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03PR01 / 09-2014",
+      "emplacement": "Fiche 03PR01 « Accident d’exposition à un risque viral », p. 44",
+      "citation": "Dès la constatation d’un accident d’exposition à un risque viral interrompre l’action de secours en cours, si possible ; se faire relayer. S’il s’agit d’une plaie ne pas faire saigner ; nettoyer immédiatement, à l’eau courante et au savon, puis rincer ; réaliser l’asepsie, en assurant un temps de contact d’au moins cinq minutes, à l’aide : d’un dérivé chloré stable (soluté de Dakin), d’un dérivé chloré fraîchement préparé (solution d’eau de javel à 9 ° chlorométrique diluée au 1/5ème), à défaut, d’un antiseptique à large spectre (produits iodés, par exemple). En revanche, il convient de ne pas utiliser les produits pour traitement hygiénique des mains par friction."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0302",
+    "type": "qcm",
+    "enonce": "Parmi ces liquides biologiques, lesquels constituent des liquides biologiques à risque prouvé ? (plusieurs réponses)",
+    "propositions": [
+      "Des urines contenant du sang",
+      "De la salive contenant du sang à la suite d’un traumatisme facial",
+      "Des urines ne contenant pas de sang",
+      "Des selles ne contenant pas de sang"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 03AC01 des références techniques PSE précise que le risque est considéré comme nul pour les urines et les selles sauf si elles contiennent du sang. Dès que la salive contient du sang, il s’agit d’un liquide biologique à risque prouvé.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03AC01 / 09-2014",
+      "emplacement": "Fiche 03AC01 « Accident d’exposition à un risque viral », p. 43",
+      "citation": "le risque est considéré comme nul pour les urines et les selles, sauf si elles contiennent du sang. Ce sont alors des liquides biologiques à risque prouvé. […] Les risques avec la salive sont faibles. Cependant, dès que la salive contient du sang (gencives fragiles, traumatisme facial), il s’agit alors d’un liquide biologique à risque prouvé."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0303",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : la transmission par l’air est la voie la plus importante de transmission des microorganismes.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Les références techniques PSE (fiche 03AC02) indiquent que la voie la plus importante de transmission des microorganismes est le contact, dans la plupart des cas par les mains.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03AC02 / 09-2014",
+      "emplacement": "Fiche 03AC02 « Risque infectieux », p. 45",
+      "citation": "par contact ; C’est la voie la plus importante de transmission des microorganismes. Le réservoir principal est l’être humain. Donc, tout contact avec une victime potentiellement infectée ou contaminée (peau, sang, liquides biologiques), ou avec des matériels, des surfaces souillées ou des déchets d’activités de soins, présente un danger. Dans la plupart des cas, les mains sont le vecteur."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0304",
+    "type": "qcm",
+    "enonce": "Au cours d’une intervention, quelles mesures relèvent des précautions standards contre le risque infectieux ? (plusieurs réponses)",
+    "propositions": [
+      "Porter des gants à usage unique et les changer régulièrement",
+      "Recouvrir toute plaie par un pansement",
+      "Changer de tenue dès qu’elle est souillée",
+      "Réutiliser sur le brancard, d’une victime à l’autre, les mêmes draps sans les laver",
+      "Ne se nettoyer les mains qu’en fin d’intervention"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 03PR02 des références techniques PSE demande des gants à usage unique changés régulièrement, la couverture de toute plaie par un pansement et le changement de la tenue dès qu’elle est souillée. Les draps du brancard sont à usage unique ou lavés après chaque transport, et les mains se nettoient régulièrement au cours de l’intervention.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03PR02 / 09-2014",
+      "emplacement": "Fiche 03PR02 « Précautions standards contre le risque infectieux », p. 47",
+      "citation": "Au cours de l’intervention porter une tenue adaptée, confortable et lavable ; se nettoyer régulièrement les mains et les désinfecter ; porter des gants à usage unique et les changer régulièrement ; […] recouvrir toute plaie par un pansement ; utiliser, sur le brancard, des draps à usage unique ou lavés après chaque transport ; […] Note : Cette tenue doit être changée dès qu’elle est souillée."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0305",
+    "type": "qcm",
+    "enonce": "Quelles règles faut-il respecter pour l’élimination des aiguilles et des déchets souillés de sang ? (plusieurs réponses)",
+    "propositions": [
+      "Ne jamais recapuchonner une aiguille usagée",
+      "Ne pas tasser les déchets à l’intérieur de l’emballage à DASRI",
+      "Séparer l’aiguille de la seringue avant de les mettre dans le collecteur",
+      "Jeter aux ordures ménagères les compresses fortement imprégnées de sang",
+      "Remplir l’emballage au-delà de la limite indiquée pour éviter d’en changer"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 03FT01 des références techniques PSE interdit de recapuchonner les aiguilles et de tasser les déchets. Elle interdit aussi de séparer l’aiguille de la seringue avant le collecteur, de jeter des DASRI aux ordures ménagères et de remplir l’emballage au-delà de la limite.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03FT01 / 07-2026",
+      "emplacement": "Fiche 03FT01 « Utilisation des emballages à élimination de déchets », pp. 48-49",
+      "citation": "On utilise les emballages spéciaux relatifs aux déchets des activités de soins à risques infectieux (DASRI) pour : […] les déchets d’activités de soins fortement imprégné de sang, de sécrétions ou d’excrétions avec risque d’écoulement : compresses, pansements, champs, draps à usage unique… […] ne jamais recapuchonner les aiguilles ni séparer les aiguilles d’une seringue ou d’une tubulure à perfusion avant de les mettre dans le collecteur ; utiliser l’emballage conforme adapté au déchet ; ne pas jeter de DASRI aux ordures ménagères ; […] ne pas remplir l’emballage au-delà de la limite indiquée ; ne pas tasser les déchets à l’intérieur de l’emballage à DASRI"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0306",
+    "type": "qcm",
+    "enonce": "Lors d’un lavage simple des mains à l’eau et au savon, pendant combien de temps faut-il savonner ?",
+    "propositions": [
+      "10 secondes",
+      "30 secondes",
+      "2 minutes",
+      "5 minutes"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 03FT02 des références techniques PSE fixe le savonnage à 30 secondes, en insistant sur la pulpe des doigts, les espaces interdigitaux, le pourtour des ongles, les bords externes des mains, le dos des mains, les paumes et les poignets.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03FT02 / 09-2014",
+      "emplacement": "Fiche 03FT02 « Lavage des mains », p. 50",
+      "citation": "savonner pendant 30 secondes en insistant sur la pulpe des doigts, les espaces interdigitaux, le pourtour des ongles, les bords externes des mains, mais aussi le dos des mains, les paumes et les poignets"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0307",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : frictionner avec un gel hydroalcoolique des mains portant des gants à usage unique est utile.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 03FT03 des références techniques PSE précise que la friction sur des gants est inutile ; la friction est aussi efficace que le lavage sur des mains visuellement propres et non talquées.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03FT03 / 09-2014",
+      "emplacement": "Fiche 03FT03 « Friction des mains », p. 51",
+      "citation": "Cette technique est aussi efficace que le lavage des mains, si la friction est faite sur des mains visuellement propres et non talquées. La friction sur des gants est inutile."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0308",
+    "type": "qcm",
+    "enonce": "Lors du retrait des gants à usage unique, quels gestes sont conformes à la technique ? (plusieurs réponses)",
+    "propositions": [
+      "Saisir un gant au niveau du poignet en évitant de toucher la peau",
+      "Rouler le gant retiré dans la paume de l’autre main",
+      "Jeter les gants dans une poubelle ordinaire",
+      "Saisir le second gant par sa face externe pour mieux le tenir"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 03FT04 des références techniques PSE décrit ces deux premiers gestes. Le second gant se retire en glissant des doigts à l’intérieur sans toucher sa face externe, et les gants sont jetés dans un conteneur de déchets d’activités de soins, car ils font partie des DASRI.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03FT04 / 07-2026",
+      "emplacement": "Fiche 03FT04 « Retrait des gants à usage unique », p. 52",
+      "citation": "saisir un gant au niveau du poignet en évitant de toucher la peau ; retirer le premier gant en le retournant ; rouler le gant retiré dans la paume de l’autre main ; insérer un ou deux doigts en crochet à l’intérieur de l’autre gant sans toucher la face externe du gant, et le pincer entre le pouce et l’index sur sa face interne ; retirer le second gant en le retournant ; jeter les gants dans un conteneur de déchets d’activités de soins prévu à cet effet."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0309",
+    "type": "qcm",
+    "enonce": "Lors du nettoyage et de la désinfection d’une surface avec un produit détergent-désinfectant, dans quel sens faut-il progresser ?",
+    "propositions": [
+      "Des zones les plus propres vers les zones les plus sales, du haut vers le bas",
+      "Des zones les plus sales vers les zones les plus propres, du haut vers le bas",
+      "Des zones les plus propres vers les zones les plus sales, du bas vers le haut",
+      "Des zones les plus sales vers les zones les plus propres, du bas vers le haut"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 03FT05 des références techniques PSE demande de progresser des zones les plus propres vers les zones les plus sales, du haut vers le bas. Les trois autres sens sont donc faux.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03FT05 / 09-2014",
+      "emplacement": "Fiche 03FT05 « Utilisation des détergents et désinfectants », p. 53",
+      "citation": "Le traitement est effectué : […] en progressant des zones les plus propres vers les zones les plus sales, du haut vers le bas."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0311",
+    "type": "cas-concret",
+    "enonce": "Des précautions particulières contre le risque infectieux sont mises en œuvre pour une victime prise en charge dans une pièce. Quelles protections respiratoires sont prévues ?",
+    "propositions": [
+      "Un masque FFP2 pour l’intervenant avant d’entrer dans la pièce, un masque chirurgical pour la victime",
+      "Un masque chirurgical pour l’intervenant, un masque chirurgical pour la victime",
+      "Aucun masque pour l’intervenant, un masque chirurgical pour la victime",
+      "Un masque FFP2 pour l’intervenant, aucun masque pour la victime"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 03PR03 des références techniques PSE prévoit un masque classé FFP2 pour les intervenants avant d’entrer dans la pièce, et un masque chirurgical ou de protection respiratoire (sans soupape d’expiration) pour la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03PR03 / 09-2014",
+      "emplacement": "Fiche 03PR03 « Précautions particulières contre le risque infectieux », p. 61",
+      "citation": "porter : pour les intervenants : un masque de protection classé FFP2, avant d’entrer dans la pièce où se situe la victime, […] pour la victime : un masque de type chirurgical ou un masque de protection respiratoire (sans soupape d’expiration). Note : Le port d’un masque par la victime évite ou limite la dissémination des particules infectieuses."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0312",
+    "type": "cas-concret",
+    "enonce": "Un secouriste équipé de gants à usage unique, d’une surblouse, d’une charlotte, de lunettes de protection et d’un masque de protection respiratoire termine la prise en charge d’une victime. Par quel équipement commence-t-il son déshabillage ?",
+    "propositions": [
+      "Les gants à usage unique",
+      "La surblouse",
+      "La charlotte",
+      "Le masque de protection respiratoire"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 03FT08 des références techniques PSE place le retrait des gants à usage unique en premier, avant la surblouse, la friction des mains, puis la charlotte, la protection oculaire et la protection respiratoire.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03FT08 / 07-2026",
+      "emplacement": "Fiche 03FT08 « Équipement en moyens de protection contre les agents infectieux », p. 63",
+      "citation": "le secouriste doit se dévêtir de la manière suivante : 1. retirer les gants à usage unique pour éviter toute contamination des mains du secouriste ; 2. retirer le tablier plastique s’il est présent ; 3. retirer la surblouse vers l’avant après avoir détaché les lanières ; 4. se frictionner les mains ; 5. retirer la charlotte, puis la protection oculaire puis la protection respiratoire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0401",
+    "type": "qcm",
+    "enonce": "Lors du bilan, à quel regard l’équipe progresse-t-elle vers la victime afin d’identifier une menace vitale ainsi que la plainte principale ?",
+    "propositions": [
+      "Au premier regard",
+      "Au deuxième regard",
+      "Au troisième regard",
+      "Au quatrième regard"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Les références techniques PSE attribuent ce rôle au deuxième regard. Le premier apprécie la situation globale et les dangers, le troisième évalue les fonctions vitales l’une après l’autre, le quatrième complète l’évaluation (interrogatoire, examen, mesures).",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04AC01 / 12-2023",
+      "emplacement": "Fiche 04AC01 « Généralités sur les bilans », p. 65",
+      "citation": "Le deuxième regard progresse vers la victime et a pour objectif d’identifier une menace vitale ainsi que la plainte principale ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0402",
+    "type": "qcm",
+    "enonce": "Au premier regard, parmi ces dangers, lesquels sont des dangers moins évidents à rechercher ? (plusieurs réponses)",
+    "propositions": [
+      "Un risque électrique",
+      "Un risque toxique",
+      "Un risque d’impact psychologique",
+      "Des véhicules accidentés",
+      "Une structure instable"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche « Premier regard » distingue les dangers évidents (véhicules accidentés, structure instable, situation violente) des dangers moins évidents (risque électrique, toxique, d’impact psychologique, etc.).",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04PR01 / 12-2022",
+      "emplacement": "Fiche 04PR01 « Premier regard », p. 66",
+      "citation": "Rechercher : Les dangers évidents (véhicules accidentés, structure instable, situation violente) Les dangers moins évidents (risque : électrique, toxique, d’impact psychologique, etc.)"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0403",
+    "type": "cas-concret",
+    "enonce": "Au deuxième regard, vous constatez qu’une victime ne réagit pas et ne respire pas. Quelles actions entreprenez-vous ? (plusieurs réponses)",
+    "propositions": [
+      "Débuter une réanimation cardiopulmonaire",
+      "En parallèle, demander un avis médical ou un renfort",
+      "Poursuivre d’abord l’interrogatoire sur ses antécédents avant d’agir",
+      "Attendre le troisième regard pour agir"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Les références techniques PSE prévoient de débuter une réanimation cardiopulmonaire en cas d’absence de réaction sans respiration, avec une réaction immédiate, et de demander en parallèle un avis médical ou un renfort. La recherche des antécédents termine l’interrogatoire du quatrième regard : elle ne retarde pas la réaction à une menace vitale.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04PR02 / 07-2026",
+      "emplacement": "Fiche 04PR02 « Deuxième regard », p. 67",
+      "citation": "La présence de menaces vitales nécessitant une réaction immédiate en respectant le principe de « traiter en priorité ce qui tue en premier » […] Absence de réaction sans respiration ou respiration anormale Débuter une réanimation cardiopulmonaire En parallèle des actions entreprises, toute détresse vitale constatée doit faire l’objet d’un avis médical ou d’une demande de renfort."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0404",
+    "type": "qcm",
+    "enonce": "Pendant l’évaluation d’une fonction vitale, vous identifiez une détresse alors que l’examen de la fonction n’est pas terminé. Que faites-vous ?",
+    "propositions": [
+      "Réaliser immédiatement les gestes de premiers secours appropriés et demander un avis médical",
+      "Terminer d’abord l’examen de la fonction concernée avant d’agir",
+      "Mesurer d’abord l’ensemble des paramètres physiologiques vitaux avant d’agir",
+      "Attendre le quatrième regard pour agir"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche « Troisième regard » demande de réaliser immédiatement les gestes appropriés, même si l’examen de la fonction n’est pas terminé. La mesure des paramètres vient compléter l’appréciation, seulement si elle ne ralentit pas la progression.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04PR03 / 12-2023",
+      "emplacement": "Fiche 04PR03 « Troisième regard », p. 68",
+      "citation": "Dès qu’une détresse est identifiée, les gestes de premiers secours appropriés doivent être réalisés immédiatement (même si l’examen de la fonction n’est pas terminé) et un avis médical demandé."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0405",
+    "type": "qcm",
+    "enonce": "Quels paramètres physiologiques sont systématiquement mesurés au quatrième regard ? (plusieurs réponses)",
+    "propositions": [
+      "La fréquence respiratoire",
+      "La saturation pulsée en oxygène (SpO2)",
+      "La fréquence cardiaque",
+      "La pression artérielle",
+      "La glycémie capillaire",
+      "La température corporelle"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explication": "Les références techniques PSE listent quatre paramètres systématiques : FR, SpO2, FC et PA. La glycémie capillaire et la température corporelle ne sont mesurées qu’en fonction du contexte, de la plainte et de l’examen.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04PR04 / 12-2023",
+      "emplacement": "Fiche 04PR04 « Quatrième regard », p. 70",
+      "citation": "Les paramètres suivants seront systématiquement réalisés : La fréquence respiratoire (FR) ; La saturation pulsée (SpO2) ; La fréquence cardiaque (FC) ; La pression artérielle (PA) ; D’autres paramètres peuvent être mesurés en fonction du contexte, de la plainte et de l’examen. Tel est le cas de la mesure de la glycémie capillaire, de la mesure de la température corporelle […]"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0406",
+    "type": "qcm",
+    "enonce": "Vous surveillez une victime qui présente une détresse vitale. À quel rythme renouvelez-vous la mesure de ses paramètres physiologiques ?",
+    "propositions": [
+      "Toutes les 5 minutes",
+      "Toutes les 10 à 15 minutes",
+      "Toutes les 20 minutes",
+      "Toutes les 30 minutes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche « Surveillance de la victime » prévoit un renouvellement toutes les 5 minutes en cas de détresse vitale. L’intervalle de 10 à 15 minutes concerne les victimes sans détresse vitale.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04PR05 / 07-2026",
+      "emplacement": "Fiche 04PR05 « Surveillance de la victime », p. 71",
+      "citation": "La mesure des paramètres physiologiques est renouvelée toutes les 5 minutes en cas de détresse vitale, sinon toutes les 10 à 15 minutes."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0407",
+    "type": "qcm",
+    "enonce": "Une victime présente une détresse vitale. Que faut-il transmettre sans délai pour obtenir un renfort médical ? (plusieurs réponses)",
+    "propositions": [
+      "La nature de l’intervention",
+      "Le motif de la demande du renfort médical",
+      "Le sexe et l’âge de la victime",
+      "La totalité du bilan complet, avant toute demande de renfort"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche « Transmission du bilan » demande de transmettre sans délai une demande de renfort médical en précisant la nature de l’intervention, le motif de la demande, le sexe et l’âge de la victime. Le bilan complet est transmis ultérieurement, dans les meilleurs délais.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04PR06 / 12-2022",
+      "emplacement": "Fiche 04PR06 « Transmission du bilan », p. 72",
+      "citation": "transmettre sans délai une demande de moyen médical en renfort, motivée par la constatation d’une ou plusieurs détresses vitales. En particulier, préciser : la nature de l’intervention ; le motif de la demande du renfort médical ; le sexe et l’âge de la victime. Ultérieurement, dans les meilleurs délais, compléter par la transmission d’un bilan complet."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0408",
+    "type": "qcm",
+    "enonce": "Dans quels cas le retrait du casque de protection d’une victime est-il indiqué ? (plusieurs réponses)",
+    "propositions": [
+      "Dans tous les cas, si au moins deux intervenants sont présents",
+      "Si la victime a perdu connaissance, lorsqu’un seul intervenant est présent",
+      "Dans tous les cas, même lorsqu’un seul intervenant est présent et que la victime est consciente",
+      "Uniquement si la victime a perdu connaissance, quel que soit le nombre d’intervenants"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche « Retrait d’un casque de protection » l’indique dans tous les cas à partir de deux intervenants, et seulement si la victime a perdu connaissance lorsqu’un seul intervenant est présent. Les deux autres propositions contredisent ces conditions.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT03 / 09-2019",
+      "emplacement": "Fiche 04FT03 « Retrait d’un casque de protection », p. 76",
+      "citation": "Le retrait du casque de protection d’une victime est indiqué : dans tous les cas, si au moins deux intervenants sont présents ; si la victime a perdu connaissance, lorsqu’un seul intervenant est présent."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0409",
+    "type": "cas-concret",
+    "enonce": "Dans un véhicule, une victime a perdu connaissance en position assise, la tête penchée en avant. Quelle conduite adoptez-vous pour libérer ses voies aériennes ? (plusieurs réponses)",
+    "propositions": [
+      "Se placer à côté de la tête de la victime en restant à l’extérieur du véhicule",
+      "Ramener la tête en position neutre, dans l’axe du tronc, en exerçant une légère traction vers le haut",
+      "Basculer la tête en arrière en appuyant sur le front",
+      "Prendre place à l’intérieur du véhicule pour être face à la victime"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche « Libération des voies aériennes chez une victime assise » demande de rester à l’extérieur du véhicule pour des raisons de sécurité (airbag ou autre) et de ramener la tête en position neutre, dans l’axe du tronc, avec une légère traction vers le haut.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT06 / 09-2019",
+      "emplacement": "Fiche 04FT06 « Libération des voies aériennes chez une victime assise », p. 81",
+      "citation": "se placer à côté de la tête de la victime en restant à l’extérieur du véhicule pour des raisons de sécurité (airbag ou autre) ; […] ramener la tête en position neutre, dans l’axe du tronc, en exerçant une légère traction vers le haut ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0410",
+    "type": "qcm",
+    "enonce": "Quelle est la fréquence ventilatoire normale d’un enfant, en mouvements par minute ?",
+    "propositions": [
+      "12 à 20",
+      "20 à 30",
+      "30 à 40",
+      "40 à 60"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le tableau de la fiche « Évaluation de la fonction respiratoire » donne 20 à 30 mouvements par minute chez l’enfant. 12 à 20 correspond à l’adulte, 30 à 40 au nourrisson, 40 à 60 au nouveau-né.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT07 / 12-2022",
+      "emplacement": "Fiche 04FT07 « Évaluation de la fonction respiratoire », p. 83",
+      "citation": "Tableau 4: Fréquence ventilatoire en fonction de l’âge (en mouvements par minute) ADULTE ENFANT NOURRISSON NOUVEAU-NE 12 à 20 20 à 30 30 à 40 40 à 60"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0411",
+    "type": "cas-concret",
+    "enonce": "Une victime intoxiquée par les fumées d’un incendie présente une SpO2 de 98 % à l’oxymètre de pouls. Que penser de cette valeur ?",
+    "propositions": [
+      "La mesure peut être faussée : cette valeur rassurante peut être erronée",
+      "La valeur est fiable : une SpO2 de 98 % exclut une détresse respiratoire",
+      "La mesure n’est faussée que si la victime porte du vernis à ongles"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche « Mesure de la saturation pulsée en oxygène » précise que les intoxications aux fumées et au monoxyde de carbone faussent la mesure et donnent à tort des valeurs rassurantes. Le vernis à ongles est une autre cause de mesure non fiable, pas la seule.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT08 / 07-2026",
+      "emplacement": "Fiche 04FT08 « Mesure de la saturation pulsée en oxygène », p. 85",
+      "citation": "Les intoxications aux fumées et les intoxications au monoxyde de carbone (CO) faussent la mesure et donnent à tort des valeurs rassurantes."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0412",
+    "type": "qcm",
+    "enonce": "Dans une ambiance bruyante, un secouriste mesure la pression artérielle avec un tensiomètre manuel, par palpation du pouls radial. Quelle(s) valeur(s) obtient-il ?",
+    "propositions": [
+      "Uniquement la pression systolique",
+      "La pression systolique et la pression diastolique",
+      "Uniquement la pression diastolique"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche « Mesure de la pression artérielle » indique que la méthode par palpation s’utilise dans une ambiance bruyante et qu’elle ne permet de mesurer que la pression systolique.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT10 / 12-2023",
+      "emplacement": "Fiche 04FT10 « Mesure de la pression artérielle », p. 90",
+      "citation": "Cette méthode est à utiliser dans une ambiance bruyante. Elle ne permet de mesurer que la pression systolique :"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0413",
+    "type": "cas-concret",
+    "enonce": "Vous interpellez une victime et lui demandez d’exécuter un ordre simple : elle ne réagit pas à la voix. Vous exercez alors une pression sur la base d’un de ses ongles : elle ouvre les yeux, mais ne répond pas à la stimulation verbale. Quel est son niveau selon le score EVDA ?",
+    "propositions": [
+      "(E) Éveillée, alerte",
+      "(V) Réactive à la voix",
+      "(D) Réactive à la douleur",
+      "(A) Aréactive"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "La fiche « Évaluation de la fonction neurologique » classe en (D) la victime qui ne réagit que sous la pression à la base de l’ongle, sans répondre à la stimulation verbale. (E) ouvre les yeux spontanément, (V) réagit à la voix, (A) ne réagit à aucune stimulation.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT12 / 07-2026",
+      "emplacement": "Fiche 04FT12 « Évaluation de la fonction neurologique », p. 97",
+      "citation": "(D) réactive à la Douleur si elle n’ouvre les yeux ou ne réagit que quand on exerce une pression à la base de l’ongle, mais ne répond pas à la stimulation verbale ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0415",
+    "type": "vrai-faux",
+    "enonce": "Le thermomètre auriculaire peut être utilisé chez un nourrisson de 2 mois.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "C’est faux. La fiche « Mesure de la température » interdit le thermomètre auriculaire chez le nourrisson de moins de 3 mois, car le diamètre de son conduit auditif est inférieur à celui de la sonde.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT14 / 07-2026",
+      "emplacement": "Fiche 04FT14 « Mesure de la température », p. 102",
+      "citation": "Le thermomètre auriculaire ne doit pas être utilisé chez : un nourrisson de moins de 3 mois, car le diamètre de son conduit auditif est inférieur à celui de la sonde du thermomètre ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0416",
+    "type": "vrai-faux",
+    "enonce": "Lors de la recherche de lésions, le secouriste palpe délicatement le bassin de la victime, comme les autres zones du corps.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "C’est faux. Dans le tableau de la fiche « Recherche de lésions », le bassin s’observe seulement : il ne faut pas le palper, car la palpation peut déplacer d’éventuelles fractures et aggraver un saignement interne.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT15 / 12-2022",
+      "emplacement": "Fiche 04FT15 « Recherche de lésions », p. 104",
+      "citation": "Ne pas palper : la palpation du bassin peut entraîner un déplacement d’éventuelles fractures et aggraver un saignement interne."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0417",
+    "type": "qcm",
+    "enonce": "À partir de quelle note sur l’échelle numérique (de 0 à 10) une victime nécessite-t-elle une prise en charge de la douleur ?",
+    "propositions": [
+      "EN ≥ 2/10",
+      "EN ≥ 4/10",
+      "EN ≥ 6/10",
+      "EN ≥ 8/10"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche « Mesure de la douleur » fixe le seuil de prise en charge à EN ≥ 4/10. Le seuil de 2 concerne l’échelle verbale simple (EVS ≥ 2), pas l’échelle numérique.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT16 / 12-2023",
+      "emplacement": "Fiche 04FT16 « Mesure de la douleur », p. 106",
+      "citation": "La victime nécessite une prise en charge de la douleur si EN ≥ 4/10."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0501",
+    "type": "qcm",
+    "enonce": "Vous devez ouvrir une bouteille d’oxygène pour une victime. Quelles précautions de manipulation faut-il respecter ? (plusieurs réponses)",
+    "propositions": [
+      "Ouvrir la bouteille lentement",
+      "Lubrifier le robinet avec un corps gras pour faciliter son ouverture",
+      "Régler le débitmètre à 0 l/min avant d’ouvrir le robinet",
+      "Ouvrir la bouteille en la gardant couchée pour mieux la maîtriser",
+      "Manipuler avec des mains propres, exemptes de graisse"
+    ],
+    "bonnes_reponses": [
+      0,
+      2,
+      4
+    ],
+    "explication": "Les références techniques PSE demandent des mains propres exemptes de graisse, une ouverture lente et un débitmètre réglé à 0 l/min avant ouverture du robinet. Elles interdisent de graisser ou lubrifier les bouteilles et de les ouvrir en position couchée.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05AC01 / 06-2018",
+      "emplacement": "Fiche 05AC01 « La bouteille d’oxygène », p. 111-112",
+      "citation": "Les bouteilles ne doivent pas être soulevées par leur robinet ; graissées ou lubrifiées ni enduites de corps gras. […] Toute manipulation doit se faire avec des mains propres, exemptes de graisse. […] La bouteille ne doit pas être ouverte : lorsqu’elle est en position couchée ; […] L’ouverture de la bouteille doit être réalisée lentement. […] Le débitmètre ne doit jamais être ouvert avant le robinet (il doit être réglé à 0 l/min au préalable)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0502",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : une bouteille d’oxygène qui est tombée peut continuer à être utilisée tant que sa pression résiduelle reste importante.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Les références techniques PSE précisent que toute bouteille ayant chuté ne doit plus être utilisée et doit être rapportée au responsable chargé de l’oxygène, quelle que soit sa pression résiduelle.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05AC01 / 06-2018",
+      "emplacement": "Fiche 05AC01 « La bouteille d’oxygène », p. 112",
+      "citation": "Toute bouteille ayant chuté ou présentant une anomalie (chapeau mal fixé) ou une défaillance (robinet bloqué, manomètre défectueux…) ne doit plus être utilisée. Elle doit, quelle que soit sa pression résiduelle, être rapportée au responsable chargé de l’oxygène."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0503",
+    "type": "cas-concret",
+    "enonce": "Une victime intoxiquée au monoxyde de carbone respire. Son saturomètre indique une SpO2 de 98 %. Quelle administration d’oxygène est indiquée ?",
+    "propositions": [
+      "Aucune : la SpO2 est dans l’objectif, l’oxygène n’est pas indiqué",
+      "Inhalation avec un masque simple à 9 l/min",
+      "Inhalation avec un masque à haute concentration (MHC) à 15 l/min",
+      "Inhalation avec des lunettes à O2 à 2 l/min"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "Pour une intoxication au monoxyde de carbone, la fiche 05FT01 prévoit une inhalation d’O2 avec un MHC à 15 l/min, quel que soit le niveau de SpO2 : ni l’absence d’oxygène, ni le masque simple, ni les lunettes ne conviennent.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT01 / 12-2022",
+      "emplacement": "Fiche 05FT01 « Administration d’oxygène par inhalation », p. 115",
+      "citation": "intoxication aux fumées d’incendie, intoxication au monoxyde de carbone, accident de décompression : inhalation d’O2 avec un MHC et à un débit de 15 l/min, quel que soit le niveau de SpO2."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0504",
+    "type": "qcm",
+    "enonce": "Quel objectif de saturation (SpO2) vise-t-on lors de l’administration d’oxygène chez une victime insuffisante respiratoire chronique ?",
+    "propositions": [
+      "De 94 à 98 %",
+      "De 89 à 94 %",
+      "Le même objectif que chez l’adulte sans antécédent respiratoire",
+      "La valeur la plus élevée possible, pour lutter au maximum contre l’hypoxie"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Les références techniques PSE fixent 89 à 94 % chez l’insuffisant respiratoire chronique (94 à 98 % chez l’adulte, l’enfant et le nourrisson) et demandent de lutter contre l’hypoxie sans entraîner une hyperoxie.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT01 / 12-2022",
+      "emplacement": "Fiche 05FT01 « Administration d’oxygène par inhalation », p. 115",
+      "citation": "Tableau 12: Objectifs de saturation SpO2 de 94 à 98 % chez l’adulte, l’enfant et le nourrisson SpO2 de 89 à 94 % chez l’insuffisant respiratoire chronique […] Au total, il faut lutter contre l’hypoxie, sans entraîner une hyperoxie."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0505",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : un insufflateur manuel équipé d’un ballon-réserve peut être utilisé pour faire inhaler de l’oxygène à une victime qui respire.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05FT13 interdit d’utiliser l’insufflateur manuel équipé d’un ballon-réserve comme moyen d’inhalation : il augmente la résistance à l’inspiration et peut aggraver la détresse, particulièrement chez l’enfant.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT13 / 12-2022",
+      "emplacement": "Fiche 05FT13 « Administration d’oxygène par insufflation », p. 148",
+      "citation": "L’insufflateur manuel équipé d’un ballon-réserve ne doit pas être utilisé comme moyen d’inhalation, car il augmente la résistance à l’inspiration, peut aggraver la détresse particulièrement chez l’enfant et il convient d’utiliser un moyen adapté à l’inhalation d’oxygène."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0506",
+    "type": "cas-concret",
+    "enonce": "Vous arrivez auprès d’une victime dont la plaie du bras saigne abondamment. Vos mains sont protégées par des gants. Que faites-vous immédiatement ?",
+    "propositions": [
+      "Poser un garrot sans attendre",
+      "Demander à la victime de comprimer immédiatement l’endroit qui saigne, ou à défaut le faire à sa place",
+      "Allonger la victime avant tout autre geste",
+      "Mettre en place un pansement compressif sans comprimer au préalable"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR01 demande d’arrêter immédiatement l’hémorragie par compression de l’endroit qui saigne. Le garrot n’est utilisé que si la compression est inefficace ou impossible, et le pansement compressif que si l’hémorragie est contrôlée manuellement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR01 / 07-2026",
+      "emplacement": "Fiche 05PR01 « Hémorragies externes », p. 117",
+      "citation": "se protéger les mains par des gants à usage unique ; constater l’hémorragie, si nécessaire en écartant les vêtements ; arrêter immédiatement l’hémorragie : en demandant à la victime de comprimer immédiatement l’endroit qui saigne ; ou à défaut, le faire à sa place ; maintenir la compression (par la victime ou le sauveteur) ; allonger confortablement la victime, par exemple sur un brancard, un canapé ou à défaut sur le sol ; mettre en place : un pansement compressif si l’hémorragie est contrôlée manuellement et pour se libérer ; si la compression (manuelle et pansement compressif) est inefficace ou impossible, utiliser : soit un garrot si la zone est « garrotable »,"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0507",
+    "type": "qcm",
+    "enonce": "Où positionne-t-on un garrot sur un membre qui saigne abondamment ?",
+    "propositions": [
+      "Directement sur la plaie",
+      "À quelques centimètres de la plaie, entre la plaie et la racine du membre, jamais sur une articulation",
+      "Sur l’articulation la plus proche de la plaie, pour mieux immobiliser le membre",
+      "À la racine du membre, quelle que soit la localisation de la plaie"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05FT04 place le garrot à quelques centimètres de la plaie (idéalement 5 à 7 cm), entre la plaie et la racine du membre, et jamais sur une articulation.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT04 / 07-2026",
+      "emplacement": "Fiche 05FT04 « Garrot », p. 123",
+      "citation": "positionner le garrot : à quelques centimètres de la plaie (idéalement 5 à 7 cm), entre la plaie et la racine du membre, jamais sur une articulation."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0508",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : une fois un garrot posé et le saignement arrêté, le secouriste peut le desserrer progressivement pour rétablir la circulation.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Les références techniques PSE précisent qu’une fois posé, le garrot ne doit être desserré que sur ordre d’un médecin.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT04 / 07-2026",
+      "emplacement": "Fiche 05FT04 « Garrot », p. 124",
+      "citation": "Une fois le garrot posé, il ne doit être desserré que sur ordre d’un médecin."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0509",
+    "type": "qcm",
+    "enonce": "Quelles règles s’appliquent à la mise en œuvre d’une gaze imbibée de substance hémostatique ? (plusieurs réponses)",
+    "propositions": [
+      "Exercer une pression pendant au minimum 3 minutes et jusqu’à l’arrêt du saignement",
+      "La retirer de la plaie dès que le saignement est arrêté",
+      "La poser au contact des organes et des viscères lorsque la plaie est profonde",
+      "Une fois le saignement arrêté, poser un pansement compressif pour maintenir la gaze en place et maintenir la pression",
+      "Noter le nombre de gazes utilisées, l’heure de la pose et leurs localisations"
+    ],
+    "bonnes_reponses": [
+      0,
+      3,
+      4
+    ],
+    "explication": "La fiche 05FT05 demande une pression d’au moins 3 minutes, puis un pansement compressif, et de noter le nombre de gazes, l’heure et les localisations. Elle interdit de retirer la gaze une fois posée et de la poser au contact des organes et viscères.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT05 / 07-2026",
+      "emplacement": "Fiche 05FT05 « Gaze imbibée de substance hémostatique », p. 125",
+      "citation": "exercer une pression pendant au minimum 3 min et jusqu'à l’arrêt du saignement ; Une fois le saignement arrêté : réaliser la pose d’un pansement compressif pour maintenir en place la gaze imbibée de substance hémostatique et maintenir la pression. noter : le nombre de gazes hémostatiques utilisés et l’heure de la pose et leurs localisations. Une fois mis en place, NE JAMAIS RETIRER UNE GAZE IMBIBÉE DE SUBSTANCE HÉMOSTATIQUE DE LA PLAIE. […] Une gaze imbibée de substance hémostatique n’est jamais posée au contact des organes et des viscères."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0510",
+    "type": "cas-concret",
+    "enonce": "Une plaie du mollet saigne ; un morceau de métal est visible dans la plaie. Quelle est la conduite à tenir vis-à-vis de ce corps étranger ?",
+    "propositions": [
+      "Le retirer pour pouvoir comprimer la plaie",
+      "Ne pas le toucher : sa présence peut limiter le saignement et sa mobilisation pourrait aggraver la lésion",
+      "Le repousser dans la plaie avec une compresse",
+      "Le mobiliser doucement pour vérifier la profondeur de la plaie"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR01 demande de ne pas toucher au corps étranger visible, car sa présence peut limiter le saignement et sa mobilisation pourrait aggraver la lésion.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR01 / 07-2026",
+      "emplacement": "Fiche 05PR01 « Hémorragies externes », p. 117",
+      "citation": "Si la victime présente une fracture ouverte, avec un morceau d’os visible ou si la plaie qui saigne contient un corps étranger visible : ne toucher ni au morceau d’os ni au corps étranger, car leur présence peut limiter le saignement et leur mobilisation pourrait aggraver la lésion."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0511",
+    "type": "cas-concret",
+    "enonce": "Une personne saigne du nez après un choc minime sur le nez. Quelle est la conduite à tenir ?",
+    "propositions": [
+      "L’allonger sur le dos",
+      "L’asseoir, tête penchée en avant, lui demander de se moucher vigoureusement puis de comprimer les deux narines pendant 10 minutes sans relâcher",
+      "L’asseoir, tête penchée en avant, et lui demander de comprimer les deux narines une minute, en relâchant pour vérifier",
+      "L’allonger sur le côté et lui demander de comprimer les deux narines"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le tableau 13 (fiche 05PR02) demande d’asseoir la victime, tête penchée en avant (ne jamais l’allonger), de la faire se moucher puis de comprimer les deux narines durant 10 minutes sans relâcher.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR02 / 07-2026",
+      "emplacement": "Fiche 05PR02 « Hémorragies extériorisées », p. 119",
+      "citation": "l’asseoir, tête penchée en avant (ne jamais l’allonger) ; lui demander de se moucher vigoureusement ; lui demander de comprimer les deux narines avec les doigts, durant 10 minutes sans relâcher ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0512",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : si du sang suinte au travers d’un pansement compressif, il faut reprendre la compression manuelle par-dessus.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 05FT03 indique que le pansement compressif peut être moins efficace qu’une compression manuelle et demande, en cas de suintement de sang, de reprendre la compression manuelle par-dessus.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT03 / 07-2026",
+      "emplacement": "Fiche 05FT03 « Pansement compressif », p. 122",
+      "citation": "Le pansement compressif peut être moins efficace qu’une compression manuelle. S’il est constaté une reprise du saignement au travers du pansement (suintement de sang) reprendre la compression manuelle par-dessus."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0513",
+    "type": "cas-concret",
+    "enonce": "Un homme s’étouffe en mangeant. Il tousse vigoureusement et répond quand vous lui demandez s’il s’étouffe. Que faites-vous ?",
+    "propositions": [
+      "Lui donner de 1 à 5 claques dans le dos",
+      "Réaliser de 1 à 5 compressions abdominales",
+      "L’encourager à tousser et surveiller l’efficacité de la toux ou l’apparition de signes de fatigue",
+      "L’allonger au sol et débuter une RCP"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "La fiche 05PR03 distingue la victime qui peut encore parler, crier ou tousser (obstruction non totale), qu’il faut encourager à tousser, de celle qui ne le peut plus. Claques, compressions et RCP ne sont pas indiquées ici.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR03 / 07-2026",
+      "emplacement": "Fiche 05PR03 « Obstruction des voies aériennes », p. 129",
+      "citation": "Si la victime peut parler, crier, tousser continuer d’encourager la victime à tousser ; surveiller l’efficacité de la toux ou l’apparition de signes de fatigue. […] Note : Une victime qui est éveillée, réactive et capable de tousser doit être encouragée à le faire, car la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0514",
+    "type": "cas-concret",
+    "enonce": "Un adulte, debout, s’étouffe avec un aliment. Il ne peut plus parler ni tousser. Quel est le premier geste de désobstruction ?",
+    "propositions": [
+      "De 1 à 5 claques dans le dos",
+      "De 1 à 5 compressions abdominales d’emblée",
+      "L’allonger sur le dos pour dégager les voies aériennes",
+      "Débuter une réanimation cardio-pulmonaire"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 05PR03 laisse la victime dans sa position et demande de donner de 1 à 5 claques dans le dos. Les compressions n’interviennent qu’en cas d’inefficacité ou d’impossibilité des claques, et la RCP seulement si la victime perd connaissance.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR03 / 07-2026",
+      "emplacement": "Fiche 05PR03 « Obstruction des voies aériennes », p. 129",
+      "citation": "Si la victime ne peut plus parler, crier, tousser laisser la victime dans la position où elle se trouve, généralement debout ou assise ; donner de 1 à 5 « claques dans le dos » ; réaliser de 1 à 5 « compressions » en cas d’inefficacité ou d’impossibilité de pratiquer des « claques » : […] Si la victime perd connaissance l’accompagner au sol ; réaliser une réanimation cardio-pulmonaire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0516",
+    "type": "cas-concret",
+    "enonce": "Pendant les manœuvres de désobstruction, la victime d’une obstruction des voies aériennes perd connaissance. Que faites-vous ?",
+    "propositions": [
+      "Continuer les cycles de claques dans le dos et de compressions",
+      "L’accompagner au sol et réaliser une réanimation cardio-pulmonaire",
+      "La placer en position latérale de sécurité",
+      "La maintenir debout et poursuivre les compressions abdominales"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR03 demande, si la victime perd connaissance, de l’accompagner au sol et de réaliser une réanimation cardio-pulmonaire.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR03 / 07-2026",
+      "emplacement": "Fiche 05PR03 « Obstruction des voies aériennes », p. 129",
+      "citation": "Si la victime perd connaissance l’accompagner au sol ; réaliser une réanimation cardio-pulmonaire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0517",
+    "type": "cas-concret",
+    "enonce": "Une victime ne répond pas et ne réagit pas. Vous observez de rares mouvements ventilatoires bruyants, anarchiques et lents, moins de 1 mouvement en 10 secondes. Comment l’interprétez-vous ?",
+    "propositions": [
+      "Elle respire normalement : il faut la placer en PLS",
+      "Elle est en arrêt cardiaque : une RCP est nécessaire",
+      "Elle respire : il suffit de la surveiller jusqu’à l’arrivée des secours",
+      "Elle est en détresse respiratoire modérée : il faut lui administrer de l’oxygène en inhalation"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05AC05 considère comme en arrêt cardiaque la victime qui ne répond pas et présente une ventilation agonique (inefficace, bruyante, anarchique et lente, ≤ 6 mvts/min). Le tableau 14 prévoit alors une RCP.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05AC05 / 07-2026",
+      "emplacement": "Fiche 05AC05 « Arrêt cardiaque », p. 136",
+      "citation": "Une victime est considérée en arrêt cardiaque si : elle ne répond pas et ne réagit pas quand on l’appelle ou la stimule (perte de connaissance) ; elle présente : […] ou une ventilation agonique : les mouvements ventilatoires sont inefficaces, bruyants, anarchiques et lents, c’est-à-dire moins de 1 mouvement en 10 secondes (≤ 6 mvts/min)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0518",
+    "type": "qcm",
+    "enonce": "Une équipe avec matériel prend en charge un nourrisson en arrêt cardiaque. Quel cycle de RCP réalise-t-elle ?",
+    "propositions": [
+      "30 compressions thoraciques / 2 insufflations",
+      "15 compressions thoraciques / 2 insufflations",
+      "15 compressions thoraciques / 1 insufflation",
+      "5 compressions thoraciques / 1 insufflation"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR04 prévoit des cycles de 30 compressions / 2 insufflations chez l’adulte, et de 15 compressions / 2 insufflations chez l’enfant et le nourrisson.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR04 / 07-2026",
+      "emplacement": "Fiche 05PR04 « Arrêt cardiaque en équipe », p. 138",
+      "citation": "débuter immédiatement une RCP en répétant des cycles de : adulte : 30 compressions thoraciques / 2 insufflations ; enfant et nourrisson : 15 compressions thoraciques / 2 insufflations."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0519",
+    "type": "qcm",
+    "enonce": "Quelle est la profondeur recommandée des compressions thoraciques chez l’adulte en arrêt cardiaque ?",
+    "propositions": [
+      "Environ 2 cm",
+      "Environ 5 cm, sans dépasser 6 cm",
+      "Environ 8 cm, pour garantir l’efficacité",
+      "Un tiers de l’épaisseur du thorax, soit environ 4 cm"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05FT10 demande une profondeur d’environ 5 cm sans dépasser 6 cm chez l’adulte. La valeur d’un tiers de l’épaisseur, soit environ 4 cm, concerne le nourrisson et le nouveau-né.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT10 / 07-2026",
+      "emplacement": "Fiche 05FT10 « Compressions thoraciques », p. 142",
+      "citation": "Chez l’adulte placer le talon d’une main au centre de la poitrine, sur la moitié inférieure du sternum ; placer l’autre main au-dessus de la première et entrecroiser les doigts des deux mains ; relever les doigts pour ne pas appuyer sur les côtes ; tendre les bras et verrouiller les coudes ; réaliser des compressions thoraciques d’une profondeur d’environ 5 cm, sans dépasser 6 cm."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0520",
+    "type": "qcm",
+    "enonce": "Quelles consignes sont exactes pour la réalisation des compressions thoraciques ? (plusieurs réponses)",
+    "propositions": [
+      "Maintenir une fréquence comprise entre 100 et 120 compressions par minute",
+      "Décoller le talon de la main entre chaque compression pour que le thorax reprenne sa forme",
+      "Assurer un temps de compression égal au temps de relâchement",
+      "Appuyer sur les côtes pour obtenir une compression plus profonde",
+      "En présence de plusieurs sauveteurs, relayer celui qui comprime toutes les 2 minutes (en cas de DAE, pendant l’analyse)"
+    ],
+    "bonnes_reponses": [
+      0,
+      2,
+      4
+    ],
+    "explication": "La fiche 05FT10 demande 100 à 120 compressions par minute, un temps de compression égal au temps de relâchement et un relais toutes les 2 minutes (pendant l’analyse en cas de DAE). Il ne faut ni appuyer sur les côtes ni décoller le talon de la main.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT10 / 07-2026",
+      "emplacement": "Fiche 05FT10 « Compressions thoraciques », p. 141",
+      "citation": "appuyer verticalement ; ne pas appuyer sur les côtes ; maintenir une fréquence comprise entre 100 et 120 compressions par minute ; assurer un temps de compression égal au temps de relâchement ; laisser le thorax reprendre sa forme initiale, entre chaque compression, sans pour cela décoller le talon de la main (adulte, enfant) ou les pouces (nourrisson, nouveau-né). En présence de plusieurs sauveteurs, relayer le sauveteur qui réalise les compressions thoraciques toutes les 2 minutes en interrompant le moins possible les compressions thoraciques (en cas d’utilisation d’un DAE, le relais sera réalisé pendant l’analyse)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0521",
+    "type": "cas-concret",
+    "enonce": "En posant les électrodes du DAE sur une victime en arrêt cardiaque, vous découvrez un timbre médicamenteux autocollant à l’endroit où doit être collée une électrode. Que faites-vous ?",
+    "propositions": [
+      "Coller l’électrode par-dessus le timbre",
+      "Retirer le timbre et essuyer la zone avant de coller l’électrode",
+      "Placer l’électrode à un travers de main du timbre, sans retirer celui-ci",
+      "Renoncer à utiliser le DAE"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05FT16 indique que le choc peut être inefficace ou brûler la victime si l’électrode est collée sur le timbre : il faut le retirer et essuyer la zone. Le DAE reste indiqué chez toute victime en arrêt cardiaque.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05FT16 / 07-2026",
+      "emplacement": "Fiche 05FT16 « Utilisation d’un défibrillateur automatisé externe », p. 153 et 156",
+      "citation": "L’utilisation du défibrillateur automatisé externe (DAE) est indiquée chez toute victime en arrêt cardiaque. […] la victime peut être porteuse d’un timbre médicamenteux autocollant (patch) qui permet la diffusion de médicament à travers la peau. Le choc peut être inefficace ou provoquer une brûlure de la victime si l’électrode de défibrillation est collée sur le timbre. Il faut donc retirer le timbre et essuyer la zone avant de coller l’électrode."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0522",
+    "type": "cas-concret",
+    "enonce": "Seul et sans matériel, vous découvrez une victime en arrêt cardiaque. Aucun témoin n’est présent, mais vous disposez d’un téléphone portable avec mode haut-parleur et de réseau. Que faites-vous ?",
+    "propositions": [
+      "Quitter la victime pour alerter, puis revenir auprès d’elle",
+      "Activer le haut-parleur et débuter immédiatement la RCP en même temps que vous alertez",
+      "Réaliser deux minutes de RCP avant d’alerter les secours",
+      "Attendre l’arrivée d’un tiers pour faire alerter les secours"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR05 demande, avec un téléphone portable disposant du mode haut-parleur, de l’activer et de débuter immédiatement la RCP en même temps que l’alerte. Quitter la victime pour alerter n’est prévu qu’en l’absence de téléphone ou de réseau.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR05 / 07-2026",
+      "emplacement": "Fiche 05PR05 « Arrêt cardiaque en sauveteur isolé », p. 140",
+      "citation": "si aucun tiers n’est présent : alerter les secours : avec un téléphone portable, si vous disposez du mode haut-parleur, l’activer et débuter immédiatement la RCP en même temps que vous alertez ; en l’absence de téléphone ou de réseau, quitter la victime pour aller alerter puis revenir auprès de la victime."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0523",
+    "type": "cas-concret",
+    "enonce": "Deux secouristes en équipe, disposant d’un DAE, prennent en charge une victime en arrêt cardiaque. Comment répartissent-ils leurs actions ?",
+    "propositions": [
+      "L’un poursuit le massage cardiaque ; l’autre va chercher un DAE et demande un renfort médical",
+      "L’un poursuit le massage cardiaque ; l’autre met en œuvre le DAE puis demande un renfort médical immédiatement après la première analyse",
+      "L’un poursuit le massage cardiaque ; l’autre demande un renfort médical avant de mettre en œuvre le DAE",
+      "Les deux interrompent la RCP le temps d’installer le DAE"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR04 prévoit, à 2 secouristes avec DAE, que l’un poursuit le massage cardiaque et que l’autre met en œuvre le DAE puis demande le renfort médical après la première analyse. La première réponse correspond au cas sans DAE.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR04 / 07-2026",
+      "emplacement": "Fiche 05PR04 « Arrêt cardiaque en équipe », p. 138",
+      "citation": "À 2 secouristes sans DAE : un secouriste poursuit le massage cardiaque, le second va chercher un DAE et demande un renfort médical ; À 2 secouristes avec DAE : un secouriste poursuit le massage cardiaque, le second met en œuvre le DAE puis demande un renfort médical immédiatement après la première analyse ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0524",
+    "type": "cas-concret",
+    "enonce": "En équipe, vous prenez en charge une victime tombée d’un toit, qui a perdu connaissance mais respire. Quelle est la conduite à tenir dans l’attente d’un avis médical ?",
+    "propositions": [
+      "La placer immédiatement en PLS à un secouriste",
+      "La laisser sur le dos, poursuivre la stabilisation de la tête à deux mains et assurer la liberté des voies aériennes",
+      "La placer systématiquement en PLS à deux secouristes",
+      "La relever en position assise pour faciliter sa respiration"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Après un traumatisme, la fiche 05PR06 demande de laisser la victime sur le dos, de stabiliser la tête à deux mains et de maintenir les voies aériennes libres ; la PLS à deux secouristes n’est réalisée que sur indication médicale.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR06 / 07-2026",
+      "emplacement": "Fiche 05PR06 « Perte de connaissance en équipe », p. 159",
+      "citation": "A la suite d’un traumatisme ou d’un événement d’origine inconnue dans l’attente d’un avis médical : laisser la victime sur le dos dans l’attente d’un avis médical ; poursuivre la stabilisation de la tête de la victime à deux mains ; assurer une liberté des voies aériennes permanente ; poursuivre l’évaluation des fonctions vitales ; demander un avis médical et appliquer leurs consignes ; installer la victime en PLS à deux secouristes seulement sur indication médicale ; sinon la laisser sur le dos."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0525",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lorsqu’une femme enceinte, victime d’une perte de connaissance non traumatique, est mise en PLS, le retournement se fait sur le côté gauche.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Les références techniques PSE (fiche 05PR06) indiquent que le retournement sur le côté gauche de la femme enceinte permet d’éviter une détresse par compression de certains vaisseaux sanguins de l’abdomen.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR06 / 07-2026",
+      "emplacement": "Fiche 05PR06 « Perte de connaissance en équipe », p. 159",
+      "citation": "A la suite d’un évènement non traumatique la placer en position stable sur le côté, en position latérale de sécurité (PLS) à un secouriste ; […] Note : Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0526",
+    "type": "cas-concret",
+    "enonce": "Une victime consciente présente des signes de détresse respiratoire. Aucune autre urgence vitale n’est à traiter. Quelle position lui proposer ?",
+    "propositions": [
+      "Allongée à plat sur le dos, car la position allongée améliore la respiration",
+      "Demi-assise ou assise, dans la position qui lui est la plus confortable",
+      "Allongée sur le côté gauche, position imposée par le secouriste",
+      "Strictement allongée, jambes surélevées, quelle que soit sa préférence"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR08 demande de laisser la victime s’installer dans la position la plus confortable et de lui proposer la position demi-assise ou assise, qui libère les mouvements du diaphragme et améliore la respiration.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR08 / 07-2026",
+      "emplacement": "Fiche 05PR08 « Détresse respiratoire », p. 167",
+      "citation": "La victime est consciente laisser s’installer la victime dans la position qui lui est la plus confortable, lui proposer la position demi-assise ou assise ; […] Note : La position assise ou demi-assise libère les mouvements du diaphragme et améliore la respiration."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0527",
+    "type": "qcm",
+    "enonce": "Quels éléments évoquent une détresse circulatoire ? (plusieurs réponses)",
+    "propositions": [
+      "Un temps de recoloration cutanée (TRC) supérieur à 2 secondes",
+      "Une pression artérielle systolique inférieure à 90 mmHg",
+      "Une peau chaude et sèche",
+      "Un pouls radial facilement perçu",
+      "Une fréquence cardiaque supérieure à 120 battements par minute chez une personne au repos"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      4
+    ],
+    "explication": "La fiche 05AC08 décrit une peau moite et froide, un pouls radial imperceptible, un TRC supérieur à 2 secondes, une fréquence cardiaque supérieure à 120 (ou inférieure à 40) battements par minute et une PA systolique inférieure à 90 mmHg.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05AC08 / 07-2026",
+      "emplacement": "Fiche 05AC08 « Détresse circulatoire », p. 168-169",
+      "citation": "Elle est moite (transpiration) et froide au toucher (sueurs froides) Le pouls radial est imperceptible et le pouls carotidien lorsqu’il est perçu est rapide. […] le temps de recoloration cutanée (TRC) est supérieur à 2 secondes ; la fréquence cardiaque est supérieure à 120 battements par minute (chez une personne au repos) ou inférieure à 40 battements par minute ; la pression artérielle systolique est inférieure à 90 mmHg ou diminuée de plus de 30% de la valeur de la PA habituelle si la victime est hypertendue."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0528",
+    "type": "cas-concret",
+    "enonce": "Une victime consciente présente des signes de détresse neurologique (somnolence, désorientation). Aucune autre urgence vitale n’est à traiter. Quelle conduite adopter ?",
+    "propositions": [
+      "La laisser assise ou la mettre demi-assise, comme en détresse respiratoire",
+      "L’allonger, administrer de l’oxygène en inhalation si nécessaire et surveiller son état neurologique",
+      "La mettre debout pour maintenir sa vigilance",
+      "La placer systématiquement en PLS"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 05PR10 demande, chez la victime consciente en détresse neurologique, de l’allonger, d’administrer de l’oxygène en inhalation si nécessaire, de la protéger contre le froid, la chaleur ou les intempéries et de surveiller son état neurologique.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR10 / 12-2022",
+      "emplacement": "Fiche 05PR10 « Détresse neurologique », p. 173",
+      "citation": "La victime est consciente allonger la victime ; administrer de l’oxygène en inhalation si nécessaire ; protéger la victime contre le froid, la chaleur ou les intempéries. poursuivre le bilan et surveiller attentivement : son état neurologique."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0601",
+    "type": "cas-concret",
+    "enonce": "Une victime consciente présente un malaise et a des difficultés à respirer. Dans quelle position d’attente l’installez-vous sans délai ?",
+    "propositions": [
+      "Assise",
+      "Allongée à plat dos",
+      "Allongée sur le côté"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 06PR01 des références techniques PSE prévoit la position assise en cas de difficultés à respirer. La position allongée est la position d’attente par défaut ; elle ne convient donc pas ici.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06PR01 / 07-2026",
+      "emplacement": "Fiche 06PR01 « Malaise et aggravation de maladie », p. 177",
+      "citation": "installer la victime en position d'attente, confortablement et sans délai : allongée ; assise en cas de difficultés à respirer ; sinon, dans la position où elle se sent le mieux."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0602",
+    "type": "qcm",
+    "enonce": "Une victime consciente a eu un malaise. Quelle description correspond à un malaise bénin ?",
+    "propositions": [
+      "La victime ne montre pas de détresse vitale et les signes disparaissent après quelques minutes de repos",
+      "Les signes, intenses et localisés, ne s’améliorent pas spontanément",
+      "Les signes se répètent malgré la mise au repos",
+      "La situation peut à tout moment entraîner une détresse vitale"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 06AC01 des références techniques PSE décrit le malaise bénin comme celui dont les signes disparaissent après quelques minutes de repos, sans détresse vitale. Les trois autres propositions décrivent le malaise grave.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06AC01 / 06-2018",
+      "emplacement": "Fiche 06AC01 « Malaise et aggravation de maladie », Définition, p. 175",
+      "citation": "le malaise bénin, qui est le plus courant, pour lequel la victime ne montre pas de détresse vitale et dont les signes disparaissent après quelques minutes de repos ; […] le malaise grave, qui peut être révélateur d'une situation pouvant à tout moment entraîner une détresse vitale. Les manifestations que présente la victime peuvent être caractéristiques d’une maladie potentiellement grave et les signes, intenses et localisés, ne s’améliorent pas spontanément ou se répètent malgré la mise au repos."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0603",
+    "type": "vrai-faux",
+    "enonce": "À l’examen d’une victime qui présente un malaise, la fréquence respiratoire n’est un signe à relever qu’au-delà de trente mouvements par minute.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 06AC01 des références techniques PSE cite une fréquence respiratoire supérieure à vingt mouvements par minute, et non trente.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06AC01 / 06-2018",
+      "emplacement": "Fiche 06AC01 « Malaise et aggravation de maladie », Signes, p. 176",
+      "citation": "L’examen de la victime permet de mettre en évidence des signes tels que : […] une fréquence cardiaque supérieure à 120 battements par minute ou inférieure à quarante battements par minute ; une fréquence respiratoire supérieure à vingt mouvements par minute ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0605",
+    "type": "qcm",
+    "enonce": "Vous aidez une victime à utiliser un dispositif auto-injectable (DAI) d’adrénaline. Quelles consignes sont exactes ? (plusieurs réponses)",
+    "propositions": [
+      "Si la solution est trouble, colorée ou contient des particules, le dispositif ne doit pas être utilisé",
+      "En cas d’urgence, l’injection peut être faite au travers du tissu d’un vêtement s’il n’est pas très épais",
+      "L’injection est réalisée par voie intraveineuse, au pli du coude",
+      "Le dispositif est retiré aussitôt après le déclic"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 06FT02 des références techniques PSE interdit d’utiliser un DAI dont la solution est trouble, colorée ou avec des particules, et autorise l’injection à travers un vêtement peu épais en cas d’urgence. L’injection est intramusculaire (cuisse ou deltoïde) et le dispositif reste en place quelques secondes après le déclic.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06FT02 / 07-2026",
+      "emplacement": "Fiche 06FT02 « Aide à la prise de médicaments », Réalisation et Risques & Contraintes, p. 181-182",
+      "citation": "Après vérification de la limpidité de la solution, l’injection avec un DAI est réalisée par voie intramusculaire sur la face externe de la cuisse ou à défaut dans le deltoïde (face externe de l’extrémité proximale du bras). […] placer l’extrémité du DAI (coté seringue) contre la face externe de la cuisse de la victime, à égale distance de la hanche et du genou ou contre le deltoïde (en cas d’urgence, l’injection peut être faite au travers du tissu d’un vêtement si celui-ci n’est pas très épais) ; […] maintenir le dispositif en place pendant quelques secondes avant de le retirer, conformément aux indications du fabricant ; […] Si la solution est trouble, colorée ou contient des particules, le dispositif ne devra pas être utilisé."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0606",
+    "type": "qcm",
+    "enonce": "Une victime sans trouble de la conscience doit prendre un comprimé par voie sublinguale. Une fois le comprimé déposé sous sa langue, quelle consigne lui donnez-vous ?",
+    "propositions": [
+      "Fermer la bouche et ne pas avaler",
+      "Avaler le comprimé avec un peu d’eau",
+      "Tirer la langue",
+      "Garder la bouche grande ouverte"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 06FT02 des références techniques PSE demande à la victime de fermer la bouche et de ne pas avaler en voie sublinguale. Avaler avec un peu d’eau et tirer la langue sont les consignes de la voie orale.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06FT02 / 07-2026",
+      "emplacement": "Fiche 06FT02 « Aide à la prise de médicaments », Réalisation, p. 180-181",
+      "citation": "déposer le comprimé ou réaliser une pulvérisation de produit sous la langue si l’administration est sublinguale ou sur la langue si l’administration est buccale ; demander à la victime de fermer la bouche et de ne pas avaler. […] demander à la victime d’ouvrir la bouche et de tirer la langue ; déposer le comprimé sur la langue de la victime si elle ne peut le faire elle-même ; demander à la victime d’avaler le comprimé avec un peu d’eau."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0607",
+    "type": "vrai-faux",
+    "enonce": "Une victime demande à prendre son médicament prescrit, mais aucune date de péremption n’est inscrite sur la boîte. Le médicament peut tout de même lui être administré.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 06FT02 des références techniques PSE précise qu’en l’absence de date de péremption, ou si elle est dépassée, le médicament ne doit pas être administré.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06FT02 / 07-2026",
+      "emplacement": "Fiche 06FT02 « Aide à la prise de médicaments », Risques & Contraintes, p. 182",
+      "citation": "La date de péremption est clairement inscrite sur la boîte ou le flacon du médicament. En son absence ou si elle est dépassée, le médicament ne doit pas être administré."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0608",
+    "type": "cas-concret",
+    "enonce": "Dans un bus, une victime qui déclare faire régulièrement des malaises « vagaux » ressent des étourdissements et des sueurs, et voit des points noirs devant les yeux. Il est impossible de l’allonger immédiatement. Que faites-vous ?",
+    "propositions": [
+      "Vous l’invitez à réaliser elle-même les manœuvres physiques, qui peuvent précéder sa mise en position allongée",
+      "Vous attendez de pouvoir l’allonger avant toute manœuvre physique",
+      "Vous réalisez les manœuvres à sa place, en lui mobilisant les membres",
+      "Vous remplacez la mise en position allongée par les manœuvres physiques"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 06FT03 des références techniques PSE prévoit que les manœuvres physiques sont réalisées par la victime elle-même et peuvent précéder la mise en position allongée si celle-ci est immédiatement impossible. Elles ne remplacent pas la position allongée.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06FT03 / 11/2021",
+      "emplacement": "Fiche 06FT03 « Manœuvres physiques », Réalisation, p. 183",
+      "citation": "Les manœuvres physiques doivent être réalisées par la victime elle-même. […] Les manœuvres ne remplacent pas la mise en position de confort de la victime notamment la position allongée. Cependant, si le sauveteur (ou la victime elle-même) est dans l’impossibilité immédiate d’allonger la victime (malaise dans un bus, un avion, le train), les manœuvres physiques peuvent précéder la mise en position allongée."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0609",
+    "type": "qcm",
+    "enonce": "Parmi les manœuvres physiques destinées à éviter une perte de connaissance d’origine vagale ou orthostatique, laquelle a une efficacité supérieure aux autres ?",
+    "propositions": [
+      "Le croisement des membres inférieurs",
+      "L’accroupissement",
+      "Le crochetage des doigts et la tension des muscles des membres supérieurs"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 06FT03 des références techniques PSE présente trois manœuvres et indique que le croisement des membres inférieurs est plus efficace que les deux autres.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06FT03 / 11/2021",
+      "emplacement": "Fiche 06FT03 « Manœuvres physiques », Réalisation, p. 183",
+      "citation": "NB : Le croisement des membres inférieurs à une efficacité supérieure aux deux autres techniques."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0610",
+    "type": "qcm",
+    "enonce": "Vous prenez en charge une victime qui présente une douleur thoracique non traumatique. Quelles actions font partie du principe de l’action de secours ? (plusieurs réponses)",
+    "propositions": [
+      "S’assurer qu’un défibrillateur est à proximité",
+      "Installer la victime dans la position la mieux tolérée",
+      "Demander un avis médical",
+      "L’allonger systématiquement à plat dos, quelle que soit la position qu’elle tolère",
+      "Ne jamais l’aider à prendre un traitement médicamenteux"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 06AC02 des références techniques PSE prévoit la position la mieux tolérée, un défibrillateur à proximité, un avis médical et l’aide à la prise d’un traitement si nécessaire. L’allongement systématique et l’interdiction d’aider à la prise d’un traitement sont donc faux.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06AC02 / 06-2018",
+      "emplacement": "Fiche 06AC02 « Douleur thoracique (non traumatique) », Principe de l’action de secours, p. 185",
+      "citation": "préserver les fonctions vitales ; installer la victime dans la position la mieux tolérée ; s’assurer qu’un défibrillateur est à proximité ; demander un avis médical ; aider la victime à prendre un traitement médicamenteux si nécessaire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0611",
+    "type": "cas-concret",
+    "enonce": "Une victime consciente présente des signes d’AVC, accompagnés de nausées et de vomissements. Comment l’installez-vous ?",
+    "propositions": [
+      "En position latérale de sécurité",
+      "En position strictement horizontale à plat",
+      "En position assise",
+      "En position cuisses fléchies, jambes repliées"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 06PR03 des références techniques PSE prévoit la position strictement horizontale à plat, ou la position latérale de sécurité si la victime présente des nausées et des vomissements. Aucune autre position n’est prévue.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06PR03 / 07-2026",
+      "emplacement": "Fiche 06PR03 « Accident vasculaire cérébral », p. 189",
+      "citation": "installer la victime : en position strictement horizontale à plat ; ou en position latérale de sécurité si elle présente des nausées et des vomissements ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0612",
+    "type": "cas-concret",
+    "enonce": "Au 4ème regard, une victime consciente présente une déformation de la bouche et un bras qui retombe lorsqu’elle tente de le lever. Quel geste est indispensable avant d’affirmer qu’il s’agit d’un AVC ?",
+    "propositions": [
+      "Mesurer la glycémie capillaire, pour rechercher et corriger une éventuelle hypoglycémie",
+      "Attendre quelques minutes pour voir si les signes disparaissent avant de demander un avis médical",
+      "Cesser de rechercher les signes d’AVC s’ils sont passagers"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 06AC03 des références techniques PSE rend la mesure de la glycémie capillaire indispensable, car une hypoglycémie peut simuler un AVC. L’avis médical est immédiat, et les signes passagers sont recherchés tout aussi scrupuleusement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06AC03 / 06-2018",
+      "emplacement": "Fiche 06AC03 « Accident vasculaire cérébral », Signes et Principe de l’action de secours, p. 188",
+      "citation": "Même si tous les signes sont passagers et résolutifs, ils doivent être scrupuleusement recherchés, car la gravité de l’affection et la conduite à tenir restent les mêmes. […] Au cours du 4ème regard, il est indispensable de réaliser une mesure de la glycémie capillaire. En effet, une hypoglycémie peut simuler un AVC et donner un ou plusieurs signes indiqués ci-dessus. Il est donc indispensable de rechercher et de corriger une hypoglycémie avant d’affirmer être en présence de signes d’AVC. […] demander un avis médical immédiat et respecter les consignes ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0701",
+    "type": "qcm",
+    "enonce": "Une victime présente une brûlure thermique. Quelles conditions doivent être réunies pour refroidir immédiatement la surface brûlée ? (plusieurs réponses)",
+    "propositions": [
+      "La brûlure s’est produite il y a moins de 30 minutes",
+      "La victime est consciente",
+      "La surface brûlée est inférieure à 20 % chez un adulte",
+      "La victime est consciente, quelle que soit la surface brûlée",
+      "La surface brûlée est inférieure à 20 % chez un enfant ou un nourrisson"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 07PR01 conditionne le refroidissement immédiat à une brûlure de moins de 30 minutes, une victime consciente sans détresse circulatoire et une surface brûlée inférieure à 20 % chez l’adulte. Chez l’enfant ou le nourrisson, le seuil est de 10 %, et la surface compte quelle que soit la conscience.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR01 / 07-2026",
+      "emplacement": "Fiche 07PR01 « Brûlures », p. 203",
+      "citation": "refroidir immédiatement la surface brûlée tout en retirant les vêtements, et les bijoux : si la brûlure s’est produite il y a moins de 30 minutes ; et si la victime est consciente ; et n’a pas de détresse circulatoire ; et si la surface brûlée est inférieure à : 20% chez un adulte, 10% chez un enfant ou un nourrisson."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0702",
+    "type": "qcm",
+    "enonce": "Un adulte vient de se brûler à l’avant-bras avec de l’eau bouillante. Quelle est la durée minimale d’arrosage à l’eau courante tempérée et à faible pression ?",
+    "propositions": [
+      "Au moins 10 minutes, idéalement 20 minutes",
+      "Au moins 2 minutes",
+      "Au moins 5 minutes, idéalement 10 minutes",
+      "Au moins 30 minutes, idéalement 60 minutes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Pour la fiche 07PR01, l’arrosage dure au moins 10 minutes, idéalement 20 minutes. Les autres durées proposées ne correspondent pas à ces valeurs.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR01 / 07-2026",
+      "emplacement": "Fiche 07PR01 « Brûlures », p. 203, note 2",
+      "citation": "Note : Avec de l'eau courante tempérée et à faible pression. Pendant au moins 10 minutes, idéalement 20 minutes. Débuter l’arrosage après 30 minutes n’a pas d’intérêt."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0703",
+    "type": "qcm",
+    "enonce": "Parmi ces brûlures, lesquelles sont qualifiées de graves ? (plusieurs réponses)",
+    "propositions": [
+      "Une brûlure d’aspect circulaire, qui fait le tour d’un membre",
+      "Une brûlure située sur les mains",
+      "Une brûlure d’origine chimique",
+      "Une simple rougeur de la peau chez l’adulte",
+      "Une cloque dont la surface est inférieure à celle de la moitié de la paume de la main de la victime"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 07AC01 classe en brûlure grave l’aspect circulaire, la localisation aux mains et l’origine chimique. Une rougeur de la peau chez l’adulte ou une cloque inférieure à la moitié de la paume de la victime est une brûlure simple.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07AC01 / 07-2026",
+      "emplacement": "Fiche 07AC01 « Brûlures », Définition, p. 201",
+      "citation": "brûlure simple, lorsqu’il s’agit de rougeurs de la peau chez l’adulte ou d’une cloque dont la surface est inférieure à celle de la moitié de la paume de la main de la victime ; brûlure grave, dès lors que l’on est en présence : […] d’un aspect circulaire (qui fait le tour du cou ou d’un membre) ; d’une brûlure dont la localisation est sur le visage ou le cou, les mains, les articulations ou au voisinage des orifices naturels ; […] d’une brûlure d’origine chimique, électrique ou radiologique."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0704",
+    "type": "cas-concret",
+    "enonce": "Un enfant vient d’avaler un produit ménager caustique et se plaint de violentes douleurs dans la poitrine. Que faut-il faire ?",
+    "propositions": [
+      "Le faire vomir pour évacuer le produit",
+      "Lui faire boire de l’eau pour diluer le produit",
+      "Ne pas le faire vomir ni boire, conserver les informations sur le produit et demander un avis médical",
+      "Attendre une détresse respiratoire avant de demander un avis médical"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "La fiche 07PR01 interdit de faire vomir ou boire en cas d’ingestion, demande de conserver les informations du produit et, dans tous les cas, de demander un avis médical en transmettant le bilan.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR01 / 07-2026",
+      "emplacement": "Fiche 07PR01 « Brûlures », p. 204",
+      "citation": "en cas d’ingestion : ne jamais faire vomir ou boire, et conserver les informations du produit ; […] Dans tous les cas demander un avis médical en transmettant le bilan."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0705",
+    "type": "qcm",
+    "enonce": "Vous prenez en charge un adulte qui présente une plaie simple et souillée à la main. Quels gestes faut-il réaliser ? (plusieurs réponses)",
+    "propositions": [
+      "Se laver les mains à l’eau et au savon (ou avec une solution hydroalcoolique) et se protéger par le port de gants",
+      "Nettoyer la plaie à l’eau courante propre ou en bouteille, en utilisant du savon car elle est souillée",
+      "Sécher la zone autour de la plaie et la protéger par un pansement",
+      "Nettoyer la plaie uniquement avec du sérum physiologique, sans eau courante",
+      "Conseiller de consulter un médecin uniquement si la plaie s’infecte, quelle que soit la vaccination antitétanique"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 07PR02 prévoit l’hygiène des mains et les gants, le nettoyage à l’eau courante (propre) ou en bouteille, à défaut au sérum physiologique, avec du savon si la plaie est souillée, puis un pansement. Une consultation est aussi conseillée si la vaccination antitétanique n’est pas à jour.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR02 / 07-2026",
+      "emplacement": "Fiche 07PR02 « Plaie », p. 207",
+      "citation": "se laver les mains avec de l’eau et du savon ou utiliser une solution hydroalcoolique ; se protéger par le port de gants ; nettoyer la plaie : avec de l’eau courante (propre) ou en bouteille, à défaut avec du sérum physiologique ; utiliser du savon si la plaie est souillée ; […] sécher la zone autour de la plaie et la protéger par un pansement ; conseiller à la victime de consulter un médecin si : elle n’est pas à jour de sa vaccination antitétanique ; la plaie devient chaude, rouge, si elle suinte, si elle gonfle ou si elle continue de faire mal dans les vingt-quatre heures."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0706",
+    "type": "qcm",
+    "enonce": "Après un choc, une dent est tombée. Vous n’avez pas de film étirable alimentaire pour l’envelopper. Dans quoi pouvez-vous la conserver pour la transporter avec la victime ? (plusieurs réponses)",
+    "propositions": [
+      "Dans un petit récipient contenant du lait de vache",
+      "Dans un petit récipient contenant de la salive de la victime",
+      "Dans un petit récipient contenant de l’eau du robinet",
+      "Dans un petit récipient contenant du sérum physiologique"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 07PR02 indique, à défaut de film étirable alimentaire, du lait de vache ou de la salive de la victime. Elle précise qu’il ne faut conserver la dent ni dans l’eau du robinet ni dans du sérum physiologique.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR02 / 07-2026",
+      "emplacement": "Fiche 07PR02 « Plaie », Traumatisme dentaire, p. 208, note 4",
+      "citation": "l’envelopper dans un film étirable alimentaire ; à défaut, la conserver dans un petit récipient contenant du lait de vache ou de la salive de la victime Note : Il ne faut pas la conserver dans de l’eau du robinet ni dans du sérum physiologique."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0707",
+    "type": "qcm",
+    "enonce": "Vous venez de poser un pansement maintenu par une bande qui fait le tour de l’avant-bras d’une victime. Quelle surveillance est nécessaire ?",
+    "propositions": [
+      "Surveiller l’apparition d’une douleur diffuse ou d’un saignement et contrôler la circulation du membre en dessous du pansement (pouls, temps de recoloration cutanée, aspect de la peau)",
+      "Aucune surveillance : le pansement protège la plaie et la bande ne présente pas de risque",
+      "Surveiller uniquement l’aspect de la plaie sous le pansement, jamais la circulation du membre",
+      "Surveiller uniquement la douleur, car un pansement ne peut pas cacher un saignement"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07FT01 explique qu’un pansement peut cacher un saignement et qu’un bandage circulaire peut conduire à un effet garrot. Elle demande donc de surveiller la douleur, le saignement et la circulation du membre en dessous du pansement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07FT01 / 12-2022",
+      "emplacement": "Fiche 07FT01 « Pansement », Risques & Contraintes, p. 210",
+      "citation": "Un pansement peut cacher un saignement et un bandage circulaire peut conduire à un effet garrot. Aussi, il convient de surveiller attentivement l’apparition progressive d’une douleur diffuse ou d’un saignement et de contrôler la circulation du membre en dessous du pansement (pouls, temps de recoloration cutanée, aspect de la peau)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0708",
+    "type": "cas-concret",
+    "enonce": "Un ouvrier s’est sectionné un doigt avec une machine. La plaie ne saigne pas pour l’instant. Que faut-il faire sur la plaie ?",
+    "propositions": [
+      "Mettre en place un pansement compressif sur la plaie, même en l’absence de saignement",
+      "Laisser la plaie à l’air libre pour surveiller l’apparition d’un saignement",
+      "Rechercher d’abord la partie amputée avant toute action sur la plaie",
+      "Attendre qu’un saignement apparaisse avant de poser un pansement compressif"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07PR03 demande un pansement compressif sur la plaie même en l’absence de saignement. La fiche 07AC03 (p. 214) rappelle que l’hémorragie externe peut être retardée de plusieurs minutes et que son contrôle reste la priorité des premiers secours.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR03 / 07-2026",
+      "emplacement": "Fiche 07PR03 « Amputation et arrachement complet d’une partie du corps », p. 215",
+      "citation": "mettre en place un pansement compressif sur la plaie, même en l’absence de saignement ; conditionner la partie du corps amputée ou arrachée ; poursuivre le bilan et surveiller attentivement la circulation."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0709",
+    "type": "qcm",
+    "enonce": "Comment conditionner une partie du corps amputée pour la transporter avec la victime ?",
+    "propositions": [
+      "L’envelopper dans un pansement stérile ou un tissu propre humidifié, la placer dans un sac plastique propre et étanche, lui-même placé dans un autre sac contenant de la glace ou de l’eau glacée",
+      "La placer directement au contact de la glace pour la refroidir plus vite",
+      "La congeler pour optimiser sa conservation",
+      "La conserver à température ambiante dans un sac sec, sans froid"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07FT04 demande de conserver la partie au frais sans la congeler, enveloppée puis placée dans un sac étanche lui-même placé dans un sac contenant de la glace ou de l’eau glacée. Tout contact direct avec la glace est à éviter, et le froid permet de préserver la partie du corps.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07FT04 / 07-2026",
+      "emplacement": "Fiche 07FT04 « Conditionner une partie du corps amputée ou arrachée », Réalisation, p. 216",
+      "citation": "Récupérez la partie du corps aussi rapidement que possible et conservez-la au frais sans la congeler. Enveloppez la partie dans un pansement stérile ou un tissu propre humidifié avec une solution saline ou de l'eau. Placez la partie enveloppée dans un sac ou un récipient en plastique propre et étanche. Placez le sac ou le récipient contenant la partie du corps dans un autre sac contenant de la glace ou de l'eau glacée. […] Maintenez la partie du corps au frais en permanence. Évitez tout contact direct avec la glace ou l’accumulateur de froid."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0710",
+    "type": "qcm",
+    "enonce": "Une victime blessée à l’arme blanche présente une éviscération de l’abdomen, sans détresse vitale apparente. Que faut-il faire ? (plusieurs réponses)",
+    "propositions": [
+      "Ne pas remettre les viscères en place",
+      "Envelopper les viscères dans un champ stérile humidifié, sans les mobiliser ni les comprimer",
+      "Mettre la victime allongée à plat dos, jambes fléchies",
+      "Remettre délicatement les viscères dans l’abdomen",
+      "Recouvrir les viscères de compresses"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 07PR04 demande de ne pas remettre les viscères en place, de les envelopper sans les mobiliser ni les comprimer dans un champ stérile humidifié, et d’allonger la victime à plat dos, jambes fléchies. Elle précise de ne pas utiliser de compresses.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR04 / 07-2026",
+      "emplacement": "Fiche 07PR04 « Traumatisme de l’abdomen », p. 218",
+      "citation": "mettre la victime dans une position allongée, à plat dos, jambes fléchies ; […] En présence d’une éviscération : ne pas remettre les viscères en place ; envelopper les viscères dans un champ stérile humidifié Note : Sans les mobiliser, ni les comprimer. Note : Ne pas utiliser de compresses."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0711",
+    "type": "qcm",
+    "enonce": "Une victime présente un couteau planté dans le thorax. Dans quel cas peut-on retirer ce corps étranger ?",
+    "propositions": [
+      "S’il empêche la réalisation d’une RCP",
+      "S’il gêne la respiration de la victime",
+      "Si la plaie ne saigne pas",
+      "Jamais, quelles que soient les circonstances"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07PR05 interdit de retirer un corps étranger pénétrant dans le thorax, sauf s’il empêche la réalisation d’une RCP. Il existe donc une exception, et la gêne respiratoire n’en fait pas partie.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR05 / 07-2026",
+      "emplacement": "Fiche 07PR05 « Traumatisme du thorax », p. 220",
+      "citation": "ne jamais retirer un corps étranger pénétrant dans le thorax, sauf s’il empêche la réalisation d’une RCP"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0712",
+    "type": "qcm",
+    "enonce": "Comment protéger la plaie du thorax d’une victime qui ne présente pas de détresse vitale apparente ?",
+    "propositions": [
+      "Avec un dispositif médical non occlusif spécifique s’il est à disposition, sinon la laisser à l’air libre",
+      "Avec un pansement occlusif fermé sur tous ses côtés",
+      "Avec un pansement ou un champ stérile humidifié, comme pour les autres plaies graves"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07PR05 prévoit un dispositif non occlusif ou, à défaut, une plaie laissée à l’air libre, afin de laisser sortir l’air piégé. La fiche 07PR02 (p. 207) exclut les plaies du thorax de la protection par un pansement ou un champ stérile humidifié.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR05 / 07-2026",
+      "emplacement": "Fiche 07PR05 « Traumatisme du thorax », p. 220, note 4",
+      "citation": "protéger la plaie par : un dispositif médical non occlusif spécifique à cette utilisation s’il est à disposition, en son absence, laisser la plaie à l’air libre Note : En l’espèce, le pansement non occlusif doit permettre la sortie de l’air piégé dans le thorax par la plaie et empêcher sa pénétration."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0714",
+    "type": "qcm",
+    "enonce": "Une victime consciente présente un traumatisme fermé de la cheville, sans plaie. Comment appliquer du froid ?",
+    "propositions": [
+      "Avec une poche d’eau et de glace enveloppée dans un linge, pendant 20 minutes au maximum",
+      "Avec des glaçons posés directement sur la peau",
+      "Avec une bombe cryogène",
+      "Avec une poche d’eau et de glace enveloppée dans un linge, pendant au moins 30 minutes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07FT05 limite l’application de froid à 20 minutes et demande d’envelopper la poche dans un linge. Elle réserve les bombes cryogènes à l’usage médical.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07FT05 / 09-2014",
+      "emplacement": "Fiche 07FT05 « Application de froid », p. 226",
+      "citation": "L’application de froid doit être la plus précoce possible et s’étendre au-delà de la zone douloureuse. La durée d’application ne doit pas excéder 20 minutes et peut être réduite de moitié en cas d’inconfort pour la victime. […] envelopper la poche dans un linge (serviette, torchon) et l’appliquer sur la zone concernée. Note : Les bombes cryogènes sont réservées à l’usage médical."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0715",
+    "type": "qcm",
+    "enonce": "Une victime présente une fracture ouverte de l’avant-bras avec déformation. Quelle conduite faut-il appliquer ? (plusieurs réponses)",
+    "propositions": [
+      "Ne pas toucher un morceau d’os ou un corps étranger visible",
+      "Recouvrir la plaie non hémorragique d’un pansement stérile avant l’immobilisation",
+      "Immobiliser le membre en respectant la déformation",
+      "Appliquer du froid pour limiter le gonflement",
+      "Réaligner le membre soi-même pour faciliter la pose de l’attelle"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 07PR07 demande de ne pas toucher l’os ou le corps étranger visible, de couvrir la plaie non hémorragique et d’immobiliser en respectant la déformation. Le froid est exclu en cas de fracture ouverte, et le réalignement est réalisé par un médecin ou à sa demande.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR07 / 07-2026",
+      "emplacement": "Fiche 07PR07 « Traumatisme des membres », p. 225",
+      "citation": "appliquer du froid si possible, sauf s’il s’agit d’une fracture ouverte ; […] ne pas toucher un morceau d’os ou corps étranger visible ; recouvrir la plaie non hémorragique d’un pansement stérile, avant l’immobilisation ; immobiliser le membre en respectant la déformation. Note : Le réalignement d’une fracture est un geste très douloureux, il est réalisé par un médecin ou à la demande du médecin."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0716",
+    "type": "qcm",
+    "enonce": "Quelle immobilisation par écharpes est réalisée en cas de traumatisme du bras ?",
+    "propositions": [
+      "Une écharpe simple et une contre-écharpe",
+      "Une écharpe simple seule",
+      "Une écharpe oblique",
+      "Une contre-écharpe seule, sans soutenir l’avant-bras"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07FT06 prévoit une écharpe simple et une contre-écharpe pour le bras. L’écharpe simple seule sert pour la main, le poignet et l’avant-bras, et l’écharpe oblique pour l’épaule.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07FT06 / 09-2014",
+      "emplacement": "Fiche 07FT06 « Immobilisation d’un membre supérieur au moyen d’écharpes », p. 227-228",
+      "citation": "Traumatisme de la main, du poignet et de l’avant-bras L’immobilisation est réalisée par une écharpe simple. […] Traumatisme du bras L’immobilisation est réalisée par une écharpe simple et une contre-écharpe. […] Traumatisme de l’épaule (clavicule, omoplate) L’immobilisation est réalisée par une écharpe oblique."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0717",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : devant une victime suspecte d’une lésion du rachis qui présente aussi une détresse vitale, l’immobilisation de la colonne vertébrale doit être réalisée avant la prise en charge de la détresse vitale.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 07PR08 est explicite : l’immobilisation de la colonne vertébrale ne doit jamais passer avant la prise en charge d’une détresse vitale, qui est traitée prioritairement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR08 / 12-2023",
+      "emplacement": "Fiche 07PR08 « Traumatisme du dos et du cou », p. 241",
+      "citation": "toute menace ou détresse vitale doit être traitée prioritairement selon la conduite à tenir adéquate ; […] L’immobilisation de la colonne vertébrale ne doit jamais passer avant la prise en charge d’une détresse vitale."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0718",
+    "type": "qcm",
+    "enonce": "Quelle affirmation est exacte à propos du collier cervical chez une victime suspecte d’une lésion du rachis ?",
+    "propositions": [
+      "Il peut encore être utilisé lors de l’extraction ou du relevage si la stabilisation de la tête par un sauveteur s’annonce difficile ou aléatoire",
+      "Son usage systématique reste conseillé chez l’adulte comme chez l’enfant",
+      "Il peut être utilisé même en cas de possible obstruction des voies aériennes",
+      "Il doit rester serré une fois l’immobilisation sur le MID réalisée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07PR08 indique que l’usage systématique n’est plus conseillé, mais que le collier peut être utilisé si la stabilisation manuelle est difficile ou aléatoire. Une possible obstruction des voies aériennes est une contre-indication, et le collier est desserré une fois la victime sur le MID.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR08 / 12-2023",
+      "emplacement": "Fiche 07PR08 « Traumatisme du dos et du cou », p. 244",
+      "citation": "L’usage systématique du collier cervical chez l’adulte comme chez l’enfant n’est plus conseillé. Le collier cervical peut encore être utilisé pour restreindre les mouvements du rachis cervical lors de l’extraction ou du relevage d’une victime si la stabilisation de la tête par un sauveteur s’annonce difficile ou aléatoire. Le collier cervical ne doit pas être utilisé s’il existe une contre-indication comme : une possible obstruction des voies aériennes, […] Le collier cervical doit être : […] desserré une fois l’immobilisation sur le MID réalisée,"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0719",
+    "type": "qcm",
+    "enonce": "Quel moyen faut-il utiliser en priorité pour immobiliser le corps entier d’une victime qui présente un traumatisme du rachis ?",
+    "propositions": [
+      "Le matelas immobilisateur à dépression (MID)",
+      "Le plan dur équipé de blocs de tête",
+      "L’attelle cervico-thoracique (ACT)",
+      "Le collier cervical rigide seul"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07PR08 indique le MID en priorité et le plan dur seulement à titre exceptionnel, par exemple en cas d’indisponibilité du MID. La fiche 07FT13 précise que l’ACT n’est pas un moyen d’immobilisation à utiliser pour le transport, et la définition de la p. 240 décrit le collier comme une simple restriction des mouvements du rachis cervical.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR08 / 12-2023",
+      "emplacement": "Fiche 07PR08 « Traumatisme du dos et du cou », p. 244",
+      "citation": "L’immobilisation corps entier d’une victime qui présente un traumatisme du rachis est réalisée : en priorité dans un matelas immobilisateur à dépression qui doit rester en place pour le transfert sur le brancard à l’hôpital. […] exceptionnellement sur un plan dur équipé de blocs de tête : en cas d’indisponibilité d’un MID,"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0720",
+    "type": "cas-concret",
+    "enonce": "Vous maintenez la tête d’une victime allongée sur le dos, suspecte d’un traumatisme du rachis, et vous la ramenez en position neutre. La victime signale alors des fourmillements dans les bras. Que faites-vous ?",
+    "propositions": [
+      "J’interromps immédiatement la manœuvre et je maintiens la tête dans la position où elle se trouve, dans l’attente d’un renfort médical",
+      "Je poursuis doucement jusqu’à la position neutre",
+      "J’exerce une légère traction pour aligner la tête",
+      "Je relâche la tête et je demande à la victime de la replacer elle-même"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07FT11 impose d’interrompre immédiatement la manœuvre si le déplacement déclenche des sensations anormales comme des fourmillements, puis de maintenir la tête dans la position où elle se trouve. La même fiche précise de replacer la tête sans exercer de traction.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07FT11 / 12-2023",
+      "emplacement": "Fiche 07FT11 « Maintien de la tête en position neutre », p. 247",
+      "citation": "Si un déplacement de la tête est nécessaire pour la ramener en position neutre, la manœuvre sera immédiatement interrompue si : […] le déplacement déclenche des sensations anormales (fourmillements, décharges électriques) dans les membres supérieurs ou inférieurs. Dans ces cas, maintenir la tête dans la position où elle se trouve dans l’attente d’un renfort médical."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0721",
+    "type": "cas-concret",
+    "enonce": "Un nourrisson vient de tomber de sa table à langer sur le sol. Il a pleuré puis s’est calmé et paraît normal. Que faut-il faire ?",
+    "propositions": [
+      "Suspecter un traumatisme crânien et demander un avis médical immédiat",
+      "Ne rien faire de particulier tant qu’il n’a pas perdu connaissance",
+      "Attendre l’apparition de troubles du comportement avant de demander un avis médical",
+      "Ne demander un avis médical que si la chute dépasse deux mètres"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07AC09 demande de suspecter un traumatisme crânien après toute chute d’un nourrisson d’une hauteur supérieure à sa taille, avec un avis médical immédiat. Chez l’enfant, la perte de connaissance est moins fréquente que chez l’adulte.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07AC09 / 06-2018",
+      "emplacement": "Fiche 07AC09 « Traumatisme du crâne », p. 261",
+      "citation": "la perte de connaissance est moins fréquente ; l’enfant ou le nourrisson peut présenter des troubles du comportement (il ne joue plus, il est prostré) souvent constatés par l’entourage ; […] Toute chute d’un enfant ou d’un nourrisson, d’une hauteur supérieure à sa taille (table à langer, chaise haute) doit faire suspecter un traumatisme crânien et faire l’objet d’un avis médical immédiat."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0722",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : une victime traumatisée inconsciente qui présente des signes de détresse circulatoire ne doit être suspectée d’un traumatisme du bassin que si elle présente une plaie au niveau du bassin.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 07AC10 demande de considérer systématiquement comme suspecte d’un traumatisme du bassin toute victime traumatisée qui a perdu connaissance et présente des signes de détresse circulatoire, sans condition de plaie.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07AC10 / 12-2023",
+      "emplacement": "Fiche 07AC10 « Traumatisme du bassin », p. 263",
+      "citation": "Toute victime traumatisée qui a perdu connaissance et qui présente des signes de détresse circulatoire doit être considérée systématiquement comme suspecte d’un traumatisme du bassin."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0723",
+    "type": "qcm",
+    "enonce": "Concernant la ceinture pelvienne, quelles affirmations sont exactes ? (plusieurs réponses)",
+    "propositions": [
+      "Elle est centrée au niveau des grands trochanters",
+      "Sa mise en place ne doit pas prendre plus de 3 à 5 minutes",
+      "Elle reste en place et est laissée avec la victime à l’hôpital",
+      "Une ceinture improvisée avec un drap est recommandée en l’absence de ceinture adaptée"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 07FT16 demande de centrer la ceinture au niveau des grands trochanters, de la poser en 3 à 5 minutes au plus et de la laisser en place avec la victime à l’hôpital. Elle ne recommande pas la ceinture improvisée avec un drap.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07FT16 / 12-2023",
+      "emplacement": "Fiche 07FT16 « Contention pelvienne », p. 265-266",
+      "citation": "La réalisation de ceinture improvisée à l'aide d’un moyen de fortune (drap…) n'est pas recommandée. […] glisser la ceinture sous les fesses, la centrer au niveau des grands trochanters ; […] La ceinture doit rester en place et laissée avec la victime à l'hôpital. […] La mise en place de la ceinture ne doit pas prendre plus de 3 à 5 minutes."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
+    "verifie_le": "2026-10-29"
   }
 ]
