@@ -15,6 +15,21 @@ describe('stockage mémoire', () => {
   })
 })
 
+describe('toutEffacer', () => {
+  it('vide le stockage mémoire', async () => {
+    const s = creerStockageMemoire()
+    await s.enregistrer(fiche('a'))
+    await s.toutEffacer()
+    expect((await s.toutLire()).size).toBe(0)
+  })
+  it('vide aussi le stockage protégé (repli mémoire)', async () => {
+    const s = await ouvrirStockage(undefined)
+    await s.enregistrer(fiche('a'))
+    await s.toutEffacer()
+    expect((await s.toutLire()).size).toBe(0)
+  })
+})
+
 describe('ouvrirStockage', () => {
   it('bascule sur la mémoire si IndexedDB est absent', async () => {
     const s = await ouvrirStockage(undefined)

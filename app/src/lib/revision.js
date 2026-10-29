@@ -2,7 +2,7 @@
 // Une « fiche » par question : { id, carte, reponses, bonnes }.
 // `maintenant` (un objet Date) est toujours passé en paramètre pour pouvoir tester.
 import { createEmptyCard, fsrs, Rating } from 'ts-fsrs'
-import { estJouable, TAILLE_SESSION } from './session.js'
+import { estJouable, melanger, TAILLE_SESSION } from './session.js'
 
 // Sans étapes courtes : une carte neuve revient dans 1 jour (Again) ou 3 jours (Good)
 const planificateur = fsrs({ enable_short_term: false })
@@ -30,21 +30,12 @@ export function enregistrerReponse(fiche, id, correcte, maintenant) {
 
 const echeance = (fiche) => new Date(fiche.carte.due).getTime()
 
-// Mélange de Fisher-Yates (copie), `hasard` injectable
-function melanger(liste, hasard) {
-  const copie = [...liste]
-  for (let i = copie.length - 1; i > 0; i--) {
-    const j = Math.floor(hasard() * (i + 1))
-    ;[copie[i], copie[j]] = [copie[j], copie[i]]
-  }
-  return copie
-}
-
 /**
  * Tire au plus `taille` questions jouables, sans doublon, dans cet ordre :
  *   1. les questions dues (échéance <= maintenant), les plus en retard d'abord ;
  *   2. les questions jamais vues, au hasard ;
- *   3. les autres, par échéance la plus proche.
+ *   3. les autres (vues, pas encore dues), au hasard.
+ * La sélection suit cette priorité, puis l'ordre des questions retenues est mélangé.
  * `fiches` est une Map id -> fiche.
  */
 export function tirerSessionRevision(questions, fiches, maintenant, hasard = Math.random, taille = TAILLE_SESSION) {
@@ -54,12 +45,12 @@ export function tirerSessionRevision(questions, fiches, maintenant, hasard = Mat
 
   const vues = jouables.filter((q) => fiches.has(q.id))
   const dues = vues.filter((q) => echeance(fiches.get(q.id)) <= t).sort(parEcheance)
-  const autres = vues.filter((q) => echeance(fiches.get(q.id)) > t).sort(parEcheance)
+  const autres = melanger(vues.filter((q) => echeance(fiches.get(q.id)) > t), hasard)
   const neuves = melanger(
     jouables.filter((q) => !fiches.has(q.id)),
     hasard,
   )
-  return [...dues, ...neuves, ...autres].slice(0, taille)
+  return melanger([...dues, ...neuves, ...autres].slice(0, taille), hasard)
 }
 
 /** Nombre de questions déjà vues dont l'échéance est <= `limite` (Date). */

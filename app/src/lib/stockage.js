@@ -3,6 +3,7 @@
 //   lire(id)          -> la fiche, ou undefined
 //   enregistrer(fiche) -> écrit la fiche (remplace l'ancienne)
 //   toutLire()        -> Map id -> fiche
+//   toutEffacer()     -> supprime toutes les fiches
 // Aucune donnée personnelle, aucun réseau : tout reste dans le navigateur.
 
 const NOM_BASE = 'memops'
@@ -20,6 +21,9 @@ export function creerStockageMemoire() {
     },
     async toutLire() {
       return new Map(fiches)
+    },
+    async toutEffacer() {
+      fiches.clear()
     },
   }
 }
@@ -62,6 +66,15 @@ export function creerStockageIndexedDB(fabrique = globalThis.indexedDB) {
             tx.onabort = () => reject(tx.error ?? new Error('Transaction annulée'))
             tx.onerror = () => reject(tx.error)
             tx.objectStore(NOM_TABLE).put(fiche)
+          }),
+        // Réussi seulement quand la transaction est validée
+        toutEffacer: () =>
+          new Promise((resolve, reject) => {
+            const tx = base.transaction(NOM_TABLE, 'readwrite')
+            tx.oncomplete = () => resolve()
+            tx.onabort = () => reject(tx.error ?? new Error('Transaction annulée'))
+            tx.onerror = () => reject(tx.error)
+            tx.objectStore(NOM_TABLE).clear()
           }),
         async toutLire() {
           const liste = await promesse(table('readonly').getAll())
@@ -113,5 +126,10 @@ export async function ouvrirStockage(fabrique = globalThis.indexedDB) {
       await proteger((s) => (s === memoire ? undefined : s.enregistrer(fiche)))
     },
     toutLire: () => proteger((s) => s.toutLire()),
+    // Efface aussi la mémoire. Si IndexedDB échoue, l'erreur remonte : l'appli prévient l'utilisateur.
+    async toutEffacer() {
+      await memoire.toutEffacer()
+      if (actif !== memoire) await actif.toutEffacer()
+    },
   }
 }

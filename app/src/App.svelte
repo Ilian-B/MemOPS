@@ -2,7 +2,9 @@
   import { tick } from 'svelte'
   import questionsDispo from 'virtual:questions'
   import { AVERTISSEMENT } from './lib/avertissement.js'
-  import { estCorrecte, estJouable } from './lib/session.js'
+  import { estCorrecte, estJouable, melangerPropositions } from './lib/session.js'
+  import { EMPLOIS, pourEmploi, pourTheme } from './lib/filtre-questions.js'
+  import { lireEmploi, ecrireEmploi } from './lib/preferences.js'
   import { ouvrirStockage } from './lib/stockage.js'
   import {
     enregistrerReponse, tirerSessionRevision, statistiques, libelleTheme,
@@ -11,9 +13,15 @@
   // Mode développement : on affiche un bandeau sur les questions non relues
   const modeDev = import.meta.env.DEV
 
-  // Questions réellement jouables (le type « ordre » n'est pas encore géré)
-  const jouables = questionsDispo.filter(estJouable)
-  const nbDispo = jouables.length
+  // Emploi choisi (null tant qu'il n'est pas connu), lu sur l'appareil
+  const emploiEnregistre = lireEmploi()
+  let emploi = $state(emploiEnregistre)
+
+  // Questions réellement jouables (le type « ordre » n'est pas encore géré),
+  // limitées à l'emploi choisi
+  const jouables = $derived(pourEmploi(questionsDispo.filter(estJouable), emploi))
+  const nbDispo = $derived(jouables.length)
+  const libelleEmploi = $derived(EMPLOIS.find((e) => e.id === emploi)?.libelle)
 
   // Progression locale : une fiche par question (Map id -> fiche), lue au démarrage.
   // $state.raw : nous remplaçons toute la Map à chaque réponse.
@@ -25,7 +33,17 @@
   })
   const stats = $derived(statistiques(jouables, fiches, new Date()))
 
-  let ecran = $state('accueil') // 'accueil' | 'question' | 'fin'
+  // Premier lancement : sans emploi enregistré, nous demandons d'abord l'emploi
+  let ecran = $state(emploiEnregistre ? 'accueil' : 'emploi') // 'emploi' | 'accueil' | 'question' | 'fin'
+  let premierLancement = $state(!emploiEnregistre)
+  let themeCourant = $state(null) // null = mode aléatoire
+  let titreEmploiEl = $state()
+  // Remise à zéro de la progression
+  let confirmationOuverte = $state(false)
+  let erreurRaz = $state(false)
+  let encartRazEl = $state()
+  let boutonRazEl = $state()
+  let changerEl = $state() // bouton « changer » : reçoit le focus après le choix
   let session = $state([])
   let index = $state(0)
   let choisis = $state([]) // index des propositions cochées
@@ -44,13 +62,58 @@
     getEl()?.focus()
   }
 
+  // Focus sur le titre à chaque ouverture de l'écran emploi (y compris au premier lancement)
+  $effect(() => {
+    if (ecran === 'emploi') focaliser(() => titreEmploiEl)
+  })
+
   const question = $derived(session[index])
   const multiple = $derived(question ? question.bonnes_reponses.length > 1 : false)
   const reussie = $derived(question ? estCorrecte(question, choisis) : false)
 
-  async function commencer() {
+  function ouvrirRaz() {
+    erreurRaz = false
+    confirmationOuverte = true
+    focaliser(() => encartRazEl)
+  }
+
+  function annulerRaz() {
+    confirmationOuverte = false
+    focaliser(() => boutonRazEl)
+  }
+
+  // Efface toutes les fiches (l'emploi choisi est conservé)
+  async function remettreAZero() {
+    try {
+      await chargement
+      await stockage?.toutEffacer()
+      fiches = new Map()
+      confirmationOuverte = false
+      focaliser(() => boutonRazEl)
+    } catch {
+      erreurRaz = true
+    }
+  }
+
+  // Choix de l'emploi : enregistré sur l'appareil (sinon gardé en mémoire)
+  function choisirEmploi(id) {
+    emploi = id
+    ecrireEmploi(id)
+    premierLancement = false
+    ecran = 'accueil'
+    focaliser(() => changerEl)
+  }
+
+  function changerEmploi() {
+    ecran = 'emploi'
+  }
+
+  // theme null : aléatoire sur tous les thèmes
+  async function commencer(theme = null) {
     await chargement
-    session = tirerSessionRevision(jouables, fiches, new Date())
+    themeCourant = theme
+    // Propositions mélangées à la mise en place de la session (une seule fois par question)
+    session = tirerSessionRevision(pourTheme(jouables, theme), fiches, new Date()).map((q) => melangerPropositions(q))
     index = 0
     score = 0
     preparerQuestion()
@@ -114,11 +177,32 @@
 <main>
   <h1>MemOPS</h1>
 
-  {#if ecran === 'accueil'}
+  {#if ecran === 'emploi'}
+    {#if premierLancement}<p class="avertissement" role="note">{AVERTISSEMENT}</p>{/if}
+    <h2 tabindex="-1" bind:this={titreEmploiEl}>Quel est mon emploi ?</h2>
+    {#each EMPLOIS as e (e.id)}
+      <button
+        class="gros secondaire"
+        class:choisi={e.id === emploi}
+        aria-pressed={e.id === emploi}
+        onclick={() => choisirEmploi(e.id)}
+      >
+        {#if e.id === emploi}<span aria-hidden="true">✓ </span>{/if}{e.libelle}
+      </button>
+    {/each}
+    <p class="note-emploi">Vous recevrez aussi les questions des emplois précédents.</p>
+    {#if emploi && !premierLancement}
+      <button class="lien" onclick={() => { ecran = 'accueil'; focaliser(() => changerEl) }}>Retour</button>
+    {/if}
+  {:else if ecran === 'accueil'}
     <p class="avertissement" role="note">{AVERTISSEMENT}</p>
+    <p class="emploi">
+      Mon emploi : <strong>{libelleEmploi}</strong>
+      <button class="lien" bind:this={changerEl} onclick={changerEmploi}>changer</button>
+    </p>
     {#if nbDispo > 0}
       <p class="compteur">{nbDispo} question{nbDispo > 1 ? 's' : ''} disponible{nbDispo > 1 ? 's' : ''}</p>
-      <button class="gros principal" onclick={commencer}>Commencer</button>
+      <button class="gros principal" onclick={() => commencer()}>Commencer</button>
 
       <section class="progression-bloc" aria-labelledby="titre-progression">
         <h2 id="titre-progression">Ma progression</h2>
@@ -133,9 +217,22 @@
               <span class="theme-detail">
                 {#if t.taux === null}Pas encore de réponse{:else}{t.taux} % sur {t.reponses} réponse{t.reponses > 1 ? 's' : ''}{/if}
               </span>
+              <button class="gros secondaire reviser" onclick={() => commencer(t.theme)}>
+                Réviser ce thème
+              </button>
             </li>
           {/each}
         </ul>
+        {#if confirmationOuverte}
+          <div class="encart-raz" role="alertdialog" aria-labelledby="titre-raz" tabindex="-1" bind:this={encartRazEl}>
+            <p id="titre-raz">Effacer toute ma progression ? Cette action est définitive.</p>
+            {#if erreurRaz}<p class="erreur" role="alert">L'effacement a échoué. Veuillez réessayer.</p>{/if}
+            <button class="gros principal" onclick={remettreAZero}>Oui, tout effacer</button>
+            <button class="gros secondaire" onclick={annulerRaz}>Annuler</button>
+          </div>
+        {:else}
+          <button class="lien" bind:this={boutonRazEl} onclick={ouvrirRaz}>Remettre ma progression à zéro</button>
+        {/if}
       </section>
     {:else}
       <p class="vide">
@@ -144,7 +241,11 @@
       </p>
     {/if}
   {:else if ecran === 'question'}
-    <p class="progression">{index + 1} / {session.length}</p>
+    <div class="entete-question">
+      <!-- Les réponses déjà données sont enregistrées : quitter ne perd rien -->
+      <button class="lien" onclick={() => { ecran = 'accueil'; focaliser(() => changerEl) }}>✕ Quitter</button>
+      <p class="progression">{index + 1} / {session.length}</p>
+    </div>
     {#if modeDev && question.statut === 'a_verifier'}
       <p class="bandeau-dev">Question en attente de relecture</p>
     {/if}
@@ -205,7 +306,7 @@
         reviendr{score > 1 ? 'ont' : 'a'} dans quelques jours.
       {/if}
     </p>
-    <button class="gros principal" onclick={commencer}>Nouvelle session</button>
+    <button class="gros principal" onclick={() => commencer(themeCourant)}>Nouvelle session</button>
     <button class="gros secondaire" onclick={() => (ecran = 'accueil')}>Retour à l'accueil</button>
   {/if}
 
@@ -243,6 +344,36 @@
     border-radius: 8px;
     padding: 1rem;
     line-height: 1.4;
+  }
+  .emploi {
+    text-align: center;
+  }
+  .encart-raz {
+    background: #fff4e0;
+    border-left: 6px solid #d62828;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+  }
+  .encart-raz:focus {
+    outline: none;
+  }
+  .erreur {
+    color: #b3261e;
+    font-weight: bold;
+  }
+  .note-emploi {
+    text-align: center;
+  }
+  /* Après .secondaire dans la feuille : le sélecteur doublé est nécessaire */
+  .secondaire.choisi {
+    background: #ffe3e3;
+    border-width: 6px;
+  }
+  .gros.reviser {
+    min-height: 48px;
+    margin: 0.4rem 0 0;
+    font-size: 0.95rem;
   }
   .compteur,
   .vide,
@@ -299,6 +430,15 @@
   .theme-detail {
     font-size: 0.9rem;
     color: #444;
+  }
+  .entete-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .entete-question .lien {
+    padding-left: 0;
+    min-height: 44px; /* assez grand pour le pouce */
   }
   .progression {
     text-align: right;

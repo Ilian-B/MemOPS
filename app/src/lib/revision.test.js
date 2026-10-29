@@ -59,15 +59,30 @@ describe('échéances FSRS d\'une carte neuve', () => {
 })
 
 describe('tirerSessionRevision', () => {
-  it('ordonne : dues (plus en retard d\'abord), neuves, puis les autres par échéance', () => {
+  it('sélectionne par priorité : dues, puis neuves, puis autres', () => {
     const qs = [q('futur2'), q('futur1'), q('neuve'), q('due1'), q('due2')]
     const f = fiches(fiche('futur2', 2 * JOUR), fiche('futur1', JOUR), fiche('due1', -MIN), fiche('due2', -JOUR))
+    const ids = (n) => tirerSessionRevision(qs, f, T0, () => 0, n).map((x) => x.id).sort()
+    expect(ids(2)).toEqual(['due1', 'due2'])
+    expect(ids(3)).toEqual(['due1', 'due2', 'neuve'])
+    expect(ids(4)).toHaveLength(4)
+  })
+  it('mélange l\'ordre des questions retenues', () => {
+    const qs = [q('a'), q('b'), q('c'), q('d')]
+    const f = fiches(fiche('a', -JOUR), fiche('b', -MIN), fiche('c', -2 * MIN), fiche('d', -3 * MIN))
     const ids = tirerSessionRevision(qs, f, T0, () => 0).map((x) => x.id)
-    expect(ids).toEqual(['due2', 'due1', 'neuve', 'futur1', 'futur2'])
+    expect(ids).not.toEqual(['a', 'b', 'c', 'd'])
+    expect([...ids].sort()).toEqual(['a', 'b', 'c', 'd'])
+  })
+  it('choisit les « autres » au hasard, pas toujours les plus proches', () => {
+    const qs = [q('p1'), q('p2'), q('p3')]
+    const f = fiches(fiche('p1', JOUR), fiche('p2', 2 * JOUR), fiche('p3', 3 * JOUR))
+    const pris = (h) => tirerSessionRevision(qs, f, T0, h, 1)[0].id
+    expect(new Set([pris(() => 0), pris(() => 0.99)]).size).toBeGreaterThan(1)
   })
   it('une échéance égale à maintenant compte comme due', () => {
-    const ids = tirerSessionRevision([q('a'), q('b')], fiches(fiche('a', 0)), T0, () => 0).map((x) => x.id)
-    expect(ids).toEqual(['a', 'b'])
+    const ids = tirerSessionRevision([q('a'), q('b')], fiches(fiche('a', 0)), T0, () => 0, 1).map((x) => x.id)
+    expect(ids).toEqual(['a'])
   })
   it('mélange les neuves selon le hasard injecté', () => {
     const qs = [q('a'), q('b'), q('c')]
@@ -82,12 +97,12 @@ describe('tirerSessionRevision', () => {
     expect(s).toHaveLength(10)
     expect(new Set(s.map((x) => x.id)).size).toBe(10)
     expect(s.map((x) => x.id)).not.toContain('o')
-    expect(s[0].id).toBe('q0')
+    expect(s.map((x) => x.id)).toContain('q0') // la due est toujours retenue
   })
   it('complète avec les autres si peu de questions neuves', () => {
     const qs = [q('a'), q('b'), q('c')]
     const s = tirerSessionRevision(qs, fiches(fiche('b', JOUR), fiche('c', 2 * JOUR)), T0)
-    expect(s.map((x) => x.id)).toEqual(['a', 'b', 'c'])
+    expect(s.map((x) => x.id).sort()).toEqual(['a', 'b', 'c'])
   })
 })
 
