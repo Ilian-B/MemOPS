@@ -54,3 +54,35 @@ Relevés lors de la rédaction et de la vérification du premier lot PSE. Chaque
 - p. 222, 07PR06 : « dans la mesure du possible. ; ».
 - p. 239, 07AC08 : parenthèse ouverte non fermée ; note 1 apparemment décalée.
 - p. 243, 07PR08 : « Il ne faut ne pas perdre de temps ».
+
+## GTO Établissements et techniques d'extinction (DGSCGC) – 29 août 2018
+
+Relevés lors de la rédaction et de la vérification des lots incendie 01 et 02.
+
+### Contradictions ou ambiguïtés de fond
+
+| Page | Fiche | Passage (cité tel quel) | Point signalé | Relevé le |
+|---|---|---|---|---|
+| 51, 55 et 56 | ETEX-STR-ETB, ETB-1 | p. 55 : « semi rigide de diamètre de 23 ou 33 mm » / pp. 51 et 56 : diamètre 25 ou 33 | Diamètre des tuyaux de la LDT différent selon les pages. | 2026-10-30 |
+| 53 et 68 | ETEX-STR-ETB, ETB-4 | p. 53 : « pour une prise d'eau située à moins de 20 mètres de l'engin » / p. 68 : « Cette notion ne peut être quantifiée rigoureusement. Elle relève en effet du bon sens » | Distance de proximité chiffrée à un endroit, déclarée non quantifiable à l'autre. | 2026-10-30 |
+| 63 et 64 | ETB-3 | Titre du tableau : « tuyaux de 40 mm de diamètre » / texte (pp. 50 et 63) : diamètre 45 | Diamètre incohérent. | 2026-10-30 |
+| 24 et 26 | ETEX-STR-RES-1 | p. 24 : PI de 150 avec « une partie de leur capot ou coquille peinte en jaune » / p. 26 : « Le jaune symbolise un appareil dont la mise en œuvre nécessite des précautions particulières » | Le jaune a deux significations selon l'appareil. | 2026-10-30 |
+| 86, 87 et 93 | TDE-1, TDE-3 | Impulsions courtes « entre 30 et 60° », impulsions longues « entre 20 et 30 ° env. » (100-300 L/min) ; extinction indirecte : jet diffusé 20-30°, 100-300 L/min | Plages d'angle qui se chevauchent à 30° ; réglage identique pour impulsions longues et extinction indirecte. | 2026-10-30 |
+| 87 et 93 | TDE-1, TDE-3 | p. 87 : jet droit sur les parois pour « prendre de l'énergie aux parois » / TDE-3 : jet diffusé pour le même mécanisme | Choix du jet différent pour un mécanisme comparable. | 2026-10-30 |
+| 90 et 93 | TDE-2, TDE-3 | Extinction indirecte « à privilégier pour […] un foyer masqué » / ricochet pour des surfaces « masquées » | Deux techniques possibles pour un foyer masqué, sans hiérarchie. | 2026-10-30 |
+| 95 et 105 | TDE-4, TDE-8 | Atténuation : « feux proches du Flashover ou du Post-Flashover (pleinement développé) depuis l'extérieur » / combinée : « depuis l'extérieur du bâtiment sur des feux pleinement développés (Post Flashover) » | Choix entre les deux techniques non tranché pour un feu post-flashover. | 2026-10-30 |
+
+### Coquilles et défauts de forme (sans effet sur le sens)
+
+- pp. 13-28 : la fiche DECI (en-tête « ETEX-STR-RES ») et la fiche des points d'eau (en-tête « ETEX-STR-RES-1 ») portent le même pied de page « ETX-STR-RES 1 » (coquille « ETX »).
+- p. 24 : « dix-sept tours Ils sont » (point manquant).
+- p. 53 : « disfonctionnement ».
+- p. 68 : « D'une bouche ou d'un poteau d'incendie) » (parenthèse orpheline).
+- p. 85 : « short puls ou pulsing », « contenu dans la fumée ».
+- p. 87 : « tant que vous le générateur de flamme (le foyer) n'aura pas été traité ».
+- p. 90 : « joue le rôle de d'impacteur du jet étroit », et « la paroi » là où le texte parle du plafond.
+- p. 93 : l'en-tête de la fiche TDE-3 indique « Guide de doctrine – Lutte contre l'incendie ».
+- p. 95 : « sur les toutes les surfaces ».
+- p. 97 : « en attaque direct ».
+- p. 102 : « d ‘importants moyens ».
+- pp. 103-104 : pied de page « ETEX-STR-TDR 7 » au lieu de TDE 7 ; numérotation des illustrations décalée.

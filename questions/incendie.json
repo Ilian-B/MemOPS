@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "etex-0101",
+    "type": "qcm",
+    "enonce": "À titre indicatif, quelle quantité d’eau est prévue pour couvrir un risque courant ordinaire ?",
+    "propositions": [
+      "À partir de 60 m³ utilisables en 1 heure ou instantanément, et jusqu’à 120 m³ utilisables en 2 heures",
+      "Un minimum de 30 m³ utilisables en 1 heure ou instantanément",
+      "À partir de 120 m³ utilisables en 2 heures ou instantanément avec plusieurs sources",
+      "Une valeur unique, identique dans tous les départements"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-RES) donne ces ordres de grandeur : 30 m³ concerne le risque courant faible et 120 m³ avec plusieurs sources le risque courant important. Les valeurs sont indicatives et ajustées dans chaque département.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES",
+      "emplacement": "Fiche ETEX-STR-RES « Principes de la défense extérieure contre l’incendie – DECI », 1.2.1. Risques courants, p. 15",
+      "citation": "Faibles : quantité d’eau et durée adaptée en fonction de la nature du risque à défendre, avec un minimum 30 m³ utilisables en 1 heure ou instantanément ; Ordinaires : à partir de 60 m³ utilisables en 1 heure ou instantanément et jusqu’à 120 m³ utilisables en 2 heures ; Importants : à partir de 120 m³ utilisables en 2 heures ou instantanément avec plusieurs sources, au cas par cas. Les valeurs de ces volumes ou de ces débits sont indicatives, elles sont ajustées dans chaque département."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0102",
+    "type": "qcm",
+    "enonce": "En risque courant important, quelle est généralement la distance entre deux points d’eau incendie ?",
+    "propositions": [
+      "100 m",
+      "200 m",
+      "400 m",
+      "60 m"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-RES) indique qu’en risque courant important, la distance entre deux PEI est généralement de 200 m, car les dévidoirs à main sont armés de 200 m de tuyaux de 70 mm.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES",
+      "emplacement": "Fiche ETEX-STR-RES « Principes de la défense extérieure contre l’incendie – DECI », 3. Les ressources en eau, p. 18",
+      "citation": "En risque courant important, la distance entre deux PEI est généralement de 200 m car nos dévidoirs à main sont armés de 200 m de tuyaux de 70 mm."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0103",
+    "type": "qcm",
+    "enonce": "Quelles caractéristiques doit avoir tout hydrant normalisé, quel que soit son modèle ? (plusieurs réponses)",
+    "propositions": [
+      "Être raccordé à un réseau d’eau sous pression, capable de fournir le débit réglementaire pendant au moins 2 heures",
+      "Fournir une pression minimale de 1 bar et maximale de 16 bars",
+      "Être incongelable : colonne d’arrivée d’eau située à 1 mètre minimum sous terre",
+      "Fournir une pression minimale de 3 bars",
+      "Avoir sa colonne d’arrivée d’eau située à 30 cm sous terre"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche ETEX-STR-RES-1 du GTO Établissements et techniques d’extinction fixe une pression comprise entre 1 et 16 bars, un débit réglementaire tenu au moins 2 heures et une colonne d’arrivée d’eau à 1 mètre minimum sous terre. Un minimum de 3 bars ou une colonne à 30 cm sont donc faux.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES-1",
+      "emplacement": "Fiche ETEX-STR-RES-1 « Les points d’eau incendie », 1. Principes généraux et définition, p. 21",
+      "citation": "Ces appareils hydrauliques sont normalisés. Quel que soit le modèle ou le type d'hydrant celui-ci doit avoir les caractéristiques suivantes : raccordés à un réseau d'eau sous pression, capable de fournir le débit réglementaire pendant au moins 2 heures ; fournir une pression minimale de 1 bar et maximale de 16 bars ; être incongelables : colonne d'arrivée d'eau située à 1 mètre minimum sous terre ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0104",
+    "type": "cas-concret",
+    "enonce": "Un poteau d’incendie délivre, à 60 m³/h, une pression dynamique supérieure à 6 bars. Quelles précautions faut-il prendre pour l’utiliser ? (plusieurs réponses)",
+    "propositions": [
+      "S’assurer du raccordement correct des tuyaux d’alimentation ou de la pièce de jonction",
+      "Ouvrir progressivement l’appareil dans le sens inverse des aiguilles d’une montre",
+      "Limiter la surpression dans la pompe de l’engin incendie",
+      "Ouvrir l’appareil en grand d’un seul coup pour purger la conduite",
+      "Ouvrir l’appareil dans le sens des aiguilles d’une montre"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche ETEX-STR-RES-1 du GTO Établissements et techniques d’extinction cite trois précautions pour les points d’eau à haute pression : vérifier le raccordement, ouvrir progressivement dans le sens inverse des aiguilles d’une montre, limiter la surpression dans la pompe. Une ouverture brutale ou dans l’autre sens les contredit.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES-1",
+      "emplacement": "Fiche ETEX-STR-RES-1 « Les points d’eau incendie », 1. Principes généraux et définition, p. 21",
+      "citation": "Il peut être considéré comme point d’eau incendie haute pression, les points d’eau dont la pression dynamique à 60 m3/h est supérieure à 6 bars. L’utilisation de ces points d’eau incendie nécessite des précautions particulières. Il est nécessaire : de s’assurer du raccordement correct des tuyaux d’alimentation ou de la pièce de jonction ; d’ouvrir progressivement l’appareil dans le sens inverse des aiguilles d’une montre; de limiter la surpression dans la pompe de l’engin incendie."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0105",
+    "type": "qcm",
+    "enonce": "Combien de tours faut-il faire pour ouvrir un poteau d’incendie de 150 mm ?",
+    "propositions": [
+      "Treize tours",
+      "Dix-sept tours",
+      "Vingt tours",
+      "Sept tours"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche ETEX-STR-RES-1 du GTO Établissements et techniques d’extinction indique dix-sept tours pour le PI de 150 mm. Treize tours correspondent aux PI de 80 mm et de 100 mm.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES-1",
+      "emplacement": "Fiche ETEX-STR-RES-1 « Les points d’eau incendie », 3. Poteaux d’incendie, p. 24",
+      "citation": "PI de 150 mm : ayant une colonne montante de 150 mm minimum et sur lesquels on trouve deux sorties de 100 mm et une de 65 mm. Pour les ouvrir, il faut faire dix-sept tours"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0106",
+    "type": "qcm",
+    "enonce": "Un poteau d’incendie est branché sur un réseau d’eau surpressé. À quoi le reconnaissons-nous ?",
+    "propositions": [
+      "Il est entièrement rouge",
+      "Il est jaune sur au moins 50 % de sa surface",
+      "Il est bleu",
+      "Il est jaune sur moins de 10 % de sa surface"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche ETEX-STR-RES-1 du GTO Établissements et techniques d’extinction précise que les PI sur réseau surpressé sont jaunes sur au moins 50 % de leur surface : ils ne sont donc ni entièrement rouges, ni jaunes sur une faible part. Le jaune signale un appareil dont la mise en œuvre exige des précautions particulières.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES-1",
+      "emplacement": "Fiche ETEX-STR-RES-1 « Les points d’eau incendie », 3.2. Poteaux sur canalisation d’eau surpressée, p. 26",
+      "citation": "Les PI branchés sur des réseaux d'eau sur-pressés (surpression permanente ou surpression au moment de l'utilisation) et/ou additives sont de couleur jaune sur au moins 50 % de leur surface. […] Le jaune symbolise un appareil dont la mise en œuvre nécessite des précautions particulières."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0107",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : il existe des bouches d’incendie alimentées par une colonne montante de 80 mm.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "C’est faux. La fiche ETEX-STR-RES-1 du GTO Établissements et techniques d’extinction précise que la colonne montante d’une bouche d’incendie mesure 100 mm minimum et qu’il n’existe pas de bouches de 80 mm.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES-1",
+      "emplacement": "Fiche ETEX-STR-RES-1 « Les points d’eau incendie », 4. Les bouches d'incendie (BI), p. 28",
+      "citation": "Une bouche d’incendie : Est alimentée par une colonne montante de diamètre 100 mm minimum ; Possède un débit de 1 000 litres/minute. Il n'existe pas de bouches de 80 mm ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0108",
+    "type": "cas-concret",
+    "enonce": "Un réservoir d’eau se situe 30 mètres au-dessus d’un hydrant. Quelle pression la différence de niveau donne-t-elle à l’hydrant ?",
+    "propositions": [
+      "0,3 bar",
+      "3 bars",
+      "10 bars",
+      "30 bars"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche ETEX-STR-RES-1 du GTO Établissements et techniques d’extinction donne 1 bar par 10 mètres de dénivelée : 30 m de différence de niveau donnent donc 3 bars.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES-1",
+      "emplacement": "Fiche ETEX-STR-RES-1 « Les points d’eau incendie », 2.2. Principe d’alimentation des hydrants, p. 22",
+      "citation": "Le réservoir situé en partie haute, déverse l'eau dans les conduites d'adductions d'eau. La différence de niveau entre le réservoir et l'hydrant donne une pression de 1 bar par 10 mètres de dénivelée."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0109",
+    "type": "qcm",
+    "enonce": "Une canalisation d’alimentation se rompt. Dans quel type de réseau d’hydrants un secteur complet peut-il être condamné ?",
+    "propositions": [
+      "Dans un réseau maillé",
+      "Dans un réseau étoilé",
+      "Dans aucun : une rupture n’affecte jamais le réseau",
+      "Dans les deux types de réseau, de la même façon"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Selon la fiche ETEX-STR-RES-1 du GTO Établissements et techniques d’extinction, le réseau étoilé n’a qu’un seul sens de circulation et un secteur complet peut être condamné ; le réseau maillé permet la continuité de l’écoulement dans tous les sens.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES-1",
+      "emplacement": "Fiche ETEX-STR-RES-1 « Les points d’eau incendie », 2.3. Les principaux types de réseaux d’hydrants, p. 23",
+      "citation": "Les réseaux étoilés : ce sont des canalisations partant d’un seul réservoir jusqu’en bout de conduite (cul de sac). Ces réseaux n’ont qu’un seul sens de circulation (de l’eau). Lorsqu’il y a un problème sur le réseau (exemple : rupture de canalisation), un secteur complet du réseau peut être condamné. Les réseaux maillés : ils partent de plusieurs conduites et forment un maillage du réseau, permettant la continuité de l’écoulement de l’eau dans tous les sens."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0110",
+    "type": "qcm",
+    "enonce": "Quelle surface minimale doit avoir une aire d’aspiration pour un véhicule poids lourd ?",
+    "propositions": [
+      "4 m x 3 m",
+      "6 m x 3 m",
+      "8 m x 4 m",
+      "3 m x 2 m"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "La fiche ETEX-STR-RES 2 du GTO Établissements et techniques d’extinction fixe 8 m x 4 m au minimum par véhicule poids lourd ; 4 m x 3 m correspond à la motopompe remorquable, et les autres surfaces sont inférieures au minimum.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES 2",
+      "emplacement": "Fiche ETEX-STR-RES-2 « Les points d’aspiration naturels et artificiels », 3.1.1. Aires d’aspiration, p. 33",
+      "citation": "Une aire d’aspiration est constituée d’une surface de 4 m x 3 m par motopompe remorquable au minimum et de 8 m x 4 m par véhicule poids lourd au minimum et doit :"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0111",
+    "type": "qcm",
+    "enonce": "Quelles sont les caractéristiques d’un dispositif fixe d’aspiration ? (plusieurs réponses)",
+    "propositions": [
+      "Un ½ raccord symétrique placé entre 0,5 m et 0,8 m au-dessus de l’aire d’aspiration",
+      "Une crépine sans clapet implantée au moins à 0,5 m du fond",
+      "Une crépine implantée à 0,3 m en dessous du niveau le plus bas du volume disponible",
+      "Une crépine avec clapet",
+      "Un ½ raccord symétrique placé à 2 m au-dessus de l’aire d’aspiration"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche ETEX-STR-RES 2 du GTO Établissements et techniques d’extinction décrit un ½ raccord symétrique entre 0,5 m et 0,8 m au-dessus de l’aire, et une crépine sans clapet à au moins 0,5 m du fond et 0,3 m sous le niveau le plus bas.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES 2",
+      "emplacement": "Fiche ETEX-STR-RES-2 « Les points d’aspiration naturels et artificiels », 3.1.2.2. Aires d'aspiration et dispositifs fixes d'aspiration, p. 35",
+      "citation": "Un dispositif fixe d’aspiration est composé d’au moins : un ½ raccord symétrique placé entre 0,5 m et 0,8 m au-dessus de l’aire d’aspiration ; une canalisation rigide ou semi-rigide ; une crépine sans clapet implantée au moins à 0,5 m du fond et à 0,3 m en dessous du niveau le plus bas du volume disponible."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0112",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : une piscine privée est considérée comme un point d’eau d’incendie.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "C’est faux. La fiche ETEX-STR-RES 2 du GTO Établissements et techniques d’extinction indique que les piscines privées ne sont pas considérées comme des points d’eau d’incendie, même si elles peuvent être utilisées le cas échéant si les conditions le permettent.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-RES 2",
+      "emplacement": "Fiche ETEX-STR-RES-2 « Les points d’aspiration naturels et artificiels », 4.5. Les piscines privées, p. 41",
+      "citation": "Les piscines privées ne peuvent pas garantir les caractéristiques requises notamment en termes de pérennité de la ressource, de pérennité de leur situation juridique (en cas de changement de propriétaire) ou en termes de possibilités d'accès des engins d'incendie. Elles peuvent être utilisées, le cas échéant, si les conditions le permettent, mais ne sont généralement pas identifiées sur les parcellaires. Elles peuvent notamment l’être dans le cadre de l’autoprotection de la propriété. Elles ne sont pas considérées comme des points d'eau d'incendie."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0113",
+    "type": "cas-concret",
+    "enonce": "Dans un établissement, le débit de l’eau est doublé. Que deviennent les pertes de charge ?",
+    "propositions": [
+      "Elles sont multipliées par 2",
+      "Elles sont multipliées par 4",
+      "Elles sont multipliées par 8",
+      "Elles restent inchangées"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-ETB, p. 48) indique que les pertes de charge sont proportionnelles au carré du débit : doubler le débit les multiplie par 4. Elles ne restent donc pas inchangées.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB",
+      "emplacement": "Fiche ETEX-STR-ETB « Les établissements pour les incendies de structures », 1.3 Les pertes de charge, p. 48",
+      "citation": "Les pertes de charge sont liées aux principes suivants : Directement proportionnelles à la longueur de l’établissement ; Directement proportionnelles au carré du débit (ex. si on double le débit, on multiplie par 4 les pertes de charge) ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0114",
+    "type": "qcm",
+    "enonce": "Une pompe est alimentée par un poteau d’incendie. Quelle pression minimale doit-elle recevoir à l’arrivée ?",
+    "propositions": [
+      "0,5 bar",
+      "1 bar",
+      "3 bars",
+      "6 bars"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche ETEX-STR-ETB 4 du GTO Établissements et techniques d’extinction exige une pression à l’arrivée à la pompe d’au minimum 1 bar, ce qui permet de couler en contrant la pression atmosphérique. Les autres valeurs ne sont pas ce minimum.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB 4",
+      "emplacement": "Fiche ETEX-STR-ETB-4 « Alimentation d’un dispositif hydraulique », 3. Connaissances techniques des pompes facilitant le choix de l’établissement, p. 68",
+      "citation": "D’une bouche ou d’un poteau d’incendie) dont la pression à l’arrivée (à la pompe) doit être au minimum de 1 bar (permettant de couler, contrant ainsi la pression atmosphérique). On utilise alors des tuyaux souples."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0115",
+    "type": "qcm",
+    "enonce": "En règle générale, de quoi est composée une ligne d’attaque ?",
+    "propositions": [
+      "D’une lance et de 2 à 3 tuyaux souples de diamètre 45",
+      "D’une lance et de 2 à 3 tuyaux souples de diamètre 70",
+      "D’une lance et de 5 à 6 tuyaux souples de diamètre 45",
+      "D’une lance et d’un seul tuyau de diamètre 110"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-ETB) décrit la ligne d’attaque comme une lance et 2 à 3 tuyaux souples de diamètre 45, alimentée par une prise d’eau.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB",
+      "emplacement": "Fiche ETEX-STR-ETB « Les établissements pour les incendies de structures », 3.3 La ligne d’attaque, p. 50",
+      "citation": "La ligne d’attaque est en règle générale un établissement composée d’une lance et de 2 à 3 tuyaux souples de diamètre 45, alimentée par une prise d’eau."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0116",
+    "type": "qcm",
+    "enonce": "En superstructure, où le moyen hydraulique doit-il être établi avant de pénétrer en zone d’exclusion ?",
+    "propositions": [
+      "Au niveau N-1",
+      "Au niveau N+1",
+      "Directement dans la zone d’exclusion, au plus près du foyer",
+      "À l’extérieur d’un volume de plain-pied"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-ETB) demande d’établir avant de pénétrer en zone d’exclusion : au niveau N-1 en superstructure. L’extérieur d’un volume de plain-pied concerne un autre cas.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB",
+      "emplacement": "Fiche ETEX-STR-ETB « Les établissements pour les incendies de structures », 4.1 Sécurité vis-à-vis du feu, p. 52",
+      "citation": "Le moyen hydraulique devant être prêt à l’utilisation en zone d’exclusion, ils doivent être établis avant d’y pénétrer : à l’extérieur d’un volume de plain-pied ; au niveau N-1 en superstructure ; en dehors de la zone de propagation potentielle en infrastructure."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0117",
+    "type": "qcm",
+    "enonce": "Lors de la phase d’établissement, quels emplacements faut-il éviter ? (plusieurs réponses)",
+    "propositions": [
+      "Devant les ouvrants",
+      "Au droit des façades et sous les toitures touchées par l’incendie",
+      "À l’extérieur d’un volume de plain-pied, avant de pénétrer en zone d’exclusion",
+      "Le long des bords de voie, pour un établissement sur voie publique"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-ETB) demande d’éviter d’établir devant les ouvrants et au droit des façades et sous les toitures touchées. L’extérieur d’un volume de plain-pied est au contraire un emplacement où établir avant de pénétrer, et les établissements sur voie publique suivent le plus possible les bords de voies.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB",
+      "emplacement": "Fiche ETEX-STR-ETB « Les établissements pour les incendies de structures », 4.1 Sécurité vis-à-vis du feu et 4.2 Sécurité vis-à-vis des autres risques, p. 52",
+      "citation": "Il faut ainsi éviter d’établir : devant les ouvrants (angle de diffusion d’un potentiel phénomène à cinétique rapide d’environ 30°) ; au droit des façades et sous les toitures touchées par l’incendie. Le moyen hydraulique devant être prêt à l’utilisation en zone d’exclusion, ils doivent être établis avant d’y pénétrer : à l’extérieur d’un volume de plain-pied ; […] Les établissements sur voie publique : […] suivent le plus possible les bords de voies."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0118",
+    "type": "cas-concret",
+    "enonce": "Un chef d’agrès veut que les binômes établissent à sec et ne pénètrent dans le volume que sur son ordre. À quel moment formule-t-il ces restrictions ?",
+    "propositions": [
+      "Avant l’ordre « établissez »",
+      "Juste après l’ordre « établissez »",
+      "Par radio, une fois les binômes en place",
+      "Il ne les formule pas : les binômes décident eux-mêmes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-ETB) précise que les restrictions à l’engagement, comme l’établissement à sec ou l’engagement sur ordre, doivent être formulées avant l’ordre « établissez ».",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB",
+      "emplacement": "Fiche ETEX-STR-ETB « Les établissements pour les incendies de structures », 6.2 Ordre d’exécution, p. 54",
+      "citation": "Lorsque le chef d’agrès peut donner la totalité des indications nécessaires pour que l’action soit menée dans son intégralité, l’ordre d’exécution de l’établissement se termine par « …établissez » Attention si des restrictions à l’engagement doivent être faites, elles doivent être formulées avant l’ordre « établissez » Il peut en être ainsi d’une indication d’établissement à sec ou d’un engagement sur ordre (pénétration dans un volume après attaque de transition)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0119",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : un binôme d’alimentation (BAL) qui a terminé sa mission d’alimentation ne peut plus être engagé comme binôme d’attaque.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "C’est faux. Le GTO Établissements et techniques d’extinction (fiche ETEX-STR-ETB) indique qu’un BAL peut se voir attribuer une nouvelle mission BAT après sa mission d’alimentation.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB",
+      "emplacement": "Fiche ETEX-STR-ETB « Les établissements pour les incendies de structures », 5.1 Les missions des binômes et du conducteur, p. 53",
+      "citation": "Les binômes d’alimentation (BAL) ont pour vocation première d’alimenter les prises d’eau et/ou l’engin pompe. Un BAL après avoir effectué une mission d’alimentation peut se voir attribuer une nouvelle mission BAT (établissement d’une nouvelle lance ou devenir binôme de sécurité…)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0120",
+    "type": "qcm",
+    "enonce": "Pour établir la lance du dévidoir tournant (LDT), quelle réserve le chef d’équipe fait-il sur l’épaule afin de faciliter la mise en œuvre de l’action ?",
+    "propositions": [
+      "Deux à trois tours",
+      "Six à huit tours",
+      "Un seul tour",
+      "Aucune réserve : le tuyau est tendu"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-ETB 1 du GTO Établissements et techniques d’extinction demande au chef d’équipe de faire une réserve sur l’épaule de deux à trois tours.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB 1",
+      "emplacement": "Fiche ETEX-STR-ETB-1 « Etablissement de la lance en eau du dévidoir tournant (LDT) », 5. Remarques, p. 57",
+      "citation": "afin de faciliter la mise en œuvre de l’action, le chef d’équipe doit faire une réserve sur l’épaule de deux à trois tours ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0121",
+    "type": "qcm",
+    "enonce": "Au-delà de quel pourcentage de ses capacités évite-t-on, en général, de faire travailler une pompe ?",
+    "propositions": [
+      "50 %",
+      "80 %",
+      "90 %",
+      "100 %"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche ETEX-STR-ETB 4 du GTO Établissements et techniques d’extinction indique qu’on évite de faire travailler une pompe à plus de 80 % de ses capacités, pour la préserver et garantir la sécurité des intervenants.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB 4",
+      "emplacement": "Fiche ETEX-STR-ETB-4 « Alimentation d’un dispositif hydraulique », 3. Connaissances techniques des pompes facilitant le choix de l’établissement, p. 68",
+      "citation": "En général, quel que soit le type de pompe, on évite de la faire travailler à plus de 80% de ses capacités, pour la préserver et ainsi garantir son intégrité et donc un maximum de sécurité pour les intervenants (risque de rupture hydraulique)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0122",
+    "type": "cas-concret",
+    "enonce": "Aucun point d’eau n’est proche et une ligne d’alimentation doit être établie sur environ 600 m. Quel diamètre faut-il privilégier ?",
+    "propositions": [
+      "110",
+      "70",
+      "Indifférent : le diamètre n’influe pas sur les pertes de charge"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-ETB 4 du GTO Établissements et techniques d’extinction préfère une ligne de 110 au-delà d’environ 400 m, ce qui correspond à deux dévidoirs de 70 sur un FPT, en termes de pertes de charge notamment.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB 4",
+      "emplacement": "Fiche ETEX-STR-ETB-4 « Alimentation d’un dispositif hydraulique », 7.4. Etablissement d’une ligne d’alimentation à l’aide d’un dévidoir automobile, p. 73",
+      "citation": "Pour l’établissement d’une ligne, on préfèrera l’établissement d’une ligne de 110 au-delà d’environ 400m (correspondant à l’équivalent de deux dévidoirs de 70 sur un FPT), en termes de pertes de charges notamment."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0123",
+    "type": "qcm",
+    "enonce": "Dans une noria d’engins-pompe, que vaut-il mieux faire de l’engin qui alimente le dispositif hydraulique, pour garantir la pérennité de l’eau aux lances en action ?",
+    "propositions": [
+      "Le laisser en place et le remplir avec les norias",
+      "L’envoyer lui-même faire les allers-retours jusqu’au point d’eau",
+      "Le retirer du dispositif dès que les norias arrivent"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-ETB 4 du GTO Établissements et techniques d’extinction précise qu’il est préférable de laisser l’engin alimentant le dispositif en place et de le remplir avec les norias.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB 4",
+      "emplacement": "Fiche ETEX-STR-ETB-4 « Alimentation d’un dispositif hydraulique », 7.2. Alimentation par une noria d’engins-pompe, p. 72",
+      "citation": "Enfin, pour garantir la pérennité de l’eau au niveau des lances en action, il est préférable de laisser l’engin alimentant le dispositif en place et de le remplir avec les norias."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0124",
+    "type": "cas-concret",
+    "enonce": "Un tuyau de la ligne d’attaque est percé en cours d’action. Qui commande la fermeture de l’arrivée d’eau ?",
+    "propositions": [
+      "Le chef d’équipe du binôme d’attaque",
+      "Le chef d’agrès",
+      "Le conducteur",
+      "L’équipier du binôme d’alimentation"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-ETB 6 du GTO Établissements et techniques d’extinction précise que, dans tous les cas, la fermeture de l’arrivée d’eau est commandée par le chef d’équipe du binôme d’attaque, car la sécurité du binôme est en jeu.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB 6",
+      "emplacement": "Fiche ETEX-STR-ETB-6 « Prolongement d’établissement ou remplacement de tuyau », 3. Principes généraux, p. 77",
+      "citation": "Dans tous les cas, la fermeture de l’arrivée d’eau est commandée par le chef d’équipe du binôme d’attaque. C’est en effet sa sécurité et celle de son équipier qui sont en jeu."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0125",
+    "type": "cas-concret",
+    "enonce": "Un sinistre se situe au-delà du R+4 dans un bâtiment sans colonne sèche ni humide. Quel établissement de la ligne d’attaque est prévu ?",
+    "propositions": [
+      "Une lance sur une division d’attaque, en prolongation d’une division d’alimentation posée au pied du bâtiment",
+      "Une lance sur l’engin",
+      "Une lance sur une division d’alimentation",
+      "Une lance sur une colonne sèche ou humide"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-ETB 3 du GTO Établissements et techniques d’extinction réserve la division d’attaque aux sinistres au-delà du R+4 sans colonne ; la division d’alimentation sert en général jusqu’à R+4 au maximum, la lance sur l’engin aux sinistres de plain-pied ou en étage limité, et la colonne aux bâtiments qui en sont équipés.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-ETB 3",
+      "emplacement": "Fiche ETEX-STR-ETB-3 « Ligne d’attaque sur une prise d’eau », 4. Les différents établissements de la ligne d’attaque, p. 65-66",
+      "citation": "Etablissement d’une lance sur une division d’alimentation Objectif : Etablir une ligne d’attaque à l’aide de tuyaux souples sur une division pour un sinistre situé en étages (en général au maximum au R+4) par un établissement oblique (par les escaliers). […] Etablissement d’une lance sur une division d’attaque Objectif : Etablir une ligne d’attaque à l’aide de tuyaux souples sur une division en prolongation d’une division d’alimentation, posée au pied d’un bâtiment pour un sinistre situé au-delà du R+4 (en absence de colonne sèche ou humide)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0201",
+    "type": "qcm",
+    "enonce": "Quel est le principe du refroidissement de fumée (gas cooling) appliqué par un binôme engagé dans des locaux enfumés ?",
+    "propositions": [
+      "Utiliser l’énergie thermique contenue dans la fumée pour convertir l’eau en vapeur et ainsi la refroidir",
+      "Utiliser l’énergie thermique emmagasinée par les parois du local pour produire de la vapeur d’eau",
+      "Placer l’eau directement sur les surfaces combustibles pour les refroidir",
+      "Déplacer la lance en T, Z, O ou 8 depuis l’extérieur pour arroser tout le volume sinistré"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-1 définit l’objectif des applications d’eau : utiliser l’énergie thermique de la fumée pour convertir l’eau en vapeur. Utiliser l’énergie des parois relève de l’extinction indirecte (TDE-3), placer l’eau sur les combustibles de l’extinction directe (TDE-2) et les mouvements en T, Z, O, 8 depuis l’extérieur de l’extinction combinée (TDE-4).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 1",
+      "emplacement": "Fiche ETEX-STR-TDE-1 « Refroidissement des fumées (Gas cooling) », 1. Objectif, p. 85",
+      "citation": "L’objectif des applications d’eau à produire est d’utiliser l’énergie thermique contenu dans la fumée pour convertir l’eau en vapeur et ainsi la refroidir."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0202",
+    "type": "qcm",
+    "enonce": "Pour une impulsion courte lors du refroidissement des fumées, quelle durée d’ouverture du robinet de lance faut-il cibler ?",
+    "propositions": [
+      "Une demi-seconde au plus",
+      "2 à 5 secondes environ",
+      "5 à 6 secondes",
+      "10 secondes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-1 demande une ouverture / fermeture la plus rapide possible, en ciblant une demi-seconde au plus. Les 2 à 5 secondes correspondent aux impulsions longues (même fiche) et les 5 à 6 secondes à l’extinction combinée (TDE-4).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 1",
+      "emplacement": "Fiche ETEX-STR-TDE-1 « Refroidissement des fumées (Gas cooling) », 2. Méthodes, p. 85",
+      "citation": "Les impulsions courtes (short puls ou pulsing) : qui s’obtiennent par une manœuvre du robinet de lance en ouverture / fermeture la plus rapide possible (cibler une demi seconde au plus) devant soi, dans un environnement de proximité."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0203",
+    "type": "qcm",
+    "enonce": "Quels sont les repères de réglage d’une lance à eau à main pour réaliser des impulsions courtes ?",
+    "propositions": [
+      "Débit de 100 jusqu’à 250 L/min environ, angle de diffusion entre 30 et 60°",
+      "Débit entre 100 et 300 L/min, angle de diffusion entre 20 et 30° environ",
+      "Débit de 100 jusqu’à 250 L/min environ, angle de diffusion entre 20 et 30°",
+      "Jet droit, débit de 250 L/min au minimum"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-1 donne pour les impulsions courtes 100 jusqu’à 250 L/min avec un angle entre 30 et 60°. Le débit de 100 à 300 L/min avec un angle de 20 à 30° est le repère des impulsions longues. Le jet droit à 250 L/min minimum décrit l’attaque d’atténuation (TDE-8).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 1",
+      "emplacement": "Fiche ETEX-STR-TDE-1 « Refroidissement des fumées (Gas cooling) », 2. Méthodes, p. 86",
+      "citation": "Repère de réglage d’une lance à eau à main : débit 100 jusqu’à 250 L/Min env. avec un angle de distribution (ou diffusion) entre 30 et 60°."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0204",
+    "type": "cas-concret",
+    "enonce": "Un binôme refroidit les fumées en progressant dans un entrepôt enfumé et arrive devant une porte à franchir. Quelle technique d’application d’eau doit-il privilégier pour sécuriser l’ambiance derrière la porte ?",
+    "propositions": [
+      "Des impulsions longues",
+      "Des impulsions courtes",
+      "Aucune application d’eau avant d’avoir franchi la porte",
+      "Une extinction combinée depuis l’extérieur du bâtiment"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-1 réserve les impulsions longues aux structures de type magasins ou entrepôts et les prévoit aussi lors des passages de portes. Les impulsions courtes sont pour les locaux d’habitation, hôtels et bureaux, et l’extinction combinée s’opère depuis l’extérieur (TDE-4).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 1",
+      "emplacement": "Fiche ETEX-STR-TDE-1 « Refroidissement des fumées (Gas cooling) », 2. Méthodes, p. 86",
+      "citation": "Les impulsions longues (long puls) consistent en une ouverture rapide sur l’ouverture du robinet de la lance puis 2 à 5 secondes env., en une fermeture progressive. Cette technique est à privilégier dans des structures type magasins, entrepôts, atriums, garage, etc... Elle sera aussi à appliquer lors des passages de portes pour sécuriser l’ambiance derrière la porte."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0205",
+    "type": "qcm",
+    "enonce": "Le plafond de fumée est bas, l’interface fumée/air très turbulente et la situation proche du flashover, sans que les conditions n’imposent un repli. Quelles actions permettent de sécuriser cette ambiance instable ? (plusieurs réponses)",
+    "propositions": [
+      "Passer en jet droit",
+      "Appliquer l’eau sur les parties hautes des parois latérales et sur le plafond en opérant un balayage assez progressif",
+      "N’ouvrir que partiellement le robinet de lance",
+      "Réaliser des impulsions en jet diffusé large pour refroidir la fumée"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche ETEX-STR-TDE-1 prévoit, près du flashover, un jet droit à 100-300 L/min, un balayage des parties hautes des parois et du plafond, et une ouverture partielle du robinet. Elle déconseille fortement les impulsions, dont l’angle de diffusion risque de brasser les couches de fumée et de provoquer leur mise à feu.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 1",
+      "emplacement": "Fiche ETEX-STR-TDE-1 « Refroidissement des fumées (Gas cooling) », 3. Limite d’utilisation des impulsions, p. 87",
+      "citation": "Dans ce contexte opérationnel il est fortement déconseillé de faire des impulsions pour tenter de refroidir la fumée. […] Passer en jet droit ; débit de 100 à 300 L/Min env ; appliquer l’eau sur les parties hautes des parois latérales et sur le plafond en opérant un balayage (sweep) de droite à gauche (ou de gauche à droite) assez progressivement. La durée de l’application est à adapter au local à traiter. L’effet mécanique de l’eau n’ayant pas d’intérêt, il est nécessaire de n’ouvrir que partiellement le robinet de lance."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0206",
+    "type": "cas-concret",
+    "enonce": "Un binôme progresse dans un local enfumé et observe des rollovers dans la fumée. Que doit-il faire ?",
+    "propositions": [
+      "Se replier",
+      "Poursuivre sa progression en enchaînant des impulsions pour éteindre les flammes",
+      "Évoluer sous les rollovers pour atteindre rapidement le foyer",
+      "Attendre sur place que les flammes disparaissent"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-1 indique qu’il ne faut pas évoluer sous des rollovers, signe d’un flashover imminent, et qu’il faut se replier. Les impulsions sont inadaptées car les rollovers sont des flammes établies qui réapparaissent tant que le foyer n’est pas traité.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 1",
+      "emplacement": "Fiche ETEX-STR-TDE-1 « Refroidissement des fumées (Gas cooling) », 3. Limite d’utilisation des impulsions, p. 87 (texte et encadré)",
+      "citation": "réaliser des impulsions dans des Rollovers est inadapté, car les Rollovers sont des flammes établies. […] N’oubliez pas ! Vous ne devez pas évoluer sous des Rollovers car c’est le signe d’un Flashover imminent. Repliez-vous !!!"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0207",
+    "type": "qcm",
+    "enonce": "Quel est le mode extincteur mis en avant par l’extinction directe ?",
+    "propositions": [
+      "Le refroidissement des surfaces combustibles",
+      "L’inertage",
+      "La dilution",
+      "La surpression"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-2 retient le refroidissement des surfaces combustibles. L’inertage, la dilution et la surpression sont les modes privilégiés de l’extinction indirecte (fiche ETEX-STR-TDE-3).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 2",
+      "emplacement": "Fiche ETEX-STR-TDE-2 « L’extinction directe », 1. Objectifs, p. 89",
+      "citation": "Le mode extincteur mis en avant par cette technique est donc le refroidissement des surfaces combustible."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0208",
+    "type": "qcm",
+    "enonce": "Pour réaliser un badigeonnage (painting) d’une surface en feu située à plusieurs mètres, tout en conservant un plafond de fumée stable, comment doit être le robinet de lance ?",
+    "propositions": [
+      "Ouvert partiellement",
+      "Complètement ouvert",
+      "En ouverture / fermeture la plus rapide possible"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-2 demande d’ouvrir partiellement le robinet pour casser l’effet mécanique du jet droit, afin que l’eau soit « déposée » sur les surfaces. Le robinet complètement ouvert concerne le ricochet (même fiche) et l’ouverture / fermeture la plus rapide les impulsions courtes (TDE-1).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 2",
+      "emplacement": "Fiche ETEX-STR-TDE-2 « L’extinction directe », 2.1. Le badigeonnage (painting), p. 89",
+      "citation": "De façon à casser l’effet mécanique du jet droit, le robinet de lance doit être ouvert partiellement, de façon à ce que l’eau projeté soit « déposée » sur les surfaces."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0209",
+    "type": "qcm",
+    "enonce": "Lors d’une application par ricochet à l’intérieur d’un local, quels principes de mise en œuvre faut-il respecter ? (plusieurs réponses)",
+    "propositions": [
+      "Veiller à limiter les dégâts d’eaux dans la mesure du possible",
+      "Veiller à ne pas mettre en suspension des braises pouvant mettre à feu la fumée présente dans le local",
+      "Limiter les temps d’application de façon à contrôler l’efficacité de l’action",
+      "Si l’application n’est pas efficace, insister sur le même point d’attaque",
+      "Prolonger l’application le plus longtemps possible pour garantir l’extinction"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche ETEX-STR-TDE-2 liste trois principes : limiter les dégâts d’eaux, ne pas mettre de braises en suspension, limiter les temps d’application. Elle demande aussi de changer de point d’attaque si l’application n’est pas efficace, ce qui contredit les deux dernières propositions.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 2",
+      "emplacement": "Fiche ETEX-STR-TDE-2 « L’extinction directe », 3.1. Le ricochet, p. 91",
+      "citation": "veiller à limiter les dégâts d’eaux dans la mesure du possible. Si l’application n’est pas efficace, changer de point d’attaque afin de pouvoir atteindre l’objectif ; veiller à ne pas mettre en suspension des braises pouvant mettre à feu de la fumée présente dans le local traiter ; limiter les temps d’application de façon à contrôler l’efficacité de l’action."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0210",
+    "type": "qcm",
+    "enonce": "Quel réglage de lance convient à une extinction indirecte ?",
+    "propositions": [
+      "Jet diffusé de 20 à 30° environ, débit modéré (entre 100 et 300 L/min)",
+      "Jet droit, débit de 250 L/min au minimum",
+      "Jet droit, ouvert partiellement, débit de 100 à 300 L/min",
+      "Jet diffusé de 20 à 30° environ, débit élevé de 500 L/min au minimum"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-3 prévoit un jet diffusé de 20 à 30° environ sur la base d’un débit modéré (100 à 300 L/min). Le jet droit à 250 L/min minimum est celui de l’attaque d’atténuation (TDE-8).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 3",
+      "emplacement": "Fiche ETEX-STR-TDE-3 « Les extinctions indirectes », 2. Application, p. 93",
+      "citation": "L’application se fera à partir d’un jet diffusé de 20 à 30° env. sur la base d’un débit modéré (entre 100 et 300 L/min)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0211",
+    "type": "qcm",
+    "enonce": "Lors d’une extinction indirecte, que devient la porte du local après chaque application d’eau ?",
+    "propositions": [
+      "Elle est repoussée afin que la vapeur puisse se répandre dans l’ensemble du local",
+      "Elle est maintenue grande ouverte pour évacuer la vapeur",
+      "Elle est ouverte en grand pour passer immédiatement en attaque directe"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-3 indique que la méthode s’utilise sur des locaux dont la porte peut être refermée et que, après chaque application, la porte est repoussée pour que la vapeur se répande dans l’ensemble du local.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 3",
+      "emplacement": "Fiche ETEX-STR-TDE-3 « Les extinctions indirectes », 2. Application, p. 93",
+      "citation": "Cette méthode est à utiliser sur des locaux dont il est possible de refermer la porte. Après chaque application, la porte sera repoussée afin que la vapeur puisse se répandre dans l’ensemble du local."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0212",
+    "type": "qcm",
+    "enonce": "Quelles sont les conditions d’emploi de l’extinction combinée (ou massive) ? (plusieurs réponses)",
+    "propositions": [
+      "Elle s’opère depuis l’extérieur du bâtiment",
+      "Elle s’applique sur des feux pleinement développés (post flashover)",
+      "Elle recherche un geste « posé », qui peut durer jusqu’à 5 à 6 secondes",
+      "Elle s’opère depuis l’intérieur du local, en progressant avec le binôme",
+      "Elle recherche un geste le plus rapide possible"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche ETEX-STR-TDE-4 précise que ces techniques s’opèrent depuis l’extérieur du bâtiment sur des feux pleinement développés, avec un geste « posé » pouvant durer jusqu’à 5 à 6 secondes. Elle indique que l’objectif n’est pas de faire un geste rapide.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 4",
+      "emplacement": "Fiche ETEX-STR-TDE-4 « Extinction combinée / massive », 2. Application, p. 95",
+      "citation": "Ces techniques de lance s’opèrent depuis l’extérieur du bâtiment sur des feux pleinement développés (Post Flashover). […] Ces applications peuvent être réalisées sur des temps adaptés à la situation jusqu’à 5 à 6 secondes. L’objectif n’est pas de faire un geste rapide, mais un geste « posé », permettant de bien projeter de l’eau sur les toutes les surfaces"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0213",
+    "type": "vrai-faux",
+    "enonce": "L’extinction combinée ne présente aucun risque de propagation de l’incendie à un volume adjacent.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche ETEX-STR-TDE-4 avertit que cette technique peut entraîner une propagation de l’incendie à un autre volume adjacent, en présence d’un ouvrant entre les deux volumes.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 4",
+      "emplacement": "Fiche ETEX-STR-TDE-4 « Extinction combinée / massive », encadré d’avertissement, p. 96",
+      "citation": "Cette technique peut entrainer une propagation de l’incendie à un autre volume adjacent, en présence d’un ouvrant entre les deux volumes."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0214",
+    "type": "cas-concret",
+    "enonce": "Dans un local fermé, un foyer a vu sa période de croissance s’arrêter par manque d’oxygène : une situation pré-backdraft est suspectée. Parmi les approches possibles, laquelle n’est à envisager qu’en dernier recours, si les conditions le permettent ?",
+    "propositions": [
+      "La ventilation du local pour déclencher la mise à feu",
+      "Une extinction indirecte depuis la porte du local",
+      "Un inertage depuis l’extérieur par percement / trouée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-5 cite trois approches ; seule la ventilation du local pour déclencher la mise à feu est qualifiée de dernier recours, à mettre en œuvre si les conditions le permettent. L’extinction indirecte et l’inertage par percement sont présentés comme des approches ordinaires.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 5",
+      "emplacement": "Fiche ETEX-STR-TDE-5 « Situation pré-backdraft », 1. Principe, p. 97",
+      "citation": "Plusieurs approches opérationnelles sont possibles : une extinction indirecte depuis la porte du local ; un inertage depuis l’extérieur par percement / trouée ; dans certains cas, une approche peut être mise en œuvre en dernier recours et si les conditions le permettent : la ventilation du local pour déclencher la mise à feu."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0215",
+    "type": "qcm",
+    "enonce": "Lors d’une extinction indirecte depuis la porte d’un local en situation pré-backdraft, comment la porte est-elle manœuvrée après l’application d’eau en jet 30° visant le plafond ?",
+    "propositions": [
+      "Elle est refermée partiellement (1 cm environ) pour voir si de la vapeur s’échappe",
+      "Elle est refermée complètement et laissée ainsi pour attendre l’effet de la vapeur",
+      "Elle est ouverte en grand pour ventiler le local",
+      "Elle est laissée entre-ouverte pour poursuivre aussitôt l’application"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-5 prévoit de refermer partiellement la porte en laissant environ 1 cm, afin d’observer si de la vapeur s’échappe. La sortie ou non de vapeur « sous pression » précise le niveau de l’ambiance thermique.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 5",
+      "emplacement": "Fiche ETEX-STR-TDE-5 « Situation pré-backdraft », 2. Extinction indirecte, p. 97",
+      "citation": "La porte doit être entre-ouverte de façon à pouvoir faire une application en jet 30° sur 1 à 2 secondes (plus si le local est grand/haut) en visant le plafond du local. La porte est alors refermée partiellement (laisser 1 cm env.) de façon à voir si de la vapeur s’échappe."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0216",
+    "type": "qcm",
+    "enonce": "Lors d’une extinction indirecte depuis la porte en situation pré-backdraft, à quel moment le binôme peut-il pénétrer dans le local pour traiter le foyer en attaque directe ?",
+    "propositions": [
+      "Lorsque les indicateurs montrent que l’ambiance est contrôlée (sortie de vapeur sans surpression remarquable)",
+      "Dès la première application d’eau, sans observer la vapeur",
+      "Tant que de la vapeur sous pression s’échappe de la porte"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-5 demande de reproduire l’application d’eau jusqu’à ce que l’ambiance soit contrôlée, avec une sortie de vapeur sans surpression remarquable, puis de pénétrer pour traiter le foyer en attaque directe.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 5",
+      "emplacement": "Fiche ETEX-STR-TDE-5 « Situation pré-backdraft », 2. Extinction indirecte, p. 97",
+      "citation": "Reproduire l’application d’eau jusqu’à ce que les indicateurs indiquent que l’ambiance dans le local est contrôlée (sortie de vapeur sans surpression remarquable). Pénétrer dans le local pour traiter le foyer en attaque direct."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0217",
+    "type": "qcm",
+    "enonce": "Lorsque le binôme d’attaque progresse en refroidissant les fumées, quels sont les deux principaux indicateurs de la dangerosité de la situation ? (plusieurs réponses)",
+    "propositions": [
+      "L’apparition dans la fumée de flammes isolées, discontinues et sans lien avec le foyer principal (anges danseurs)",
+      "La chaleur ressentie",
+      "La disparition des anges danseurs",
+      "L’amélioration des contraintes thermiques ressenties"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche ETEX-STR-TDE-6 retient les anges danseurs et la chaleur ressentie comme indicateurs de dangerosité. La disparition des anges danseurs et l’amélioration des contraintes thermiques mesurent au contraire l’efficacité de l’action avec la lance.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 6",
+      "emplacement": "Fiche ETEX-STR-TDE-6 « Le repli sous protection hydraulique », 2.1. Repli sous refroidissement des fumées, p. 101",
+      "citation": "Les deux principaux indicateurs relatifs à la dangerosité de la situation sont : L’apparition au sein de la fumée de flammes isolées, discontinues et sans lien avec le foyer principal (anges danseurs). […] La chaleur ressentie. […] Quant à l’efficacité de l’action avec la lance, elle s’apprécie par la disparition des anges danseurs et/ou une amélioration des contraintes thermiques ressentis."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0218",
+    "type": "cas-concret",
+    "enonce": "Un binôme progresse en milieu enfumé en refroidissant régulièrement les fumées, mais la chaleur ressentie persiste malgré l’action de lance. Que doit-il faire ?",
+    "propositions": [
+      "Se replier pour modifier la méthode et les moyens mis en œuvre",
+      "Poursuivre l’application sans changer de méthode, jusqu’à ce que la chaleur baisse",
+      "Avancer jusqu’au foyer pour l’attaquer directement",
+      "Rester en place en multipliant les impulsions courtes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-6 explique que la persistance de la chaleur ressentie malgré l’action de lance montre que l’équipe n’est pas en mesure de prendre le dessus sur le feu : elle doit se replier pour modifier la méthode et les moyens.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 6",
+      "emplacement": "Fiche ETEX-STR-TDE-6 « Le repli sous protection hydraulique », 2.1. Repli sous refroidissement des fumées, p. 101",
+      "citation": "La persistance de la chaleur ressentie malgré l’action de lance est donc le signe que l’équipe n’est pas en mesure de prendre le dessus sur le feu. Elle doit alors se replier pour modifier la méthode et les moyens mis en œuvre."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0219",
+    "type": "qcm",
+    "enonce": "À propos du repli sous écran d’eau, quelles affirmations sont exactes ? (plusieurs réponses)",
+    "propositions": [
+      "Il vise à créer une « bulle » de fraîcheur relative avec plusieurs lances pour permettre un sauvetage rapide",
+      "C’est une manœuvre à haut risque : à 100°C, la vapeur d’eau peut générer d’importantes brûlures",
+      "Il nécessite d’importants moyens en eau, rarement immédiatement disponibles au moment de l’accident",
+      "Il est réalisé dans l’intention de lutter contre le feu",
+      "À 100°C, la vapeur d’eau ne présente plus de danger pour les intervenants"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche ETEX-STR-TDE-6 décrit un corridor hydraulique, sans intention de lutter contre le feu, pour créer une bulle de fraîcheur relative. Elle qualifie la manœuvre de haut risque : la vapeur à 100°C peut générer d’importantes brûlures et les moyens en eau nécessaires sont rarement disponibles immédiatement.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 6",
+      "emplacement": "Fiche ETEX-STR-TDE-6 « Le repli sous protection hydraulique », 2.2. Repli sous écran d’eau, p. 102",
+      "citation": "Ainsi sans intention de lutter contre le feu l’objectif est de créer une « bulle » de fraîcheur relative avec plusieurs lances pour permettre un sauvetage rapide. […] Cette manœuvre est une manœuvre à haut risque. En effet même si une pulvérisation abondante peut permettre d’abaisser la température à 100°C, à cette température la vapeur d’eau peut générer d’importantes brûlures. De plus cette manœuvre nécessite d ‘importants moyens en eau rarement immédiatement disponibles au moment de l’accident."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0220",
+    "type": "qcm",
+    "enonce": "Quels sont les effets du vent sur la pression exercée sur un bâtiment lors d’un feu de structure ?",
+    "propositions": [
+      "Une surpression sur la façade exposée et une dépression sur les faces non exposées",
+      "Une dépression sur la façade exposée et une surpression sur les faces non exposées",
+      "Une surpression sur toutes les faces du bâtiment",
+      "Aucun effet sur les feux de structure : le vent ne concerne que les feux d’espaces naturels"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-7 décrit une surpression sur la façade exposée et une dépression sur les faces non exposées, d’où une circulation d’air dans le bâtiment. Elle rappelle que la gestion du vent, bien intégrée sur les feux d’espaces naturels, est moins évidente en feu de structure alors qu’elle est à l’origine de nombreux accidents graves.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 7 (pied de page imprimé « ETEX-STR-TDR 7 »)",
+      "emplacement": "Fiche ETEX-STR-TDE-7 « Feu soumis aux effets du vent et effet chalumeau », 2. Principe opérationnel, p. 103",
+      "citation": "Le vent crée une surpression sur la façade exposée et une dépression sur les faces non exposées."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0221",
+    "type": "qcm",
+    "enonce": "Un feu de structure est soumis aux effets du vent. Comment l’équipe doit-elle se positionner pour attaquer le feu ?",
+    "propositions": [
+      "Avec le vent dans le dos",
+      "Avec le vent de face",
+      "Dans le flux d’air généré entre l’ouvrant exposé et le foyer"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-7 demande d’attaquer le feu avec le vent dans le dos et d’éviter au maximum de se trouver exposé au flux généré.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 7 (pied de page imprimé « ETEX-STR-TDR 7 »)",
+      "emplacement": "Fiche ETEX-STR-TDE-7 « Feu soumis aux effets du vent et effet chalumeau », 2. Principe opérationnel, p. 103",
+      "citation": "Il convient donc de : lire le cheminement probable de l’air et par conséquent des fumées ; gérer au mieux les ouvrants pour canaliser le flux ; éviter au maximum de se trouver exposé au flux généré ; attaquer le feu avec le vent dans le dos."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0222",
+    "type": "qcm",
+    "enonce": "Pour une attaque d’atténuation menée depuis l’extérieur, comment la lance doit-elle être réglée et dirigée ?",
+    "propositions": [
+      "En jet droit, le flux d’eau étant projeté à travers une ouverture en visant le plafond",
+      "En jet diffusé large, pour couvrir toute la pièce",
+      "En jet diffusé de protection, pour former un écran hydraulique",
+      "En jet droit, visant directement le foyer au sol"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-8 impose le jet droit, projeté à travers une ouverture en visant le plafond ; c’est l’impact sur le plafond qui disperse l’eau sur les surfaces combustibles. Elle précise qu’une lance en jet diffusé n’aura aucun effet.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 8",
+      "emplacement": "Fiche ETEX-STR-TDE-8 « Attaque d’atténuation », 2. Application, p. 105 et encadré p. 106",
+      "citation": "La lance doit être réglée en jet droit de façon à ne pas perturber l’aéraulique de la pièce. Le flux d’eau doit être projeté à travers une ouverture en visant le plafond. […] Attention !!! L’utilisation d’une lance en jet diffusé pour cette technique d’application d’eau n’aura aucun effet."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0223",
+    "type": "vrai-faux",
+    "enonce": "L’attaque d’atténuation a pour objectif d’éteindre l’incendie dès l’arrivée des premiers engins.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche ETEX-STR-TDE-8 précise que cette méthode n’a pas pour objectif d’éteindre l’incendie mais de stopper très rapidement le développement du sinistre une fois les premiers engins sur les lieux.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 8",
+      "emplacement": "Fiche ETEX-STR-TDE-8 « Attaque d’atténuation », 1. Objectif, p. 105",
+      "citation": "cette méthode tactique n’a pas pour objectif d’éteindre l’incendie, mais de stopper dans sa courbe de progression très rapidement le développement du sinistre, une fois les premiers engins incendie sur les lieux d’une intervention."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0224",
+    "type": "qcm",
+    "enonce": "Quel est le débit minimal à retenir pour une attaque d’atténuation ?",
+    "propositions": [
+      "250 L/min",
+      "100 L/min",
+      "150 L/min",
+      "200 L/min"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-8 indique que 250 L/min est un minimum, qui doit en outre permettre d’impacter le plafond. Les autres valeurs lui sont inférieures.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 8",
+      "emplacement": "Fiche ETEX-STR-TDE-8 « Attaque d’atténuation », 3. Quelques repères, p. 106",
+      "citation": "Débit à adapter à la situation, toutefois, 250 L/min est un minimum et il doit permettre d’impacter le plafond."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0225",
+    "type": "cas-concret",
+    "enonce": "À l’arrivée des premiers engins, un feu proche du flashover est piloté par le vent ; l’ouvrant est à portée de lance. Quelle technique le chef d’agrès doit-il privilégier avant d’initier une attaque par l’intérieur ?",
+    "propositions": [
+      "L’attaque d’atténuation, menée depuis l’extérieur",
+      "Le refroidissement des fumées par impulsions, depuis l’intérieur",
+      "Aucune application d’eau avant d’avoir ventilé tout le volume"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE-8 précise que l’attaque d’atténuation est à privilégier sur les feux pilotés par le vent avant d’initier une attaque par l’intérieur, dès que cela est possible (portée de lance suffisante, absence de balcon).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE 8",
+      "emplacement": "Fiche ETEX-STR-TDE-8 « Attaque d’atténuation », 2. Application, p. 105",
+      "citation": "Ce type d’attaque peut être mis à œuvre dès que cela est possible (absence de balcon notamment, portée de lance suffisante…) mais elle est à privilégier sur les feux pilotés par le vent (Cf. fiche ETEX-STR-TDE-7) avant d’initier une attaque par l’intérieur."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0226",
+    "type": "cas-concret",
+    "enonce": "Un binôme est directement menacé par un phénomène thermique et le repli n’est plus possible. Que doit-il faire ?",
+    "propositions": [
+      "Se jeter au sol face contre terre, binôme regroupé, et maintenir la lance au-dessus des casques en jet de diffusion de protection au débit maximum",
+      "Rester debout, dos au phénomène, lance fermée",
+      "Se jeter au sol et diriger la lance en jet droit vers le foyer",
+      "Se jeter au sol, lance au-dessus des casques en jet de diffusion de protection au débit minimum"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE (section 4) prévoit, quand le repli n’est plus possible, de se jeter au sol face contre terre, binôme regroupé, et de maintenir la lance au-dessus des casques en jet de diffusion de protection au débit maximum.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE",
+      "emplacement": "Fiche ETEX-STR-TDE « Les techniques d’extinction », 4. Techniques de protection du binôme, p. 84",
+      "citation": "Dans la mesure où le repli n’est plus possible et que les intervenants sont directement menacés par le phénomène, le binôme doit : se jeter au sol face contre terre, binôme regroupé ; maintenir la lance au-dessus des casques en jet de diffusion de protection au débit maximum."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0227",
+    "type": "qcm",
+    "enonce": "Quel type de jet est préconisé pour protéger le binôme d’un rayonnement important ?",
+    "propositions": [
+      "Le jet diffusé de protection",
+      "Le jet droit",
+      "Le jet purge (grosses gouttes)",
+      "Le jet brisé"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le tableau de la fiche ETEX-STR-TDE réserve le jet diffusé de protection à la protection du binôme, avec formation d’un écran hydraulique. Le jet droit sert à atteindre une cible à distance ou les matériaux fibreux, le jet purge au refroidissement direct des matériaux en feu à faible débit, le jet brisé à envoyer une masse d’eau sur des surfaces combustibles.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE",
+      "emplacement": "Fiche ETEX-STR-TDE « Les techniques d’extinction », 2.2. Tableau de synthèse des différents types de jets, p. 82 (tableau)",
+      "citation": "Jet diffusé de protection : Protection du binôme par rapport à un rayonnement important (foyer, phénomène à cinétique rapide). Ce jet est préconisé dans le but de protéger l’équipe. Formation d’un écran hydraulique qui n’a que très peu d’incidence mécanique sur le volume gazeux."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "etex-0228",
+    "type": "qcm",
+    "enonce": "Pendant une extinction, le porte-lance constate que l’opération prend un temps inhabituel. Que doit-il faire ?",
+    "propositions": [
+      "Faire remonter l’information au chef d’agrès, la méthode pouvant être inappropriée et devant alors être réorientée",
+      "Poursuivre avec la même méthode jusqu’à l’extinction, sans rien signaler",
+      "Attendre la fin de l’extinction pour rendre compte",
+      "Augmenter le débit au-delà de celui commandé"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche ETEX-STR-TDE demande une remontée d’information au chef d’agrès, la méthode pouvant être inappropriée et nécessiter une réorientation. Elle demande aussi au porte-lance de rendre compte régulièrement et d’adapter le jet en respectant le débit commandé (p. 83).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Établissements et techniques d'extinction (DGSCGC)",
+      "version": "GTO du 29 août 2018 – fiche ETEX-STR-TDE",
+      "emplacement": "Fiche ETEX-STR-TDE « Les techniques d’extinction », 3.1. Rôle du chef d’équipe (porte-lance), p. 82",
+      "citation": "Nota : une extinction prenant un temps inhabituel, doit faire l’objet d’une remontée d’information au chef d’agrès. La méthode utilisée peut en effet être inappropriée à la situation et doit alors faire l’objet d’une réorientation."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  }
+]
