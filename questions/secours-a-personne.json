@@ -386,7 +386,7 @@
       1,
       2
     ],
-    "explication": "Les références techniques PSE (fiche 03PR01) demandent d’interrompre l’action si possible, de se faire relayer, de nettoyer à l’eau et au savon puis de réaliser l’asepsie pendant au moins cinq minutes. Elles interdisent de faire saigner la plaie et d’utiliser les produits de friction pour les mains.",
+    "explication": "Les références techniques PSE (fiche 03PR01) demandent d’interrompre l’action si possible, de se faire relayer, de nettoyer à l’eau et au savon puis de réaliser l’asepsie pendant au moins cinq minutes. Elles demandent de ne pas faire saigner la plaie et de ne pas utiliser les produits de friction pour les mains.",
     "source": {
       "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
       "version": "Édition juillet 2026 – fiche 03PR01 / 09-2014",
@@ -503,7 +503,7 @@
       "Ne jamais recapuchonner une aiguille usagée",
       "Ne pas tasser les déchets à l’intérieur de l’emballage à DASRI",
       "Séparer l’aiguille de la seringue avant de les mettre dans le collecteur",
-      "Jeter aux ordures ménagères les compresses fortement imprégnées de sang",
+      "Jeter aux ordures ménagères les compresses fortement imprégnées de sang, avec risque d’écoulement",
       "Remplir l’emballage au-delà de la limite indiquée pour éviter d’en changer"
     ],
     "bonnes_reponses": [
@@ -645,6 +645,34 @@
     "statut": "a_verifier",
     "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
     "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0310",
+    "type": "cas-concret",
+    "enonce": "Une équipe vient de terminer le transport d’une victime qui ne présente aucun risque infectieux particulier connu. Avant de prendre en charge la victime suivante, sans point d’eau à proximité, elle doit remettre en état son véhicule sanitaire. Quel protocole de nettoyage-désinfection applique-t-elle ?",
+    "propositions": [
+      "Le protocole simplifié",
+      "Le protocole quotidien",
+      "Le protocole de désinfection approfondie",
+      "Aucun protocole : le nettoyage n’est prévu qu’à la prise de service"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 03FT07 des références techniques PSE prévoit le protocole simplifié entre chaque victime ou à l’issue de chaque transport ; il ne nécessite aucun point d’eau. Le protocole quotidien précède la prise de service d’une nouvelle équipe ; l’approfondi suit le transport d’une victime à risque infectieux particulier connu ou se fait de manière périodique.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 03FT07 / 09-2014",
+      "emplacement": "Fiche 03FT07 « Nettoyage et désinfection d’un véhicule ou d’un local », pp. 57-58",
+      "citation": "Les opérations de nettoyage – désinfection doivent être réalisées : selon un protocole simplifié entre chaque victime prise en charge ou à l’issue de chaque transport ; selon un protocole quotidien avant la prise de service d’une nouvelle équipe ou avant le début d’une mission de longueur durée ; selon un protocole de désinfection approfondie à l’issue du transport d’une victime à risque infectieux particulier connu (après conseil de l’autorité médicale ou de l’autorité d’emploi) ou de manière périodique à une fréquence recommandée par l’autorité d’emploi. […] Le protocole simplifié d’entretien entre deux victimes peut se réaliser n’importe où, car il ne nécessite aucun point d’eau."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
   },
   {
     "id": "pse-0311",
@@ -1106,6 +1134,32 @@
     "statut": "a_verifier",
     "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
     "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0414",
+    "type": "vrai-faux",
+    "enonce": "Une victime diabétique fait un malaise. Elle porte un dispositif de mesure en continu de sa glycémie : la valeur affichée par ce dispositif dispense de mesurer la glycémie capillaire.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "C’est faux. Le malaise chez un diabétique fait partie des cas où la glycémie est mesurée, et la fiche 04FT13 des références techniques PSE demande de mesurer la glycémie capillaire même si la victime dispose d’un dispositif de mesure en continu.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 04FT13 / 07-2026",
+      "emplacement": "Fiche 04FT13 « Mesure de la glycémie capillaire », Indication et Réalisation, p. 99",
+      "citation": "la mesure de la glycémie est réalisée par les secouristes devant toutes victimes qui présentent : […] un malaise susceptible d’être lié à une hypoglycémie : malaise chez un diabétique, […] Même si la victime dispose d'un dispositif de mesure en continu de la glycémie capillaire il faut mesurer la glycémie capillaire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
   },
   {
     "id": "pse-0415",
@@ -1612,6 +1666,37 @@
     "verifie_le": "2026-10-29"
   },
   {
+    "id": "pse-0515",
+    "type": "qcm",
+    "enonce": "Chez quelles victimes d’une obstruction des voies aériennes, qui ne peuvent plus parler, crier ni tousser, réalise-t-on des compressions thoraciques plutôt qu’abdominales ? (plusieurs réponses)",
+    "propositions": [
+      "Un nourrisson",
+      "Une personne obèse dont il est possible d’encercler l’abdomen",
+      "Une femme enceinte chez qui il est impossible d’encercler l’abdomen",
+      "Un adulte de corpulence normale, debout",
+      "Une personne alitée, difficilement mobilisable"
+    ],
+    "bonnes_reponses": [
+      0,
+      2,
+      4
+    ],
+    "explication": "La fiche 05PR03 des références techniques PSE prévoit les compressions thoraciques pour le nourrisson, pour la personne obèse ou la femme enceinte quand il est impossible d’encercler l’abdomen, et pour la personne alitée ou allongée, difficilement mobilisable. Chez l’adulte, y compris obèse si l’abdomen peut être encerclé, les compressions sont abdominales.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 05PR03 / 07-2026",
+      "emplacement": "Fiche 05PR03 « Obstruction des voies aériennes », p. 129",
+      "citation": "au niveau abdominal s’il s’agit d’un adulte ou d’un enfant, au niveau thoracique s’il s’agit : d’un nourrisson, d’un personne obèse ou d’une femme enceinte, s’il est impossible d’encercler l’abdomen ; d’une personne alitée ou allongée, difficilement mobilisable."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
     "id": "pse-0516",
     "type": "cas-concret",
     "enonce": "Pendant les manœuvres de désobstruction, la victime d’une obstruction des voies aériennes perd connaissance. Que faites-vous ?",
@@ -2093,6 +2178,36 @@
     "verifie_le": "2026-10-29"
   },
   {
+    "id": "pse-0604",
+    "type": "qcm",
+    "enonce": "Pour quelles victimes la position d’attente cuisses fléchies, jambes repliées est-elle indiquée ? (plusieurs réponses)",
+    "propositions": [
+      "Une victime qui présente de violentes douleurs abdominales",
+      "Une victime qui présente une plaie grave de l’abdomen",
+      "Une victime qui présente une gêne respiratoire",
+      "Une victime qui présente des vomissements",
+      "Une femme enceinte en imminence d’accouchement"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 06FT01 des références techniques PSE indique la position cuisses fléchies, jambes repliées en cas de contusion, de plaie grave de l’abdomen ou de violentes douleurs abdominales. Elle indique plutôt la position assise ou demi-assise pour une gêne respiratoire, et la position allongée sur le côté pour les vomissements et la femme enceinte en imminence d’accouchement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 06FT01 / 07-2026",
+      "emplacement": "Fiche 06FT01 « Positions d’attente et de transport », Indication, p. 178",
+      "citation": "La position assise ou demi-assise ; C’est une position souvent confortable pour les victimes. Elle est particulièrement indiquée si la victime présente une détresse ou une gêne respiratoire pour lui permettre de mieux respirer. La position allongée sur le côté ; Cette position facilite le transport des victimes qui présentent des vomissements. Elle est aussi indiquée pour le transport des femmes enceintes dans les derniers mois de la grossesse ou en imminence d’accouchement. La position cuisses fléchies, jambes repliées. Elle est indiquée pour les victimes qui présentent une contusion, une plaie grave de l’abdomen ou de violentes douleurs abdominales."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
     "id": "pse-0605",
     "type": "qcm",
     "enonce": "Vous aidez une victime à utiliser un dispositif auto-injectable (DAI) d’adrénaline. Quelles consignes sont exactes ? (plusieurs réponses)",
@@ -2306,7 +2421,7 @@
   {
     "id": "pse-0612",
     "type": "cas-concret",
-    "enonce": "Au 4ème regard, une victime consciente présente une déformation de la bouche et un bras qui retombe lorsqu’elle tente de le lever. Quel geste est indispensable avant d’affirmer qu’il s’agit d’un AVC ?",
+    "enonce": "Au 4ème regard, une victime consciente présente une déformation de la bouche et un bras qui retombe lorsqu’elle tente de le lever. Quel geste est indispensable avant d’affirmer être en présence de signes d’AVC ?",
     "propositions": [
       "Mesurer la glycémie capillaire, pour rechercher et corriger une éventuelle hypoglycémie",
       "Attendre quelques minutes pour voir si les signes disparaissent avant de demander un avis médical",
@@ -2348,7 +2463,7 @@
       1,
       2
     ],
-    "explication": "La fiche 07PR01 conditionne le refroidissement immédiat à une brûlure de moins de 30 minutes, une victime consciente sans détresse circulatoire et une surface brûlée inférieure à 20 % chez l’adulte. Chez l’enfant ou le nourrisson, le seuil est de 10 %, et la surface compte quelle que soit la conscience.",
+    "explication": "La fiche 07PR01 conditionne le refroidissement immédiat à une brûlure de moins de 30 minutes, une victime consciente sans détresse circulatoire et une surface brûlée inférieure à 20 % chez l’adulte. Chez l’enfant ou le nourrisson, le seuil est de 10 %, et la condition de surface s’ajoute à celle de la conscience.",
     "source": {
       "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
       "version": "Édition juillet 2026 – fiche 07PR01 / 07-2026",
@@ -2648,7 +2763,7 @@
   {
     "id": "pse-0711",
     "type": "qcm",
-    "enonce": "Une victime présente un couteau planté dans le thorax. Dans quel cas peut-on retirer ce corps étranger ?",
+    "enonce": "Une victime présente un couteau planté dans le thorax. Dans quel cas faut-il retirer ce corps étranger ?",
     "propositions": [
       "S’il empêche la réalisation d’une RCP",
       "S’il gêne la respiration de la victime",
@@ -2703,6 +2818,34 @@
     "statut": "a_verifier",
     "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait et l'image de la page, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
     "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0713",
+    "type": "qcm",
+    "enonce": "Une victime présente une plaie à l’œil, sans corps étranger. En plus de la conduite à tenir face à une plaie grave, que faut-il faire ?",
+    "propositions": [
+      "Lui demander de rester à plat dos dans la mesure du possible et recouvrir les deux yeux avec des compresses stériles, sans appuyer",
+      "L’asseoir et recouvrir uniquement l’œil blessé",
+      "Recouvrir les deux yeux en appuyant fermement sur les compresses",
+      "La laisser à plat dos et recouvrir uniquement l’œil blessé"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 07PR06 des références techniques PSE demande de garder la victime à plat dos dans la mesure du possible, pour éviter d’aggraver la lésion, et de recouvrir les deux yeux par des compresses stériles, sans appuyer, en l’absence de corps étranger dont la mobilisation pourrait aggraver la lésion.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 07PR06 / 07-2026",
+      "emplacement": "Fiche 07PR06 « Traumatisme de la face et de la face antérieure du cou », Atteinte traumatique de l’œil, p. 222",
+      "citation": "appliquer la conduite à tenir face à une plaie grave en présence d’une plaie à l’œil ; demander à la victime de rester à plat dos dans la mesure du possible. ; recouvrir les deux yeux par des compresses stériles. Note 2 : Cette position évite une aggravation éventuelle de la lésion de l’œil. Note 3 : Sans appuyer et seulement s’il n’existe pas de corps étrangers dont la mobilisation pourrait aggraver la lésion oculaire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
   },
   {
     "id": "pse-0714",
@@ -2868,7 +3011,7 @@
     "bonnes_reponses": [
       0
     ],
-    "explication": "La fiche 07PR08 indique le MID en priorité et le plan dur seulement à titre exceptionnel, par exemple en cas d’indisponibilité du MID. La fiche 07FT13 précise que l’ACT n’est pas un moyen d’immobilisation à utiliser pour le transport, et la définition de la p. 240 décrit le collier comme une simple restriction des mouvements du rachis cervical.",
+    "explication": "La fiche 07PR08 indique le MID en priorité et le plan dur seulement à titre exceptionnel, par exemple en cas d’indisponibilité du MID. La fiche 07FT13 précise que l’ACT n’est pas un moyen d’immobilisation à utiliser pour le transport, et la définition de la p. 240 classe le collier parmi les dispositifs de restriction des mouvements du rachis cervical.",
     "source": {
       "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
       "version": "Édition juillet 2026 – fiche 07PR08 / 12-2023",
