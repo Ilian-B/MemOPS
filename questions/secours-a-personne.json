@@ -371,6 +371,664 @@
     ]
   },
   {
+    "id": "pse-0101",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : un secouriste peut librement raconter à l’entourage de la victime toutes les informations qu’il a recueillies pendant l’intervention.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Les références techniques PSE (fiche 01AC03) précisent que les secouristes sont tenus par le secret professionnel : les informations recueillies ne peuvent être divulguées qu’aux personnes contribuant à la prise en charge.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC03 / 11-2021",
+      "emplacement": "Fiche 01AC03 « Attitude et comportement du secouriste », p. 16",
+      "citation": "Au même titre que les personnels de santé, les secouristes sont tenus par le secret professionnel. Les informations recueillies ne peuvent être divulguées qu’aux personnes contribuant à la prise en charge."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0102",
+    "type": "qcm",
+    "enonce": "Vous avez obtenu l’identité d’une victime adulte et souhaitez l’appeler par son prénom. Que devez-vous faire ?",
+    "propositions": [
+      "L’employer d’emblée, pour créer rapidement une relation de proximité",
+      "Ne l’employer qu’après avoir obtenu la permission de la personne",
+      "Ne jamais l’employer, seul le nom de famille est autorisé",
+      "L’employer uniquement si la victime est inconsciente"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 01PR01 des références techniques PSE indique que le prénom ne sera employé qu’après avoir obtenu la permission de la personne concernée, par exemple : « Me permettez-vous de vous appeler par votre prénom ? ». Les autres propositions sont donc contraires au texte.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01PR01 / 11-2021",
+      "emplacement": "Fiche 01PR01 « L’abord relationnel en pratique », p. 17",
+      "citation": "Si l’emploi du prénom peut faciliter la relation, il ne sera employé qu’après avoir obtenu la permission de la personne concernée."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0103",
+    "type": "qcm",
+    "enonce": "Une équipe de secouristes prend en charge une victime consciente. Comment organiser le dialogue avec elle ?",
+    "propositions": [
+      "Tous les équipiers lui parlent à tour de rôle pour qu’elle se sente entourée",
+      "Un interlocuteur principal est privilégié, de préférence celui vers lequel elle se tourne le plus naturellement",
+      "Le dialogue est confié au plus ancien de l’équipe, sans possibilité d’en changer",
+      "L’interlocuteur principal est changé régulièrement pour éviter la lassitude de la victime"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 01PR01 des références techniques PSE recommande un interlocuteur principal, de préférence celui vers lequel la victime se tourne naturellement, et de n’en changer que si la communication n’est plus efficace.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01PR01 / 11-2021",
+      "emplacement": "Fiche 01PR01 « L’abord relationnel en pratique », p. 17",
+      "citation": "Il est recommandé de privilégier au sein de l’équipe un interlocuteur principal pour dialoguer avec la victime (de préférence, celui vers lequel elle se tournera le plus naturellement). N’en changer que si la communication n’est plus efficace."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0104",
+    "type": "qcm",
+    "enonce": "Une victime inquiète vous interroge sur ce qui va se passer. Quelle attitude adoptez-vous pour être honnête avec elle ?",
+    "propositions": [
+      "Aborder la réalité de la situation avec tact, sans mentir ni faire de promesses dont vous n’êtes pas certain de pouvoir les tenir",
+      "Lui promettre que tout se passera bien pour la rassurer",
+      "Éviter d’aborder la réalité de la situation pour ne pas l’inquiéter davantage",
+      "Lui dire ce qu’elle souhaite entendre, même si ce n’est pas exact"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 01PR01 des références techniques PSE demande d’aborder la réalité de la situation avec tact et précise qu’il est primordial de ne pas mentir et de ne pas faire de promesses à moins d’être certain de pouvoir les tenir.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01PR01 / 11-2021",
+      "emplacement": "Fiche 01PR01 « L’abord relationnel en pratique », p. 18",
+      "citation": "En étant honnête avec elle, c’est-à-dire en abordant la réalité de la situation, avec tact. Il est primordial de ne pas mentir et ne pas faire de promesses à moins d’être certain de pouvoir les tenir."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0105",
+    "type": "qcm",
+    "enonce": "Vous allez poser une attelle sur le membre d’un enfant conscient et douloureux. Quelles attitudes sont adaptées ? (plusieurs réponses)",
+    "propositions": [
+      "Lui dire : « il est possible que tu sentes quelque chose. Dis-le-moi. »",
+      "Lui dire : « Ça ne fait pas mal. C’est juste une petite attelle »",
+      "L’autoriser à exprimer ses émotions, par exemple : « tu peux pleurer si tu en as besoin »",
+      "Lui dire : « Sois courageux, tu es un(e) grand(e) »",
+      "Lui dire : « Si tu cries, je dis à tes parents de partir »"
+    ],
+    "bonnes_reponses": [
+      0,
+      2
+    ],
+    "explication": "La fiche 01PR02 des références techniques PSE demande de ne pas mentir (l’exemple « Ça ne fait pas mal » est donné comme à éviter), de ne pas encourager les attitudes héroïques et de ne pas menacer ; elle recommande d’autoriser l’enfant à exprimer ses émotions.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01PR02 / 11-2021",
+      "emplacement": "Fiche 01PR02 « Intervenir auprès d’un enfant », p. 20",
+      "citation": "Ne pas mentir (« Ça ne fait pas mal. C’est juste une petite attelle »). Mais plutôt : « il est possible que tu sentes quelque chose. Dis-le-moi. » […] Ne pas encourager les attitudes héroïques (« Sois courageux, tu es un(e) grand(e) »), mais plutôt l'autoriser à exprimer ses émotions (« tu peux pleurer si tu en as besoin, dire tout ce que tu as envie de dire »), accepter ses réactions normales liées à la douleur, à la peur et aux émotions douloureuses. Ne pas menacer (« Si tu cries, je dis à tes parents de partir. »), mais plutôt, valoriser l'enfant"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0106",
+    "type": "qcm",
+    "enonce": "Comment la douleur d’un enfant de 3 ans est-elle évaluée ?",
+    "propositions": [
+      "À partir d’une échelle d’auto-évaluation adaptée à son âge",
+      "Essentiellement à partir des modifications physiques et comportementales liées à la douleur (pleurs, crispations, agitation, etc.)",
+      "En lui demandant de donner une note de 0 à 10",
+      "Elle n’est pas évaluée avant l’âge de 5 ans"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 01PR02 des références techniques PSE indique qu’en dessous de 5 ans, l’évaluation est essentiellement basée sur l’appréciation des modifications physiques et comportementales ; les échelles d’auto-évaluation s’emploient au-delà de 5 ans.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01PR02 / 11-2021",
+      "emplacement": "Fiche 01PR02 « Intervenir auprès d’un enfant », p. 19",
+      "citation": "Évalue la douleur : au-delà de 5 ans, la douleur est évaluée à partir d’échelles d’auto-évaluation adaptées à l’âge et à la compréhension de l’enfant. En dessous de 5 ans, l’évaluation est essentiellement basée sur l’appréciation des modifications physiques et comportementales liées à la douleur (pleurs, crispations, agitation, etc.)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0107",
+    "type": "qcm",
+    "enonce": "Pendant une intervention, vous remarquez qu’un équipier présente des manifestations inhabituelles et inadaptées à la situation. Que faut-il faire ?",
+    "propositions": [
+      "Ne rien dire pour ne pas perturber la mission",
+      "Informer le chef d’équipe afin d’ajuster la mission",
+      "Attendre la fin de l’intervention pour en parler à l’équipier seul, sans prévenir le chef d’équipe",
+      "Demander à l’équipier de quitter immédiatement les lieux sans en informer personne"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 01AC04 des références techniques PSE recommande d’informer le chef d’équipe lorsqu’un ou plusieurs membres perçoivent ou présentent des manifestations inhabituelles, ce qui permet d’ajuster la mission.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC04 / 11-2021",
+      "emplacement": "Fiche 01AC04 « Préservation du potentiel mental du secouriste », p. 24",
+      "citation": "Il est recommandé d’informer le chef d’équipe lorsqu’un ou plusieurs membres de l’équipe perçoivent ou présentent des manifestations inhabituelles. Cela permet d’ajuster la mission."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0108",
+    "type": "qcm",
+    "enonce": "Un secouriste présente des symptômes psychotraumatiques (souvenirs envahissants, cauchemars, évitement…) qui persistent au-delà d’un mois après l’exposition. Comment ce trouble est-il alors qualifié ?",
+    "propositions": [
+      "Trouble de Stress Aigu",
+      "Trouble de Stress Post-Traumatique",
+      "Traumatisme vicariant",
+      "Fatigue ou usure de compassion"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 01AC04 des références techniques PSE qualifie de Trouble de Stress Aigu les symptômes qui durent jusqu’à un mois ; au-delà, le trouble est considéré comme pathologique et qualifié de Trouble de Stress Post-Traumatique. Le traumatisme vicariant et l’usure de compassion sont d’autres notions, liées à une exposition répétée.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC04 / 11-2021",
+      "emplacement": "Fiche 01AC04 « Préservation du potentiel mental du secouriste », p. 21",
+      "citation": "On parlera de Trouble de Stress Aigu si ces symptômes durent jusqu’à un mois après l’exposition. Si ce trouble persiste au-delà, il sera considéré comme pathologique et qualifié de Trouble de Stress Post-Traumatique."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0201",
+    "type": "qcm",
+    "enonce": "Vous devez ramasser des débris de verre sur le lieu d’une intervention. Quelle protection des mains devez-vous mettre ?",
+    "propositions": [
+      "Des gants épais de manutention",
+      "Des gants à usage unique, qui protègent des plaies",
+      "Deux paires de gants à usage unique superposées",
+      "Aucune protection, pour garder la dextérité des doigts"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 02AC01 des références techniques PSE indique que les gants à usage unique ne protègent « nullement » du risque de plaie par un objet perforant : devant des débris de verre, il faut mettre des gants épais de manutention.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02AC01 / 06-2018",
+      "emplacement": "Fiche 02AC01 « Équipement de protection individuelle », p. 35",
+      "citation": "Les gants à usage unique protègent l’intervenant d’une contamination par des liquides biologiques (sang, urine, salive…), mais nullement du risque de plaie par un objet perforant. […] Devant des débris de verre ou autres objets perforants, il doit mettre des gants épais de manutention et veiller à ne pas se blesser ou à ne pas blesser accidentellement un tiers."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0202",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : un insufflateur manuel est disponible ; le risque de transmission par la salive étant très faible, le secouriste peut pratiquer le bouche-à-bouche.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 02AC01 des références techniques PSE précise que, même si le risque de transmission par la salive est très faible, il faut éviter une méthode orale directe de ventilation artificielle lorsqu’un moyen de ventilation (insufflateur manuel) est disponible.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02AC01 / 06-2018",
+      "emplacement": "Fiche 02AC01 « Équipement de protection individuelle », p. 35",
+      "citation": "Même si le risque de transmission par la salive est très faible, il faut éviter d’utiliser une méthode orale directe de ventilation artificielle (bouche-à-bouche, bouche-à-nez) si l’on dispose d’un moyen de ventilation (insufflateur manuel)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0203",
+    "type": "qcm",
+    "enonce": "Lors du premier regard sur une intervention, quelles actions permettent de reconnaître les dangers ? (plusieurs réponses)",
+    "propositions": [
+      "Effectuer une approche prudente de la zone de l’accident",
+      "Repérer les personnes qui pourraient être exposées aux dangers et le nombre de victimes",
+      "Regarder autour de la victime, en restant à distance d’elle, pour évaluer la présence de dangers persistants",
+      "Évaluer les dangers uniquement pour les intervenants, les témoins n’étant pas concernés",
+      "Regarder autour de la victime en se tenant à son contact immédiat"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 02PR01 des références techniques PSE demande une approche prudente pour évaluer les dangers pour les intervenants et les témoins, et de regarder autour de la victime en restant à distance d’elle.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR01 / 06-2018",
+      "emplacement": "Fiche 02PR01 « Sécurité sur intervention », p. 37",
+      "citation": "Lors du 1er regard, il convient de reconnaître les dangers : effectuer une approche prudente de la zone de l’accident afin d’évaluer les dangers potentiels pour les intervenants et les témoins ; repérer les personnes qui pourraient être exposées aux dangers identifiés et le nombre de victimes. Éventuellement, se renseigner auprès des témoins ; regarder autour de la victime, en restant à distance d’elle pour évaluer la présence de dangers persistants qui peuvent la menacer."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0204",
+    "type": "qcm",
+    "enonce": "Pour quelles indications le dégagement d’urgence d’une victime est-il réalisé ? (plusieurs réponses)",
+    "propositions": [
+      "Soustraire une victime à un danger réel, vital, immédiat et non contrôlable",
+      "Rendre possibles les gestes d’urgence vitale sur une victime se trouvant dans un lieu ou une position ne permettant pas de les réaliser",
+      "Déplacer systématiquement toute victime consciente dès l’arrivée de l’équipe",
+      "Faciliter le brancardage d’une victime en l’absence de danger"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 02FT01 des références techniques PSE ne cite que deux indications : soustraire la victime à un danger réel, vital, immédiat et non contrôlable, et rendre possibles les gestes d’urgence vitale. Par ailleurs, la fiche 01AC02 indique qu’il est souvent judicieux, en l’absence de risque vital, de laisser une victime dans la position où elle se trouve.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT01 / 09-2019",
+      "emplacement": "Fiche 02FT01 « Dégagement d’urgence », p. 38",
+      "citation": "Le dégagement d’urgence d’une victime est réalisé pour : soustraire une victime à un danger réel, vital, immédiat et non contrôlable ; rendre possible les gestes d’urgence vitale sur une victime se trouvant dans un lieu ou dans une position ne permettant pas de les réaliser."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0205",
+    "type": "qcm",
+    "enonce": "Lors d’un dégagement d’urgence hors d’un véhicule, quels gestes sont prévus ? (plusieurs réponses)",
+    "propositions": [
+      "Détacher ou couper la ceinture de sécurité",
+      "Passer la main sous l’aisselle la plus proche de la victime et maintenir son menton",
+      "Tirer la victime hors du véhicule en se redressant, tout en poursuivant le maintien de sa tête",
+      "Tirer la victime en la saisissant uniquement par les chevilles",
+      "Laisser la tête de la victime libre pendant la traction pour limiter les contraintes"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 02FT01 des références techniques PSE décrit la sortie d’un véhicule : ceinture détachée ou coupée, main sous l’aisselle et menton maintenu, traction avec maintien de la tête. La prise aux chevilles est une autre technique, sur le sol.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT01 / 09-2019",
+      "emplacement": "Fiche 02FT01 « Dégagement d’urgence », p. 39",
+      "citation": "Sortie d’un véhicule Détacher ou couper la ceinture de sécurité ; dégager éventuellement les pieds de la victime des pédales du véhicule ; passer la main sous son aisselle la plus proche et maintenir son menton ; passer l’autre main sous l’autre aisselle et saisir sa ceinture ou son poignet opposé ; tirer la victime hors du véhicule en se redressant, tout en poursuivant le maintien de sa tête ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0206",
+    "type": "cas-concret",
+    "enonce": "Vous arrivez auprès d’un homme au sol, victime d’une électrisation par un appareil ménager sous tension auquel il est encore en contact. Quelle est la conduite à tenir ?",
+    "propositions": [
+      "Couper le courant (disjoncteur) ou débrancher l’appareil, et ne toucher la victime qu’une fois certain que l’alimentation est coupée",
+      "Écarter l’appareil avec un manche en bois humide, puis saisir la victime",
+      "Saisir la victime par ses vêtements pour l’éloigner de l’appareil",
+      "Laisser les personnes présentes toucher la victime pendant que vous cherchez le disjoncteur"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande de couper le courant ou de débrancher l’appareil, de ne pas toucher la victime avant d’être certain que l’alimentation est coupée et d’interdire aux personnes présentes de la toucher. Elle précise que le bois humide et les vêtements ne protègent pas du courant.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 40",
+      "citation": "Si c’est le cas, faire écarter immédiatement les personnes présentes et leur interdire de toucher la victime. si la victime est en contact avec un appareil électrique, couper le courant (disjoncteur) ou débrancher l’appareil en cause ; Ne pas s’approcher ou toucher la victime avant d’être certain que l’alimentation est coupée. Note : Les matériaux, tels que le bois humide ou les vêtements, ne procurent aucune protection contre le courant électrique"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0207",
+    "type": "qcm",
+    "enonce": "Vous arrivez sur un accident de la route avec un véhicule équipé de signalisation. La sécurité de la zone n’est pas encore assurée. Quelles conduites sont prévues pour votre protection ? (plusieurs réponses)",
+    "propositions": [
+      "Allumer les feux de détresse du véhicule dès l’approche du lieu de l’accident et ralentir",
+      "Garer un véhicule équipé de signalisation en amont, en protection de la zone d’accident",
+      "Mettre un gilet de sécurité haute visibilité avant même de quitter le véhicule",
+      "Mettre le gilet de sécurité une fois la zone d’accident sécurisée",
+      "Garer le véhicule après le lieu de l’accident"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande d’allumer les feux de détresse dès l’approche, de garer le véhicule équipé de signalisation en amont et de mettre le gilet avant même de quitter le véhicule. Se garer après le lieu de l’accident ne vaut que si le véhicule n’est pas équipé de signalisation ou si la sécurité est déjà assurée.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 40",
+      "citation": "allumer les feux de détresse du véhicule dès qu’il approche du lieu de l’accident et ralentir ; garer son véhicule équipé de signalisation en amont, en protection de la zone d’accident ; si le véhicule n’est pas équipé de signalisation, ou si la sécurité est déjà assurée, se garer après le lieu de l’accident ; mettre un gilet de sécurité haute visibilité, avant même de quitter le véhicule."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0208",
+    "type": "qcm",
+    "enonce": "Sur un accident de la route, à quelle distance de l’accident, de part et d’autre, faut-il baliser pour éviter un suraccident ?",
+    "propositions": [
+      "De 10 à 20 m",
+      "De 50 à 100 m",
+      "De 150 à 200 m",
+      "De 300 à 500 m"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande de baliser ou faire baliser de part et d’autre de l’accident, à une distance de 150 à 200 m.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 40",
+      "citation": "baliser ou faire baliser de part et d’autre de l’accident, à une distance de 150 à 200 m ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0209",
+    "type": "qcm",
+    "enonce": "Un véhicule accidenté possède une carte de démarrage à distance. Que faut-il faire de cette carte, après avoir coupé le contact ?",
+    "propositions": [
+      "La laisser dans le véhicule, contact coupé",
+      "L’éloigner à plus de 5 mètres du véhicule",
+      "La laisser sur le tableau de bord pour pouvoir redémarrer le véhicule",
+      "L’éloigner uniquement de quelques centimètres du démarreur"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande, si le véhicule possède une clé ou carte de démarrage à distance, d’éloigner la carte à plus de 5 mètres du véhicule.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 40",
+      "citation": "couper le contact de chaque véhicule accidenté ; Si le véhicule possède une clé ou carte de démarrage à distance, éloigner la carte à plus de 5 mètres du véhicule."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0210",
+    "type": "cas-concret",
+    "enonce": "Dans un local fermé, plusieurs personnes présentent des malaises avec des maux de tête et des vomissements. Une intoxication au monoxyde de carbone est suspectée. Quelle conduite adoptez-vous ?",
+    "propositions": [
+      "Faire évacuer les personnes présentes, les rassembler, alerter immédiatement les sapeurs-pompiers et attendre les secours en sécurité",
+      "Rester dans le local avec les personnes et attendre l’arrivée des secours",
+      "Faire évacuer les personnes puis retourner dans le local pour chercher l’origine de la fuite",
+      "Alerter les sapeurs-pompiers sans faire évacuer le local"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande de faire évacuer et rassembler les personnes, d’alerter immédiatement les sapeurs-pompiers, qui ont des détecteurs de ce gaz, et d’attendre les secours en sécurité.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 40",
+      "citation": "Protection contre le monoxyde de carbone Pour faire face à ce risque, il convient de : faire évacuer les personnes présentes dans le local et les rassembler ; alerter immédiatement les sapeurs-pompiers qui ont des détecteurs de ce gaz ; attendre les secours en sécurité."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0211",
+    "type": "qcm",
+    "enonce": "Lors d’un incendie, quels comportements de protection sont à adopter ? (plusieurs réponses)",
+    "propositions": [
+      "Fermer ou faire fermer chaque porte derrière soi au cours de son déplacement",
+      "Ne jamais utiliser les ascenseurs ou monte-charges",
+      "Se baisser le plus près possible du sol",
+      "S’engager dans un escalier enfumé pour évacuer plus vite",
+      "Laisser les portes ouvertes pour ventiler les locaux"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande de fermer les portes derrière soi, de ne jamais utiliser les ascenseurs et de se baisser près du sol, et interdit de s’engager dans un local ou escalier enfumé.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 41",
+      "citation": "fermer ou faire fermer chaque porte derrière soi au cours de son déplacement ; ne jamais utiliser les ascenseurs ou monte-charges ; se baisser le plus près possible du sol ; ne pas s’engager dans un local ou escalier enfumé ; ne pas pénétrer dans un local en feu."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0212",
+    "type": "cas-concret",
+    "enonce": "Une victime est étendue au fond d’une pièce enfumée et non ventilée. Vous ne la voyez pas depuis l’entrée du local. Quelle est la conduite à tenir ?",
+    "propositions": [
+      "Informer immédiatement les sapeurs-pompiers",
+      "Entrer en retenant votre respiration pour la dégager rapidement",
+      "Entrer avec un linge humide devant le visage",
+      "Entrer en vous baissant au plus près du sol"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE n’autorise le dégagement en urgence que si la victime est visible depuis l’entrée du local enfumé (et si les autres conditions sont réunies) ; dans le cas contraire, il faut informer immédiatement les sapeurs-pompiers.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 41",
+      "citation": "ne pas s’engager dans un local ou escalier enfumé ; […] En présence d’une victime dans un local enfumé et non ventilé procéder à son dégagement en urgence : si elle est visible depuis l’entrée du local enfumé ; si le sauveteur juge que ses capacités sont suffisantes pour réaliser ce sauvetage ; si la configuration des lieux lui est favorable ; en retenant sa respiration, uniquement. dans le cas contraire, en informer immédiatement les sapeurs-pompiers."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0213",
+    "type": "qcm",
+    "enonce": "Vous soupçonnez une fuite de gaz dans un local. Quelles conduites sont à tenir ? (plusieurs réponses)",
+    "propositions": [
+      "Ne pas pénétrer dans le local",
+      "Rester à distance et empêcher l’accès",
+      "Ne pas provoquer d’étincelles, par exemple avec une sonnette ou un interrupteur",
+      "Sonner à la porte pour prévenir les occupants",
+      "Éclairer le local avec une lampe de poche pour repérer la fuite"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE interdit de pénétrer dans le local et de provoquer des étincelles (interrupteurs, sonnerie, lampe de poche, téléphone portable…) ; il faut rester à distance et empêcher l’accès.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 41",
+      "citation": "En cas de fuite de gaz, avérée ou suspectée, dans un local ne pas pénétrer dans le local ; rester à distance et empêcher l’accès ; ne pas provoquer d’étincelles (interrupteurs, sonnerie, lampe de poche, téléphone portable…)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0214",
+    "type": "cas-concret",
+    "enonce": "Une victime court dans la rue, ses vêtements sont en feu. Quelle est la conduite à tenir ?",
+    "propositions": [
+      "L’allonger sur le sol le plus rapidement possible, éteindre les flammes ou à défaut les étouffer avec une couverture ou un manteau retiré dès que les flammes sont éteintes",
+      "La laisser debout et la couvrir d’une couverture que vous laissez en place après l’extinction",
+      "La laisser courir pour que les flammes s’éteignent avec l’air",
+      "L’allonger sur le sol et attendre l’arrivée des secours sans agir sur les flammes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande d’allonger la victime sur le sol le plus rapidement possible, puis d’éteindre les flammes ou à défaut de les étouffer avec une couverture ou un manteau, à retirer dès que les flammes sont éteintes.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 41",
+      "citation": "En présence d’une victime dont les vêtements sont en feu allonger la victime sur le sol le plus rapidement possible ; éteindre les flammes ou à défaut les étouffer Note : Avec une couverture ou un manteau que l’on retire dès que les flammes sont éteintes."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0215",
+    "type": "qcm",
+    "enonce": "Face à une fuite de matière dangereuse après un accident de la circulation, où se placer par rapport au vent ?",
+    "propositions": [
+      "En aval de l’accident, dans le sens du vent",
+      "En amont de l’accident par rapport au vent",
+      "À proximité immédiate de la fuite pour mieux évaluer la situation",
+      "Sans importance : seule la distance compte"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche 02PR02 des références techniques PSE demande de rester en amont de l’accident par rapport au vent, pour se protéger des émanations qui peuvent agir à distance de l’accident, et de rester à distance de la fuite.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Sécurité sur intervention particulière », p. 41",
+      "citation": "rester à distance de la fuite ou de la matière dangereuse ; écarter les témoins de la scène ; interdire de fumer ; rester en amont de l’accident par rapport au vent pour se protéger des émanations qui peuvent agir à distance de l’accident ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
     "id": "pse-0301",
     "type": "qcm",
     "enonce": "Un secouriste vient de se piquer avec une aiguille souillée de sang pendant une intervention. Quelles conduites faut-il adopter ? (plusieurs réponses)",
@@ -3147,5 +3805,1714 @@
     "statut": "a_verifier",
     "verification": "Vérificateur des sources (agent IA) : citation contrôlée sur le texte extrait du PDF, bonnes réponses et chaque distracteur confirmés par le texte, énoncé, explication et emplois conformes.",
     "verifie_le": "2026-10-29"
+  },
+  {
+    "id": "pse-0801",
+    "type": "qcm",
+    "enonce": "Quel effet les courants de basse tension (moins de 1000 V) provoquent-ils surtout sur l’organisme ?",
+    "propositions": [
+      "Des brûlures profondes et des traumatismes",
+      "Des fonctionnements anarchiques du cœur (fibrillation ventriculaire)",
+      "Uniquement des brûlures superficielles de la peau",
+      "Aucune atteinte du cœur, quelle que soit l’intensité"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Les références techniques PSE (fiche 08AC01) rattachent les brûlures profondes et traumatismes aux courants à haute tension (≥ 1000 V), alors que les courants de basse tension provoquent surtout une fibrillation ventriculaire.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08AC01 / 06-2018",
+      "emplacement": "Fiche 08AC01 « Accident électrique », p. 269",
+      "citation": "Les courants à haute tension (≥ 1000 V), plus particulièrement continue, provoquent des brûlures profondes et des traumatismes. Les courants de basse tension (< 1000 V), le plus souvent alternatifs, provoquent surtout des fonctionnements anarchiques du cœur (fibrillation ventriculaire)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0802",
+    "type": "cas-concret",
+    "enonce": "Vous arrivez chez une personne allongée au sol, au contact d’un fil électrique dénudé encore sous tension. Quelle est votre première conduite ?",
+    "propositions": [
+      "Ne pas vous approcher ni toucher la victime avant d’être certain que l’alimentation est coupée, et faire écarter les personnes présentes",
+      "La dégager immédiatement à mains nues pour interrompre le contact",
+      "Demander aux témoins de la tirer hors de portée pendant que vous préparez le matériel",
+      "Débuter sans attendre les compressions thoraciques à côté du fil"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR01 des références techniques PSE interdit de s’approcher ou de toucher la victime avant la coupure certaine du courant, et demande de faire écarter les personnes présentes et de leur interdire de toucher la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR01 / 12-2023",
+      "emplacement": "Fiche 08PR01 « Accident électrique », p. 270",
+      "citation": "s’assurer que la victime n’est pas en contact direct ou indirect (eau) avec un conducteur endommagé (fil électrique, appareil ménager sous tension) ou un câble électrique de haute tension au sol ; Dans le cas contraire : ne pas s’approcher ou toucher la victime avant d’être certain que l’alimentation est coupée (pour le courant haute tension, avoir été averti par les autorités responsables), faire écarter immédiatement les personnes présentes et leur interdire de toucher la victime."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0803",
+    "type": "vrai-faux",
+    "enonce": "Un véhicule est en contact accidentel avec une ligne électrique. Il faut ordonner aux occupants de sortir immédiatement du véhicule.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 08PR01 des références techniques PSE demande de ne pas s’approcher du véhicule et d’ordonner aux occupants de rester à l’intérieur tant que le service compétent n’a pas donné l’assurance que la ligne est hors tension.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR01 / 12-2023",
+      "emplacement": "Fiche 08PR01 « Accident électrique », p. 270",
+      "citation": "Si un véhicule est en contact accidentel avec une ligne électrique, ne pas s’approcher du véhicule et ordonner aux occupants qui sont à l’intérieur de rester dedans, tant que le service compétent n’a pas donné l’assurance que la ligne est hors tension"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0804",
+    "type": "qcm",
+    "enonce": "Le courant est coupé et la victime d’une électrisation est consciente. Quelles actions faut-il mener ? (plusieurs réponses)",
+    "propositions": [
+      "Enlever les vêtements en combustion et les chaussures",
+      "Rechercher des lésions provoquées par une contraction musculaire ou par une projection de la victime",
+      "Demander un avis médical et appliquer les consignes reçues",
+      "Appliquer uniquement la conduite à tenir de la brûlure thermique",
+      "Ne pas signaler la grossesse éventuelle lors du bilan, car elle est sans rapport"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08PR01 des références techniques PSE demande ces trois actions. Sa note précise que la victime est prise en charge simultanément selon les protocoles de brûlure thermique et électrique, et la grossesse doit être signalée car il existe un risque pour le fœtus.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR01 / 12-2023",
+      "emplacement": "Fiche 08PR01 « Accident électrique », p. 270",
+      "citation": "enlever les vêtements en combustion et les chaussures pour prévenir d’autres lésions thermiques ; […] compléter le bilan et rechercher des lésions provoquées par une contraction musculaire ou si la victime a été projetée au moment de l’électrisation ; réaliser les gestes et soins complémentaires ; demander un avis médical et appliquer les consignes reçues ; Si la victime est une femme enceinte, le préciser lors de la transmission du bilan, car il existe un risque pour le fœtus. Note : C’est pourquoi il convient de prendre en charge la victime simultanément selon le protocole lié à la brûlure thermique comme à celui de la brûlure électrique."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0805",
+    "type": "cas-concret",
+    "enonce": "Vous êtes seul secouriste auprès d’une victime de noyade en arrêt cardiaque, sortie de l’eau. Vous devez alerter les secours. Que faites-vous ?",
+    "propositions": [
+      "Réaliser cinq cycles de réanimation cardio-pulmonaire avant de la quitter pour alerter",
+      "Quitter immédiatement la victime pour alerter, sans débuter la réanimation",
+      "Réaliser deux cycles de réanimation cardio-pulmonaire avant d’alerter",
+      "Ne pas alerter avant le retour spontané d’une respiration"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR02 des références techniques PSE prévoit que le secouriste isolé réalise cinq cycles de RCP avant de quitter la victime pour aller alerter les secours.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR02 / 07-2026",
+      "emplacement": "Fiche 08PR02 « Noyade », p. 273",
+      "citation": "si le secouriste est isolé, il doit réaliser cinq cycles de réanimation cardio-pulmonaire avant de quitter la victime pour aller alerter les secours ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0806",
+    "type": "qcm",
+    "enonce": "Une victime de noyade présente de la mousse aux lèvres. Quelle conduite adopter ?",
+    "propositions": [
+      "Ne pas insister pour l’enlever, elle ne gêne pas la ventilation",
+      "Pratiquer des compressions abdominales pour évacuer l’eau",
+      "Donner des tapes dans le dos jusqu’à disparition de la mousse",
+      "Retarder la réanimation cardio-pulmonaire tant que la mousse persiste"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR02 des références techniques PSE indique que la mousse est fréquente et ne gêne pas la ventilation. Les techniques de désobstruction (tapes dans le dos, compressions abdominales) sont dangereuses et retardent la RCP.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR02 / 07-2026",
+      "emplacement": "Fiche 08PR02 « Noyade », p. 274",
+      "citation": "La mousse aux lèvres, composée d’un mélange d’eau et d’air, est très fréquente chez la victime de noyade et ne gêne pas la ventilation. Ne pas insister pour l’enlever. Les techniques de désobstruction des voies aériennes (tapes dans le dos, compressions abdominales) sont dangereuses et ne doivent pas être réalisées. En effet, elles peuvent entraîner une régurgitation, une inhalation de liquide gastrique, des lésions traumatiques et retardent la mise en œuvre de la réanimation cardio-pulmonaire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0807",
+    "type": "qcm",
+    "enonce": "Vous réanimez une victime de noyade en arrêt cardiaque. Quelles affirmations sont exactes ? (plusieurs réponses)",
+    "propositions": [
+      "Les compressions thoraciques ne sont débutées que si la victime est hors de l’eau, sur terre ou dans une embarcation",
+      "L’oxygène est administré rapidement, de façon systématique, à haute concentration (15 l/min)",
+      "Le thorax est séché avant de placer les électrodes de défibrillation",
+      "Les compressions thoraciques sont débutées dès que la victime est saisie dans l’eau",
+      "L’oxygène n’est administré qu’une fois obtenue une SpO2 fiable"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08PR02 des références techniques PSE réserve les compressions à la victime hors de l’eau, prévoit l’oxygène à 15 l/min tant que la victime est en arrêt cardiaque et tant qu’aucune SpO2 fiable n’est obtenue, et demande de sécher le thorax avant les électrodes.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR02 / 07-2026",
+      "emplacement": "Fiche 08PR02 « Noyade », pp. 273-274",
+      "citation": "Les compressions thoraciques ne sont débutées que si la victime est hors de l’eau, sur terre ou dans une embarcation. […] L’administration d’oxygène sera rapide, systématique et à haute concentration (15 l/min) tant que la victime est en arrêt cardiaque et tant que l’on ne peut obtenir une SpO2 fiable. défibrillation : Sécher le thorax avant de placer les électrodes pour la défibrillation, en respectant les consignes de sécurité liées à son utilisation."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0808",
+    "type": "vrai-faux",
+    "enonce": "Chez toute victime de noyade, le rachis cervical doit être immobilisé systématiquement avant la sortie de l’eau.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 08PR02 des références techniques PSE demande de sortir rapidement la victime de l’eau, la probabilité d’une lésion de la colonne vertébrale étant très faible ; l’immobilisation par des sauveteurs spécialisés n’est prévue que dans de rares cas.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR02 / 07-2026",
+      "emplacement": "Fiche 08PR02 « Noyade », p. 273",
+      "citation": "sortir la victime rapidement de l’eau, la probabilité pour que la victime présente une lésion de la colonne vertébrale est très faible ; Si la victime est en arrêt cardiaque, sa sortie doit être aussi rapide que possible tout en limitant autant que possible la flexion et l’extension du cou. Les sauveteurs spécialisés peuvent réaliser une immobilisation du rachis cervical et thoracique avant de procéder à la sortie de l’eau dans les rares cas suivants :"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0809",
+    "type": "qcm",
+    "enonce": "Une femme enceinte dont l’accouchement n’a pas encore eu lieu doit être installée pour le bilan puis le transport. Quelle position est à proscrire ?",
+    "propositions": [
+      "Sur le côté gauche",
+      "Sur le côté, ceinturée sur un brancard",
+      "Sur le dos",
+      "Demi-assise, pour un accouchement réalisé sur place"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "La fiche 08PR04 des références techniques PSE demande d’installer la femme enceinte sur le côté, de préférence gauche, et précise que l’installation sur le dos est à proscrire. La position demi-assise fait partie des positions possibles pour l’accouchement sur place.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR04 / 07-2026",
+      "emplacement": "Fiche 08PR04 « Accouchement inopiné », p. 281",
+      "citation": "installer la femme enceinte sur le côté ; […] Note : De préférence sur le côté gauche. L’installation sur le dos est à proscrire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0810",
+    "type": "qcm",
+    "enonce": "Lors d’un accouchement réalisé sur place, quand faut-il demander à la parturiente de pousser ? (plusieurs réponses)",
+    "propositions": [
+      "À partir du moment où le haut du crâne du nouveau-né commence à apparaître à la vulve",
+      "Lorsqu’elle ressent un besoin irrépressible de pousser",
+      "Dès les premières contractions, pour accélérer le travail",
+      "Jusqu’à la sortie complète des épaules, sans interruption"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 08PR04 des références techniques PSE limite la poussée à ces deux situations. Dès que la moitié de la tête est apparue, il faut cesser de faire pousser la parturiente et laisser l’expulsion se terminer naturellement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR04 / 07-2026",
+      "emplacement": "Fiche 08PR04 « Accouchement inopiné », pp. 281-282",
+      "citation": "demander à la parturiente de pousser : à partir du moment où le haut du crâne du nouveau-né commence à apparaître à la vulve ; lorsqu’elle ressent un besoin irrépressible de pousser. […] dès lors que la moitié de la tête du nouveau-né est apparu, cesser alors de faire pousser la parturiente, laisser se terminer l’expulsion naturellement"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0811",
+    "type": "cas-concret",
+    "enonce": "Lors d’un accouchement sur place, la tête du nouveau-né est totalement sortie mais ne tourne pas. Que faites-vous ?",
+    "propositions": [
+      "Demander à la parturiente d’arrêter de pousser et vérifier s’il y a un circulaire du cordon autour du cou",
+      "Tirer sur la tête pour dégager les épaules",
+      "Demander à la parturiente de pousser plus fort",
+      "Maintenir fermement la tête pour l’empêcher de tourner"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR04 des références techniques PSE demande d’arrêter la poussée et de vérifier un circulaire du cordon. Il faut lâcher la tête pour ne pas s’opposer à sa rotation et ne jamais tirer sur l’enfant.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR04 / 07-2026",
+      "emplacement": "Fiche 08PR04 « Accouchement inopiné », p. 282",
+      "citation": "lâcher la tête du nouveau-né pour ne pas s’opposer à sa rotation, une fois la tête totalement sortie, si la tête ne tourne pas, demander à la parturiente d’arrêter de pousser et vérifier s’il y a un circulaire du cordon autour du cou du nouveau-né, en présence d’un circulaire du cordon, procéder à son dégagement, […] Ne jamais tirer sur l’enfant."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0812",
+    "type": "vrai-faux",
+    "enonce": "En l’absence d’équipe médicale, lors de la délivrance, le secouriste aide le placenta à sortir en tirant doucement sur le cordon ombilical.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 08PR04 des références techniques PSE demande de laisser sortir le placenta sans tirer dessus ni sur le cordon, en faisant pousser la mère.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR04 / 07-2026",
+      "emplacement": "Fiche 08PR04 « Accouchement inopiné », p. 282",
+      "citation": "laisser sortir le placenta sans tirer dessus, ni sur le cordon ombilical et en faisant pousser ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0813",
+    "type": "qcm",
+    "enonce": "Un nouveau-né en bonne santé (cri et respiration vigoureux, tonus vif) vient de naître. À quel moment le cordon est-il clampé ?",
+    "propositions": [
+      "Au minimum après 1 minute de vie",
+      "Dès la naissance, sans attendre",
+      "Dès que possible, avant d’examiner le nouveau-né",
+      "Jamais avant l’arrivée de l’équipe médicale"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR05 des références techniques PSE demande de clamper le cordon au minimum après 1 minute de vie chez un nouveau-né en bonne santé, puis précise qu’il est possible ensuite de le couper. Le clampage dès que possible concerne le nouveau-né qui n’est pas en bonne santé.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR05 / 12-2022",
+      "emplacement": "Fiche 08PR05 « Prise en charge du nouveau-né à la naissance », p. 283",
+      "citation": "Le nouveau-né en bonne santé présente une respiration et un cri vigoureux ; un tonus vif. clamper le cordon au minimum après 1 minute de vie ; Une fois clampé, il est possible ensuite de couper le cordon."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0814",
+    "type": "qcm",
+    "enonce": "Un nouveau-né dont l’état reste inchangé après les premières manœuvres bénéficie d’une réanimation cardio-pulmonaire. Quel est le rythme prévu ?",
+    "propositions": [
+      "3 compressions à une fréquence instantanée de 120 par minute pour 1 insufflation",
+      "30 compressions pour 2 insufflations",
+      "15 compressions pour 2 insufflations",
+      "1 compression pour 3 insufflations"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR05 des références techniques PSE fixe le rythme de la RCP du nouveau-né à 3 compressions à une fréquence instantanée de 120 par minute pour 1 insufflation, avec apport complémentaire d’oxygène et sans pose de défibrillateur.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR05 / 12-2022",
+      "emplacement": "Fiche 08PR05 « Prise en charge du nouveau-né à la naissance », p. 284",
+      "citation": "réaliser une réanimation cardio-pulmonaire avec apport complémentaire d’oxygène et sans pose de défibrillateur ; pendant la réanimation, réchauffer le nouveau-né (isolation, bonnet, couverture, etc) ; Le rythme de la RCP est de 3 compressions à une fréquence instantanée de 120 par minute pour 1 insufflation."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0815",
+    "type": "cas-concret",
+    "enonce": "Vous prenez en charge un nouveau-né en détresse. Vous disposez d’un appareil de mesure de sa fréquence cardiaque, qui indique 80 battements par minute. Quelle est la procédure ?",
+    "propositions": [
+      "Réaliser des insufflations à l’air, sans compressions thoraciques, et réévaluer la fréquence cardiaque toutes les minutes",
+      "Réaliser une RCP avec apport complémentaire d’oxygène et sans pose du DAE",
+      "Surveiller étroitement le nouveau-né sans autre geste",
+      "Réaliser une RCP avec pose du DAE"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le tableau de la fiche 08PR05 des références techniques PSE prévoit, entre 60 et 100 battements par minute, des insufflations à l’air sans compressions. La RCP sans DAE correspond à moins de 60 et la simple surveillance à plus de 100 battements par minute.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR05 / 12-2022",
+      "emplacement": "Fiche 08PR05 « Prise en charge du nouveau-né à la naissance », p. 284",
+      "citation": "entre 60 et 100 battements par minute Réaliser des insufflations à l’air, sans compressions thoraciques, Réévaluer la fréquence cardiaque toutes les minutes pour adapter la conduite à tenir."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0816",
+    "type": "qcm",
+    "enonce": "Lors de la section du cordon ombilical, à quelle distance de l’ombilic le premier clamp est-il posé ?",
+    "propositions": [
+      "Environ 10 à 15 cm",
+      "Environ 1 à 2 cm",
+      "Environ 3 à 5 cm",
+      "Environ 30 cm"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08FT01 des références techniques PSE place le premier clamp à environ 10 à 15 cm de l’ombilic, suffisamment loin pour ne pas pincer une partie d’intestin. Les 3 à 5 cm correspondent à la longueur de cordon vidée de son sang avec la compresse.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08FT01 / 12-2022",
+      "emplacement": "Fiche 08FT01 « Soin au cordon ombilical », pp. 285-286",
+      "citation": "poser le premier clamp à environ 10 à 15 cm de l’ombilic et le verrouiller ; pincer le cordon avec une compresse stérile pour le vider de son sang, en partant du premier clamp sur environ 3 à 5 cm."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0817",
+    "type": "qcm",
+    "enonce": "Quelle est la cadence du massage utérin après la naissance ?",
+    "propositions": [
+      "1 minute toutes les 10 minutes en l’absence d’hémorragie, en continu en cas d’hémorragie",
+      "En continu dans tous les cas",
+      "1 minute toutes les 10 minutes dans tous les cas, même en cas d’hémorragie",
+      "Une seule fois, à la sortie du placenta"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08FT02 des références techniques PSE prévoit 1 minute toutes les 10 minutes en l’absence d’hémorragie, et un massage en continu en cas d’hémorragie.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08FT02 / 07-2026",
+      "emplacement": "Fiche 08FT02 « Massage utérin », p. 287",
+      "citation": "réaliser ce massage : pendant 1 minute : toutes les 10 minutes en l’absence d’hémorragie ; en continu en cas d’hémorragie."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0818",
+    "type": "cas-concret",
+    "enonce": "Une personne exposée longtemps au soleil se plaint de maux de tête et de vertiges. Elle a la peau rouge, une impression de chaleur, une température mesurée de 39 °C et aucun trouble neurologique. De quelle affection s’agit-il ?",
+    "propositions": [
+      "Une insolation",
+      "Un coup de chaleur",
+      "Des crampes liées à la chaleur",
+      "Aucune affection liée à la chaleur, puisque la température est inférieure à 40 °C"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08AC05 des références techniques PSE décrit l’insolation par une impression de chaleur, des céphalées voire des vertiges, une peau rouge et une température inférieure ou égale à 40 °C. Le coup de chaleur dépasse 40 °C avec des troubles neurologiques, et les crampes sont isolées.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08AC05 / 07-2026",
+      "emplacement": "Fiche 08AC05 « Affections liées à la chaleur », p. 290",
+      "citation": "insolation (ou épuisement hyperthermique) : la victime a une impression de chaleur, elle se plaint de céphalées voire de vertiges. Elle a la peau rouge et une température qui reste inférieure ou égale à 40°C;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0819",
+    "type": "qcm",
+    "enonce": "Jusqu’à quand le refroidissement actif d’une victime de coup de chaleur doit-il être poursuivi ?",
+    "propositions": [
+      "Jusqu’à la disparition des signes neurologiques et une température inférieure à 39 °C, ou pendant 15 minutes si la température ne peut être mesurée",
+      "Jusqu’à une température inférieure à 37,5 °C",
+      "Pendant 5 minutes dans tous les cas",
+      "Jusqu’à ce que la peau de la victime ne soit plus rouge"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR06 des références techniques PSE fixe ces deux critères : disparition des signes neurologiques et température inférieure à 39 °C, ou 15 minutes si la température ne peut pas être mesurée.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR06 / 07-2026",
+      "emplacement": "Fiche 08PR06 « Affections liées à la chaleur », p. 291",
+      "citation": "Le refroidissement actif doit se poursuivre jusqu’à la disparition des signes neurologiques et jusqu’à ce que la température corporelle de la victime devienne inférieure à 39°C ou pendant 15 minutes si la température ne peut être mesurée."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0820",
+    "type": "qcm",
+    "enonce": "Pour un refroidissement actif avancé, quelles victimes ne peuvent pas être immergées dans l’eau ? (plusieurs réponses)",
+    "propositions": [
+      "Une victime en arrêt cardiaque",
+      "Une victime qui présente des convulsions",
+      "Une victime qui a perdu connaissance et respire normalement",
+      "Une victime confuse et désorientée"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 08FT03 des références techniques PSE précise que seules les victimes en arrêt cardiaque ou qui présentent des convulsions ne peuvent pas être immergées. Une victime inconsciente qui respire normalement doit au contraire bénéficier d’un refroidissement actif urgent.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08FT03 / 07-2026",
+      "emplacement": "Fiche 08FT03 « Techniques de refroidissement d’une victime », p. 293",
+      "citation": "Les victimes qui ont perdu connaissance et qui respirent normalement doivent pouvoir bénéficier d’un refroidissement actif de façon urgente. […] Seules les victimes en arrêt cardiaque ou qui présentent des convulsions ne peuvent pas être immergées dans l’eau."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0821",
+    "type": "qcm",
+    "enonce": "Quelles consignes s’appliquent à un refroidissement actif avancé par immersion ? (plusieurs réponses)",
+    "propositions": [
+      "Immerger entièrement le corps de la victime dans un bain d’eau fraîche, froide ou glacée",
+      "Maintenir la tête de la victime hors de l’eau",
+      "Remuer activement l’eau autour de la victime",
+      "Utiliser une eau tiède pour éviter tout choc thermique"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08FT03 des références techniques PSE demande une immersion complète du corps, tête hors de l’eau, dans une eau la plus froide possible remuée activement. Une eau tiède est donc contraire à la consigne.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08FT03 / 07-2026",
+      "emplacement": "Fiche 08FT03 « Techniques de refroidissement d’une victime », p. 292",
+      "citation": "Refroidissement actif avancé immerger le corps de la victime entièrement dans un bain d’eau fraîche, froide, ou glacée ; maintenir la tête de la victime hors de l’eau ; la température de l’eau doit être la plus froide possible ; remuer activement l’eau autour de la victime."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0822",
+    "type": "cas-concret",
+    "enonce": "Une victime hypotherme délire, a des hallucinations et des troubles de la conscience qui s’aggravent. Sa ventilation et sa fréquence cardiaque se ralentissent, elle ne frissonne plus et présente une rigidité musculaire modérée. De quel degré d’hypothermie s’agit-il ?",
+    "propositions": [
+      "Modérée (32 à 28 °C)",
+      "Légère (35 à 32 °C)",
+      "Sévère (28 à 24 °C)",
+      "Grave (< 24 °C)"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le tableau de la fiche 08AC06 des références techniques PSE associe ces signes à l’hypothermie modérée. La légère comporte des frissons permanents, la sévère une perte de connaissance et la grave un arrêt cardiaque apparent.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08AC06 / 06-2018",
+      "emplacement": "Fiche 08AC06 « Hypothermie », p. 294",
+      "citation": "Modérée 32 à 28 °C La victime délire, présente des hallucinations et des troubles de la conscience d’aggravation progressive. Sa ventilation et la fréquence cardiaque se ralentissent. Il n’y a plus de frissons, mais une rigidité musculaire modérée ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0823",
+    "type": "vrai-faux",
+    "enonce": "Chez une victime hypotherme, la disparition des frissons est un signe rassurant : elle montre que la victime se réchauffe.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 08AC06 des références techniques PSE indique que la disparition du frisson signe l’épuisement de l’organisme, qui n’arrive plus à lutter contre le froid.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08AC06 / 06-2018",
+      "emplacement": "Fiche 08AC06 « Hypothermie », p. 295",
+      "citation": "l’absence de frisson (hypothermie modérée, sévère et grave), car la disparition du frisson signe l’épuisement de l’organisme qui n’arrive plus à lutter contre le froid ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0824",
+    "type": "qcm",
+    "enonce": "Quelles précautions s’appliquent à la réanimation cardio-pulmonaire d’une victime hypotherme ? (plusieurs réponses)",
+    "propositions": [
+      "Rechercher les signes de vie au moins pendant 1 minute et, en cas de doute, débuter la RCP",
+      "Limiter à 3 le nombre de défibrillations successives si la température est inférieure à 30 °C tant que la victime n’est pas réchauffée",
+      "Savoir que la rigidité de la paroi thoracique peut rendre les compressions plus difficiles",
+      "Attendre la mesure de la température avant de débuter la RCP",
+      "Rechercher les signes de vie pendant 10 secondes seulement"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08PR07 des références techniques PSE demande de rechercher les signes de vie au moins 1 minute, de limiter les défibrillations à 3 sous 30 °C et rappelle la rigidité thoracique. La température est mesurée dès que la RCP est en cours, non avant.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR07 / 12-2022",
+      "emplacement": "Fiche 08PR07 « Hypothermie », p. 296",
+      "citation": "rechercher la présence de signes de vie au moins pendant 1 minute, La recherche de la ventilation ou du pouls d’une victime hypotherme est très difficile. En cas de doute, débuter la RCP. l’hypothermie entraîne une rigidité de la paroi thoracique, Cette rigidité peut rendre plus difficiles les compressions et les insufflations thoraciques. dès que la RCP est en cours, confirmer l’hypothermie en mesurant la température de la victime avec un thermomètre hypotherme s’il est disponible, un cœur hypotherme peut ne pas réagir à une défibrillation, Le nombre de défibrillations successives chez une victime qui présente une température < 30 °C doit être limité à 3 tant que la victime n’est pas réchauffée."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0825",
+    "type": "cas-concret",
+    "enonce": "Une victime consciente présente une hypothermie légère avec des frissons intenses. Quel réchauffement est prévu ?",
+    "propositions": [
+      "Un réchauffement passif",
+      "Un réchauffement actif",
+      "Aucun réchauffement tant que le médecin n’a pas répondu",
+      "Un réchauffement actif, puisque la victime est consciente"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR07 des références techniques PSE prévoit un réchauffement passif pour l’hypothermie légère avec frissons intenses, et un réchauffement actif pour l’hypothermie modérée ou sévère, sans frisson.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR07 / 12-2022",
+      "emplacement": "Fiche 08PR07 « Hypothermie », p. 297",
+      "citation": "Devant une victime consciente qui présente une hypothermie : légère (avec des frissons intenses), réaliser un réchauffement passif ; modérée ou sévère (sans frisson), réaliser un réchauffement actif."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0826",
+    "type": "qcm",
+    "enonce": "Un enfant vient d’avaler un produit domestique. Quelles conduites faut-il adopter ? (plusieurs réponses)",
+    "propositions": [
+      "Déterminer les circonstances, la nature du toxique, la dose supposée absorbée et l’heure de prise",
+      "Rechercher les emballages et flacons des produits en cause",
+      "Faire vomir l’enfant",
+      "Faire boire l’enfant"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "La fiche 08PR09 des références techniques PSE demande de recueillir ces informations et de rechercher les emballages et flacons, mais de ne pas faire vomir ni boire la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR09 / 07-2026",
+      "emplacement": "Fiche 08PR09 « Intoxications », p. 303",
+      "citation": "réaliser le 4ème regard, en particulier : déterminer les circonstances de survenue, la nature du (des) toxique(s) en cause, la dose supposée absorbée ainsi que l’heure de prise, rechercher les emballages et flacons des produits en cause. ne pas faire vomir ni boire la victime ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0827",
+    "type": "cas-concret",
+    "enonce": "Une victime de 25 ans présente une dépression respiratoire (fréquence respiratoire inférieure à 12 mouvements par minute) évoquant une intoxication aux opiacés. De la naloxone en spray nasal est disponible. Une première pulvérisation dans une narine ne l’améliore pas. Que faites-vous ?",
+    "propositions": [
+      "Renouveler l’administration au bout de 2 à 3 minutes",
+      "Ne pas renouveler l’administration",
+      "Renouveler aussitôt dans les deux narines",
+      "Attendre l’avis médical sans surveiller la ventilation"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR09 des références techniques PSE prévoit de renouveler l’administration au bout de 2 à 3 minutes si l’état ne s’améliore pas, et de surveiller en permanence la ventilation.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR09 / 07-2026",
+      "emplacement": "Fiche 08PR09 « Intoxications », p. 303",
+      "citation": "Devant une victime qui présente une intoxication aux opiacés avec dépression respiratoire (FR < 12 mvts/min) et/ou une perte de connaissance, il faut : […] si de la naloxone administrable par pulvérisation intra-nasale est disponible, administrer une pulvérisation de naloxone (antagoniste) dans une narine chez toute victime âgée de 14 ans et plus (voir fiche administration de médicaments). Si l’état de la victime ne s’améliore pas ou en cas de réapparition des signes, renouveler cette administration au bout de 2 à 3 min."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0828",
+    "type": "qcm",
+    "enonce": "Vous intervenez auprès d’une victime dans un local rempli d’un gaz à odeur irritante. Quelles actions sont prévues ? (plusieurs réponses)",
+    "propositions": [
+      "Vous protéger du toxique en restant à distance",
+      "Si nécessaire, supprimer la cause ou aérer le local",
+      "Soustraire la victime, le plus rapidement possible, de l’environnement toxique",
+      "Réaliser d’abord les gestes de secours sur place, dans l’atmosphère toxique"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08PR10 des références techniques PSE demande de se protéger en restant à distance, de supprimer la cause ou d’aérer si nécessaire, et de soustraire rapidement la victime. Les regards et gestes de secours sont réalisés à distance de l’atmosphère toxique.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR10 / 09-2014",
+      "emplacement": "Fiche 08PR10 « Intoxication en environnement toxique », p. 304",
+      "citation": "se protéger du toxique : en restant à distance ; si nécessaire en supprimant la cause ou en aérant le local . soustraire la victime, le plus rapidement possible, de l’environnement toxique."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0829",
+    "type": "qcm",
+    "enonce": "Une personne est piquée à la main par une abeille. Quelles actions sont prévues ? (plusieurs réponses)",
+    "propositions": [
+      "Retirer le dard avec une pince à écharde, sans écraser la poche à venin",
+      "Retirer les bagues et bracelets avant l’apparition de gonflements",
+      "Appliquer du froid",
+      "Écraser le dard pour vider la poche à venin",
+      "Appliquer du chaud sur la piqûre"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08PR11 des références techniques PSE demande de retirer le dard sans écraser la poche à venin, de retirer les bagues avant le gonflement et d’appliquer du froid, qui limite le gonflement et la douleur.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR11 / 07-2026",
+      "emplacement": "Fiche 08PR11 « Piqûres et morsures », p. 307",
+      "citation": "retirer le plus rapidement possible le dard (piqûre d’abeille) en utilisant une pince à écharde, sans écraser la poche à venin ; […] retirer les bagues, bracelets si la piqûre se situe à la main, avant l’apparition de gonflements; appliquer du froid; Note : L’application de froid sur le siège d’une piqûre permet de limiter le gonflement et la douleur."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0830",
+    "type": "cas-concret",
+    "enonce": "Un baigneur vient d’être piqué par une méduse. Quel est le premier geste prévu sur la zone piquée ?",
+    "propositions": [
+      "La rincer avec de l’eau de mer",
+      "La rincer avec de l’eau douce",
+      "L’enduire de sable avant tout rinçage",
+      "Retirer les filaments à mains nues"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR11 des références techniques PSE demande de rincer d’abord avec de l’eau de mer, l’eau douce pouvant activer les nématocystes. Les filaments se retirent avec un gant, et le sable n’est utilisé que si la douleur persiste.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR11 / 07-2026",
+      "emplacement": "Fiche 08PR11 « Piqûres et morsures », p. 307",
+      "citation": "S’il s’agit de piqûres de méduses : rincer la zone piquée avec de l’eau de mer ; enlever les filaments s’ils sont toujours en contact avec la peau en se protégeant la main avec un gant ; si la douleur persiste, enduire la zone atteinte avec du sable […] Note : L’eau douce peut activer les nématocystes, aussi rincer avec de l’eau de mer avant d’appliquer de l’eau chaude douce si utilisée."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0831",
+    "type": "qcm",
+    "enonce": "Une personne vient d’être mordue par un serpent (espèce présente sur le territoire européen). Quelles conduites faut-il adopter ? (plusieurs réponses)",
+    "propositions": [
+      "L’allonger, lui demander de rester calme et la rassurer",
+      "Lui demander de ne pas mobiliser le membre atteint",
+      "Retirer les bagues et bracelets à proximité de la morsure",
+      "Aspirer le venin à la bouche ou avec un appareil",
+      "Injecter un sérum antivenimeux"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08PR11 des références techniques PSE demande d’allonger et rassurer la victime, d’immobiliser le membre et de retirer les bagues. Elle interdit toute technique d’aspiration et l’injection de sérum antivenimeux.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR11 / 07-2026",
+      "emplacement": "Fiche 08PR11 « Piqûres et morsures », p. 308",
+      "citation": "En présence d’une morsure de serpent ne jamais pratiquer de techniques d’aspiration, qu’elles soient buccales ou à l’aide d’un appareil (dispositif d’aspiration mécanique) et ne pas injecter de sérum antivenimeux ; allonger la victime, lui demander de rester calme et la rassurer ; demander à la victime de ne pas mobiliser le membre atteint ; retirer les bagues, bracelets à proximité de la morsure ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0832",
+    "type": "qcm",
+    "enonce": "Quelle conduite s’applique à une victime piquée par une vive ou une rascasse ?",
+    "propositions": [
+      "Placer la zone atteinte dans l’eau chaude pendant trente minutes au minimum",
+      "Placer la zone atteinte dans l’eau glacée",
+      "Rincer à l’eau douce puis laisser sécher",
+      "Placer la zone atteinte dans l’eau chaude pendant cinq minutes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 08PR11 des références techniques PSE prévoit, pour les vives et rascasses, l’immersion de la zone atteinte dans l’eau chaude pendant trente minutes au minimum.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR11 / 07-2026",
+      "emplacement": "Fiche 08PR11 « Piqûres et morsures », p. 307",
+      "citation": "Dans les autres cas (vives, rascasses, etc.) placer la zone atteinte dans l’eau chaude pendant trente minutes au minimum, demander un avis médical si nécessaire et appliquer les consignes reçues."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0833",
+    "type": "qcm",
+    "enonce": "Vous intervenez auprès d’une victime de pendaison. Quelles actions sont prévues ? (plusieurs réponses)",
+    "propositions": [
+      "Soutenir la victime en se faisant aider",
+      "Desserrer et enlever rapidement toute source de constriction du cou",
+      "Allonger la victime au sol en limitant autant que possible les mouvements du rachis cervical",
+      "Jeter la corde pour éviter toute gêne",
+      "Laisser la constriction en place jusqu’à l’arrivée des forces de l’ordre"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 08PR13 des références techniques PSE demande ces trois actions. Elle demande aussi de ne pas détruire, jeter ou déplacer les objets plus que nécessaire, car ils peuvent servir de preuve aux forces de l’ordre.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 08PR13 / 12-2022",
+      "emplacement": "Fiche 08PR13 « Pendaison, strangulation », p. 313",
+      "citation": "ne pas détruire, jeter ou déplacer les objets plus que nécessaire ; soutenir la victime en cas de pendaison en se faisant aider ; desserrer et enlever rapidement toute source de constriction du cou ; allonger la victime au sol en limitant autant que possible les mouvements du rachis cervical."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0901",
+    "type": "qcm",
+    "enonce": "Après un accident, une victime reste immobile au milieu du danger, le regard vide, sans bouger ni sembler penser. De quel état s’agit-il ?",
+    "propositions": [
+      "Une réaction de fuite panique",
+      "Une agitation désordonnée",
+      "Un état de sidération, réaction « silencieuse »",
+      "Un choc de compassion"
+    ],
+    "bonnes_reponses": [
+      2
+    ],
+    "explication": "Les références techniques PSE (fiche 09AC01) décrivent la sidération comme une paralysie physique (ne bouge plus) et psychique (ne pense plus), avec regard vide, la victime pouvant rester immobile dans le danger. La fuite panique est au contraire une fuite impulsive, l’agitation désordonnée une excitation avec gesticulation, et le choc de compassion une souffrance liée à la douleur de l’autre.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09AC01 / 11-2021",
+      "emplacement": "Fiche 09AC01 « Les personnes en situation de crise », p. 326",
+      "citation": "Dans certains cas, la victime présente un état de stupeur, une paralysie de la capacité d’agir et de la volonté. Cet état de sidération est autant physique (ne bouge plus) que psychique (ne pense plus). Elle a un regard vide et une expression d’incompréhension totale. Elle peut demeurer immobile dans le danger."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0902",
+    "type": "qcm",
+    "enonce": "Une victime en réaction « silencieuse » (hypoactive) après un événement bouleversant. Quelles conduites sont adaptées ? (plusieurs réponses)",
+    "propositions": [
+      "Rechercher le contact visuel",
+      "Ramener doucement la victime dans « l’ici et maintenant »",
+      "Ne jamais laisser la victime seule",
+      "Lui demander de faire le récit détaillé de l’événement et de parler de ses émotions",
+      "La laisser seule au calme pour qu’elle se reprenne"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE demande de rechercher le contact visuel, de ramener la victime dans « l’ici et maintenant » et de ne jamais la laisser seule. Lui faire raconter l’événement ou parler de ses émotions maintient ou réactive l’état de dissociation.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 329-330",
+      "citation": "Rechercher le contact visuel […] Ramener doucement la victime dans « l’ici et maintenant » […] Ne jamais laisser seule. […] Questionner la victime sur l’événement qu’elle vient de vivre, en lui demandant d’en faire le récit et/ou de parler de ses émotions, aura pour effet de maintenir/réactiver l’état de dissociation."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0903",
+    "type": "vrai-faux",
+    "enonce": "Face à une victime agitée qui a des hallucinations ou tient des propos incohérents, il faut la contredire pour la ramener à la réalité.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 09PR01 des références techniques PSE demande, dans le cas d’hallucinations ou de propos incohérents, de ne pas contredire la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 330",
+      "citation": "Dans le cas d’hallucinations ou de propos incohérents, ne pas contredire la victime."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0904",
+    "type": "qcm",
+    "enonce": "Pour apaiser une victime hyperactive (réaction « bruyante »), quelle attitude adopter ?",
+    "propositions": [
+      "Garder une voix calme, un débit lent et une gestuelle bien réglée",
+      "Élever la voix pour couvrir son agitation",
+      "Lui interdire de bouger tant que l’équipe n’a pas terminé",
+      "Éviter de lui proposer de l’aide pour ne pas l’agiter davantage"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE demande une voix calme, un débit lent et pas de gestes brusques. Elle demande aussi de proposer son aide, ce qui peut stopper la montée en tension, et, si la victime a besoin de bouger, de lui proposer des contractions alternées.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 330",
+      "citation": "Garder une voix calme, un débit lent et une gestuelle bien réglée (pas de gestes brusques) […] Identifier le ou les besoins immédiats et proposer son aide : « Y a-t-il quelque chose que je puisse faire pour vous aider ? ». Cette proposition d’aide peut conduire la victime à activer sa réflexion, ce qui peut stopper le processus de montée en tension. […] Si la victime exprime le besoin de bouger, lui proposer de réaliser des contractions alternées […]"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0905",
+    "type": "qcm",
+    "enonce": "Trois secouristes doivent aborder une personne devenue violente. Comment s’organisent-ils ?",
+    "propositions": [
+      "En triangle : un seul secouriste parle, les deux autres restent en arrière en soutien",
+      "Les trois l’entourent et lui parlent à tour de rôle",
+      "Un seul secouriste reste avec elle, les deux autres attendent à distance",
+      "Chacun s’adresse à elle pour annoncer ses propres gestes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE demande de positionner l’équipe en triangle : un seul secouriste parle, les deux autres restent en arrière en soutien. C’est lui, exclusivement, qui s’adresse à la victime et annonce les gestes de ses équipiers, et personne ne reste seul avec elle.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 331",
+      "citation": "Ne pas laisser la personne seule, ne pas rester seul avec la victime. […] Veiller à avoir une échappatoire, un accès à la sortie ; Positionner l'équipe en triangle. Un seul secouriste parle, les 2 autres situés en arrière, sont en soutien et en communication avec ce dernier. […] En présence de plusieurs intervenants, un secouriste prendra le rôle d’interlocuteur principal. C’est lui, exclusivement, qui s’adressera à la victime, et introduira les gestes secouristes réalisés par ses équipiers […]"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0906",
+    "type": "qcm",
+    "enonce": "Face à une personne agressive, quelles attitudes faut-il éviter ? (plusieurs réponses)",
+    "propositions": [
+      "Croiser les bras ou mettre les mains sur les hanches",
+      "La regarder fixement dans les yeux",
+      "La toucher, la tirer ou la tenir",
+      "Maintenir un contact oculaire tout en restant vigilant",
+      "Continuer à la vouvoyer même si elle nous tutoie"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE demande d’éviter les bras croisés, les mains sur les hanches, le regard fixe, et de ne pas toucher, contraindre, tirer ou tenir. Elle demande en revanche de maintenir un contact oculaire et les marques de respect, dont le vouvoiement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 332",
+      "citation": "Éviter toute attitude agressive (éviter les bras croisés, mains sur les hanches, pointer du doigt..., ne pas regarder fixement la personne dans les yeux, mais rester vigilant en maintenant un contact oculaire), ne pas toucher, contraindre physiquement, tirer, tenir. […] maintenir les marques de respect (Mme, Mr, vouvoiement, même si la personne a tendance à employer le tutoiement ou des marques de familiarité)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0907",
+    "type": "qcm",
+    "enonce": "Face à une personne violente, dans quels cas le secouriste peut-il recourir à la force ? (plusieurs réponses)",
+    "propositions": [
+      "Pour préserver sa propre intégrité",
+      "Pour limiter un danger manifestement grave et imminent, dans la mesure du possible",
+      "Pour faire cesser des insultes ou des incivilités",
+      "Pour la maîtriser dès qu’elle refuse les soins"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Selon la fiche 09PR01 des références techniques PSE, l’usage de la force n’est pas du ressort du secouriste, sauf deux exceptions : préserver sa propre intégrité ou limiter un danger manifestement grave et imminent. Les insultes ou le refus de soins n’en font pas partie.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 332",
+      "citation": "L’usage de la force pour maîtriser la victime n’est pas du ressort du secouriste, sauf 2 exceptions : pour préserver sa propre intégrité ou dans la mesure du possible pour limiter un danger manifestement grave et imminent."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0908",
+    "type": "qcm",
+    "enonce": "Un décès doit être annoncé à la famille. Qui en est normalement chargé ? (plusieurs réponses)",
+    "propositions": [
+      "Le médecin",
+      "La police",
+      "Un officier de police judiciaire, tel que le maire",
+      "Le secouriste, dès qu’il constate le décès"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE confie l’annonce au médecin, à la police ou à un officier de police judiciaire. Le secouriste ne la réalise qu’à titre très exceptionnel.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 333",
+      "citation": "L’annonce est du ressort du médecin, de la police ou d’un Officier de Police Judiciaire (tel que le maire par exemple). À titre très exceptionnel, le secouriste peut être amené à réaliser l’annonce du décès."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0909",
+    "type": "qcm",
+    "enonce": "Une personne décède sur la voie publique, en l’absence de danger ni obstacle médico-légal connu. Quelle conduite adopter ?",
+    "propositions": [
+      "Soustraire au mieux le corps à la vue du public, et ne le déplacer que sur décision du médecin",
+      "Le déplacer aussitôt dans le véhicule de secours pour le mettre à l’abri",
+      "Le laisser visible du public jusqu’à l’arrivée de la police",
+      "Le déplacer sur décision du chef d’agrès"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE demande de soustraire dès que possible le corps à la vue du public. En l’absence de danger, il n’est déplacé que sur décision du médecin (ou de l’autorité judiciaire en cas d’obstacle médico-légal).",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 333",
+      "citation": "Dans le cas particulier où le décès survient sur la voie publique, il convient dès que possible de soustraire au mieux le corps à la vue du public. En l’absence de danger, le corps ne sera déplacé que sur décision du médecin (ou de l’autorité judiciaire en cas d’obstacle médico-légal)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0910",
+    "type": "qcm",
+    "enonce": "Face à une victime de violences, dans quels cas faut-il recourir aux forces de l’ordre ? (plusieurs réponses)",
+    "propositions": [
+      "En cas de danger persistant pour la ou les victimes",
+      "En cas de danger pour l’équipage",
+      "Lorsque la victime en fait la demande",
+      "Dès que des violences conjugales sont suspectées, pour mener l’enquête"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE précise qu’il ne s’agit pas de réaliser une enquête. Le recours aux forces de l’ordre ne se fait que dans trois conditions : danger persistant pour la victime, danger pour l’équipage, ou demande de la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 335",
+      "citation": "Il ne s’agit pas de réaliser une enquête, mais d’évaluer les risques encourus afin de déterminer la réponse opérationnelle la plus adaptée dans l’immédiat. Ainsi doit être appréciée la nécessité du recours aux forces de l’ordre, qui ne se fera que dans trois conditions : un danger persistant pour la/les victime(s), pour l’équipage ou lorsque la victime en fait la demande."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0911",
+    "type": "vrai-faux",
+    "enonce": "Il faut éviter de poser des questions directes à une personne qui tient des propos suicidaires, car elle les interprète comme un manque de compréhension de sa souffrance.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 09PR01 des références techniques PSE indique que ces questions permettent de mieux préciser le mode d’action envisagé. La personne peut les interpréter comme une compréhension de sa souffrance, et l’absence de questionnement comme un désintérêt.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 337",
+      "citation": "Les questions directes posées à une personne qui formule des propos suicidaires peuvent sembler embarrassantes, mais elles permettent pourtant de mieux préciser le mode d’action envisagé. Une personne ayant des idées suicidaires peut en effet interpréter ces questions directes de son interlocuteur comme une compréhension de sa souffrance et à l’inverse, l’absence de questionnement comme un désintérêt."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0912",
+    "type": "cas-concret",
+    "enonce": "Une personne a avalé volontairement quelques comprimés. Elle affirme que ce n’est qu’un geste « bénin », qu’elle va bien et qu’elle n’a pas besoin d’aide. Que faut-il faire ?",
+    "propositions": [
+      "Un transport vers l’hôpital pour une évaluation par un spécialiste est indispensable, avec surveillance jusqu’au bout, y compris pendant le transport",
+      "La laisser sur place si elle paraît calme, le geste étant bénin",
+      "Interrompre la surveillance pendant le transport, car la crainte de l’hospitalisation la rendrait agitée",
+      "Lui dire que son geste est une bêtise pour qu’elle prenne conscience de la situation"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE considère toute idée suicidaire comme un suicide en cours de réalisation : même face à un geste « bénin », le transport est indispensable. La surveillance se poursuit durant le transport, et il faut se retenir de dévaloriser le geste (« une bêtise »).",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 337",
+      "citation": "Toute idée suicidaire est à considérer comme un suicide en cours de réalisation. Ainsi, même face à un geste « bénin », un transport pour une évaluation par un spécialiste se révèle indispensable. […] Les victimes en crise suicidaire doivent être surveillées durant toute l’intervention, y compris durant le transport, car l’impulsion d’un passage à l’acte peut être accentuée par la crainte de l’hospitalisation. […] se retenir de minimiser les problèmes et de dévaloriser le geste (« une bêtise »)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-0913",
+    "type": "qcm",
+    "enonce": "Lors d’un mouvement de panique, quelles conduites sont adaptées ? (plusieurs réponses)",
+    "propositions": [
+      "Être facilement identifiable en tant que secouriste",
+      "Donner des informations et des directives brèves et claires, avec autorité",
+      "Isoler les personnes susceptibles de réenclencher un mouvement de panique, une fois celui-ci enrayé",
+      "Se mêler discrètement à la foule pour ne pas attirer l’attention",
+      "Donner de longues explications détaillées sur l’événement"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 09PR01 des références techniques PSE demande d’être facilement identifiable, de faire preuve d’autorité par des directives brèves et claires, et d’isoler les personnes susceptibles de relancer la panique. Se fondre dans la foule ou donner de longues explications est contraire à ces consignes.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 09PR01 / 11-2021",
+      "emplacement": "Fiche 09PR01 « Prise en charge d’une personne en situation de crise », p. 339",
+      "citation": "Être facilement identifiable en tant que secouriste […] Faire preuve d’autorité en donnant des informations et des directives brèves et claires (anticipation). Isoler les personnes susceptibles de réenclencher un mouvement de panique, une fois celui-ci enrayé."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1001",
+    "type": "qcm",
+    "enonce": "Quels principes de manutention le secouriste doit-il respecter lors d’un relevage ? (plusieurs réponses)",
+    "propositions": [
+      "Debout, garder les pieds écartés, décalés, non parallèles",
+      "Penché en avant, garder le dos plat et travailler avec les muscles des membres inférieurs",
+      "Saisir la charge à pleines mains, en la faisant porter sur les avant-bras",
+      "Saisir la charge du bout des doigts pour rester souple",
+      "Se pencher en avant plutôt que s’accroupir"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 10AC01 des références techniques PSE demande pieds écartés et décalés, dos plat avec travail des membres inférieurs, prise à pleines mains et charge portée par les avant-bras. Elle précise qu’il vaut mieux s’accroupir que se pencher.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10AC01 / 09-2019",
+      "emplacement": "Fiche 10AC01 « Relevage et brancardage », p. 341",
+      "citation": "Le secouriste debout doit avoir les pieds écartés, décalés, non parallèles. […] Penché en avant, il garde le dos plat et travaille avec les muscles des membres inférieurs, s'éloignant le moins possible de la position verticale. Il vaut mieux s'accroupir que se pencher. […] La charge est saisie à pleines mains et non du bout des doigts ; elle porte sur les avant-bras et non sur les mains."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1002",
+    "type": "qcm",
+    "enonce": "Lors d’un brancardage, où le chef de manœuvre se place-t-il préférentiellement, et dans quel sens la tête de la victime est-elle placée en règle générale ?",
+    "propositions": [
+      "À l’arrière ; tête de la victime vers l’avant",
+      "À l’avant ; tête de la victime vers l’avant",
+      "À l’arrière ; tête de la victime vers l’arrière",
+      "Sur le côté ; tête de la victime vers l’arrière"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10AC01 des références techniques PSE place le chef préférentiellement à l’arrière, ce qui lui permet de voir son équipe et de surveiller la victime, et demande de placer la tête de la victime vers l’avant en règle générale.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10AC01 / 09-2019",
+      "emplacement": "Fiche 10AC01 « Relevage et brancardage », p. 342",
+      "citation": "placer la tête de la victime vers l’avant, en règle générale. Le chef se place préférentiellement à l’arrière. Ce positionnement lui permet d’avoir une vision sur l’ensemble de son équipe d’une part, tout en pouvant exercer une surveillance constante de la victime d'autre part."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1003",
+    "type": "vrai-faux",
+    "enonce": "Une chaise de transport peut être utilisée pour descendre un escalier étroit avec une victime en détresse, dès lors qu’elle peut rester assise.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 10FT02 des références techniques PSE autorise la chaise de transport si la victime ne présente pas de détresse ou d’atteinte grave et si elle peut supporter la position assise : les deux conditions sont nécessaires.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT02 / 09-2019",
+      "emplacement": "Fiche 10FT02 « Déplacement d’une victime à l’aide d’une chaise de transport », p. 346",
+      "citation": "La chaise de transport peut être utilisée si : la victime ne présente pas de détresse ou d'atteinte grave ; la victime peut supporter la position assise."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1004",
+    "type": "cas-concret",
+    "enonce": "Une victime consciente, suspecte d’un traumatisme des membres, doit être déplacée sur quelques mètres. Un équipier propose la chaise à mains, un autre le déplacement par saisie des extrémités. Que dire ?",
+    "propositions": [
+      "Aucune de ces techniques ne doit être utilisée, car la victime est suspecte d’un traumatisme des membres",
+      "La chaise à mains est possible, mais pas la saisie des extrémités",
+      "La saisie des extrémités est possible, mais pas la chaise à mains",
+      "Les deux sont possibles à condition d’être au moins deux secouristes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT03 des références techniques PSE interdit toute technique de déplacement d’une victime non valide si elle est suspecte d’un traumatisme de la colonne vertébrale ou des membres. Cela vaut pour la chaise à mains comme pour la saisie des extrémités.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT03 / 09-2019",
+      "emplacement": "Fiche 10FT03 « Déplacement d’une victime non valide », p. 348",
+      "citation": "Le secouriste ne doit jamais utiliser une technique de déplacement de la victime si la victime est suspecte d’un traumatisme de la colonne vertébrale ou des membres."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1005",
+    "type": "qcm",
+    "enonce": "Pour arrimer une victime sur un brancard avec trois sangles, à quels niveaux les faire passer ? (plusieurs réponses)",
+    "propositions": [
+      "La partie supérieure du thorax",
+      "Le bassin",
+      "Les cuisses, juste au-dessus des genoux",
+      "La partie supérieure de l’abdomen",
+      "Le cou"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche 10FT10 des références techniques PSE prévoit trois sangles : partie supérieure du thorax, bassin, cuisses juste au-dessus des genoux. Aucune sangle ne doit appuyer sur une blessure, le cou, la partie inférieure du thorax ou la partie supérieure de l’abdomen.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT10 / 09-2019",
+      "emplacement": "Fiche 10FT10 « Arrimage de la victime », p. 363",
+      "citation": "de trois sangles passant au niveau : de la partie supérieure du thorax (au-dessus d’un bras et en dessous de l’autre), du bassin, des cuisses, juste au-dessus des genoux. […] veiller à ce qu’aucune sangle n’appuie sur : une blessure, le cou, la partie inférieure du thorax, la partie supérieure de l'abdomen."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1006",
+    "type": "qcm",
+    "enonce": "Quel est le moyen recommandé de première intention pour relever une victime suspecte d’un traumatisme du rachis, allongée sur le dos, afin de l’installer sur un matelas immobilisateur à dépression ?",
+    "propositions": [
+      "Le brancard cuillère",
+      "L’alèse portoir",
+      "La chaise de transport",
+      "Le déplacement par saisie des extrémités"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT06 des références techniques PSE désigne le brancard cuillère comme moyen de première intention dans ce cas. L’alèse portoir ne doit pas être utilisée en cas de traumatisme du rachis (fiche 10FT05), la chaise de transport est exclue en cas d’atteinte grave (fiche 10FT02) et la saisie des extrémités en cas de traumatisme de la colonne vertébrale ou des membres (fiche 10FT03).",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT06 / 09-2019",
+      "emplacement": "Fiche 10FT06 « Relevage à l’aide d’un brancard cuillère », p. 353",
+      "citation": "Il est le moyen recommandé de première intention pour relever une victime traumatisée suspecte d’un traumatisme du rachis allongée sur le dos pour l’installer sur un matelas immobilisateur à dépression."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1007",
+    "type": "vrai-faux",
+    "enonce": "L’alèse portoir peut être utilisée pour relever une victime suspecte d’un traumatisme du rachis.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. La fiche 10FT05 des références techniques PSE interdit l’alèse portoir pour relever une victime présentant une atteinte traumatique grave, comme un traumatisme du rachis.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT05 / 09-2019",
+      "emplacement": "Fiche 10FT05 « Transfert d’une victime à l’aide d’une alèse portoir », p. 352",
+      "citation": "L’alèse portoir ne doit pas être utilisée pour relever une victime qui présente une atteinte traumatique grave (traumatisme du rachis, traumatisme non immobilisé des membres)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1008",
+    "type": "qcm",
+    "enonce": "Lors du relevage d’un brancard cuillère, dans quel ordre fermer les dispositifs à encliquetage ?",
+    "propositions": [
+      "D’abord celui de la tête, puis celui des pieds",
+      "D’abord celui des pieds, puis celui de la tête",
+      "Les deux en même temps",
+      "Peu importe, il suffit de les contrôler ensuite"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT06 des références techniques PSE demande de commencer par le dispositif situé à la tête, puis celui des pieds, puis de s’assurer de la fermeture en tirant latéralement sur les deux parties.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT06 / 09-2019",
+      "emplacement": "Fiche 10FT06 « Relevage à l’aide d’un brancard cuillère », p. 354",
+      "citation": "réunir et solidariser les deux parties du brancard cuillère, à l’aide des dispositifs à encliquetage ; Il convient de commencer par celui situé à la tête, puis celui des pieds."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1009",
+    "type": "qcm",
+    "enonce": "Lors d’un relevage en pont néerlandais à quatre porteurs, quel secouriste guide et commande l’ensemble de la manœuvre ?",
+    "propositions": [
+      "Celui placé à la tête de la victime, qui maintient sa tête par une prise latéro-latérale",
+      "Celui placé aux pieds de la victime",
+      "Celui placé au niveau du bassin",
+      "Le plus ancien dans le grade des trois secouristes en pont"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT07 des références techniques PSE confie le commandement au secouriste 1, placé à la tête, qui assure la stabilisation du rachis par une prise latéro-latérale.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT07 / 09-2019",
+      "emplacement": "Fiche 10FT07 « Relevage à quatre secouristes », p. 355",
+      "citation": "un secouriste, placé à la tête de la victime, assure la stabilisation du rachis en maintenant la tête de la victime par une prise latéro-latérale (secouriste 1) ; Il se positionne un genou côté brancard à terre, à l’intérieur des deux hampes du brancard et contre la poignée pour la caler. C’est ce secouriste qui guide et commande l’ensemble de la manœuvre."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1010",
+    "type": "qcm",
+    "enonce": "À la fin d’un relevage en pont néerlandais à quatre porteurs, dans quel ordre les secouristes se dégagent-ils de la victime ?",
+    "propositions": [
+      "Ceux placés aux épaules et au bassin, puis celui placé aux pieds ; celui de tête seulement si le rachis cervical est stabilisé",
+      "Celui placé aux pieds en premier, puis ceux placés aux épaules et au bassin",
+      "Celui de tête en premier, pour libérer le brancard",
+      "Tous ensemble, au commandement « Dégagez ! »"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT07 des références techniques PSE demande de se dégager successivement, d’abord les secouristes 3 et 4 (épaules et bassin), puis l’équipier des pieds. L’équipier de tête ne se dégage que si la stabilisation du rachis cervical est assurée.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT07 / 09-2019",
+      "emplacement": "Fiche 10FT07 « Relevage à quatre secouristes », p. 356",
+      "citation": "se dégager successivement de la victime, dans l’ordre 3 et 4, puis l’équipier placé aux pieds (secouriste 2). L’équipier de tête (secouriste 1) peut se dégager seulement si la stabilisation du rachis cervical est assurée."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1011",
+    "type": "qcm",
+    "enonce": "Dans la technique du « pont simple » à trois secouristes, qui glisse le brancard sous la victime soulevée ?",
+    "propositions": [
+      "Un aide, au commandement « Envoyez le brancard ! »",
+      "Le secouriste placé aux pieds de la victime",
+      "Le secouriste placé à la tête de la victime",
+      "Les trois porteurs, en reculant"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT08 des références techniques PSE prévoit, pour le pont simple, trois porteurs et un aide : celui-ci glisse le brancard entre les jambes des secouristes, sous la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT08 / 07-2026",
+      "emplacement": "Fiche 10FT08 « Relevage à trois secouristes », p. 360",
+      "citation": "Secouriste 1 : « Envoyez le brancard ! » l’aide doit alors : glisser le brancard entre les jambes des secouristes, sous la victime."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1012",
+    "type": "qcm",
+    "enonce": "Trois secouristes descendent un escalier avec une victime arrimée sur un brancard. Comment s’organisent-ils ?",
+    "propositions": [
+      "Deux secouristes vers l’avant et un vers l’arrière ; victime de préférence les pieds en avant",
+      "Un secouriste à l’avant et deux à l’arrière ; victime de préférence la tête en avant",
+      "Deux secouristes vers l’avant et un vers l’arrière ; victime de préférence la tête en avant",
+      "Un secouriste à l’avant et deux à l’arrière ; victime de préférence les pieds en avant"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT12 des références techniques PSE place deux secouristes vers l’avant et un vers l’arrière dans le sens de la descente, et préfère brancarder la victime les pieds en avant. Dans le sens de la montée, c’est un à l’avant et deux à l’arrière.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT12 / 09-2019",
+      "emplacement": "Fiche 10FT12 « Brancardage à trois secouristes », p. 369",
+      "citation": "un secouriste à l’avant et deux à l’arrière, si la progression se fait dans le sens de la montée ; deux secouristes vers l'avant et un vers l’arrière, si la progression se fait dans le sens de la descente. […] Si la progression se fait dans le sens de la descente, il est préférable de brancarder la victime les pieds en avant."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1013",
+    "type": "qcm",
+    "enonce": "Une victime est installée dans un véhicule de secours. Qui est responsable de l’arrimage de la victime dans le moyen de transport et de la fermeture des portes ?",
+    "propositions": [
+      "Le conducteur du véhicule",
+      "Le secouriste placé à la tête de la victime",
+      "La personne qui commande la manœuvre, placée au pied du brancard",
+      "Le médecin régulateur"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT13 des références techniques PSE attribue cette responsabilité au conducteur du véhicule. La personne commandant la manœuvre, placée au pied du brancard, surveille les secouristes et la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT13 / 09-2019",
+      "emplacement": "Fiche 10FT13 « Installation d’une victime dans un vecteur de transport », p. 371",
+      "citation": "La responsabilité de l’arrimage de la victime dans le moyen de transport et la fermeture des portes incombe au conducteur du véhicule."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "pse-1014",
+    "type": "qcm",
+    "enonce": "Lors de la préparation d’un brancard, comment placer les sangles de fixation par rapport à la couverture ?",
+    "propositions": [
+      "Par-dessus la couverture, pour que l’ensemble soit parfaitement maintenu",
+      "Sous la couverture, au contact direct de la victime",
+      "Au choix, la couverture étant fixée séparément",
+      "Elles ne sont pas nécessaires si la victime est enveloppée dans un drap"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche 10FT04 des références techniques PSE demande que les sangles passent par-dessus la couverture. Elle prévoit de sangler la victime après l’avoir recouverte.",
+    "source": {
+      "document": "Références techniques nationales – Premiers secours en équipe (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 10FT04 / 09-2019",
+      "emplacement": "Fiche 10FT04 « Préparation d’un dispositif de portage », p. 349",
+      "citation": "recouvrir la victime au moyen d’une couverture ; sangler la victime. Les sangles doivent passer par-dessus la couverture afin que l’ensemble soit parfaitement maintenu."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
   }
 ]

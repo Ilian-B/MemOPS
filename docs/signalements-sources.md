@@ -35,6 +35,17 @@ Relevés lors de la rédaction et de la vérification du premier lot PSE. Chaque
 | 203 et 204 | 07PR01 / 07-2026 | Note 2 : « Pendant au moins 10 minutes, idéalement 20 minutes » / p. 204 : « poursuivre le refroidissement jusqu’à disparition de la douleur » ; appel de note « rincer⁵ » renvoyant à une note sur l’inhalation | Règle d’arrêt du refroidissement non hiérarchisée ; numérotation de note probablement erronée. | 2026-10-29 |
 | 239 et 241-242 | 07AC08 / 07-2026, 07PR08 / 12-2023 | 07AC08 : « âgée de 65 ans et plus, ou ayant des antécédents à risque » / 07PR08 : « soit a plus de 65 ans », algorithme « Âge > 65 ans » | Seuil d’âge différent ; critères d’immobilisation complète présentés différemment (critère indépendant dans 07AC08, associé au traumatisme à haut risque dans 07PR08). | 2026-10-29 |
 
+| 41 | 02PR02 / 07-2026 | « ne pas s’engager dans un local ou escalier enfumé » / « procéder à son dégagement en urgence : si elle est visible depuis l’entrée du local enfumé ; […] en retenant sa respiration, uniquement » | L’exception à l’interdiction d’entrer n’est pas dite explicitement. | 2026-10-30 |
+| 41 et 304 | 02PR02 / 07-2026, 08PR10 / 09-2014 | 02PR02 (fuite de gaz) : « ne pas pénétrer dans le local ; rester à distance et empêcher l’accès » / 08PR10 : « soustraire la victime, le plus rapidement possible, de l’environnement toxique » | Consignes opposées si le gaz est à la fois combustible et toxique. | 2026-10-30 |
+| 273 | 08PR02 / 07-2026 | « alerter ou faire alerter immédiatement les secours spécialisés » / « si le secouriste est isolé, il doit réaliser cinq cycles de réanimation cardio-pulmonaire avant de quitter la victime pour aller alerter les secours » | Articulation des deux consignes d’alerte non précisée. | 2026-10-30 |
+| 287 | 08FT02 / 07-2026 | « réaliser ce massage : pendant 1 minute : toutes les 10 minutes en l’absence d’hémorragie ; en continu en cas d’hémorragie » | La mise en forme laisse croire que « pendant 1 minute » vaut aussi pour le massage continu. | 2026-10-30 |
+| 290 | 08AC05 / 07-2026 | « effort physique prolongé (< 30 min) » | Un effort « prolongé » de moins de 30 minutes est contradictoire. | 2026-10-30 |
+| 289-290 | 08AC05 / 07-2026 | Hyperthermie au-dessus de 37,5 °C ; insolation « inférieure ou égale à 40°C » | Seuils à faire confirmer par un formateur. | 2026-10-30 |
+| 294 | 08AC06 / 06-2018 | « L’hypothermie est due à une hémorragie ou à une exposition prolongée… » (surligné) | L’hémorragie présentée comme cause de l’hypothermie est discutable. | 2026-10-30 |
+| 294-295 | 08AC06 / 06-2018 | « des frissons, ils surviennent habituellement avant l’apparition de l’hypothermie sévère entre 36 °C et 32 °C » | Ne concorde pas avec le tableau (légère 35 à 32 °C) ni avec la définition (< 35 °C). | 2026-10-30 |
+| 292 | 08FT03 / 07-2026 | « immerger le corps de la victime entièrement » puis « maintenir la tête de la victime hors de l’eau » | Contradiction de forme. | 2026-10-30 |
+| 337 | 09PR01 / 11-2021 | « La douleur et l’expression de la souffrance sont omniprésentes ou complètement tues » | Critère d’urgence élevée ambigu (deux situations opposées). | 2026-10-30 |
+
 ### Coquilles et défauts de forme (sans effet sur le sens)
 
 - Chapitre 04 : renvois de tableaux et figures décalés (p. 66 « tableau 1 » → Tableau 2 ; p. 67 « tableau 2 » → Tableau 3 ; p. 83 « tableau 3 » → Tableau 4 ; p. 88 « tableau 4 » → Tableau 5 ; p. 92 « tableau 9 » → Tableau 6 ; p. 107 « tableau 7 » → Tableau 10 ; p. 106-107 figures 1 à 4 → légendes 3 à 6).
@@ -54,6 +65,12 @@ Relevés lors de la rédaction et de la vérification du premier lot PSE. Chaque
 - p. 222, 07PR06 : « dans la mesure du possible. ; ».
 - p. 239, 07AC08 : parenthèse ouverte non fermée ; note 1 apparemment décalée.
 - p. 243, 07PR08 : « Il ne faut ne pas perdre de temps ».
+- p. 40, 02PR02 : la règle « se garer après le lieu de l’accident » vaut aussi pour un véhicule signalisé « si la sécurité est déjà assurée » (nuance à garder en tête, pas une erreur).
+- p. 41, 02PR02 : « dans le cas contraire » en minuscule, dans une puce séparée.
+- p. 287, 08FT02 : « Un message utérin » (massage) ; « peut-être causée ».
+- p. 293, 08FT03 : « Leur refroidissement leurs permet souvent de redevenir consciente ».
+- p. 349, 10FT04, note 2 : « Le face ou la couleur de la couverture de survie ».
+- p. 367, 10FT12 : brancardage à trois secouristes, mais « Secouristes 2, 3 et 4 : « Prêts ! » ».
 
 ## GTO Établissements et techniques d'extinction (DGSCGC) – 29 août 2018
 
