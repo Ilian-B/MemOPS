@@ -1486,5 +1486,721 @@
     "portee": "national",
     "difficulte": 2,
     "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0101",
+    "type": "qcm",
+    "enonce": "Lors de l’analyse rapide d’une situation de sauvetage, sur quel critère le moyen de sauvetage doit-il être choisi ?",
+    "propositions": [
+      "Celui qui expose le moins possible le sauveteur et la victime au risque",
+      "Celui qui mobilise le moins de personnel",
+      "Celui qui est le plus rapide à mettre en œuvre, quel que soit le risque",
+      "Celui que les sauveteurs maîtrisent le mieux"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chapitre 1) demande au COS de choisir le moyen exposant le moins possible le sauveteur et la victime au risque.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, introduction, p. 13",
+      "citation": "L’analyse rapide de la situation doit permettre au COS de réaliser le sauvetage en choisissant le moyen exposant le moins possible le sauveteur et la victime au risque."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0102",
+    "type": "qcm",
+    "enonce": "Quatre éléments conditionnent la réalisation des sauvetages et des mises en sécurité. Lequel ne figure PAS parmi eux ?",
+    "propositions": [
+      "L’environnement",
+      "La victime",
+      "Le temps",
+      "Le grade du premier sapeur-pompier arrivé sur les lieux"
+    ],
+    "bonnes_reponses": [
+      3
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chapitre 1, 1. Les grands principes) cite quatre conditionnements : l’environnement, la victime, les moyens disponibles (sauveteurs, matériel) et le temps. Le grade du premier arrivé n’en fait pas partie.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 1. Les grands principes, p. 13",
+      "citation": "La réalisation des sauvetages et des mises en sécurité est conditionnée par : l’environnement ; la victime ; les moyens disponibles (sauveteurs, matériel) ; le temps."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0103",
+    "type": "cas-concret",
+    "enonce": "Pour préserver des personnes menacées, le COS fait procéder au désenfumage d’une cage d’escalier. Sur quel élément agit-il ?",
+    "propositions": [
+      "La source",
+      "Le flux de danger",
+      "La cible",
+      "Les conditions astro-météorologiques"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (1.3. Les moyens disponibles) distingue les actions sur la source, sur le flux de danger (exemple : désenfumage d’une cage d’escalier) et sur la cible.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 1.3. Les moyens disponibles, p. 15",
+      "citation": "et/ou sur le flux de danger (ex : désenfumage d’une cage d’escalier, mise en place d’un moyen hydraulique, …) ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0104",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lors d’une opération de sauvetage, le risque pris peut se prolonger aussi longtemps que nécessaire, en intensité comme en durée.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. Le GTO Sauvetages et mises en sécurité précise que, dans la mesure du possible, le risque pris ne doit jamais se prolonger en intensité et en durée.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 1.3.1. Le temps, p. 16",
+      "citation": "Dans la mesure du possible, le risque pris ne doit jamais se prolonger en intensité et en durée."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0105",
+    "type": "ordre",
+    "enonce": "Remettez dans l’ordre les actions qui composent une opération de sauvetage ou de mise en sécurité.",
+    "propositions": [
+      "Réaliser le sauvetage ou la mise en sécurité",
+      "Atteindre la zone où doit se réaliser le sauvetage",
+      "Rechercher et localiser la victime"
+    ],
+    "bonnes_reponses": [
+      1,
+      2,
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité décrit ces opérations comme une succession d’actions : atteindre la zone, rechercher et localiser la victime, puis réaliser le sauvetage ou la mise en sécurité.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, introduction, p. 13",
+      "citation": "elles sont le résultat d’une succession d’actions destinées à sécuriser les victimes en : atteignant la zone où doit se réaliser le sauvetage ; recherchant et en localisant la victime ; réalisant son sauvetage ou sa mise en sécurité."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0106",
+    "type": "qcm",
+    "enonce": "Comment s’utilise une échelle à crochets ?",
+    "propositions": [
+      "En binôme, mais elle se manipule seul",
+      "Seul, et elle se manipule en binôme",
+      "En binôme, et elle se manipule à deux",
+      "Seul, et elle se manipule seul"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Selon le GTO Sauvetages et mises en sécurité (2.1.1), l’échelle à crochets s’utilise en binôme mais se manipule seul.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.1.1. L’échelle à crochets, p. 17",
+      "citation": "l’échelle à crochets s’utilise en binôme mais se manipule seul ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0107",
+    "type": "qcm",
+    "enonce": "Quelles précautions d’emploi s’appliquent à l’échelle à crochets ?",
+    "propositions": [
+      "Elle est utilisée suspendue par ses crochets ou en appui sur les pointes",
+      "Elle est testée avant l’engagement d’un sapeur-pompier",
+      "Une fois posée à terre, ses crochets sont posés contre le sol",
+      "Une fois posée à terre, ses crochets sont tournés vers le haut pour la repérer",
+      "Elle peut être engagée sans test préalable lorsque l’urgence est absolue"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.1.1) impose : usage suspendue par les crochets ou en appui sur les pointes, test avant engagement, crochets posés contre le sol une fois l’échelle posée à terre pour éviter les accidents.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.1.1. L’échelle à crochets, p. 17",
+      "citation": "elle doit être utilisée suspendue par ses crochets ou en appui sur les pointes ; elle doit être testée avant l’engagement d’un sapeur-pompier ; une fois posée à terre, les crochets de l’échelle sont posés contre le sol pour éviter les accidents."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0108",
+    "type": "qcm",
+    "enonce": "Pour qu’une échelle à coulisse deux plans soit stable, à quelle distance du mur faut-il placer son pied ?",
+    "propositions": [
+      "Environ 1/3 de la longueur développée",
+      "Environ 1/2 de la longueur développée",
+      "Environ 1/4 de la longueur développée",
+      "Environ 2/3 de la longueur développée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.1.2) indique que le pied de l’échelle doit être éloigné du mur d’environ 1/3 de la longueur développée (piétage).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.1.2. Les échelles à coulisse deux plans, p. 18",
+      "citation": "Pour être stable, l’échelle ne doit être ni trop développée, ni trop inclinée ; aussi le pied de l’échelle doit être éloigné du mur d’environ 1/3 de la longueur développée."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0109",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lors du déploiement ou du reploiement d’une échelle à coulisse deux plans, les mains reposent sur les échelons.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. Le GTO Sauvetages et mises en sécurité (2.1.2) précise que, lors du déploiement ou du reploiement, les mains reposent sur les montants.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.1.2. Les échelles à coulisse deux plans, p. 18",
+      "citation": "lors du déploiement ou du reploiement les mains reposent sur les montants."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0110",
+    "type": "qcm",
+    "enonce": "Quel effectif minimal faut-il pour manœuvrer une échelle à coulisse trois plans avec arcs-boutants ?",
+    "propositions": [
+      "Un seul binôme",
+      "Deux binômes",
+      "Un seul sapeur-pompier, dirigé par un chef d’agrès"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.1.3) indique que l’échelle trois plans se manœuvre a minima à deux binômes, sous la direction d’un chef d’agrès.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.1.3. L’échelle à coulisse trois plans avec arcs-boutants, p. 20",
+      "citation": "l’échelle se manœuvre a minima à deux binômes ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0111",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lorsque l’échelle à coulisse trois plans est dressée, les équipiers chargés de sa stabilité regardent en permanence le pied de l’échelle.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. Le GTO Sauvetages et mises en sécurité (2.1.3) demande de regarder en permanence la partie haute de l’agrès pour maintenir ou rétablir l’équilibre.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.1.3. L’échelle à coulisse trois plans avec arcs-boutants, p. 20",
+      "citation": "les équipiers qui sont chargés de la stabilité de l’échelle doivent en permanence regarder la partie haute de l’agrès pour maintenir ou rétablir l’équilibre en toutes circonstances."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0112",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lors de sauvetages multiples, il est recommandé d’attacher le trait de l’échelle à coulisse.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. Le GTO Sauvetages et mises en sécurité (2.1.4) indique que, lors de sauvetages multiples, il n’est pas recommandé d’attacher le trait, mais de le placer judicieusement pour qu’il ne gêne pas les ascensions ou les descentes.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.1.4. La technique pour attacher le trait d’une échelle à mains, p. 21",
+      "citation": "Lors de sauvetages multiples, il n’est pas recommandé d’attacher le trait, mais juste de le placer judicieusement afin qu’il ne gêne pas les ascensions ou les descentes."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0113",
+    "type": "cas-concret",
+    "enonce": "Avant une manœuvre, un sapeur-pompier a un doute sur l’intégrité d’un élément du lot de sauvetage et de protection contre les chutes. Que doit-il faire ?",
+    "propositions": [
+      "Le mettre de côté immédiatement et adresser un compte rendu à la personne compétente identifiée au sein de la structure",
+      "L’utiliser pour la manœuvre en cours et signaler le doute à la fin",
+      "Le remettre dans son sac de transport sans rien dire en attendant le prochain contrôle",
+      "Tester lui-même l’élément puis le réutiliser s’il paraît tenir"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.2) impose, en cas de doute sur l’intégrité du matériel, de le mettre de côté immédiatement et d’adresser un compte rendu à la personne compétente de la structure.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.2. Le lot de sauvetage et de protection contre les chutes, p. 24",
+      "citation": "En cas de doute sur l’intégrité du matériel celui-ci doit être mis de côté immédiatement et un compte rendu doit être adressé vers la personne compétente identifiée au sein de la structure."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0114",
+    "type": "qcm",
+    "enonce": "Comment le facteur de chute est-il défini ?",
+    "propositions": [
+      "Le rapport entre la hauteur de chute et la longueur de corde qui amortit la chute",
+      "Le rapport entre la longueur de corde qui amortit la chute et la hauteur de chute",
+      "Le produit de la hauteur de chute par la longueur de corde",
+      "La différence entre la hauteur de chute et la longueur de corde"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.2.1) définit le facteur de chute (Fc) comme le rapport entre la hauteur de chute (H) et la longueur de corde qui amortit la chute (L).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.2.1. Le facteur de chute, p. 25",
+      "citation": "Le facteur de chute (Fc) est le rapport entre la hauteur de chute (H) et la longueur de corde qui amortit la chute (L)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0115",
+    "type": "cas-concret",
+    "enonce": "Un sapeur-pompier évolue au-dessus de son point d’ancrage : le facteur de chute est supérieur à 1. Que prescrit la règle pour cette configuration ?",
+    "propositions": [
+      "Elle est interdite",
+      "Elle est à éviter, mais tolérée si le temps manque",
+      "Elle est autorisée si un second connecteur est ajouté",
+      "Elle est autorisée pour une évolution de courte durée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.2.1) précise que les facteurs 1 sont à éviter et que les facteurs supérieurs à 1 sont interdits ; il faut dans la mesure du possible rechercher un point d’amarrage en partie haute.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.2.1. Le facteur de chute, p. 25",
+      "citation": "Les facteurs 1 sont à éviter. Les facteurs supérieurs à 1 sont interdits. Afin de réduire ce risque, il faut dans la mesure du possible rechercher un point d’amarrage en partie haute"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0116",
+    "type": "cas-concret",
+    "enonce": "Un sapeur-pompier évolue sur corde, décalé par rapport à l’aplomb de son point d’ancrage. Quel risque court-il en cas de chute ?",
+    "propositions": [
+      "Un effet pendulaire, avec un risque de lésions graves par collision",
+      "Aucun risque supplémentaire : seul le facteur de chute détermine la gravité",
+      "Un simple balancement sans conséquence, la vitesse pendulaire restant toujours faible"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.2.2) décrit l’effet pendulaire lorsque l’utilisateur n’est pas exactement sous le point d’ancrage : la vitesse pendulaire est parfois équivalente à une vitesse de chute et les lésions par collision peuvent être graves.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.2.2. L’effet pendulaire, p. 25",
+      "citation": "Lors d’une chute, si l’utilisateur ne se trouve pas exactement sous le point d’ancrage mais est décalé par rapport à ce dernier, il risque un effet pendulaire lors de la chute. La vitesse pendulaire est parfois équivalente à une vitesse de chute. Les lésions par collision peuvent être graves."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0117",
+    "type": "cas-concret",
+    "enonce": "Un sapeur-pompier reste inerte, suspendu dans son harnais. Quel danger menace-t-il ?",
+    "propositions": [
+      "Le syndrome de suspension : perte de connaissance en quelques minutes, puis arrêt cardio-respiratoire en l’absence de prise en charge",
+      "Aucun danger tant que le harnais est correctement ajusté",
+      "Une perte de connaissance qui n’apparaît qu’après plusieurs heures de suspension"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.2.3) décrit le syndrome de suspension : suspension inerte et prolongée, diminution voire arrêt du retour veineux, perte de connaissance en quelques minutes, puis arrêt cardio-respiratoire en l’absence de prise en charge.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.2.3. Le syndrome de suspension ou syndrome du harnais, p. 25",
+      "citation": "Ainsi le flux sanguin arrivant au cœur n’est plus suffisant et peut aboutir en quelques minutes à la perte de connaissance et, en l’absence de prise en charge évolue vers l’arrêt cardio-respiratoire."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0118",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lors des exercices et des manœuvres de sauvetage en harnais, un sapeur-pompier peut jouer la victime suspendue.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. Le GTO Sauvetages et mises en sécurité (2.2.3) impose l’emploi obligatoire d’un mannequin pour simuler la victime lors des exercices et des manœuvres, en raison du syndrome de suspension.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.2.3. Le syndrome de suspension ou syndrome du harnais, p. 25",
+      "citation": "Lors des exercices et des manœuvres, un mannequin doit obligatoirement être utilisé pour simuler la victime."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0119",
+    "type": "cas-concret",
+    "enonce": "Lors d’un sauvetage avec corde, le brin de corde statique (brin dormant) passe sur un angle coupant. Que faut-il faire ?",
+    "propositions": [
+      "Le protéger par rapport aux frottements, avec des protections de corde dans la mesure du possible",
+      "Rien : le frottement se répartit sur l’ensemble de la corde",
+      "Rien : une corde statique subit moins d’effets de frottement qu’une corde en mouvement"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.2, frottements) indique que le brin statique doit être protégé par rapport aux frottements et que des protections des cordes contre les frottements doivent être mises en place dans la mesure du possible. Seule la corde en mouvement subit moins d’effets de frottement.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.2. « Les frottements » (numérotée 2.2.1 dans le guide), p. 26",
+      "citation": "Dans la mesure du possible, des protections des cordes contre les frottements doivent être mises en place."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0120",
+    "type": "qcm",
+    "enonce": "À quel moment faut-il positionner un matelas de sauvetage à l’aplomb de la victime ?",
+    "propositions": [
+      "Seulement une fois qu’il est complètement gonflé",
+      "Dès son déploiement, pour gagner du temps",
+      "Avant son gonflage, afin de le gonfler directement à l’aplomb"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.3.1) demande de positionner le matelas de sauvetage à l’aplomb de la victime seulement une fois celui-ci complètement gonflé.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.3.1. Le matelas de sauvetage, p. 28",
+      "citation": "Positionner le matelas de sauvetage à l’aplomb de la victime, seulement une fois celui-ci complètement « gonflé »."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0121",
+    "type": "qcm",
+    "enonce": "À quelle condition un dégagement d’urgence peut-il être réalisé ?",
+    "propositions": [
+      "Lorsque le danger est réel, immédiat, vital et non contrôlable",
+      "Dès qu’une victime est inconsciente",
+      "Dès qu’un danger potentiel est identifié, par précaution",
+      "Chaque fois que la victime ne peut pas marcher"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chapitre 2, 1) précise qu’un dégagement d’urgence ne doit être réalisé que lorsque le danger est réel, immédiat, vital et non contrôlable.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 2, 1. Les dégagements d’urgence, p. 39",
+      "citation": "Un dégagement d’urgence ne doit être réalisé que lorsque le danger est réel, immédiat, vital et non contrôlable."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0122",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : une victime déplacée peut être laissée seule dès lors qu’elle a été mise en sécurité hors du danger.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Faux. Le GTO Sauvetages et mises en sécurité (chapitre 2, 2.1) précise que, dans tous les cas, une victime déplacée ne doit jamais être laissée seule.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 2, 2.1. Les personnes valides, p. 42",
+      "citation": "Dans tous les cas, une victime déplacée ne doit jamais être laissée seule."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0123",
+    "type": "cas-concret",
+    "enonce": "Plusieurs personnes valides, situées à différents étages, doivent être mises en sécurité alors que les communications existantes sont impraticables. Quel moyen faut-il privilégier ?",
+    "propositions": [
+      "Les moyens élévateurs aériens",
+      "Une échelle à crochets, étage par étage",
+      "Un dégagement d’urgence pour chaque personne",
+      "Un matelas de sauvetage devant chaque fenêtre"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chapitre 2, 2.1) fait passer la mise en sécurité prioritairement par les communications existantes ; en cas d’impraticabilité, ou de mises en sécurité multiples, l’emploi des moyens élévateurs aériens est à privilégier.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 2, 2.1. Les personnes valides, p. 43",
+      "citation": "La mise en sécurité doit s’effectuer prioritairement par les communications existantes. En cas d’impraticabilité de ces dernières, ou lors de mises en sécurité multiples, l’emploi des moyens élévateurs aériens est à privilégier."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0124",
+    "type": "cas-concret",
+    "enonce": "Un binôme doit descendre une victime en fauteuil roulant dans une cage d’escalier. Quelle précaution est rappelée ?",
+    "propositions": [
+      "Verrouiller les roues du fauteuil lors de la manipulation",
+      "Laisser les roues libres pour faciliter la descente",
+      "Laisser la victime seule le temps de préparer les agrès"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chapitre 2, 2.2) demande de verrouiller les roues du fauteuil lors de la manipulation de la victime dans la cage d’escalier, de la rassurer et d’adapter la posture du binôme.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 2, 2.2. Les personnes à mobilité réduite, p. 44",
+      "citation": "Il est important de verrouiller les roues du fauteuil lors de la manipulation de la victime dans la cage d’escalier."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0125",
+    "type": "qcm",
+    "enonce": "Comment peut s’effectuer l’évacuation d’une personne lourdement médicalisée et/ou à forte corpulence, en fonction des ressources du SIS ?",
+    "propositions": [
+      "Par des techniques spécifiques relevant d’unités spécialisées comme le GRIMP ou le SMPM",
+      "Par l’emploi d’un MEA doté d’une civière bariatrique",
+      "Par un seul binôme, avec la sangle du lot de sauvetage"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chapitre 2, 3) présente deux manières d’évacuer ces personnes : des techniques spécifiques d’unités spécialisées (GRIMP, SMPM) ou un MEA doté d’une civière bariatrique ; l’intervention est délicate et nécessite des moyens importants.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 2, 3. Les interventions à caractère bariatrique, p. 44",
+      "citation": "En fonction des ressources des SIS, ces évacuations peuvent s’effectuer de deux manières : la mise en œuvre de techniques spécifiques qui relèvent des unités spécialisées comme le GRIMP, le SMPM ; l’emploi d’un MEA doté d’une civière bariatrique."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-tout-engin"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0126",
+    "type": "qcm",
+    "enonce": "De retour au centre de secours, quelles actions sont nécessaires pour le matériel utilisé lors du sauvetage ?",
+    "propositions": [
+      "Nettoyer les matériels utilisés",
+      "Vérifier l’état et l’intégrité des matériels utilisés",
+      "Retirer tout matériel ayant subi une agression chimique ou thermique, ou déformé",
+      "Réparer soi-même les éléments défectueux avant de les ranger"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (3.2) liste : nettoyer, vérifier l’état et l’intégrité, retirer le matériel agressé ou déformé, rendre compte de tout mouvement ou indisponibilité, ranger à l’emplacement d’origine. Le remplacement et les réparations sont effectués par une personne compétente.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 3.2. Le reconditionnement du matériel, p. 37",
+      "citation": "nettoyer les matériels utilisés ; vérifier l’état et l’intégrité des matériels utilisés ; retirer tout matériel ayant subi une agression chimique ou thermique / déformé (le remplacement des éléments défectueux, les petites réparations et les différents réglages nécessaires seront effectués par une personne compétente selon les instructions du fabricant) ;"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
   }
 ]

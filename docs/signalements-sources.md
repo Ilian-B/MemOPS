@@ -103,3 +103,26 @@ Relevés lors de la rédaction et de la vérification des lots incendie 01 et 02
 - p. 97 : « en attaque direct ».
 - p. 102 : « d ‘importants moyens ».
 - pp. 103-104 : pied de page « ETEX-STR-TDR 7 » au lieu de TDE 7 ; numérotation des illustrations décalée.
+
+## GTO Sauvetages et mises en sécurité (DGSCGC) – 2ème édition, février 2024
+
+Relevés lors de la rédaction et de la vérification du lot 01 (pp. 13-44).
+
+### Contradictions ou ambiguïtés de fond
+
+| Page | Partie | Passage (cité tel quel) | Point signalé | Relevé le |
+|---|---|---|---|---|
+| 16 | 1.3 | « le risque pris ne doit jamais se prolonger en intensité et en durée » | Le « et » permet deux lectures : ni l'un ni l'autre, ou pas les deux à la fois. | 2026-11-11 |
+| 32 et 33 | 2.4.3 | p. 32 : « (route parking, béton armé, voie échelle) » / p. 33 : « parking sur dalle inférieur à 15 tonnes » (sol interdit) | Virgule manquante (« route parking » ambigu) ; « parking » à la fois sol stable et, sur dalle, sol interdit. | 2026-11-11 |
+| 32 et 33 | 2.4.3 | « trottoir » (sol instable) / « bordure de trottoir », « cave sous trottoir » (sols interdits) | Distinction fine, source de confusion. | 2026-11-11 |
+| 16, 20 et 43 | 2.1.1, 2.1.3, chap. 2 | Échelle à crochets quand les communications sont impraticables (p. 16) / MEA à privilégier (p. 43) ; « cour intérieure » (p. 16) / « courette intérieure » (échelle trois plans, p. 20) | Aucun critère univoque de choix du moyen. | 2026-11-11 |
+| 17, 18 et 19 | 2.1.1, 2.1.2 | « en binôme » (p. 17) / « une personne par plan » (p. 18) / encadré « les manœuvres de base peuvent être réalisées par un seul sauveteur » (p. 19) | L'encadré ne précise pas à quelles échelles il s'applique. | 2026-11-11 |
+
+### Coquilles et défauts de forme (sans effet sur le sens)
+
+- Deux sous-parties numérotées « 2.2.1 » (p. 24 « Le facteur de chute » et p. 26 « Les frottements »), y compris dans le sommaire.
+- p. 13, note 2 : « décrits de le GTO ».
+- p. 14 : « les intervenant ».
+- p. 17 : « pour assurer la et sécurisation du sauveteur ».
+- p. 25 : « (L) . » ; encadré sans point final.
+- pp. 28 et 44 (civière bariatrique) : « équipe SMPM » ou échelle aérienne (p. 28) / « le GRIMP, le SMPM » ou MEA (p. 44) ; formulations compatibles, simple remarque.

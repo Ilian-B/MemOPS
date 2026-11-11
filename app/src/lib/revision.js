@@ -65,27 +65,9 @@ export function finDeJournee(maintenant) {
   return fin
 }
 
-/**
- * Statistiques : par thème (nombre de questions, vues, réponses, bonnes, taux en %),
- * et nombre de questions à revoir aujourd'hui (échéance avant la fin de la journée).
- * Le taux vaut null tant qu'aucune réponse n'a été donnée.
- */
-export function statistiques(questions, fiches, maintenant) {
-  const themes = new Map()
-  for (const q of questions) {
-    const s = themes.get(q.theme) ?? { theme: q.theme, questions: 0, vues: 0, reponses: 0, bonnes: 0, taux: null }
-    s.questions += 1
-    const fiche = fiches.get(q.id)
-    if (fiche) {
-      s.vues += 1
-      s.reponses += fiche.reponses
-      s.bonnes += fiche.bonnes
-    }
-    themes.set(q.theme, s)
-  }
-  const parTheme = [...themes.values()].sort((a, b) => a.theme.localeCompare(b.theme, 'fr'))
-  for (const s of parTheme) s.taux = s.reponses > 0 ? Math.round((100 * s.bonnes) / s.reponses) : null
-  return { parTheme, aRevoir: compterDues(questions, fiches, finDeJournee(maintenant)) }
+/** Nombre de questions à revoir aujourd'hui (échéance avant la fin de la journée locale). */
+export function aRevoirAujourdhui(questions, fiches, maintenant) {
+  return compterDues(questions, fiches, finDeJournee(maintenant))
 }
 
 // Libellés lisibles connus (les accents ne se devinent pas) ; sinon, mise en forme simple

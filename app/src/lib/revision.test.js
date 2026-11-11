@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import {
-  creerFiche, enregistrerReponse, tirerSessionRevision, compterDues, statistiques, libelleTheme,
+  creerFiche, enregistrerReponse, tirerSessionRevision, compterDues, aRevoirAujourdhui, libelleTheme,
 } from './revision.js'
 
 const T0 = new Date('2026-01-10T10:00:00')
@@ -90,13 +90,12 @@ describe('tirerSessionRevision', () => {
     expect(x).not.toEqual(['a', 'b', 'c'])
     expect([...x].sort()).toEqual(['a', 'b', 'c'])
   })
-  it('donne 10 au plus, sans doublon, sans le type ordre', () => {
-    const qs = [...Array.from({ length: 25 }, (_, i) => q(`q${i}`)), q('o', 'incendie', 'ordre')]
+  it('donne 10 au plus, sans doublon', () => {
+    const qs = [...Array.from({ length: 25 }, (_, i) => q(`q${i}`))]
     const f = fiches(fiche('q0', -MIN), fiche('q1', JOUR))
     const s = tirerSessionRevision(qs, f, T0)
     expect(s).toHaveLength(10)
     expect(new Set(s.map((x) => x.id)).size).toBe(10)
-    expect(s.map((x) => x.id)).not.toContain('o')
     expect(s.map((x) => x.id)).toContain('q0') // la due est toujours retenue
   })
   it('complète avec les autres si peu de questions neuves', () => {
@@ -106,22 +105,11 @@ describe('tirerSessionRevision', () => {
   })
 })
 
-describe('statistiques et dues', () => {
-  const qs = [q('a', 'incendie'), q('b', 'incendie'), q('c', 'secours-a-personne'), q('d', 'secours-a-personne')]
-  const f = fiches(fiche('a', -MIN, 4, 3), fiche('b', 3 * JOUR, 1, 0), fiche('c', 2 * MIN, 5, 5))
-  const s = statistiques(qs, f, T0)
-
-  it('calcule par thème questions, vues, réponses et taux', () => {
-    expect(s.parTheme).toEqual([
-      { theme: 'incendie', questions: 2, vues: 2, reponses: 5, bonnes: 3, taux: 60 },
-      { theme: 'secours-a-personne', questions: 2, vues: 1, reponses: 5, bonnes: 5, taux: 100 },
-    ])
-  })
-  it('taux null sans réponse', () => {
-    expect(statistiques([q('z', 'x')], new Map(), T0).parTheme[0].taux).toBeNull()
-  })
+describe('questions à revoir', () => {
+  const qs = [q('a'), q('b'), q('c'), q('d')]
+  const f = fiches(fiche('a', -MIN), fiche('b', 3 * JOUR), fiche('c', 2 * MIN))
   it('compte les questions à revoir aujourd\'hui (jusqu\'à la fin de la journée)', () => {
-    expect(s.aRevoir).toBe(2) // a (en retard) et c (dans 2 minutes) ; b est dans 3 jours
+    expect(aRevoirAujourdhui(qs, f, T0)).toBe(2) // a (en retard) et c (dans 2 minutes) ; b est dans 3 jours, d jamais vue
   })
   it('compte les dues avant une limite', () => {
     expect(compterDues(qs, f, new Date(T0.getTime() + 4 * JOUR))).toBe(3)

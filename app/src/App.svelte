@@ -2,12 +2,13 @@
   import { tick } from 'svelte'
   import questionsDispo from 'virtual:questions'
   import { AVERTISSEMENT } from './lib/avertissement.js'
-  import { estCorrecte, estJouable, melangerPropositions } from './lib/session.js'
+  import { estCorrecte, estJouable, melangerPropositions, toucherEtape } from './lib/session.js'
   import { EMPLOIS, pourEmploi, pourTheme } from './lib/filtre-questions.js'
+  import { progressionParTheme, niveauTaux } from './lib/progression.js'
   import { lireEmploi, ecrireEmploi } from './lib/preferences.js'
   import { ouvrirStockage } from './lib/stockage.js'
   import {
-    enregistrerReponse, tirerSessionRevision, statistiques, libelleTheme,
+    enregistrerReponse, tirerSessionRevision, aRevoirAujourdhui, libelleTheme,
   } from './lib/revision.js'
 
   // Mode développement : on affiche un bandeau sur les questions non relues
@@ -31,13 +32,16 @@
     stockage = s
     fiches = await s.toutLire()
   })
-  const stats = $derived(statistiques(jouables, fiches, new Date()))
+  // Écran « Ma progression » : mêmes questions jouables que la session (déjà filtrées par emploi)
+  const progression = $derived(progressionParTheme(jouables, fiches, emploi))
+  const aRevoir = $derived(aRevoirAujourdhui(jouables, fiches, new Date()))
 
   // Premier lancement : sans emploi enregistré, nous demandons d'abord l'emploi
-  let ecran = $state(emploiEnregistre ? 'accueil' : 'emploi') // 'emploi' | 'accueil' | 'question' | 'fin'
+  let ecran = $state(emploiEnregistre ? 'accueil' : 'emploi') // 'emploi' | 'accueil' | 'progression' | 'question' | 'fin'
   let premierLancement = $state(!emploiEnregistre)
   let themeCourant = $state(null) // null = mode aléatoire
   let titreEmploiEl = $state()
+  let titreProgressionEl = $state()
   // Remise à zéro de la progression
   let confirmationOuverte = $state(false)
   let erreurRaz = $state(false)
@@ -68,7 +72,11 @@
   })
 
   const question = $derived(session[index])
-  const multiple = $derived(question ? question.bonnes_reponses.length > 1 : false)
+  const estOrdre = $derived(question?.type === 'ordre')
+  // Les questions « ordre » ont toutes leurs propositions dans bonnes_reponses : ce n'est pas un QCM multiple
+  const multiple = $derived(question && !estOrdre ? question.bonnes_reponses.length > 1 : false)
+  // Peut-on valider ? (QCM multiple : au moins une case ; ordre : toutes les étapes placées)
+  const validable = $derived(estOrdre ? choisis.length === question.propositions.length : choisis.length > 0)
   const reussie = $derived(question ? estCorrecte(question, choisis) : false)
 
   function ouvrirRaz() {
@@ -143,6 +151,10 @@
   // Une seule bonne réponse : un appui répond directement. Sinon on coche/décoche.
   function appuyer(i) {
     if (repondu) return
+    if (estOrdre) {
+      choisis = toucherEtape(choisis, i)
+      return
+    }
     if (!multiple) return valider([i])
     choisis = choisis.includes(i) ? choisis.filter((x) => x !== i) : [...choisis, i]
   }
@@ -168,6 +180,8 @@
   // Classe de couleur d'une proposition après la réponse
   function etat(i) {
     if (!repondu) return choisis.includes(i) ? 'coche' : ''
+    // Ordre : une étape est verte si elle est à sa place, rouge sinon
+    if (estOrdre) return choisis.indexOf(i) === question.bonnes_reponses.indexOf(i) ? 'bonne' : 'mauvaise'
     const bonne = question.bonnes_reponses.includes(i)
     if (bonne) return 'bonne'
     return choisis.includes(i) ? 'mauvaise' : 'neutre'
@@ -203,42 +217,48 @@
     {#if nbDispo > 0}
       <p class="compteur">{nbDispo} question{nbDispo > 1 ? 's' : ''} disponible{nbDispo > 1 ? 's' : ''}</p>
       <button class="gros principal" onclick={() => commencer()}>Commencer</button>
+      <p class="a-revoir">À revoir aujourd'hui : <strong>{aRevoir}</strong></p>
+      <button class="gros secondaire" onclick={() => { confirmationOuverte = false; ecran = 'progression'; focaliser(() => titreProgressionEl) }}>
+        Ma progression
+      </button>
 
-      <section class="progression-bloc" aria-labelledby="titre-progression">
-        <h2 id="titre-progression">Ma progression</h2>
-        <p class="a-revoir">À revoir aujourd'hui : <strong>{stats.aRevoir}</strong></p>
-        <ul class="themes">
-          {#each stats.parTheme as t (t.theme)}
-            <li>
-              <span class="theme-nom">{libelleTheme(t.theme)}</span>
-              <div class="barre" aria-hidden="true">
-                <div class="barre-remplie" style="width: {t.taux ?? 0}%"></div>
-              </div>
-              <span class="theme-detail">
-                {#if t.taux === null}Pas encore de réponse{:else}{t.taux} % sur {t.reponses} réponse{t.reponses > 1 ? 's' : ''}{/if}
-              </span>
-              <button class="gros secondaire reviser" onclick={() => commencer(t.theme)}>
-                Réviser ce thème
-              </button>
-            </li>
-          {/each}
-        </ul>
-        {#if confirmationOuverte}
-          <div class="encart-raz" role="alertdialog" aria-labelledby="titre-raz" tabindex="-1" bind:this={encartRazEl}>
-            <p id="titre-raz">Effacer toute ma progression ? Cette action est définitive.</p>
-            {#if erreurRaz}<p class="erreur" role="alert">L'effacement a échoué. Veuillez réessayer.</p>{/if}
-            <button class="gros principal" onclick={remettreAZero}>Oui, tout effacer</button>
-            <button class="gros secondaire" onclick={annulerRaz}>Annuler</button>
-          </div>
-        {:else}
-          <button class="lien" bind:this={boutonRazEl} onclick={ouvrirRaz}>Remettre ma progression à zéro</button>
-        {/if}
-      </section>
     {:else}
       <p class="vide">
         Les premières questions sont en cours de relecture par des experts. Revenez très bientôt pour
         vous entraîner !
       </p>
+    {/if}
+  {:else if ecran === 'progression'}
+    <button class="gros secondaire" onclick={() => { ecran = 'accueil'; focaliser(() => changerEl) }}>Retour à l'accueil</button>
+    <h2 tabindex="-1" bind:this={titreProgressionEl}>Ma progression</h2>
+    <ul class="themes">
+      {#each progression as t (t.theme)}
+        <li class="carte-theme">
+          <span class="theme-nom">{libelleTheme(t.theme)}</span>
+          {#if t.taux === null}
+            <span class="theme-detail">Pas encore commencé</span>
+          {:else}
+            <div class="barre" role="progressbar" aria-label="Taux de réussite" aria-valuemin="0" aria-valuemax="100" aria-valuenow={t.taux}>
+              <div class="barre-remplie {niveauTaux(t.taux)}" style="width: {t.taux}%"></div>
+            </div>
+            <span class="theme-detail">Réussite : <strong>{t.taux} %</strong> ({t.bonnes} / {t.reponses})</span>
+          {/if}
+          <span class="theme-detail">Questions vues : {t.vues} / {t.total}</span>
+          <span class="theme-detail">Questions acquises : {t.acquises}</span>
+          <button class="gros secondaire reviser" aria-label="Réviser le thème {libelleTheme(t.theme)}" onclick={() => commencer(t.theme)}>Réviser ce thème</button>
+        </li>
+      {/each}
+    </ul>
+    <button class="gros principal" onclick={() => { ecran = 'accueil'; focaliser(() => changerEl) }}>Retour</button>
+    {#if confirmationOuverte}
+      <div class="encart-raz" role="alertdialog" aria-labelledby="titre-raz" tabindex="-1" bind:this={encartRazEl}>
+        <p id="titre-raz">Effacer toute ma progression ? Cette action est définitive.</p>
+        {#if erreurRaz}<p class="erreur" role="alert">L'effacement a échoué. Veuillez réessayer.</p>{/if}
+        <button class="gros principal" onclick={remettreAZero}>Oui, tout effacer</button>
+        <button class="gros secondaire" onclick={annulerRaz}>Annuler</button>
+      </div>
+    {:else}
+      <button class="lien" bind:this={boutonRazEl} onclick={ouvrirRaz}>Remettre ma progression à zéro</button>
     {/if}
   {:else if ecran === 'question'}
     <div class="entete-question">
@@ -251,32 +271,59 @@
     {/if}
     <h2 id="enonce" tabindex="-1" bind:this={enonceEl}>{question.enonce}</h2>
     {#if multiple}<p class="indice">Plusieurs réponses possibles</p>{/if}
+    {#if estOrdre}<p class="indice">Mise en ordre : touchez les étapes dans l'ordre, de la première à la dernière.</p>{/if}
 
     <div class="choix" role="group" aria-labelledby="enonce">
       {#each question.propositions as texte, i}
         <button
           class="gros choix-btn {etat(i)}"
           class:anime={repondu && (etat(i) === 'bonne' || etat(i) === 'mauvaise')}
-          aria-pressed={multiple ? choisis.includes(i) : undefined}
+          aria-pressed={multiple || estOrdre ? choisis.includes(i) : undefined}
+          aria-label={estOrdre && choisis.includes(i)
+            ? `Étape ${choisis.indexOf(i) + 1}${repondu ? (etat(i) === 'bonne' ? ' (bien placée)' : ' (mal placée)') : ''} : ${texte}`
+            : undefined}
           disabled={repondu}
           onclick={() => appuyer(i)}
         >
           {#if multiple}<span class="case" aria-hidden="true">{choisis.includes(i) ? '☑' : '☐'}</span>{/if}
+          {#if estOrdre}<span class="rang" aria-hidden="true">{choisis.includes(i) ? choisis.indexOf(i) + 1 : '·'}</span>{/if}
           {texte}
         </button>
       {/each}
     </div>
 
-    {#if multiple && !repondu}
-      <button class="gros principal" disabled={choisis.length === 0} onclick={() => valider(choisis)}>
+    {#if estOrdre}
+      <section class="mon-ordre" aria-label="Mon ordre">
+        <strong>Mon ordre</strong>
+        {#if choisis.length === 0}
+          <p class="indice">Touchez les étapes dans l'ordre.</p>
+        {:else}
+          <ol>
+            {#each choisis as i (i)}<li>{question.propositions[i]}</li>{/each}
+          </ol>
+        {/if}
+      </section>
+    {/if}
+
+    {#if (multiple || estOrdre) && !repondu}
+      <button class="gros principal" disabled={!validable} onclick={() => valider(choisis)}>
         Valider
       </button>
+    {/if}
+    {#if estOrdre && !repondu}
+      <button class="gros secondaire" aria-label="Effacer mon ordre" disabled={choisis.length === 0} onclick={() => (choisis = [])}>Effacer</button>
     {/if}
 
     <div aria-live="polite">
       {#if repondu}
         <section class="retour" tabindex="-1" bind:this={retourEl} class:ok={reussie} class:ko={!reussie}>
           <p class="verdict">{reussie ? 'Bonne réponse !' : 'Raté, mais ça se retient !'}</p>
+          {#if estOrdre && !reussie}
+            <p><strong>Ordre attendu</strong></p>
+            <ol class="ordre-attendu">
+              {#each question.bonnes_reponses as i}<li>{question.propositions[i]}</li>{/each}
+            </ol>
+          {/if}
           <p>{question.explication}</p>
           <div class="source">
             <strong>Source</strong>
@@ -395,12 +442,6 @@
     color: #d62828;
     margin: 0.5rem 0;
   }
-  .progression-bloc {
-    background: #fff;
-    border-radius: 12px;
-    padding: 0.5rem 1rem 1rem;
-    margin-top: 1.5rem;
-  }
   .a-revoir,
   .a-venir {
     text-align: center;
@@ -426,6 +467,24 @@
   .barre-remplie {
     height: 100%;
     background: #1b7a3a;
+  }
+  .barre-remplie.rouge {
+    background: #b3261e;
+  }
+  .barre-remplie.orange {
+    background: #b85c00;
+  }
+  .barre-remplie.vert {
+    background: #1b7a3a;
+  }
+  .carte-theme {
+    background: #fff;
+    border-radius: 12px;
+    padding: 0.5rem 1rem 0.8rem;
+  }
+  .carte-theme .theme-nom,
+  .carte-theme .theme-detail {
+    display: block;
   }
   .theme-detail {
     font-size: 0.9rem;
@@ -524,6 +583,23 @@
   h2:focus,
   .score:focus {
     outline: none;
+  }
+  .rang {
+    display: inline-block;
+    min-width: 1.6rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+  }
+  .mon-ordre {
+    background: #fff;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    margin: 0.6rem 0;
+  }
+  .mon-ordre ol,
+  .ordre-attendu {
+    margin: 0.3rem 0;
+    padding-left: 1.5rem;
   }
   .case {
     margin-right: 0.5rem;
