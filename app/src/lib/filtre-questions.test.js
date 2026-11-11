@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { fileURLToPath } from 'node:url'
 import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { filtrerQuestions, EMPLOIS, pourEmploi, pourTheme } from './filtre-questions.js'
+import { filtrerQuestions, EMPLOIS, CONDUITES, pourEmploi, pourTheme } from './filtre-questions.js'
 import { chargerQuestions } from './charger-questions.js'
 
 const liste = [
@@ -18,11 +18,11 @@ describe('filtrerQuestions', () => {
 })
 
 describe('EMPLOIS', () => {
-  it('correspond exactement, dans l\'ordre, à l\'enum du schéma', () => {
+  it('emplois puis conduites correspondent exactement, dans l\'ordre, à l\'enum du schéma', () => {
     const schema = JSON.parse(
       readFileSync(fileURLToPath(new URL('../../../schema/question.schema.json', import.meta.url)), 'utf8'),
     )
-    expect(EMPLOIS.map((e) => e.id)).toEqual(schema.properties.emplois.items.enum)
+    expect([...EMPLOIS, ...CONDUITES].map((e) => e.id)).toEqual(schema.properties.emplois.items.enum)
   })
 })
 
@@ -41,6 +41,30 @@ describe('pourEmploi', () => {
   })
   it('emploi inconnu : comme équipier', () => {
     expect(ids(pourEmploi(qs, 'bidon'))).toEqual(['a'])
+  })
+})
+
+describe('pourEmploi avec les conduites', () => {
+  const qs = [
+    { id: 'echelle', emplois: ['equipier'] },
+    { id: 'mea', emplois: ['conducteur-mea'] },
+    { id: 'pompes', emplois: ['conducteur-engins-pompes'] },
+    { id: 'mixte', emplois: ['chef-site', 'conducteur-mea'] },
+  ]
+  const ids = (l) => l.map((q) => q.id)
+  it('une question de conduite est masquée sans case cochée, même pour un emploi élevé', () => {
+    expect(ids(pourEmploi(qs, 'chef-site'))).toEqual(['echelle', 'mixte'])
+    expect(ids(pourEmploi(qs, 'equipier'))).toEqual(['echelle'])
+  })
+  it('visible avec la case cochée, quel que soit l\'emploi', () => {
+    expect(ids(pourEmploi(qs, 'equipier', ['conducteur-mea']))).toEqual(['echelle', 'mea', 'mixte'])
+    expect(ids(pourEmploi(qs, 'chef-site', ['conducteur-mea']))).toEqual(['echelle', 'mea', 'mixte'])
+  })
+  it('pas de cumul entre niveaux de conduite', () => {
+    expect(ids(pourEmploi(qs, 'equipier', ['conducteur-engins-pompes']))).toEqual(['echelle', 'pompes'])
+  })
+  it('emploi inconnu ou questions d\'échelle : inchangé', () => {
+    expect(ids(pourEmploi(qs, 'bidon', ['conducteur-mea']))).toEqual(['echelle', 'mea', 'mixte'])
   })
 })
 

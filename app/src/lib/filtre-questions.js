@@ -17,16 +17,34 @@ export const EMPLOIS = [
   { id: 'chef-site', libelle: 'Chef de site' },
 ]
 
-// Rang d'un emploi ; un emploi inconnu est traité comme « equipier » (rang 0)
-function rang(emploi) {
-  const i = EMPLOIS.findIndex((e) => e.id === emploi)
-  return i === -1 ? 0 : i
-}
+// Niveaux de la spécialité « Conduite et manipulation des véhicules d'incendie et de secours »
+// (arrêté du 15 juillet 2026, annexe II). Hors de l'échelle des emplois : pas de cumul,
+// chaque niveau est indépendant des autres et de l'emploi. `court` sert au rappel sur l'accueil.
+export const CONDUITES = [
+  { id: 'conducteur-vehicules-sis', libelle: 'Conducteur des véhicules du SIS', court: 'Véhicules SIS' },
+  { id: 'conducteur-engins-pompes', libelle: 'Conducteur et manipulateur des engins pompes', court: 'Engins pompes' },
+  { id: 'operateur-plateforme-mea', libelle: 'Opérateur de plateforme des moyens élévateurs aériens', court: 'Plateforme MEA' },
+  { id: 'conducteur-mea', libelle: 'Conducteur et manipulateur des moyens élévateurs aériens', court: 'MEA' },
+  { id: 'conducteur-tout-terrain', libelle: 'Conducteur et manipulateur des véhicules tout terrain', court: 'Tout terrain' },
+]
 
-// Emplois cumulatifs : un chef d'agrès reçoit aussi les questions d'équipier
-export function pourEmploi(questions, emploi) {
-  const max = rang(emploi)
-  return questions.filter((q) => q.emplois.some((e) => rang(e) <= max))
+// Rang d'un emploi de l'échelle ; -1 si l'id n'en fait pas partie (ex. une conduite)
+const rangEchelle = (id) => EMPLOIS.findIndex((e) => e.id === id)
+
+/**
+ * Questions retenues pour l'emploi choisi et les conduites cochées.
+ * Une question est retenue si l'un de ses emplois est dans l'échelle avec un rang <= celui de
+ * l'emploi choisi (cumulatif : un chef d'agrès reçoit aussi celles d'équipier), OU s'il s'agit
+ * d'une conduite cochée. Un emploi choisi inconnu vaut « equipier ».
+ */
+export function pourEmploi(questions, emploi, conduites = []) {
+  const max = Math.max(rangEchelle(emploi), 0)
+  return questions.filter((q) =>
+    q.emplois.some((e) => {
+      const r = rangEchelle(e)
+      return r === -1 ? conduites.includes(e) : r <= max
+    }),
+  )
 }
 
 // Questions d'un seul thème ; theme null ou undefined : toutes

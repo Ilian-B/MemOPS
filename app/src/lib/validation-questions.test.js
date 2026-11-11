@@ -49,6 +49,9 @@ describe('validerQuestions', () => {
   it('b. refuse une question hors schéma', () => {
     expect(erreursDe({ difficulte: 5 })[0]).toContain('difficulte')
   })
+  it('b. accepte les niveaux de conduite', () => {
+    expect(erreursDe({ emplois: ['conducteur-mea', 'conducteur-tout-terrain'] })).toEqual([])
+  })
   it('b. refuse un emploi hors de la liste officielle', () => {
     expect(erreursDe({ emplois: ['pompier'] }).join()).toContain('emplois')
     expect(erreursDe({ emplois: ['equipier', 'equipier'] }).join()).toContain('élément en double')

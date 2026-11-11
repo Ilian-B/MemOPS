@@ -3,9 +3,9 @@
   import questionsDispo from 'virtual:questions'
   import { AVERTISSEMENT } from './lib/avertissement.js'
   import { estCorrecte, estJouable, melangerPropositions, toucherEtape } from './lib/session.js'
-  import { EMPLOIS, pourEmploi, pourTheme } from './lib/filtre-questions.js'
+  import { EMPLOIS, CONDUITES, pourEmploi, pourTheme } from './lib/filtre-questions.js'
   import { progressionParTheme, niveauTaux } from './lib/progression.js'
-  import { lireEmploi, ecrireEmploi } from './lib/preferences.js'
+  import { lireEmploi, ecrireEmploi, lireConduites, ecrireConduites } from './lib/preferences.js'
   import { ouvrirStockage } from './lib/stockage.js'
   import {
     enregistrerReponse, tirerSessionRevision, aRevoirAujourdhui, libelleTheme,
@@ -17,10 +17,12 @@
   // Emploi choisi (null tant qu'il n'est pas connu), lu sur l'appareil
   const emploiEnregistre = lireEmploi()
   let emploi = $state(emploiEnregistre)
+  // Conduites cochées (liste d'ids, hors échelle des emplois)
+  let conduites = $state(lireConduites())
 
   // Questions réellement jouables (le type « ordre » n'est pas encore géré),
   // limitées à l'emploi choisi
-  const jouables = $derived(pourEmploi(questionsDispo.filter(estJouable), emploi))
+  const jouables = $derived(pourEmploi(questionsDispo.filter(estJouable), emploi, conduites))
   const nbDispo = $derived(jouables.length)
   const libelleEmploi = $derived(EMPLOIS.find((e) => e.id === emploi)?.libelle)
 
@@ -33,7 +35,7 @@
     fiches = await s.toutLire()
   })
   // Écran « Ma progression » : mêmes questions jouables que la session (déjà filtrées par emploi)
-  const progression = $derived(progressionParTheme(jouables, fiches, emploi))
+  const progression = $derived(progressionParTheme(jouables, fiches, emploi, conduites))
   const aRevoir = $derived(aRevoirAujourdhui(jouables, fiches, new Date()))
 
   // Premier lancement : sans emploi enregistré, nous demandons d'abord l'emploi
@@ -110,6 +112,12 @@
     premierLancement = false
     ecran = 'accueil'
     focaliser(() => changerEl)
+  }
+
+  // Coche ou décoche un niveau de conduite ; enregistré sur l'appareil
+  function basculerConduite(id) {
+    conduites = conduites.includes(id) ? conduites.filter((c) => c !== id) : [...conduites, id]
+    ecrireConduites(conduites)
   }
 
   function changerEmploi() {
@@ -194,6 +202,16 @@
   {#if ecran === 'emploi'}
     {#if premierLancement}<p class="avertissement" role="note">{AVERTISSEMENT}</p>{/if}
     <h2 tabindex="-1" bind:this={titreEmploiEl}>Quel est mon emploi ?</h2>
+    <p class="note-emploi">Cochez vos spécialités, puis choisissez votre emploi.</p>
+    <fieldset class="conduites">
+      <legend>Mes spécialités de conduite et de manipulation</legend>
+      {#each CONDUITES as c (c.id)}
+        <label class="case-conduite" class:cochee={conduites.includes(c.id)}>
+          <input type="checkbox" checked={conduites.includes(c.id)} onchange={() => basculerConduite(c.id)} />
+          <span>{c.libelle}</span>
+        </label>
+      {/each}
+    </fieldset>
     {#each EMPLOIS as e (e.id)}
       <button
         class="gros secondaire"
@@ -214,6 +232,9 @@
       Mon emploi : <strong>{libelleEmploi}</strong>
       <button class="lien" bind:this={changerEl} onclick={changerEmploi}>changer</button>
     </p>
+    {#if conduites.length > 0}
+      <p class="emploi">+ Conduite : {CONDUITES.filter((c) => conduites.includes(c.id)).map((c) => c.court).join(', ')}</p>
+    {/if}
     {#if nbDispo > 0}
       <p class="compteur">{nbDispo} question{nbDispo > 1 ? 's' : ''} disponible{nbDispo > 1 ? 's' : ''}</p>
       <button class="gros principal" onclick={() => commencer()}>Commencer</button>
@@ -408,6 +429,42 @@
   .erreur {
     color: #b3261e;
     font-weight: bold;
+  }
+  .conduites {
+    border: none;
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+  .conduites legend {
+    font-weight: bold;
+    padding: 0;
+  }
+  /* Grande zone tactile : toute la ligne coche la case */
+  .case-conduite {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    min-height: 56px;
+    margin: 0.5rem 0;
+    padding: 0.6rem 1rem;
+    background: #fff;
+    border: 3px solid #e0c9a0;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  .case-conduite.cochee {
+    background: #ffe3e3;
+    border-color: #d62828;
+  }
+  .case-conduite input {
+    width: 1.6rem;
+    height: 1.6rem;
+    flex-shrink: 0;
+    accent-color: #d62828;
+  }
+  .case-conduite:has(input:focus-visible) {
+    outline: 3px solid #1d3557;
+    outline-offset: 2px;
   }
   .note-emploi {
     text-align: center;

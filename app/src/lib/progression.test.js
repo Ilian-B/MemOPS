@@ -46,6 +46,14 @@ describe('progressionParTheme', () => {
   })
 })
 
+describe('progressionParTheme et conduites', () => {
+  it('compte une question de conduite seulement si sa case est cochée', () => {
+    const questions = [q('a', 'incendie'), q('b', 'conduite', ['conducteur-mea'])]
+    expect(progressionParTheme(questions, fiches(), 'equipier').map((t) => t.theme)).toEqual(['incendie'])
+    expect(progressionParTheme(questions, fiches(), 'equipier', ['conducteur-mea']).map((t) => t.theme)).toEqual(['conduite', 'incendie'])
+  })
+})
+
 describe('estAcquise et niveauTaux', () => {
   it('seul l\'état Review est acquis', () => {
     expect(estAcquise(fiche('a', 1, 1, State.Review))).toBe(true)

@@ -106,7 +106,7 @@ Relevés lors de la rédaction et de la vérification des lots incendie 01 et 02
 
 ## GTO Sauvetages et mises en sécurité (DGSCGC) – 2ème édition, février 2024
 
-Relevés lors de la rédaction et de la vérification du lot 01 (pp. 13-44).
+Relevés lors de la rédaction et de la vérification des lots 01 (pp. 13-44) et 02 (pp. 45-fin).
 
 ### Contradictions ou ambiguïtés de fond
 
@@ -117,6 +117,11 @@ Relevés lors de la rédaction et de la vérification du lot 01 (pp. 13-44).
 | 32 et 33 | 2.4.3 | « trottoir » (sol instable) / « bordure de trottoir », « cave sous trottoir » (sols interdits) | Distinction fine, source de confusion. | 2026-11-11 |
 | 16, 20 et 43 | 2.1.1, 2.1.3, chap. 2 | Échelle à crochets quand les communications sont impraticables (p. 16) / MEA à privilégier (p. 43) ; « cour intérieure » (p. 16) / « courette intérieure » (échelle trois plans, p. 20) | Aucun critère univoque de choix du moyen. | 2026-11-11 |
 | 17, 18 et 19 | 2.1.1, 2.1.2 | « en binôme » (p. 17) / « une personne par plan » (p. 18) / encadré « les manœuvres de base peuvent être réalisées par un seul sauveteur » (p. 19) | L'encadré ne précise pas à quelles échelles il s'applique. | 2026-11-11 |
+| 45 et 48 | 1.2.2 | p. 45 : « ne peut supporter qu’un homme » / p. 48 : « Autant que possible, respecter la règle d’une personne par plan. » | Règle catégorique p. 45, atténuée p. 48. | 2026-11-11 |
+| 57 et 58-60 | chap. 4, 1.1 | p. 57 : « ancrage (s)+ amarrage (s)+ charge + équipier(s) » / 1.1 « Le système » : ancrage, amarrage, dispositif, charge, équipier | La formule compte 4 éléments, la section en décrit 5 (le dispositif en plus) ; le schéma p. 58 fait aussi figurer « LE CHEF D’ÉQUIPE ». | 2026-11-11 |
+| 55 | chap. 3, 2 | « L’échelle est alors montée au niveau […] » / « L’échelle à mains est positionnée à la verticale […] puis abaissée » | Chronologie non explicite entre « montée au niveau » et « positionnée à la verticale ». | 2026-11-11 |
+| 61 | chap. 4 | Planche de 8 photos légendées (mise en place du harnais) | Étapes non numérotées : l’ordre dépend du sens de lecture. | 2026-11-11 |
+| 75 | Annexe, nœud en « huit double » | « 5 à 7 cm MAXIMUM », « 10 cm MINIMUM » | Le texte ne dit pas ce que mesurent les cotes : seule la flèche du dessin l’indique. | 2026-11-11 |
 
 ### Coquilles et défauts de forme (sans effet sur le sens)
 
@@ -126,3 +131,9 @@ Relevés lors de la rédaction et de la vérification du lot 01 (pp. 13-44).
 - p. 17 : « pour assurer la et sécurisation du sauveteur ».
 - p. 25 : « (L) . » ; encadré sans point final.
 - pp. 28 et 44 (civière bariatrique) : « équipe SMPM » ou échelle aérienne (p. 28) / « le GRIMP, le SMPM » ou MEA (p. 44) ; formulations compatibles, simple remarque.
+- pp. 47-48 : puce « sécuriser la descente des niveaux inférieurs » répétée deux fois.
+- pp. 49 et 72 : « si l’inclinaison et le déploiement du MEA n’est plus possible ».
+- pp. 59 et 62 : « l’équipier peut servir de point fixe » / « l’équipier sert de point fixe » (simple différence de formulation).
+- p. 62 : « doit obligatoirement être supérieur ou égale à 20 centimètres ».
+- p. 69 : « panier de sauvegarde » au lieu de « panier de secours » employé ailleurs.
+- p. 79 : renvoi aux « annexes B et C », alors qu’aucune annexe C ne figure dans le PDF (non revérifié).

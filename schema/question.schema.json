@@ -89,7 +89,7 @@
       "minLength": 2
     },
     "emplois": {
-      "description": "Emplois opérationnels, calés sur les référentiels nationaux activités-compétences, du premier au plus élevé. Les emplois sont cumulatifs : une question 'equipier' concerne aussi tous les emplois suivants.",
+      "description": "Emplois opérationnels, calés sur les référentiels nationaux activités-compétences, du premier au plus élevé. Les neuf premiers sont cumulatifs : une question 'equipier' concerne aussi tous les emplois suivants. Les cinq derniers (conducteur-*) sont les niveaux de la spécialité « Conduite et manipulation des véhicules d'incendie et de secours » (arrêté du 15 juillet 2026, annexe II) : ils sont HORS de l'échelle cumulative, indépendants entre eux et de l'emploi ; une question n'est proposée que si l'utilisateur a coché ce niveau de conduite.",
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -103,7 +103,12 @@
           "chef-groupe",
           "officier-garde",
           "chef-colonne",
-          "chef-site"
+          "chef-site",
+          "conducteur-vehicules-sis",
+          "conducteur-engins-pompes",
+          "operateur-plateforme-mea",
+          "conducteur-mea",
+          "conducteur-tout-terrain"
         ]
       }
     },

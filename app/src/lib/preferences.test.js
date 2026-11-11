@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { lireEmploi, ecrireEmploi, CLE_EMPLOI } from './preferences.js'
+import { lireEmploi, ecrireEmploi, lireConduites, ecrireConduites, CLE_EMPLOI, CLE_CONDUITES } from './preferences.js'
 
 // Faux localStorage minimal
 const faux = (init = {}) => {
@@ -38,5 +38,25 @@ describe('préférences', () => {
     const interdit = () => { throw new Error('SecurityError') }
     expect(lireEmploi(interdit)).toBeNull()
     expect(ecrireEmploi('equipier', interdit)).toBe(false)
+  })
+})
+
+describe('conduites cochées', () => {
+  it('vide par défaut', () => {
+    expect(lireConduites(f(faux()))).toEqual([])
+  })
+  it('relit ce qui a été enregistré', () => {
+    const s = faux()
+    expect(ecrireConduites(['conducteur-mea', 'conducteur-tout-terrain'], f(s))).toBe(true)
+    expect(lireConduites(f(s))).toEqual(['conducteur-mea', 'conducteur-tout-terrain'])
+  })
+  it('ignore les valeurs inconnues et le JSON illisible', () => {
+    expect(lireConduites(f(faux({ [CLE_CONDUITES]: '["pirate","conducteur-mea"]' })))).toEqual(['conducteur-mea'])
+    expect(lireConduites(f(faux({ [CLE_CONDUITES]: 'pas du json' })))).toEqual([])
+    expect(lireConduites(f(faux({ [CLE_CONDUITES]: '{"a":1}' })))).toEqual([])
+  })
+  it('stockage défaillant : pas de plantage', () => {
+    expect(lireConduites(f(casse))).toEqual([])
+    expect(ecrireConduites(['conducteur-mea'], f(casse))).toBe(false)
   })
 })

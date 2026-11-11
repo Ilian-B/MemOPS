@@ -1509,7 +1509,7 @@
     },
     "theme": "incendie",
     "emplois": [
-      "chef-agres-tout-engin"
+      "chef-agres-une-equipe"
     ],
     "portee": "national",
     "difficulte": 1,
@@ -1537,7 +1537,7 @@
     },
     "theme": "incendie",
     "emplois": [
-      "chef-agres-tout-engin"
+      "chef-agres-une-equipe"
     ],
     "portee": "national",
     "difficulte": 1,
@@ -1565,7 +1565,7 @@
     },
     "theme": "incendie",
     "emplois": [
-      "chef-agres-tout-engin"
+      "chef-agres-une-equipe"
     ],
     "portee": "national",
     "difficulte": 2,
@@ -2112,7 +2112,7 @@
     },
     "theme": "incendie",
     "emplois": [
-      "chef-agres-tout-engin"
+      "chef-agres-une-equipe"
     ],
     "portee": "national",
     "difficulte": 2,
@@ -2167,7 +2167,7 @@
     },
     "theme": "incendie",
     "emplois": [
-      "chef-agres-tout-engin"
+      "chef-agres-une-equipe"
     ],
     "portee": "national",
     "difficulte": 2,
@@ -2198,6 +2198,871 @@
     "theme": "incendie",
     "emplois": [
       "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0201",
+    "type": "qcm",
+    "enonce": "Comment s’utilise généralement une échelle à crochets, et combien de personnes peut-elle supporter ?",
+    "propositions": [
+      "Suspendue par ses crochets ; elle ne peut supporter qu’un homme",
+      "Posée sur les pieds des montants ; elle peut supporter deux sauveteurs",
+      "Appuyée contre la façade ; elle peut supporter deux sauveteurs si l’un est au-dessus de l’autre",
+      "Suspendue par ses crochets ; elle peut supporter un sauveteur et la victime"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 45) indique que l’échelle à crochets s’utilise généralement suspendue, jamais appuyée ni posée sur les pieds des montants, et qu’elle ne peut supporter qu’un homme.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 1. L’utilisation de l’échelle à crochets, p. 45",
+      "citation": "L’échelle à crochets s’utilise généralement suspendue par ses crochets, jamais appuyée ou posée sur les pieds des montants et ne peut supporter qu’un homme."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0202",
+    "type": "cas-concret",
+    "enonce": "Vous progressez sur une échelle à crochets et l’une des deux pointes passe dans le vide : l’échelle n’est plus tenue que par une seule pointe. Que faites-vous ?",
+    "propositions": [
+      "Vous terminez la progression (ascension ou descente) sur une seule pointe",
+      "Vous sautez sur le balcon le plus proche",
+      "Vous vous rattrapez à un élément de façade",
+      "Vous quittez l’échelle à crochets le plus vite possible"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, pp. 46-47) précise qu’il est plus dangereux de quitter l’échelle à crochets que de terminer la progression sur une seule pointe ; il ne faut ni sauter ni se rattraper à la façade.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 1.1.1. La progression de balcon en balcon, pp. 46-47",
+      "citation": "Toutefois, il se peut qu’une des pointes passe dans le vide, l’échelle n’est plus donc tenue que par une seule pointe. […] Cette situation ne doit pas amener le sapeur-pompier à sauter ou à se rattraper à un élément de façade. Il est plus dangereux de quitter l’échelle à crochets que de terminer la progression (ascension ou descente) sur une seule pointe."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0203",
+    "type": "qcm",
+    "enonce": "Une victime valide descend d’elle-même par l’échelle à crochets pour fuir le sinistre. Parmi ces actions, lesquelles font partie de la mission des sapeurs-pompiers ? (plusieurs réponses)",
+    "propositions": [
+      "Tenir l’échelle afin d’éviter les mouvements parasites et oscillations",
+      "Lui demander si d’autres personnes restent à évacuer",
+      "Lui conseiller d’effectuer sa descente en se collant à l’échelle",
+      "Monter à son niveau pour l’aider à franchir le vide et à s’engager sur les échelons",
+      "Mettre en place un dispositif de descente au moyen du LSPCC"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Dans ce cas (GTO Sauvetages et mises en sécurité, chap. 3, pp. 47-48), la mission se limite à tenir l’échelle, rassurer, sécuriser la descente, interroger la victime et lui conseiller de se coller à l’échelle. L’aide au franchissement du vide relève du cas « valide mais ne peut pas descendre seule » ; le LSPCC relève du cas invalide ou inconscient.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 1.2.1. La victime est valide et descend par ses propres moyens, pp. 47-48",
+      "citation": "La mission des sapeurs-pompiers se limite donc à : tenir l’échelle afin d’éviter les mouvements parasites et oscillations ; rassurer la victime ; sécuriser la descente des niveaux inférieurs ; lui demander si d’autres personnes restent à évacuer ; lui conseiller d’effectuer sa descente en se collant à l’échelle ; sécuriser la descente des niveaux inférieurs."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0204",
+    "type": "cas-concret",
+    "enonce": "Une victime valide ne peut pas descendre d’elle-même l’échelle à crochets suspendue à son niveau (rebord trop élevé, personne choquée). Un premier sapeur-pompier monte l’aborder. Que fait le second ?",
+    "propositions": [
+      "Il maintient fermement l’échelle pour améliorer sa stabilité",
+      "Il monte à son tour sur l’échelle, derrière le premier",
+      "Il met en place un dispositif de descente au moyen du LSPCC",
+      "Il reste à distance sans toucher l’échelle"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 49) prévoit que le second sapeur-pompier maintient fermement l’échelle. L’échelle à crochets ne peut supporter qu’un homme (p. 45) et le LSPCC est réservé à la victime invalide ou inconsciente.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 1.2.2. La victime est valide mais ne peut pas descendre seule, p. 49",
+      "citation": "Bien que valide, la victime ne peut pas descendre d’elle-même une fois l’échelle à crochets suspendue à son niveau (rebord trop élevé, appréhension du vide, personne choquée, …) : un sapeur-pompier monte au niveau de la victime, l’aborde et la rassure ; il l’aide pour le franchissement du vide et l’engagement sur les échelons en lui conseillant de bien « se coller » à l’échelle lors de sa descente ; le second sapeur-pompier maintient fermement l’échelle pour améliorer la stabilité de l’échelle."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0205",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : lorsque l’inclinaison et le déploiement d’un moyen élévateur aérien ne sont plus possibles, il est possible de le prolonger au moyen d’une échelle à crochets.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 5, p. 72 ; idem chap. 3, p. 49) prévoit la prolongation d’un MEA par une échelle à crochets, notamment si l’inclinaison et le déploiement ne sont plus possibles ou si le MEA n’a pas de balancier.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 5, 3.2. Le sauvetage d’une victime située en contrebas, p. 72 (idem chapitre 3, 1.3.2, p. 49)",
+      "citation": "La prolongation d’un moyen élévateur aérien est possible au moyen d’une échelle à crochets. Cette manœuvre peut s’avérer nécessaire si l’inclinaison et le déploiement du MEA n’est plus possible, ou si ce dernier ne dispose pas de balancier :"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0206",
+    "type": "qcm",
+    "enonce": "Un cheminement d’accès a été créé au moyen d’une échelle à crochets sur le faîtage d’une toiture. Que devient ce cheminement pendant l’intervention ?",
+    "propositions": [
+      "Il est maintenu (sauf nécessité) tout au long de l’intervention, pour servir d’accès secondaire ou d’itinéraire de repli",
+      "Il est retiré dès que la victime est évacuée",
+      "Il est retiré dès que le premier sapeur-pompier a rejoint la toiture",
+      "Il ne doit jamais servir d’itinéraire de repli pour les personnels"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 50) indique que le cheminement est maintenu, sauf nécessité, tout au long de l’intervention, comme accès secondaire ou itinéraire de repli.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 1.3.2. Les autres types de prolongement, p. 50",
+      "citation": "Lorsqu’un cheminement d’accès a été ainsi créé, il est maintenu (sauf nécessité) tout au long de l’intervention afin de servir d’accès secondaire ou d’itinéraire de repli pour les personnels."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0207",
+    "type": "qcm",
+    "enonce": "Vous positionnez une échelle à coulisse deux plans pour sauver une victime valide. Quelle technique d’approche est à privilégier ?",
+    "propositions": [
+      "Dépasser le rebord de la fenêtre ou du toit",
+      "Se mettre en appui à côté de l’ouvrant",
+      "Positionner l’échelle sous les pieds de la victime"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 50) désigne comme technique à privilégier le dépassement du rebord de la fenêtre ou du toit, confortable au passage dans le vide. L’appui à côté de l’ouvrant est justifié par des conditions particulières d’intervention ou une configuration spécifique ; l’échelle sous les pieds concerne la victime suspendue.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 2.1. Le sauvetage d’une victime valide, légendes des photos, p. 50",
+      "citation": "Dépasser le rebord de la fenêtre ou du toit. permet un confort au moment du passage dans le vide de la victime qui peut s’aider des montants. Cette technique est à privilégier."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0208",
+    "type": "qcm",
+    "enonce": "À l’arrivée des secours, une victime est suspendue par les mains à un rebord de fenêtre. Que peut-on faire avec les échelles à mains ? (plusieurs réponses)",
+    "propositions": [
+      "Positionner une échelle à mains sous les pieds de la victime pour la soulager",
+      "Si possible, positionner une autre échelle à mains à côté de la victime pour lui permettre de lâcher plus facilement le rebord",
+      "Ne jamais placer d’échelle sous les pieds d’une victime suspendue",
+      "Ne jamais placer une seconde échelle à côté de la victime"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 50) prévoit l’échelle sous les pieds pour soulager la victime suspendue et, si possible, une autre échelle à côté pour qu’elle lâche plus facilement le rebord.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 2.1. Le sauvetage d’une victime valide, légendes des photos, p. 50",
+      "citation": "L’échelle à mains peut être positionnée sous les pieds de la victime suspendue pour la soulager. Si possible, une autre échelle à mains peut être positionnée à côté de la victime afin de lui permettre de lâcher plus facilement le rebord"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0209",
+    "type": "qcm",
+    "enonce": "Technique à trois sapeurs-pompiers pour une victime invalide ou inconsciente à l’échelle à coulisse : quel est le rôle du sapeur-pompier situé sur l’échelle ? (plusieurs réponses)",
+    "propositions": [
+      "Il tient les chevilles de la victime",
+      "Il reçoit les genoux de la victime sur ses épaules",
+      "Il descend la victime placée dos contre les échelons",
+      "Il saisit la victime sous les épaules et à la ceinture"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, pp. 51-52) attribue au sapeur-pompier sur l’échelle les chevilles de la victime, la réception de ses genoux sur ses épaules et la descente, victime dos contre les échelons. Saisir la victime sous les épaules et à la ceinture est le geste du binôme situé près de la victime.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 2.2.1. La technique à trois sapeurs-pompiers, pp. 51-52",
+      "citation": "Le binôme situé près de la victime s’approche de l’ouvrant, place ses jambes perpendiculairement au sol sur le mur (sous l’ouvrant) et saisit la victime sous les épaules et à la ceinture. Le sapeur-pompier sur l’échelle tient les chevilles de la victime. Dans une action coordonnée des 3 sapeurs-pompiers, la victime est levée, les jambes passées au-dessus du rebord de l’ouvrant, ses genoux posés sur les épaules du personnel situé sur l’échelle. La victime est placée dos contre les échelons par les 3 personnels puis descendue par le sapeur-pompier situé sur l’échelle."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0210",
+    "type": "qcm",
+    "enonce": "Une victime est menacée dans une excavation et vous envisagez d’y descendre une échelle à coulisse. À quoi le COS doit-il veiller avant de mettre en place cette technique ? (plusieurs réponses)",
+    "propositions": [
+      "La stabilité des rebords de l’excavation",
+      "Engager l’échelle les pieds et le grand plan en avant",
+      "Engager l’échelle le petit plan en avant pour limiter la chute de débris",
+      "Engager le sapeur-pompier sans attendre, la stabilité de l’échelle étant vérifiée ensuite"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 54) liste ce que le COS doit vérifier : stabilité des rebords, échelle stable avant d’engager le sapeur-pompier, échelle engagée pieds et grand plan en avant, absence de chute de débris sur la victime.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 2.3. L’accès en sécurité à une victime en excavation, p. 54",
+      "citation": "Avant de mettre en place cette technique, le COS doit veiller à : la stabilité des rebords de l’excavation ; ce que l’échelle soit stable avant d’engager le sapeur-pompier (sol, appui, parachutes engagés) ; engager l’échelle les pieds et le grand plan en avant ; ne pas faire chuter de débris sur la victime."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-une-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0211",
+    "type": "qcm",
+    "enonce": "Avant d’engager une échelle à coulisse dans une excavation, comment éviter le désengagement des parachutes et le déploiement intempestif de l’échelle ?",
+    "propositions": [
+      "En bloquant les plans au moyen d’une sangle ou du trait",
+      "En ne bloquant les plans que si le sol est instable",
+      "En ne bloquant pas les plans, afin de pouvoir déployer l’échelle une fois engagée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 54) rend obligatoire le blocage des plans au moyen d’une sangle ou du trait.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 2.3. L’accès en sécurité à une victime en excavation, p. 54",
+      "citation": "Le blocage des plans au moyen d’une sangle ou du trait est obligatoire afin d’éviter le désengagement des parachutes et le déploiement intempestif de l’échelle lors de sa mise en place."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0212",
+    "type": "qcm",
+    "enonce": "Pour franchir un vide vers une victime valide avec une échelle à mains, comment l’échelle est-elle abaissée après avoir été positionnée à la verticale ?",
+    "propositions": [
+      "Au moyen d’une commande ou du trait, en plaçant le grand plan vers le bas",
+      "En la laissant basculer librement, grand plan vers le haut",
+      "Déployée au maximum, au moyen d’une commande"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 55) indique que l’échelle, positionnée à la verticale, est abaissée au moyen d’une commande ou du trait, grand plan vers le bas, et que l’échelle est employée uniquement reployée totalement.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 2.4. L’accès à une victime visible réfugiée en hauteur, p. 55",
+      "citation": "Emploi de l’échelle uniquement reployée totalement […] L’échelle à mains est positionnée à la verticale, si possible en butée sur un élément de maçonnerie ou un équipement solidement ancré, puis abaissée au moyen d’une commande, ou du trait en plaçant le grand plan vers le bas"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0213",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : après avoir désolidarisé les deux plans d’une échelle à mains, il est possible de placer deux sauveteurs sur chaque plan.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 3, p. 56) impose une personne par plan au maximum après désolidarisation des deux plans.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 3, 2.5. Les utilisations particulières des échelles à mains, p. 56",
+      "citation": "Cette manœuvre permet d’obtenir deux échelles distinctes (création d’un cheminement, sauvetages multiples à des hauteurs limitées…) : Une personne par plan au maximum."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0214",
+    "type": "qcm",
+    "enonce": "Au regard de son analyse des risques, qui valide l’emploi du lot de sauvetage et de protection contre les chutes (LSPCC) ?",
+    "propositions": [
+      "Le COS",
+      "Le chef d’équipe qui installe le système",
+      "L’équipier chargé de l’assurance",
+      "Le CODIS"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 57) précise qu’il appartient au COS, au regard de son analyse des risques, de valider l’emploi du LSPCC et/ou de faire appel à des équipes spécialisées.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, introduction, p. 57",
+      "citation": "Il appartient au COS au regard de son analyse des risques de valider l’emploi du LSPCC et/ou de faire appel au renfort d’équipes spécialisées (SMPM, GRIMP, …)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-une-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0215",
+    "type": "qcm",
+    "enonce": "Dans quel cas le LSPCC est-il utilisé pour un sauvetage ?",
+    "propositions": [
+      "Quand les autres moyens plus sûrs (communications existantes, échelles aériennes ou à mains) sont impossibles et/ou que la situation nécessite une action immédiate des secours",
+      "En première intention, avant tout recours aux échelles aériennes ou à mains",
+      "Uniquement lorsqu’une échelle aérienne est déjà en place",
+      "Systématiquement, dès que la victime se trouve à plus d’un étage"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 57) présente le LSPCC comme une alternative quand les moyens plus sûrs sont impossibles et/ou que l’action immédiate est nécessaire.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, introduction, p. 57",
+      "citation": "L’utilisation du LSPCC est une alternative quand l’emploi d’autres moyens plus sûrs (communications existantes, échelles aériennes ou à mains) est impossible et/ou que la situation opérationnelle nécessite une action immédiate des secours."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-une-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0216",
+    "type": "qcm",
+    "enonce": "Quels éléments composent un système de mise en œuvre du LSPCC ?",
+    "propositions": [
+      "Ancrage(s) + amarrage(s) + charge + équipier(s)",
+      "Ancrage(s) + corde + frein de charge + victime",
+      "Ancrage(s) + dispositif + charge + chef d’agrès",
+      "Amarrage(s) + connecteur + sangle + équipier(s)"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 57) définit le système par : ancrage(s) + amarrage(s) + charge + équipier(s).",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 1. Les principes de mise en œuvre, p. 57",
+      "citation": "ancrage (s)+ amarrage (s)+ charge + équipier(s)"
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0217",
+    "type": "qcm",
+    "enonce": "À quelles conditions un véhicule est-il considéré comme un point d’ancrage ?",
+    "propositions": [
+      "Moteur arrêté et clé de contact enlevée, une vitesse engagée, frein de parc serré",
+      "Moteur arrêté, clé laissée sur le contact, au point mort, frein de parc serré",
+      "Moteur tournant au ralenti, une vitesse engagée, frein de parc serré",
+      "Moteur arrêté et clé de contact enlevée, une vitesse engagée, frein de parc desserré"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 59) exige moteur arrêté clé enlevée, vitesse engagée et frein de parc serré, les trois conditions étant cumulatives.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 1.1.1. L’ancrage, p. 59",
+      "citation": "un véhicule est considéré comme point d’ancrage si : le moteur est arrêté. La clé de contact enlevée ; et une vitesse est engagée ; et le frein de parc est serré."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0218",
+    "type": "qcm",
+    "enonce": "Vous avez un doute sur la fiabilité d’un point d’ancrage, quelle que soit sa nature. Que faut-il faire ?",
+    "propositions": [
+      "Le multiplier",
+      "N’en utiliser qu’un seul, mais bien le choisir",
+      "Le multiplier seulement s’il est artificiel"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 59) impose de multiplier l’ancrage en cas de doute, quelle que soit sa nature.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 1.1.1. L’ancrage, p. 59",
+      "citation": "Quelle que soit la nature de l’ancrage, en cas de doute, celui-ci doit être multiplié."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0219",
+    "type": "cas-concret",
+    "enonce": "L’urgence rend impossible l’installation de tout amarrage et l’équipier sert de point fixe pour un sauvetage par l’extérieur. Dans quelle position se place-t-il ?",
+    "propositions": [
+      "Allongé, les jambes à 90 ° contre le mur, muni du harnais équipé du descendeur",
+      "Debout au bord du vide, descendeur tenu à bout de bras",
+      "Assis, les jambes dans le vide",
+      "Allongé, les jambes à 45 ° contre le mur"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 62) décrit l’équipier allongé, jambes à 90 ° contre le mur, muni du harnais équipé du descendeur : il contrôle la descente.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2.2. Le sauvetage ou la mise en sécurité d’une personne par l’extérieur, p. 62",
+      "citation": "Dans la mesure où l’urgence de la situation rend impossible l’installation de tout amarrage, l’équipier sert de point fixe. L’équipier, muni du harnais équipé du descendeur est allongé, les jambes à 90 ° contre le mur. Il contrôle la descente."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0220",
+    "type": "qcm",
+    "enonce": "Dans un sauvetage par l’extérieur où l’équipier sert de point fixe, que doit faire le chef d’agrès ? (plusieurs réponses)",
+    "propositions": [
+      "Participer à la mise au vide de la victime",
+      "Désigner le personnel, indiquer le lieu de sauvetage et fixer les moyens d’accès",
+      "Rester en retrait sans participer à la mise au vide",
+      "Laisser à l’équipier le soin de désigner le lieu de sauvetage"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 62) indique que, l’équipier servant de point fixe, le chef d’agrès doit participer à la mise au vide, et qu’il désigne le personnel, indique le lieu de sauvetage et fixe les moyens d’accès.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2.2. Le sauvetage ou la mise en sécurité d’une personne par l’extérieur, p. 62",
+      "citation": "Dans ce cas, le chef d’agrès doit participer à la mise au vide de la victime. […] Le chef d’agrès désigne le personnel, indique le lieu de sauvetage et fixe les moyens d’accès."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-une-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0221",
+    "type": "qcm",
+    "enonce": "Lors d’un sauvetage par l’extérieur au LSPCC, quelle valeur doit respecter la hauteur entre le frein de charge et le point d’appui sur le passage dans le vide ?",
+    "propositions": [
+      "Supérieure ou égale à 20 centimètres",
+      "Inférieure à 20 centimètres",
+      "Exactement 10 centimètres",
+      "Aucune valeur n’est imposée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 62) impose obligatoirement une hauteur supérieure ou égale à 20 centimètres.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2.2. Le sauvetage ou la mise en sécurité d’une personne par l’extérieur, p. 62",
+      "citation": "La hauteur entre le frein de charge et le point d’appui sur le passage dans le vide doit obligatoirement être supérieur ou égale à 20 centimètres."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0222",
+    "type": "qcm",
+    "enonce": "Lors de la mise en œuvre du LSPCC, quelles règles sont à respecter ? (plusieurs réponses)",
+    "propositions": [
+      "Veiller à ce que les mousquetons soient vissés et, si possible, diriger le sens de vissage vers le bas",
+      "Toujours utiliser le frein de charge en point fixe",
+      "Tester sur quelques centimètres le bon fonctionnement du frein de charge",
+      "Poser le matériel directement sur un sol jonché de débris pour gagner du temps",
+      "Marcher sur les éléments textiles pour les maintenir en place"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 60) demande mousquetons vissés (si possible vissage vers le bas), frein de charge toujours en point fixe et test du frein sur quelques centimètres ; il demande aussi de ne pas poser le matériel sur un sol jonché de débris et d’éviter de marcher sur les textiles.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2. Les techniques de mise en œuvre, p. 60",
+      "citation": "Il est également nécessaire de : ne pas faire reposer du matériel sur un sol jonché de débris ; veiller impérativement à ce que les mousquetons soient vissés et si possible diriger le sens de vissage vers le bas ; toujours utiliser le frein de charge en point fixe ; toujours utiliser un mousqueton pour relier deux anneaux cousus entre eux ; éviter de marcher sur les éléments textiles ; observer le comportement des amarrages, des agrès sous tension, les éventuelles zones de frottements ; tester sur quelques centimètres le bon fonctionnement du frein de charge."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0223",
+    "type": "qcm",
+    "enonce": "Lors de la reconnaissance d’un appartement avec le LSPCC, en l’absence de risque, que doit faire le sauveteur amarré avant de se désolidariser du système ?",
+    "propositions": [
+      "Informer l’équipier chargé de l’assurance",
+      "Rien, il peut se désolidariser à tout moment",
+      "Il ne doit jamais se désolidariser du système"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 65) précise qu’en l’absence de risque, le sauveteur se désolidarise du système après avoir informé l’équipier chargé de l’assurance.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2.4. L’emploi du LSPCC lors des ouvertures de portes, p. 65",
+      "citation": "En l’absence de risque, après avoir informé l’équipier chargé de l’assurance, il se désolidarise du système, fixe le mousqueton de la corde sur un point d’attache et poursuit sa reconnaissance."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0224",
+    "type": "qcm",
+    "enonce": "Lors de la reconnaissance d’un appartement avec le LSPCC, que faut-il toujours préconiser ?",
+    "propositions": [
+      "Un chemin de repli, en s’assurant que la longueur de corde utile permette d’y accéder",
+      "Un chemin de repli seulement si la façade est accessible aux moyens élévateurs aériens",
+      "De se désolidariser du système sans prévenir l’équipier chargé de l’assurance"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 65) demande de toujours préconiser un chemin de repli et de vérifier que la longueur de corde utile permet d’y accéder.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2.4. L’emploi du LSPCC lors des ouvertures de portes, p. 65",
+      "citation": "Toujours préconiser un chemin de repli et s’assurer que la longueur de corde utile permette d’y accéder."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0225",
+    "type": "cas-concret",
+    "enonce": "Vous intervenez dans une excavation où l’on redoute une atmosphère viciée. Que faut-il faire ?",
+    "propositions": [
+      "Porter l’ARI et effectuer le contrôle préalable au moyen du détecteur de gaz",
+      "Porter l’ARI uniquement si la victime est inconsciente",
+      "Descendre sans ARI si le détecteur de gaz n’est pas disponible"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 64) rend le port de l’ARI obligatoire lorsqu’on redoute une atmosphère viciée, avec contrôle préalable au détecteur de gaz.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2.3. Le sauvetage dans les puits, fosses ou en excavation, p. 64",
+      "citation": "Le port de l’ARI est obligatoire lorsqu’on redoute une atmosphère viciée dans l’excavation. Le contrôle préalable est effectué au moyen du détecteur de gaz."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0226",
+    "type": "qcm",
+    "enonce": "Mise en place du harnais du LSPCC sur une victime : dans quelles sangles passe-t-on ses jambes repliées ?",
+    "propositions": [
+      "Les sangles inférieures (bleues)",
+      "Les sangles supérieures (rouges)",
+      "Les sangles supérieures (bleues)"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 61) indique que les jambes repliées de la victime passent dans les sangles inférieures (bleues) ; les sangles supérieures sont les rouges, dans lesquelles passent les bras.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2.1. Le sauvetage au moyen du harnais, légendes de la planche, p. 61",
+      "citation": "Replacer la victime à plat dos sur le harnais. Replier ses jambes et les passer dans les sangles inférieures (bleues)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0227",
+    "type": "qcm",
+    "enonce": "Une victime est suspendue par les bras et vous l’approchez avec le panier de secours d’un MEA. Comment l’approche peut-elle judicieusement se faire, si les capacités techniques du MEA le permettent ?",
+    "propositions": [
+      "En « léchant » la façade de bas en haut",
+      "En « léchant » la façade de haut en bas",
+      "En maintenant le panier à distance de la façade"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 5, p. 69) recommande l’approche en « léchant » la façade de bas en haut, ce qui peut limiter les effets d’une chute de la victime qui peut lâcher prise à tout moment.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 5, 1.2. La victime est suspendue dans le vide, p. 69",
+      "citation": "Lorsqu’une victime est suspendue par les bras, il convient d’anticiper le fait qu’elle puisse lâcher prise à tout moment. De ce fait, l’approche du panier de secours peut judicieusement se faire en « léchant » la façade de bas en haut, si les capacités techniques du MEA le permettent ; cette façon de procéder peut en effet limiter les effets d’une chute de la victime."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0228",
+    "type": "qcm",
+    "enonce": "Avant d’utiliser les techniques particulières des moyens élévateurs aériens (point d’ancrage, sauvetage en contrebas…), que faut-il faire ? (plusieurs réponses)",
+    "propositions": [
+      "Évaluer l’urgence de la situation et les capacités du matériel avant de choisir la technique",
+      "Vérifier qu’un sauvetage par un autre accès s’avèrerait moins efficace ou plus risqué pour la victime",
+      "Choisir la technique avant d’évaluer les capacités du matériel",
+      "Se conformer aux préconisations du constructeur seulement si l’angle d’inclinaison est important"
+    ],
+    "bonnes_reponses": [
+      0,
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 5, p. 71) demande d’évaluer l’urgence et les capacités du matériel avant le choix de la technique, de vérifier qu’un autre accès serait moins efficace ou plus risqué, et de se conformer strictement aux préconisations du constructeur.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 5, 3. Les utilisations particulières des moyens élévateurs aériens, p. 71",
+      "citation": "Avant d’utiliser ces techniques présentées, il est nécessaire : d’évaluer l’urgence de la situation et les capacités du matériel avant de réaliser le choix de la technique, vérifier qu’un sauvetage par un autre accès s’avèrerait moins efficace ou plus risqué pour la victime. Il est nécessaire de se conformer strictement aux préconisations du constructeur MEA (capacités réelles de l’engin, nombre de personnes admises dans cette configuration, angle d’inclinaison…) avant de réaliser ces techniques."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "chef-agres-une-equipe"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0230",
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : le nœud en tête d’alouette n’a pas d’effet sur la résistance à la rupture de l’anneau de sangle.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (annexe B, p. 76) précise que ce type de nœud diminue la résistance à la rupture de l’anneau de sangle.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Annexe B – L’école des nœuds, 3. Le nœud en tête d’alouette, p. 76",
+      "citation": "Ce type de nœud diminue la résistance à la rupture de l’anneau de sangle."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0231",
+    "type": "qcm",
+    "enonce": "Une victime inconsciente doit être portée lors d’un sauvetage au LSPCC. Comment, dans la mesure du possible ?",
+    "propositions": [
+      "Par deux sauveteurs, pieds en avant, face vers le sol",
+      "Par un seul sauveteur, tête en avant, face vers le ciel",
+      "Par deux sauveteurs, tête en avant, face vers le sol",
+      "Par deux sauveteurs, pieds en avant, face vers le ciel"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (chap. 4, p. 60) : la victime inconsciente est portée, dans la mesure du possible, par deux sauveteurs, pieds en avant, face vers le sol.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO, 2ème édition, février 2024",
+      "emplacement": "Chapitre 4, 2. Les techniques de mise en œuvre, p. 60",
+      "citation": "Si la victime est inconsciente, elle est portée, dans la mesure du possible par deux sauveteurs, pieds en avant, face vers le sol."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier"
+  },
+  {
+    "id": "sms-0127",
+    "type": "cas-concret",
+    "enonce": "Une échelle aérienne doit être mise en station. Sur lequel de ces supports est-il formellement interdit de la stabiliser ?",
+    "propositions": [
+      "Une plaque d’égout",
+      "Un chemin de terre",
+      "Du béton armé",
+      "Une voie échelle"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "Le GTO Sauvetages et mises en sécurité (2.4.3) classe en « sol interdit » les plaques d’égout, bordures de trottoir, caves sous trottoir et parkings sur dalle inférieure à 15 tonnes ; le béton armé et la voie échelle sont des sols stables, et le chemin de terre un sol instable sur lequel l’échelle peut être stabilisée avec les cales de stabilisation.",
+    "source": {
+      "document": "Guide de techniques opérationnelles – Sauvetages et mises en sécurité (DGSCGC)",
+      "version": "GTO 2ème édition – février 2024",
+      "emplacement": "Chapitre 1, 2.4.3. La surface portante, p. 33",
+      "citation": "sol interdit : sols sur lesquels il est formellement interdit de stabiliser l’échelle car ils risquent de ne pas supporter les efforts engendrés par les mouvements de la structure extensible et le poids au bout de celle-ci (plaque d’égout, bordure de trottoir, cave sous trottoir, parking sur dalle inférieur à 15 tonnes)."
+    },
+    "theme": "incendie",
+    "emplois": [
+      "conducteur-mea"
     ],
     "portee": "national",
     "difficulte": 2,

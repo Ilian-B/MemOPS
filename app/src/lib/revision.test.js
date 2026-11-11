@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import {
   creerFiche, enregistrerReponse, tirerSessionRevision, compterDues, aRevoirAujourdhui, libelleTheme,
 } from './revision.js'
+import { pourEmploi } from './filtre-questions.js'
 
 const T0 = new Date('2026-01-10T10:00:00')
 const MIN = 60 * 1000
@@ -113,6 +114,19 @@ describe('questions à revoir', () => {
   })
   it('compte les dues avant une limite', () => {
     expect(compterDues(qs, f, new Date(T0.getTime() + 4 * JOUR))).toBe(3)
+  })
+})
+
+describe('à revoir et conduites (filtre puis comptage, comme dans l\'appli)', () => {
+  const qs = [
+    { ...q('a'), emplois: ['equipier'] },
+    { ...q('c'), emplois: ['conducteur-mea'] },
+  ]
+  const f = fiches(fiche('a', -MIN), fiche('c', -MIN))
+  const compter = (conduites) => aRevoirAujourdhui(pourEmploi(qs, 'equipier', conduites), f, T0)
+  it('une conduite non cochée n\'est pas comptée, cochée elle l\'est', () => {
+    expect(compter([])).toBe(1)
+    expect(compter(['conducteur-mea'])).toBe(2)
   })
 })
 

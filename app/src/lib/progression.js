@@ -13,14 +13,15 @@ export function estAcquise(fiche) {
 
 /**
  * Progression par thème, triée par nom de thème.
- * Exclut les questions « rejetee » et ne garde que celles de l'emploi choisi (emplois cumulatifs).
+ * Exclut les questions « rejetee » et ne garde que celles de l'emploi choisi (emplois cumulatifs)
+ * et des conduites cochées.
  * `fiches` est une Map id -> { id, carte, reponses, bonnes }.
  * Pour chaque thème : { theme, total, vues, acquises, reponses, bonnes, taux }.
  * Le taux (en %, arrondi) vaut null tant qu'il n'y a aucune réponse.
  */
-export function progressionParTheme(questions, fiches, emploi) {
+export function progressionParTheme(questions, fiches, emploi, conduites = []) {
   const themes = new Map()
-  for (const q of pourEmploi(filtrerQuestions(questions), emploi)) {
+  for (const q of pourEmploi(filtrerQuestions(questions), emploi, conduites)) {
     const t = themes.get(q.theme) ?? { theme: q.theme, total: 0, vues: 0, acquises: 0, reponses: 0, bonnes: 0, taux: null }
     t.total += 1
     const fiche = fiches.get(q.id)
