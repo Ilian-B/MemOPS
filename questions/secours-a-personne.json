@@ -5514,5 +5514,1710 @@
     "portee": "national",
     "difficulte": 1,
     "statut": "a_verifier"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Un passant porte assistance de manière bénévole à une personne en situation apparente de péril grave et imminent. Quelle qualité lui est reconnue ?",
+    "propositions": [
+      "Collaborateur occasionnel du service public",
+      "Sapeur-pompier volontaire à titre temporaire",
+      "Agent de la force publique",
+      "Simple témoin, sans qualité particulière"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC « Le citoyen de Sécurité Civile » rappelle que quiconque porte assistance de manière bénévole à une personne en situation apparente de péril grave et imminent est un citoyen sauveteur et bénéficie de la qualité de collaborateur occasionnel du service public (loi n° 2020-840 du 3 juillet 2020).",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC01 / 07-2026 « Le citoyen de Sécurité Civile »",
+      "emplacement": "Chapitre 01, fiche « Le citoyen de Sécurité Civile », p. 6",
+      "citation": "Quiconque porte assistance de manière bénévole à une personne en situation apparente de péril grave et imminent est un citoyen sauveteur et bénéficie de la qualité de collaborateur occasionnel du service public"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0001"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Quand le signal national d’alerte (SNA) est-il testé par les sirènes ?",
+    "propositions": [
+      "Le premier mercredi de chaque mois, à midi",
+      "Le premier lundi de chaque mois, à midi",
+      "Le dernier vendredi de chaque mois, à 18 heures",
+      "Le premier jour de chaque trimestre, à midi"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC « Alerte et protection des populations » indique que le SNA est testé le premier mercredi de chaque mois, à midi, avec un signal en variation sur un seul cycle de 1 minute et 41 secondes, pour ne pas être confondu avec le SNA lui-même.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC02 / 07-2026 « Alerte et protection des populations »",
+      "emplacement": "Chapitre 01, fiche « Alerte et protection des populations », Principe d’organisation, p. 8",
+      "citation": "il est testé le premier mercredi de chaque mois, à midi. Lors de ces essais mensuels, le signal émis est une variation sur un seul cycle de 1 minute et 41 secondes, pour ne pas être confondu avec le SNA."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0002"
+  },
+  {
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : pour recevoir une notification « FR-ALERT » sur son téléphone portable, il faut s’être inscrit au préalable et avoir installé une application.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche PSC « Alerte et protection des populations » précise que le dispositif FR-ALERT, actif depuis juin 2022, ne nécessite ni inscription ni application : le téléphone doit seulement être dans une zone géographique affectée, être allumé et avoir du réseau.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC02 / 07-2026 « Alerte et protection des populations »",
+      "emplacement": "Chapitre 01, fiche « Alerte et protection des populations », Principe d’organisation, p. 8",
+      "citation": "ce dispositif actif depuis juin 2022, ne nécessite pas d’inscription ni d’application."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0003"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Vous avez connaissance d’une alerte aux populations. Quelles conduites faut-il adopter ? (plusieurs réponses)",
+    "propositions": [
+      "Se mettre en sécurité (bâtiment le plus proche, etc.)",
+      "Aller chercher les enfants à l’école",
+      "S’informer sur la situation",
+      "Téléphoner à ses proches pour les prévenir, même en l’absence d’urgence vitale"
+    ],
+    "bonnes_reponses": [
+      0,
+      2
+    ],
+    "explication": "La fiche PSC « Alerte et protection des populations » demande de se mettre en sécurité et de s’informer sur la situation. Elle demande de ne pas aller chercher les enfants à l’école, car ils y sont protégés par leurs enseignants, et, sauf urgence vitale, de ne pas téléphoner.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC02 / 07-2026 « Alerte et protection des populations »",
+      "emplacement": "Chapitre 01, fiche « Alerte et protection des populations », Conduite à tenir, p. 9",
+      "citation": "Dès que vous avez connaissance d’une alerte aux populations : […] se mettre en sécurité (bâtiment le plus proche, etc.) ; […] ne pas aller chercher les enfants à l’école, car ils y sont protégés par leurs enseignants ; […] s’informer sur la situation ; […] sauf urgence vitale, ne pas téléphoner"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0004"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Une personne est menacée par un danger que le secouriste peut écarter sans risque pour sa propre sécurité. Quelle est la première mesure à prendre ?",
+    "propositions": [
+      "Supprimer ou écarter immédiatement le danger de façon permanente",
+      "Réaliser systématiquement un dégagement d’urgence de la victime",
+      "Délimiter la zone de danger puis attendre les secours",
+      "Faire alerter les secours avant toute autre action"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC « Protection » demande au secouriste, lorsqu’il peut agir sans risque pour sa propre sécurité, de supprimer ou d’écarter immédiatement le danger de façon permanente ; la délimitation de la zone vient compléter cette première mesure et le dégagement d’urgence doit rester exceptionnel.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC03 / 12-2023 « Protection »",
+      "emplacement": "Chapitre 01, fiche « Protection », p. 10",
+      "citation": "le secouriste, lorsqu’il peut agir sans risque pour sa propre sécurité, doit immédiatement supprimer ou écarter le danger de façon permanente. […] Si nécessaire, cette première mesure est complétée en délimitant clairement et largement la zone de danger […] un dégagement d’urgence peut être alors réalisé par le secouriste. Cette manœuvre peut être dangereuse pour la victime ou lui-même. Elle doit donc rester exceptionnelle."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0005"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Dans quelles conditions le secouriste s’engage-t-il dans un dégagement d’urgence ?",
+    "propositions": [
+      "Seulement si la victime est visible, facile à atteindre et que rien ne gêne son dégagement",
+      "Dès qu’une victime est allongée, même si elle n’est pas visible depuis l’endroit où il se trouve",
+      "Seulement en appliquant l’unique technique imposée pour tous les dégagements d’urgence",
+      "Uniquement si la victime peut elle-même se soustraire au danger"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC « Protection » indique que le secouriste s’engage par le cheminement le plus sûr et le plus rapide seulement si la victime est visible, facile à atteindre et que rien ne gêne son dégagement. Le dégagement est réservé à la victime qui ne peut se soustraire d’elle-même au danger, et aucune technique n’est imposée.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC03 / 12-2023 « Protection »",
+      "emplacement": "Chapitre 01, fiche « Protection », Dégagement d’urgence d’une victime, p. 10",
+      "citation": "Lorsque la victime ne peut se soustraire d’elle-même à un danger réel, immédiat et non contrôlable, un dégagement d’urgence peut être alors réalisé par le secouriste. […] Aucune technique n’est imposée lors de la réalisation d’un dégagement d’urgence. Toutefois, lors de sa réalisation, le secouriste s’engage par le cheminement le plus sûr et le plus rapide seulement si la victime est visible, facile à atteindre et que rien ne gêne son dégagement."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0006"
+  },
+  {
+    "type": "ordre",
+    "enonce": "Face à une attaque terroriste, avant l’arrivée des forces de l’ordre, remettez dans l’ordre de priorité les trois premières étapes de la conduite à tenir qui peut être suivie par le secouriste.",
+    "propositions": [
+      "Alerter (où, qui, quoi)",
+      "S’échapper sans risque",
+      "S’enfermer et se barricader"
+    ],
+    "bonnes_reponses": [
+      1,
+      2,
+      0
+    ],
+    "explication": "La fiche PSC « Protection » indique que la conduite à tenir du secouriste pourrait être : s’échapper sans risque ; si c’est impossible, s’enfermer et se barricader ; une fois caché ou en sécurité, alerter (où, qui, quoi).",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC03 / 12-2023 « Protection »",
+      "emplacement": "Chapitre 01, fiche « Protection », Devant une attaque terroriste ou une situation de violence, p. 10",
+      "citation": "la conduite à tenir (CAT) pour le secouriste avant l’arrivée des forces de l’ordre pourrait être la suivante : s’échapper sans risque si, c’est impossible s’enfermer et se barricader, une fois caché ou en sécurité, alerter (où, qui, quoi) […]"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0007"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Quel numéro d’urgence unique, national et gratuit est accessible en visio, tchat, images et SMS, et réservé notamment aux personnes sourdes, sourdaveugles, malentendantes et aphasiques ?",
+    "propositions": [
+      "Le 114",
+      "Le 112",
+      "Le 15",
+      "Le 18"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC « Alerte » décrit le 114 comme le numéro d’urgence accessible en visio, tchat, images et SMS, réservé aux personnes sourdes, sourdaveugles, malentendantes et aphasiques. Le 112 est le numéro réservé aux appels d’urgence valide dans l’ensemble de l’Union Européenne.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC04 / 07-2026 « Alerte »",
+      "emplacement": "Chapitre 01, fiche « Alerte », Présentation, p. 11",
+      "citation": "le 112, numéro de téléphone réservé aux appels d’urgence et valide dans l’ensemble de l’Union Européenne ; […] le 114, numéro d’urgence unique, national et gratuit, accessible en visio, tchat, images et SMS, en lien direct avec le service d’urgence de proximité. Ce service est réservé aux personne sourdes, sourdaveugles, malentendantes et aphasiques."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0008"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Une personne est victime de violences intrafamiliales et ne peut pas parler à voix haute. Elle souhaite alerter les secours. Quel numéro d’urgence peut-elle utiliser ?",
+    "propositions": [
+      "Le 114",
+      "Le 112, uniquement depuis l’étranger",
+      "Le 15, uniquement par SMS",
+      "Aucun : un appel vocal est obligatoire"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC « Alerte » précise que le 114, accessible en visio, tchat, images et SMS, peut aussi être utilisé par les personnes qui souhaitent alerter les secours dans le cadre de violences intrafamiliales et qui ne peuvent pas parler à voix haute.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC04 / 07-2026 « Alerte »",
+      "emplacement": "Chapitre 01, fiche « Alerte », Présentation, p. 11",
+      "citation": "Il peut aussi être utilisé pour les personnes qui souhaitent alerter les secours dans le cadre de violences intrafamiliales et qui ne peuvent pas parler à voix haute."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0009"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Lors de l’alerte, quelles sont les informations minimales à transmettre ? (plusieurs réponses)",
+    "propositions": [
+      "Le numéro de téléphone ou de la borne à partir duquel l’appel est passé",
+      "La nature du problème : maladie, accident, attaque terroriste, etc.",
+      "La localisation la plus précise possible de l’évènement",
+      "L’identité complète et les antécédents médicaux de la victime"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC « Alerte » liste comme informations minimales le numéro de téléphone ou de la borne, la nature du problème et la localisation la plus précise possible ; en cas de situation à multiples victimes, il faut aussi préciser leur nombre. L’identité et les antécédents ne figurent pas parmi ces informations minimales.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC04 / 07-2026 « Alerte »",
+      "emplacement": "Chapitre 01, fiche « Alerte », Conduite à tenir, p. 11-12",
+      "citation": "Les informations minimales à transmettre sont : […] le numéro de téléphone ou de la borne à partir duquel l’appel est passé ; […] la nature du problème : maladie, accident, attaque terroriste, etc. ; […] en cas de situation à multiples victimes, préciser le nombre de victimes ; […] la localisation la plus précise possible de l’évènement."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0010"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Une victime ressemble à un enfant et peut tenir sur la cuisse du secouriste. Comment la morphologie de cette victime est-elle classée pour le choix des techniques ?",
+    "propositions": [
+      "Enfant",
+      "Nourrisson",
+      "Adulte"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC « Informations générales » définit l’enfant comme ressemblant à un enfant et pouvant tenir sur la cuisse du secouriste ; le nourrisson peut tenir sur l’avant-bras du secouriste ; l’adulte ressemble à un adulte morphologiquement.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 01AC05 / 12-2022 « Informations générales »",
+      "emplacement": "Chapitre 01, fiche « Informations générales », Morphologie, p. 13",
+      "citation": "Adulte Ressemblant à un adulte morphologiquement Enfant Ressemblant à un enfant, pouvant tenir sur la cuisse du secouriste Nourrisson Ressemblant à un nourrisson, peut tenir sur l’avant-bras du secouriste"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0011"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Parmi ces saignements, lequel est une hémorragie ?",
+    "propositions": [
+      "Une perte de sang qui ne s’arrête pas spontanément et imbibe un mouchoir en quelques secondes",
+      "Un saignement dû à une écorchure, qui s’arrête spontanément",
+      "Un saignement dû à une éraflure, qui s’arrête spontanément",
+      "Un saignement dû à une abrasion cutanée, qui s’arrête spontanément"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR01 définit l’hémorragie comme une perte de sang qui ne s’arrête pas spontanément et imbibe un mouchoir en quelques secondes. Un saignement d’écorchure, d’éraflure ou d’abrasion cutanée qui s’arrête spontanément n’est pas une hémorragie.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR01 / 07-2026",
+      "emplacement": "Fiche 02PR01 « Hémorragies », Définition - Signes, p. 15",
+      "citation": "Une hémorragie est une perte de sang qui provient d'une plaie ou d'un orifice naturel et qui ne s'arrête pas spontanément. Elle imbibe de sang un mouchoir de tissu ou de papier en quelques secondes. Un saignement dû à une écorchure, une éraflure ou une abrasion cutanée, qui s'arrête spontanément n'est pas une hémorragie."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0012"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Vous prenez en charge une victime qui saigne abondamment. Parmi ces actions, lesquelles font partie de la conduite à tenir ? (plusieurs réponses)",
+    "propositions": [
+      "Réchauffer la victime, car l’hypothermie aggrave son état",
+      "Allonger confortablement la victime, par exemple sur un lit, un canapé ou à défaut sur le sol",
+      "Rassurer la victime en lui parlant régulièrement et en lui expliquant ce qui se passe",
+      "Relâcher la compression dès que la victime est allongée",
+      "Maintenir la victime debout pour limiter le saignement"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC 02PR01 demande d’allonger confortablement la victime, de la rassurer, de la réchauffer car l’hypothermie aggrave son état, et de maintenir la compression (par la victime ou le secouriste).",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR01 / 07-2026",
+      "emplacement": "Fiche 02PR01 « Hémorragies », Conduite à tenir, p. 15-16",
+      "citation": "maintenir la compression (par la victime ou le secouriste) ; […] allonger confortablement la victime, par exemple sur un lit, un canapé ou à défaut sur le sol ; […] rassurer la victime, en lui parlant régulièrement et en lui expliquant ce qui se passe ; […] réchauffer la victime, car l’hypothermie aggrave l’état de la victime"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0013"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Une victime vomit du sang puis perd connaissance. Comment l’installer ?",
+    "propositions": [
+      "Allongée, sur le côté, en position stable",
+      "Dans la position où elle se sent le mieux",
+      "Allongée sur le dos, jambes surélevées",
+      "Assise, tête penchée en avant"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR01 prévoit, pour une victime qui vomit ou crache du sang, de l’installer dans la position où elle se sent le mieux si elle est consciente, et allongée sur le côté, en position stable, si elle a perdu connaissance.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR01 / 07-2026",
+      "emplacement": "Fiche 02PR01 « Hémorragies », La victime perd du sang par un orifice naturel, p. 16",
+      "citation": "Si la victime vomit ou crache du sang , installer la victime dans la position : […] où elle se sent le mieux si elle est consciente ; […] allongée, sur le côté, en position stable si elle a perdu connaissance."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0014"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Vous avez soigné une victime qui saignait. Son sang a souillé une petite plaie de votre main. Quand faut-il demander un avis médical ?",
+    "propositions": [
+      "Sans délai, même si la plaie est minime",
+      "Seulement si la plaie est profonde",
+      "Seulement si des symptômes apparaissent dans les jours qui suivent",
+      "Jamais, si la plaie a été lavée à l’eau et au savon"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR01 demande, en cas de contact du secouriste avec le sang de la victime, un avis médical sans délai si le secouriste présente une plaie, même minime, ayant été souillée, ou a subi une projection sur le visage.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR01 / 07-2026",
+      "emplacement": "Fiche 02PR01 « Hémorragies », En cas de contact du secouriste avec le sang de la victime, p. 16",
+      "citation": "demander un avis médical, sans délai si le secouriste : […] présente une plaie, même minime, ayant été souillée ; […] a subi une projection sur le visage."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0015"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Pour quelles localisations d’un saignement un pansement compressif n’est-il pas indiqué ? (plusieurs réponses)",
+    "propositions": [
+      "Le cou",
+      "La tête",
+      "Le thorax",
+      "L’abdomen",
+      "L’avant-bras"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explication": "La fiche PSC 02FT01 indique le pansement compressif seulement si l’endroit qui saigne n’est pas situé au cou, à la tête, au thorax ou à l’abdomen. L’avant-bras n’est pas exclu.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT01 / 07-2026",
+      "emplacement": "Fiche 02FT01 « Compression », Pansement compressif, p. 17",
+      "citation": "Un pansement compressif est indiqué si : […] et que l’endroit qui saigne n’est pas situé au cou, à la tête, au thorax ou à l’abdomen."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0016"
+  },
+  {
+    "type": "qcm",
+    "enonce": "À quoi sert l’épaisseur de tissu interposée entre la main et la plaie lors d’une compression manuelle ?",
+    "propositions": [
+      "À augmenter la compression",
+      "À stériliser la plaie",
+      "À remplacer définitivement le pansement compressif",
+      "À permettre de relâcher la pression sans reprise du saignement"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT01 demande d’interposer le plus tôt possible une épaisseur de tissu, si possible propre, entre la main et la plaie pour augmenter la compression, puis de maintenir la compression jusqu’au relais par un pansement compressif.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT01 / 07-2026",
+      "emplacement": "Fiche 02FT01 « Compression », Compression manuelle, p. 17",
+      "citation": "interposer le plus tôt possible entre la main et la plaie une épaisseur de tissu (mouchoirs, torchons, vêtements, etc), si possible propre, pour augmenter la compression ; […] maintenir la compression de la plaie jusqu’au relais par un pansement compressif."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0017"
+  },
+  {
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : en cas d’hémorragie du cou que la compression ne parvient pas à arrêter, un garrot peut être posé.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche PSC 02FT02 réserve le garrot à l’hémorragie d’un membre lorsque la compression directe est inefficace ou impossible : il ne peut être posé qu’aux membres supérieurs ou inférieurs.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT02 / 07-2026",
+      "emplacement": "Fiche 02FT02 « Garrot », Indication, p. 18",
+      "citation": "Cette technique est indiquée en cas d’hémorragie d’un membre lorsque la compression directe est inefficace ou impossible. Il ne peut être posé qu’aux membres supérieurs ou inférieurs."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0018"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Quel matériel convient pour réaliser un garrot improvisé ?",
+    "propositions": [
+      "Un lien de toile solide, non élastique, de 3 à 5 cm de large et d’au moins 1,50 m de longueur",
+      "Un garrot élastique prévu pour les prises de sang",
+      "Un lien élastique d’environ 1 cm de large",
+      "Un lien de toile d’environ 50 cm de longueur"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT02 décrit le lien de toile solide, non élastique, de 3 à 5 cm de large et d’au moins 1,50 m de longueur, et interdit d’utiliser les garrots élastiques prévus pour les prises de sang.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT02 / 07-2026",
+      "emplacement": "Fiche 02FT02 « Garrot », Matériel, p. 18",
+      "citation": "lien de toile, solide, non élastique, improvisé, de 3 à 5 cm de large et d'au moins 1,50m de longueur. […] Il ne faut pas utiliser les garrots élastiques prévus pour les prises de sang."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0019"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Vous venez de poser un garrot sur le membre d’une victime. Que faut-il noter, et dans quel but ?",
+    "propositions": [
+      "L’heure de pose, pour la communiquer aux personnes assurant le relais dans la prise en charge",
+      "Le nom du secouriste, pour le dossier administratif",
+      "La longueur du lien utilisé, pour le remplacer plus tard",
+      "Rien : la pose du garrot est visible sur le membre"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT02 demande de noter l’heure de pose du garrot, lisiblement (sur le garrot, sur une fiche, etc.), afin de pouvoir la communiquer aux personnes assurant le relais dans la prise en charge de la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT02 / 07-2026",
+      "emplacement": "Fiche 02FT02 « Garrot », Dans tous les cas, p. 19",
+      "citation": "noter l’heure de pose du garrot afin de pouvoir la communiquer aux personnes assurant le relais dans la prise en charge de la victime."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0020"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Vous devez poser un garrot et disposez à la fois d’un garrot de fabrication industrielle et du matériel pour un garrot improvisé. Que faites-vous ?",
+    "propositions": [
+      "Utiliser le garrot industriel en suivant les instructions du fabricant",
+      "Utiliser le garrot improvisé, dont la technique est décrite précisément",
+      "Utiliser le garrot industriel en reproduisant la technique du garrot improvisé",
+      "Utiliser le garrot industriel seulement si aucun lien large n’est disponible"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT02 indique que, s’il est disponible, il est préférable d’utiliser un garrot de fabrication industrielle, spécialement conçu à cet effet, en suivant les instructions du fabricant.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT02 / 07-2026",
+      "emplacement": "Fiche 02FT02 « Garrot », Réalisation, p. 18",
+      "citation": "S’il est disponible, il est préférable d’utiliser un garrot de fabrication industrielle, spécialement conçu à cet effet. […] suivre les instructions du fabricant."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0021"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Quels signes montrent que l’obstruction des voies aériennes est totale ? (plusieurs réponses)",
+    "propositions": [
+      "La victime ne peut plus parler, crier, tousser ni émettre un son",
+      "La victime garde la bouche ouverte",
+      "La victime s’agite et devient rapidement bleue",
+      "La victime peut parler et tousser, parfois avec un bruit surajouté à la respiration"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC 02PR02 décrit l’obstruction totale par l’impossibilité de parler, crier, tousser ou émettre un son, la bouche ouverte, l’agitation et le teint rapidement bleu. Si la victime peut parler, crier, tousser et respirer, parfois avec un bruit surajouté, l’obstruction n’est pas totale.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Obstruction des voies aériennes », Signes, p. 20",
+      "citation": "Si la victime peut parler, crier (notamment enfant ou nourrisson), tousser et respirer, parfois avec un bruit surajouté, l’obstruction n’est pas totale. […] Si la victime ne peut plus parler, crier, tousser ou émettre un son, garde la bouche ouverte, s'agite, devient rapidement bleue, alors l’obstruction est totale."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0022"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Une victime éveillée s’étouffe mais est capable de tousser. Pourquoi faut-il l’encourager à tousser ?",
+    "propositions": [
+      "Parce que la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger",
+      "Parce que la toux dispense d’alerter les secours",
+      "Parce que la toux remplace les claques dans le dos dans tous les cas",
+      "Parce que la toux fait descendre le corps étranger vers l’estomac"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR02 précise en note qu’une victime éveillée, réactive et capable de tousser doit être encouragée à le faire, car la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Obstruction des voies aériennes », Conduite à tenir, note 2, p. 21",
+      "citation": "Une victime qui est éveillée, réactive et capable de tousser doit être encouragée à le faire, car la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0023"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Pendant des manœuvres de désobstruction, à quels moments faut-il les interrompre ? (plusieurs réponses)",
+    "propositions": [
+      "Dès l’apparition d’une toux efficace, de cris ou de pleurs",
+      "Dès la reprise de la respiration",
+      "Dès le rejet du corps étranger",
+      "Dès que la première série de 5 claques a été donnée"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC 02PR02 demande d’interrompre les manœuvres dès l’apparition d’une toux efficace, de cris ou de pleurs, dès la reprise de la respiration ou dès le rejet du corps étranger. Le cycle « claques dans le dos » et « compressions » est répété tant que l’un de ces signes n’est pas apparu.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Obstruction des voies aériennes », Conduite à tenir, p. 21",
+      "citation": "répéter le cycle « claques dans le dos » et « compressions » ; […] interrompre les manœuvres dès : […] l’apparition d’une toux efficace, de cris ou de pleurs ; […] la reprise de la respiration ; […] le rejet du corps étranger."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0024"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Après des manœuvres de désobstruction efficaces, une victime respire normalement et dit se sentir bien. Que faut-il faire ?",
+    "propositions": [
+      "La faire alerter ou alerter les secours, appliquer leurs consignes et la surveiller en permanence",
+      "Considérer l’intervention comme terminée : aucune alerte n’est nécessaire",
+      "La laisser repartir sans surveillance",
+      "Refaire une série de compressions par précaution"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR02 demande, après le succès des manœuvres, de faire alerter ou d’alerter les secours. Elle précise que, même si la désobstruction est efficace, de petits corps peuvent passer dans les poumons et que les compressions peuvent provoquer des lésions internes.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR02 / 07-2026",
+      "emplacement": "Fiche 02PR02 « Obstruction des voies aériennes », Conduite à tenir, note 5, p. 21",
+      "citation": "Si la victime respire (toux efficace) ou après le succès des manœuvres […] faire alerter ou alerter les secours et appliquer leurs consignes ; […] surveiller en permanence la victime et lui parler régulièrement. […] Même si la désobstruction est efficace de petits corps peuvent passer dans les voies aériennes et dans les poumons et provoquer des complications secondaires. Les manœuvres de compressions, même réalisées correctement, peuvent provoquer des lésions internes."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0025"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Un nourrisson qui peut tenir sur l’avant-bras du secouriste présente une obstruction totale des voies aériennes. Comment le positionner pour lui donner des claques dans le dos ?",
+    "propositions": [
+      "À califourchon sur l’avant-bras, face vers le sol, la tête plus basse que le thorax",
+      "Allongé sur le dos sur une table, la tête en arrière",
+      "Assis sur la cuisse du secouriste, la face vers le haut",
+      "Debout, soutenu sous les bras, la tête redressée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT03 prévoit, pour la victime qui peut tenir sur l’avant-bras, de la coucher à califourchon sur l’avant-bras, la face vers le sol, et de l’incliner afin que la tête soit plus basse que le thorax, avant de donner de 1 à 5 claques vigoureuses entre les omoplates.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT03 / 07-2026",
+      "emplacement": "Fiche 02FT03 « Désobstruction par des claques dans le dos », Réalisation, p. 22",
+      "citation": "coucher la victime à califourchon sur l'avant-bras, la face vers le sol ; […] incliner la victime afin que la tête soit plus basse que le thorax ; […] donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0026"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Chez un adulte en obstruction totale des voies aériennes, comment réalise-t-on les compressions abdominales ?",
+    "propositions": [
+      "Poing fermé juste au-dessus du nombril, pression vers l’arrière et vers le haut, sans appuyer les avant-bras sur les côtes",
+      "Poing fermé sur la pointe inférieure du sternum, pression vers l’arrière uniquement",
+      "Poing fermé sous le nombril, pression vers le bas",
+      "Mains à plat sur les côtes, pression vers l’avant"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT04 place le poing fermé juste au-dessus du nombril et demande de tirer franchement vers l’arrière et vers le haut, sans appuyer les avant-bras sur les côtes. La technique est indiquée après une série de 5 claques inefficaces si le secouriste peut se tenir derrière la victime.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT04 / 07-2026",
+      "emplacement": "Fiche 02FT04 « Désobstruction par des compressions abdominales », Indication et Réalisation, p. 23",
+      "citation": "après une série de 5 claques dans le dos inefficaces, et si le secouriste peut se tenir debout ou à genou derrière elle. […] placer le poing fermé (dos de la main vers le ciel) juste au-dessus du nombril ; […] tirer franchement en exerçant une pression vers l'arrière et vers le haut, , sans appuyer les avants bras sur les côtes ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0027"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Dans quels cas les compressions thoraciques sont-elles nécessaires ?",
+    "propositions": [
+      "Chaque fois qu’une victime est en arrêt cardiaque ou a perdu connaissance à la suite d’une obstruction des voies aériennes",
+      "Uniquement lorsque le DAE a détecté un arrêt cardiaque",
+      "Pour toute perte de connaissance, même si la victime respire",
+      "Seulement lorsque les insufflations sont impossibles"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT07 indique que les compressions thoraciques sont nécessaires chaque fois qu’une victime présente un arrêt cardiaque ou a perdu connaissance à la suite d’une obstruction des voies aériennes.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT07 / 07-2026",
+      "emplacement": "Fiche 02FT07 « Compressions thoraciques », Indication, p. 30",
+      "citation": "Les compressions thoraciques sont nécessaires chaque fois qu’une victime présente un arrêt cardiaque ou a perdu connaissance à la suite d’une obstruction des voies aériennes."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0028"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Quelle est l’origine la plus fréquente de l’arrêt cardiaque chez l’enfant ?",
+    "propositions": [
+      "Respiratoire",
+      "L’infarctus du myocarde",
+      "Une anomalie du fonctionnement électrique du cœur de type fibrillation ventriculaire",
+      "Une hémorragie"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR03 indique que chez l’adulte, l’arrêt cardiaque est le plus souvent causé par une maladie du cœur, principalement l’infarctus du myocarde, alors que chez l’enfant il est le plus souvent d’origine respiratoire.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », Causes, p. 26",
+      "citation": "Chez l’adulte, l’arrêt cardiaque est le plus souvent causé par certaines maladies du cœur ; la principale est l’infarctus du myocarde. […] Chez l’enfant, l’arrêt cardiaque est le plus souvent d’origine respiratoire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0029"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Au cours d’un arrêt cardiaque, à partir de quand surviennent les lésions du cerveau liées au manque d’oxygène ?",
+    "propositions": [
+      "Dès la première minute",
+      "Après 5 minutes",
+      "Après 10 minutes",
+      "Après 30 minutes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR03 indique que, au cours d’un arrêt cardiaque, les lésions du cerveau consécutives au manque d’oxygène surviennent dès la première minute.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », Risques, p. 26",
+      "citation": "Au cours d’un arrêt cardiaque, les lésions du cerveau, consécutives au manque d’oxygène, surviennent dès la première minute."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0030"
+  },
+  {
+    "type": "ordre",
+    "enonce": "Remettez dans l’ordre les actions qui constituent la chaîne de survie en cas d’arrêt cardiaque.",
+    "propositions": [
+      "MASSER : pratiquer une réanimation cardio-pulmonaire (RCP) précoce",
+      "DEFIBRILLER : assurer la mise en œuvre d’une défibrillation précoce",
+      "ALERTER : alerter de façon précoce les secours"
+    ],
+    "bonnes_reponses": [
+      2,
+      0,
+      1
+    ],
+    "explication": "La fiche PSC 02PR03 présente la série d’actions du secouriste dans cet ordre : alerter, masser (RCP précoce), défibriller ; ces étapes constituent la chaîne de survie.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », Principe d’action, p. 26",
+      "citation": "ALERTER : alerter de façon précoce les secours ; […] MASSER : pratiquer une réanimation cardio-pulmonaire (RCP) précoce ; […] DEFIBRILLER : assurer la mise en œuvre d’une défibrillation précoce. Ces différentes étapes constituent une chaîne de survie"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0031"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Une personne s’effondre et ne répond pas. Pendant quelques secondes, elle présente des mouvements saccadés ressemblant à des convulsions. Quand faut-il l’examiner ?",
+    "propositions": [
+      "Dès l’arrêt de ces mouvements",
+      "Immédiatement, en la maintenant pour stopper les mouvements",
+      "Après l’arrivée des secours",
+      "Seulement si les mouvements durent plus d’une minute"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR03 précise qu’une courte période de mouvements saccadés ressemblant à des convulsions peut survenir au moment de l’arrêt cardiaque et qu’il faut examiner la victime dès l’arrêt de ces mouvements.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », Conduite à tenir, p. 27",
+      "citation": "Une courte période de mouvements saccadés de la victime, ressemblant à des convulsions, peut survenir au moment de l’arrêt cardiaque. Examiner la victime dès l’arrêt de ces mouvements."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0032"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Seul, vous découvrez une victime qui ne respire pas. Aucun tiers n’est présent, et vous n’avez ni téléphone ni réseau. Que faites-vous pour l’alerte ?",
+    "propositions": [
+      "Quitter la victime pour aller alerter, puis revenir auprès d’elle",
+      "Alerter en criant depuis l’endroit où vous êtes, sans quitter la victime",
+      "Rester auprès de la victime sans alerter tant qu’un tiers n’est pas arrivé",
+      "Alerter en laissant la victime et ne pas revenir avant l’arrivée des secours"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR03 prévoit, pour le secouriste seul, d’alerter avec un téléphone portable s’il en dispose ; en l’absence de téléphone ou de réseau, il quitte la victime pour aller alerter puis revient auprès d’elle.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », Conduite à tenir, p. 27",
+      "citation": "si aucun tiers n’est présent : […] alerter les secours : […] en l’absence de téléphone ou de réseau, quitter la victime pour aller alerter puis revenir auprès de la victime."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0033"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Un DAE est installé sur une victime en arrêt cardiaque. À quel moment reprendre la RCP après la délivrance, ou non, d’un choc électrique ?",
+    "propositions": [
+      "Immédiatement, sans attendre les instructions vocales du DAE",
+      "Après avoir attendu les instructions vocales du DAE",
+      "Après 2 minutes de pause",
+      "Après avoir recherché à nouveau la respiration pendant 10 secondes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR03 demande, si un DAE est installé, de reprendre la RCP immédiatement après la délivrance, ou non, d’un choc électrique, sans attendre ses instructions vocales, et de la poursuivre jusqu’à une demande d’interruption par le DAE ou le relais par les secours.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », Conduite à tenir, p. 27",
+      "citation": "si un DAE est installé, reprendre la RCP immédiatement après la délivrance, ou non, d'un choc électrique par le DAE, sans attendre ses instructions vocales."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0034"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Un secouriste réalise la RCP sur un adulte en arrêt cardiaque. Les insufflations ne peuvent pas être effectuées (vomissements). Que fait-il ?",
+    "propositions": [
+      "Il réalise uniquement des compressions thoraciques en continu, à un rythme de 100 à 120 par minute",
+      "Il interrompt la RCP jusqu’à l’arrivée des secours",
+      "Il poursuit des cycles de 30 compressions et 2 insufflations, quelles que soient les circonstances",
+      "Il alterne 5 compressions et 1 insufflation"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR03 indique que, si les insufflations ne peuvent pas être effectuées (maladie infectieuse et contagieuse, vomissements, traumatisme majeur de la face, répulsion, etc.), il faut réaliser uniquement les compressions thoraciques en continu à un rythme de 100 à 120 compressions par minute.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », Conduite à tenir, note 5, p. 27",
+      "citation": "Si les insufflations ne peuvent pas être effectuées (maladie infectieuse et contagieuse, vomissements, traumatisme majeur de la face, répulsion, etc.), il faut réaliser uniquement les compressions thoraciques en continu à un rythme de 100 à 120 compressions par minute."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0035"
+  },
+  {
+    "type": "qcm",
+    "enonce": "En période d’épidémie d’une maladie à transmission respiratoire, quelles adaptations s’appliquent à la prise en charge d’un arrêt cardiaque ? (plusieurs réponses)",
+    "propositions": [
+      "Se protéger, si possible, avec un masque",
+      "Rechercher la respiration en regardant si le ventre et la poitrine se soulèvent, sans se pencher au-dessus de la face de la victime",
+      "Effectuer seulement des compressions thoraciques",
+      "Se tenir au pied de la victime lors de l’administration du choc",
+      "Basculer la tête de la victime en arrière pour rechercher sa respiration"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explication": "La fiche PSC 02PR03 demande en période d’épidémie de se protéger avec un masque si possible, de rechercher la respiration en regardant la poitrine et le ventre sans basculer la tête ni se pencher sur la face, d’effectuer seulement des compressions thoraciques et de se tenir au pied de la victime lors du choc.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR03 / 07-2026",
+      "emplacement": "Fiche 02PR03 « Arrêt cardiaque », En période d’épidémie, p. 28",
+      "citation": "se protéger, si possible, avec un masque ; […] en regardant si son ventre et sa poitrine se soulèvent ; […] effectuer seulement des compressions thoraciques ; […] se tenir au pied de la victime lors de l’administration du choc ; […] Ne pas procéder à la bascule de la tête de la victime en arrière, ne pas tenter de lui ouvrir la bouche, ne pas se pencher au-dessus de la face de la victime"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "id": "psc-0036"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Vous devez libérer les voies aériennes d’un nourrisson qui ne répond pas. Comment procédez-vous ?",
+    "propositions": [
+      "Amener doucement la tête en position neutre, dans l’alignement du torse, et élever le menton",
+      "Basculer fortement la tête en arrière, comme chez l’adulte",
+      "Fléchir la tête vers l’avant, menton sur la poitrine",
+      "Ouvrir la bouche sans toucher à la tête"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT06 demande, chez le nourrisson, de mettre doucement la tête en position neutre dans l’alignement du torse et d’élever le menton, en évitant une bascule excessive susceptible de provoquer une extension du rachis cervical et une gêne de la ventilation.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT06 / 07-2026",
+      "emplacement": "Fiche 02FT06 « Libération des voies aériennes », Chez le nourrisson, p. 29",
+      "citation": "amener doucement la tête du nourrisson en position neutre dans l'alignement du torse ; […] élever le menton tout en évitant une bascule excessive susceptible de provoquer une extension du rachis cervical et une gêne de la ventilation."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0037"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Comment réalise-t-on les compressions thoraciques chez un nourrisson en arrêt cardiaque ?",
+    "propositions": [
+      "Pulpe des deux pouces l’un sur l’autre au centre de la poitrine, sur une profondeur d’environ 4 cm",
+      "Talon d’une main au centre de la poitrine, sur une profondeur d’environ 5 cm",
+      "Pulpe des deux pouces l’un sur l’autre, sur une profondeur d’environ 6 cm",
+      "Deux doigts au centre de la poitrine, sur une profondeur d’environ 2 cm"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT07 prévoit, chez le nourrisson, d’entourer le thorax avec les mains, de placer la pulpe des deux pouces l’un sur l’autre au centre de la poitrine, sur la moitié inférieure du sternum, et de comprimer d’un tiers de l’épaisseur, soit environ 4 cm.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT07 / 07-2026",
+      "emplacement": "Fiche 02FT07 « Compressions thoraciques », Chez le nourrisson, p. 31",
+      "citation": "entourer le thorax du nourrisson avec les mains ; […] placer la pulpe des deux pouces placés l’un sur l’autre, au centre de la poitrine, sur la moitié inférieure du sternum ; […] réaliser des compressions d’une profondeur d’un tiers de son épaisseur, soit environ 4 cm ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0038"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Au cours d’une RCP, en combien de temps au maximum les deux insufflations doivent-elles être réalisées ?",
+    "propositions": [
+      "5 secondes",
+      "10 secondes",
+      "2 secondes",
+      "15 secondes"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT08 précise que les deux insufflations doivent être lentes et progressives, cesser dès le début du soulèvement de la poitrine et être réalisées en 5 secondes maximum, pour ne pas retarder la reprise des compressions thoraciques.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT08 / 07-2026",
+      "emplacement": "Fiche 02FT08 « Insufflations », Points clés, p. 32",
+      "citation": "Les deux insufflations doivent : […] être lentes et progressives ; […] cesser dès le début du soulèvement de la poitrine ; […] être réalisées en 5 secondes maximum."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0039"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Lors des insufflations, la poitrine de la victime ne se soulève pas. Quelles vérifications faut-il faire ? (plusieurs réponses)",
+    "propositions": [
+      "S’assurer que la tête est en bonne position et que le menton est élevé",
+      "S’assurer qu’il y a une bonne étanchéité, sans fuite d’air",
+      "Rechercher un corps étranger dans la bouche et le retirer avec les doigts si nécessaire",
+      "Insuffler beaucoup plus fort pour vaincre la résistance"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC 02FT08 demande de vérifier la position de la tête et du menton, l’étanchéité et la présence d’un corps étranger dans la bouche. Les insufflations doivent rester lentes et progressives : insuffler plus fort n’est pas prévu.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT08 / 07-2026",
+      "emplacement": "Fiche 02FT08 « Insufflations », Réalisation et Points clés, p. 32",
+      "citation": "Si le ventre ou la poitrine de la victime ne se soulève pas lors des insufflations : […] s'assurer que la tête de la victime est en bonne position et que son menton est élevé ; […] s'assurer qu'il y a une bonne étanchéité et pas de fuite d'air lors de l'insufflation ; […] rechercher la présence d'un corps étranger dans la bouche. Le retirer avec les doigts, si nécessaire. […] être lentes et progressives ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0040"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Vous posez les électrodes d’un DAE sur une victime en arrêt cardiaque. Vous percevez sous la peau, sous la clavicule droite, un boîtier de stimulateur cardiaque à l’endroit où l’électrode doit être collée. Que faites-vous ?",
+    "propositions": [
+      "Coller l’électrode à une largeur de main de l’appareil (environ 8 cm de la bosse perçue)",
+      "Coller l’électrode directement sur la bosse perçue",
+      "Renoncer à utiliser le DAE",
+      "Coller l’électrode à environ 1 cm de la bosse perçue"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT09 prévoit, en présence d’un stimulateur cardiaque à l’endroit de pose de l’électrode, de coller l’électrode à une largeur de main de l’appareil (environ 8 cm de la bosse perçue).",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT09 / 12-2023",
+      "emplacement": "Fiche 02FT09 « Défibrillation », Risques et contraintes, p. 34",
+      "citation": "Si la victime présente un stimulateur cardiaque (le plus souvent le secouriste constate une cicatrice et perçoit un boîtier sous la peau, sous la clavicule droite ou est informé par la famille) à l’endroit de pose de l’électrode, le secouriste colle l’électrode à une largeur de main de l’appareil (environ 8 cm de la bosse perçue)."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 3,
+    "statut": "a_verifier",
+    "id": "psc-0041"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Une victime en arrêt cardiaque est allongée sur un sol mouillé, au bord d’une piscine, et son thorax est mouillé. Que prévoit-on avant de débuter la défibrillation ?",
+    "propositions": [
+      "Si possible, la déplacer sur une surface sèche et sécher son thorax",
+      "Renoncer à la défibrillation, car le secouriste risque l’électrisation",
+      "Défibriller sans rien changer, l’humidité n’ayant aucun effet",
+      "Placer les deux électrodes sur le dos de la victime"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT09 demande, si possible, de déplacer la victime sur une surface sèche et de sécher son thorax. Elle précise que l’efficacité du choc est diminuée sur un sol mouillé, sans risque réel pour le secouriste.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT09 / 12-2023",
+      "emplacement": "Fiche 02FT09 « Défibrillation », Risques et contraintes, p. 34",
+      "citation": "Si la victime est allongée sur un sol mouillé (bord de piscine, pluie, etc.) ou si son thorax est mouillé, le secouriste, si possible, déplace la victime pour l’allonger sur une surface sèche et, si possible, sèche son thorax avant de débuter la défibrillation […] L’efficacité d’un choc électrique sur une victime allongée sur un sol mouillé est diminuée. Il n’existe pas de risque réel pour le secouriste."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0042"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Vous devez défibriller un enfant ou un nourrisson et ne disposez que d’électrodes adultes. Comment les positionner ?",
+    "propositions": [
+      "L’une au milieu du thorax, l’autre au milieu du dos",
+      "Les deux sur le thorax, comme chez l’adulte",
+      "L’une sous la clavicule droite, l’autre au milieu du dos",
+      "Les deux sur le dos"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT09 demande des appareils adaptés (électrodes enfants, réducteur d’énergie, etc.) ; en leur absence, les électrodes adultes sont positionnées au milieu du thorax pour l’une et au milieu du dos pour l’autre.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT09 / 12-2023",
+      "emplacement": "Fiche 02FT09 « Défibrillation », Chez l’enfant et le nourrisson, p. 34",
+      "citation": "La défibrillation doit être réalisée avec des appareils adaptés (électrodes enfants, réducteur d’énergie, etc.). […] En leur absence, les électrodes adultes sont alors positionnées au milieu du thorax pour l’une et au milieu du dos pour l’autre."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0043"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Le DAE demande toujours de connecter les électrodes alors qu’elles sont déjà posées et connectées. Que faites-vous ?",
+    "propositions": [
+      "Vérifier que les électrodes sont bien collées et le câble correctement connecté ; si le problème persiste et qu’une seconde paire est disponible, remplacer les électrodes",
+      "Arrêter d’utiliser le DAE et poursuivre la RCP seule",
+      "Retirer les électrodes et les recoller seulement après 2 minutes de RCP",
+      "Appuyer sur le bouton « choc » pour relancer l’analyse"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT09 demande de vérifier que les électrodes sont bien collées et que le câble est correctement connecté au DAE ; si le problème n’est pas résolu et qu’une seconde paire d’électrodes est disponible, de remplacer les électrodes.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT09 / 12-2023",
+      "emplacement": "Fiche 02FT09 « Défibrillation », Risques et contraintes, p. 34",
+      "citation": "Si le DAE demande toujours de connecter les électrodes alors que cette opération a déjà été effectuée, le secouriste, vérifie que : […] les électrodes sont bien collées et le câble de connexion correctement connecté au DAE ; […] si le problème n’est pas résolu et qu’une seconde paire d’électrodes est disponible, remplacer les électrodes."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0044"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Quelles affirmations sont exactes à propos des électrodes de défibrillation fournies avec un DAE ? (plusieurs réponses)",
+    "propositions": [
+      "Ce sont des électrodes prégélifiées autocollantes avec câble intégré",
+      "Elles sont à usage unique",
+      "Une seconde paire doit être disponible en cas de défaillance de la première",
+      "Elles sont réutilisables après nettoyage"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC « Défibrillateur automatisé externe - DAE » indique que le DAE est toujours accompagné d’une paire d’électrodes prégélifiées autocollantes avec câble intégré, à usage unique, et qu’une seconde paire doit être disponible en cas de défaillance de la première.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02AC01 / 12-2022 « Défibrillateur automatisé externe - DAE »",
+      "emplacement": "Chapitre 02, fiche « Défibrillateur automatisé externe - DAE », Composition, p. 35",
+      "citation": "Le DAE est toujours accompagné d’une paire d’électrodes de défibrillation prégélifiées autocollantes avec câble intégré. Ces électrodes, à usage unique, sont contenues dans un emballage hermétique. Une seconde paire doit être disponible en cas de défaillance de la première."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0045"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Pourquoi une personne qui a perdu connaissance, laissée sur le dos, est-elle toujours exposée à des difficultés respiratoires ? (plusieurs réponses)",
+    "propositions": [
+      "Par la chute de la langue en arrière",
+      "Par l’encombrement de la gorge par des liquides (salive, sang, liquide gastrique)",
+      "Par la diminution des réflexes, en particulier de déglutition",
+      "Par une augmentation du tonus musculaire"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC 02PR04 explique que, sur le dos, la victime inconsciente est exposée à l’encombrement des voies aériennes par des liquides, du fait d’une diminution des réflexes, en particulier de déglutition, et à la chute de la langue, du fait d’une forte diminution du tonus musculaire.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR04 / 07-2026",
+      "emplacement": "Fiche 02PR04 « Perte de connaissance », Risques, p. 36",
+      "citation": "Une personne qui a perdu connaissance, laissée sur le dos, est toujours exposée à des difficultés respiratoires, du fait de l'encombrement ou de l'obstruction des voies aériennes par : […] des liquides présents dans la gorge (salive, sang, liquide gastrique) ; […] la chute de la langue en arrière. […] Du fait d’une diminution des réflexes, en particulier de déglutition. […] Du fait d’une forte diminution du tonus musculaire."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0046"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "En période d’épidémie d’une maladie à transmission respiratoire, une victime ne répond pas, ne réagit pas, mais respire. Que faites-vous ?",
+    "propositions": [
+      "La laisser dans la position où elle se trouve, faire alerter ou alerter les secours, et surveiller sa respiration en regardant son ventre et sa poitrine",
+      "Basculer sa tête en arrière et approcher l’oreille de sa bouche pour entendre sa respiration",
+      "La mettre immédiatement en PLS, sans protection particulière",
+      "Lui ouvrir la bouche et se pencher sur son visage pour sentir son souffle"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR04 prévoit, en période d’épidémie, de laisser la victime dans la position où elle se trouve, d’alerter les secours et de surveiller sa respiration en regardant son ventre et sa poitrine, sans basculer la tête ni se pencher au-dessus de sa face.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR04 / 07-2026",
+      "emplacement": "Fiche 02PR04 « Perte de connaissance », En période d’épidémie, p. 37",
+      "citation": "Ne pas procéder à la bascule de la tête de la victime en arrière, ne pas tenter de lui ouvrir la bouche, ne pas se pencher au-dessus de la face de la victime et ne pas mettre son oreille et sa joue au-dessus de la bouche et du nez de la victime ; Si la victime ne répond pas, ne réagit pas et respire : […] laisser la victime dans la position où elle se trouve ; […] faire alerter ou alerter les secours, respecter leurs consignes ; […] surveiller en permanence la respiration de la victime en regardant son ventre et sa poitrine."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0047"
+  },
+  {
+    "type": "ordre",
+    "enonce": "Remettez dans l’ordre les trois temps de la mise en position latérale de sécurité chez l’adulte ou l’enfant.",
+    "propositions": [
+      "Stabiliser la victime",
+      "Retourner la victime",
+      "Préparer le retournement de la victime"
+    ],
+    "bonnes_reponses": [
+      2,
+      1,
+      0
+    ],
+    "explication": "La fiche PSC 02FT10 décrit la PLS en trois temps : préparer le retournement de la victime, la retourner, puis la stabiliser.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT10 / 07-2026",
+      "emplacement": "Fiche 02FT10 « Position latérale de sécurité - PLS », Chez l’adulte ou l’enfant, p. 38",
+      "citation": "1er temps : Préparer le retournement de la victime […] 2ème temps : Retourner la victime […] 3ème temps : Stabiliser la victime"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0048"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Au premier temps de la PLS chez l’adulte, comment placer le bras de la victime situé du côté du secouriste ?",
+    "propositions": [
+      "À angle droit de son corps, coude plié, la paume de la main tournée vers le haut",
+      "Le long du corps, la paume contre la cuisse",
+      "Replié sur le thorax, la main sur l’épaule opposée",
+      "Au-dessus de la tête, le coude tendu"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02FT10 demande, au premier temps, de placer le bras de la victime situé du côté du secouriste à angle droit de son corps, puis de plier le coude de ce même bras en gardant la paume de la main tournée vers le haut.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02FT10 / 07-2026",
+      "emplacement": "Fiche 02FT10 « Position latérale de sécurité - PLS », 1er temps, p. 38",
+      "citation": "placer le bras de la victime, situé du côté secouriste, à angle droit de son corps ; […] plier le coude de ce même bras en gardant la paume de la main de la victime tournée vers le haut ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0049"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Parmi les signes qui doivent alerter le secouriste devant un malaise, à partir de quelle température mentionne-t-on une fièvre ?",
+    "propositions": [
+      "Plus de 37,8 °C",
+      "Plus de 38,5 °C",
+      "Plus de 39 °C",
+      "Plus de 40 °C"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR05 cite parmi les signes qui doivent alerter le secouriste une fièvre (>37,8°C), une sensation de fièvre et des frissons.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR05 / 07-2026",
+      "emplacement": "Fiche 02PR05 « Malaises », Signes, p. 40",
+      "citation": "une fièvre (>37,8°C), une sensation de fièvre et des frissons ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0050"
+  },
+  {
+    "type": "qcm",
+    "enonce": "À quelle condition le secouriste aide-t-il une victime en malaise à prendre son traitement prescrit ou du sucre en morceaux ?",
+    "propositions": [
+      "À la demande de la victime ou à la demande des secours",
+      "Systématiquement, dès le début du malaise",
+      "Uniquement si la victime est devenue incapable de parler",
+      "Uniquement après l’arrivée des secours"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR05 prévoit d’aider la victime, à sa demande ou à la demande des secours, à prendre son traitement prescrit ou du sucre en morceaux.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR05 / 07-2026",
+      "emplacement": "Fiche 02PR05 « Malaises », Conduite à tenir en toute circonstance, p. 41",
+      "citation": "aider la victime à sa demande ou à la demande des secours, à prendre : […] son traitement prescrit ; […] du sucre en morceaux."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0051"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Quelles plaies sont qualifiées de graves ? (plusieurs réponses)",
+    "propositions": [
+      "Une plaie du thorax",
+      "Une plaie de l’œil",
+      "Une plaie proche d’un orifice naturel",
+      "Une petite coupure superficielle",
+      "Une éraflure saignant peu"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2
+    ],
+    "explication": "La fiche PSC 02PR06 qualifie de grave une plaie en raison notamment de sa localisation thoracique, abdominale, oculaire ou proche d’un orifice naturel. La petite coupure superficielle et l’éraflure saignant peu sont des plaies simples.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR06 / 07-2026",
+      "emplacement": "Fiche 02PR06 « Plaies », Définition - Signes, p. 43",
+      "citation": "plaie simple, lorsqu’il s’agit d’une petite coupure superficielle, d’une éraflure saignant peu ; […] plaie grave du fait : […] de sa localisation : thoracique, abdominale, oculaire ou proche d’un orifice naturel ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0052"
+  },
+  {
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : un nettoyage soigneux d’une plaie suffit à protéger la victime du tétanos.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche PSC 02PR06 indique que le tétanos est une maladie très grave, parfois mortelle, dont seule la vaccination antitétanique protège.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR06 / 07-2026",
+      "emplacement": "Fiche 02PR06 « Plaies », Risques, p. 43",
+      "citation": "Le tétanos est une maladie très grave, parfois mortelle. Seule la vaccination antitétanique protège de cette maladie."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0053"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Une victime présente une plaie au thorax. Comment l’installer ?",
+    "propositions": [
+      "Assise, en laissant la plaie à l’air libre",
+      "Allongée, jambes fléchies",
+      "Allongée sur le dos, la plaie recouverte d’un pansement fermé sur ses quatre côtés",
+      "Allongée, yeux fermés, tête immobilisée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR06 prévoit, en présence d’une plaie au thorax, d’installer la victime assise en laissant la plaie à l’air libre ; la position assise facilite la respiration. L’allongement jambes fléchies concerne la plaie de l’abdomen et les yeux fermés la plaie de l’œil.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR06 / 07-2026",
+      "emplacement": "Fiche 02PR06 « Plaies », Face à une plaie grave, p. 43",
+      "citation": "assise en laissant la plaie à l’air libre en présence d'une plaie au thorax ; […] La position assise facilite la respiration lorsque l’on est en présence d’une plaie au thorax."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0054"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Pourquoi ne faut-il pas placer la partie du corps amputée directement au contact de la glace ?",
+    "propositions": [
+      "Le contact direct avec la source de froid serait responsable de gelures qui peuvent compromettre la réussite de la réimplantation",
+      "La partie amputée doit être congelée pour être conservée",
+      "La partie amputée doit rester au sec",
+      "Le froid n’a aucun intérêt pour conserver une partie amputée"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR06 précise en note que le contact direct entre la partie amputée ou arrachée et la source de froid serait responsable de gelures qui peuvent compromettre la réimplantation ; le froid permet par ailleurs de la préserver dans l’attente de cette réimplantation. Le texte demande de la conserver au frais, sans la congeler, enveloppée dans un tissu propre humidifié avec de l’eau.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR06 / 07-2026",
+      "emplacement": "Fiche 02PR06 « Plaies », Conduite à tenir particulière, notes 4 et 6, p. 44",
+      "citation": "conditionner la partie du corps amputée ou arrachée, au frais, sans la congeler ; […] l’envelopper dans un tissu propre humidifié avec de l’eau ; […] Le froid permet de préserver une partie amputée ou arrachée dans l’attente de sa réimplantation éventuelle. […] Le contact direct entre la partie du corps amputée ou arrachée et la source de froid serait responsable de gelures qui peuvent compromettre la réussite de sa réimplantation."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0055"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Face à une brûlure thermique simple, quelles conduites sont prévues ? (plusieurs réponses)",
+    "propositions": [
+      "Poursuivre le refroidissement jusqu’à disparition de la douleur",
+      "Ne jamais percer les cloques",
+      "Protéger la brûlure par un pansement stérile ou un film plastique non adhésif",
+      "Conseiller de consulter un médecin s’il s’agit d’un enfant ou d’un nourrisson",
+      "Percer les cloques avec une aiguille stérile pour éviter l’infection"
+    ],
+    "bonnes_reponses": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explication": "La fiche PSC 02PR07 demande, pour une brûlure simple, de poursuivre le refroidissement jusqu’à disparition de la douleur, de ne jamais percer les cloques, de protéger par un pansement stérile ou un film plastique non adhésif et de conseiller de consulter un médecin notamment s’il s’agit d’un enfant ou d’un nourrisson.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR07 / 07-2026",
+      "emplacement": "Fiche 02PR07 « Brûlures », Si la brûlure est simple, p. 46",
+      "citation": "poursuivre le refroidissement jusqu'à disparition de la douleur ; […] ne jamais percer les cloques ; […] protéger la brûlure par un pansement stérile ou un film plastique non adhésif ; […] conseiller à la victime de consulter un médecin : […] s'il s'agit d'un enfant ou d'un nourrisson ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0056"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Un produit chimique a été projeté dans l’œil d’une victime. Que faut-il faire ?",
+    "propositions": [
+      "Rincer l’œil atteint à l’eau courante tempérée, immédiatement et abondamment, et faire retirer les lentilles de contact pendant le rinçage",
+      "Fermer l’œil et le recouvrir d’un pansement sec",
+      "Rincer l’œil en laissant les lentilles de contact en place",
+      "Neutraliser le produit avec un autre produit"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR07 demande, en cas de projection de produit chimique dans l’œil, de rincer l’œil atteint immédiatement et abondamment à l’eau courante tempérée et de faire retirer les lentilles de contact pendant le rinçage.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR07 / 07-2026",
+      "emplacement": "Fiche 02PR07 « Brûlures », En présence d’une brûlure par produit chimique ou interne par inhalation, p. 46",
+      "citation": "demander à la victime de se rincer immédiatement et abondamment à l’eau courante tempérée : […] en cas de projection dans l’œil : rincer l’œil atteint et faire retirer les lentilles de contact pendant le rinçage ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0057"
+  },
+  {
+    "type": "qcm",
+    "enonce": "Face à une brûlure thermique grave, à quel moment faire alerter ou alerter les secours ?",
+    "propositions": [
+      "Dès le début de l’arrosage",
+      "Après 10 minutes d’arrosage",
+      "Après la fin du refroidissement",
+      "Uniquement si la douleur persiste après le refroidissement"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR07 demande, pour une brûlure grave, de faire alerter ou d’alerter les secours dès le début de l’arrosage, puis de poursuivre le refroidissement selon les consignes. Aucun produit ne doit être appliqué sur une brûlure grave sans avis médical.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR07 / 07-2026",
+      "emplacement": "Fiche 02PR07 « Brûlures », Si la brûlure est grave, p. 46",
+      "citation": "dès le début de l’arrosage, faire alerter ou alerter les secours et appliquer les consignes ; […] Aucun produit ne doit être appliqué sur une brûlure grave sans avis médical."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 2,
+    "statut": "a_verifier",
+    "id": "psc-0058"
+  },
+  {
+    "type": "vrai-faux",
+    "enonce": "Vrai ou faux : devant une fracture de membre déplacée, le secouriste doit tenter de réaligner le membre pour soulager la victime.",
+    "propositions": [
+      "Vrai",
+      "Faux"
+    ],
+    "bonnes_reponses": [
+      1
+    ],
+    "explication": "La fiche PSC 02PR08 pose comme principe que le secouriste ne doit pas mobiliser la victime et demande, si la victime présente une fracture de membre déplacée, de ne pas tenter de le réaligner.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR08 / 07-2026",
+      "emplacement": "Fiche 02PR08 « Traumatismes », Principes d’action et Conduite à tenir, p. 47",
+      "citation": "Le secouriste ne doit pas mobiliser la victime. […] si la victime présente une fracture de membre déplacée, ne pas tenter de le réaligner ;"
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0059"
+  },
+  {
+    "type": "cas-concret",
+    "enonce": "Après une chute, une victime consciente se plaint d’une douleur au cou. Quelle consigne lui donnez-vous ?",
+    "propositions": [
+      "Lui demander de ne pas bouger la tête",
+      "Lui demander de tourner doucement la tête pour vérifier sa mobilité",
+      "L’aider à s’asseoir, la tête penchée en avant",
+      "L’aider à se relever lentement"
+    ],
+    "bonnes_reponses": [
+      0
+    ],
+    "explication": "La fiche PSC 02PR08 indique que le secouriste ne doit pas mobiliser la victime et conseille fermement de ne pas mobiliser la partie atteinte : si la douleur siège au cou, il demande de ne pas bouger la tête.",
+    "source": {
+      "document": "Références techniques nationales – Premiers Secours Citoyen (DGSCGC)",
+      "version": "Édition juillet 2026 – fiche 02PR08 / 07-2026",
+      "emplacement": "Fiche 02PR08 « Traumatismes », Conduite à tenir, p. 47",
+      "citation": "Le secouriste ne doit pas mobiliser la victime. […] Exemple, si la douleur siège au cou, demander de ne pas bouger la tête."
+    },
+    "theme": "secours-a-personne",
+    "emplois": [
+      "equipier"
+    ],
+    "portee": "national",
+    "difficulte": 1,
+    "statut": "a_verifier",
+    "id": "psc-0060"
   }
 ]
