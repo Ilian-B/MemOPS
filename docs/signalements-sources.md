@@ -72,6 +72,21 @@ Relevés lors de la rédaction et de la vérification du premier lot PSE. Chaque
 - p. 349, 10FT04, note 2 : « Le face ou la couleur de la couverture de survie ».
 - p. 367, 10FT12 : brancardage à trois secouristes, mais « Secouristes 2, 3 et 4 : « Prêts ! » ».
 
+## Références techniques nationales – Premiers secours citoyen (DGSCGC) – édition juillet 2026
+
+### Contradictions ou ambiguïtés de fond
+
+| Page | Fiche | Passage (cité tel quel) | Point signalé | Relevé le |
+|---|---|---|---|---|
+| 25 et 31 | 02FT05 et 02FT07 | p. 25 (obstruction, nourrisson) : « deux pouces », « au-delà d'un tiers de la hauteur du thorax » / p. 31 (arrêt cardiaque, nourrisson) : « pulpe des deux pouces », « un tiers de son épaisseur, soit environ 4 cm » | Deux formulations différentes pour les compressions thoraciques du nourrisson. Aucune question ne porte sur la profondeur en cas d'obstruction ; la question sur l'arrêt cardiaque cite 02FT07. | 2026-11-18 |
+| 3 | Sommaire | Les procédures rédigées en puces « n'induisent pas systématiquement une hiérarchisation stricte » | Une procédure en puces ne suffit pas à fonder une mise en ordre ; seules les étapes numérotées ou explicitement ordonnées ont été utilisées. | 2026-11-18 |
+
+### Coquilles et défauts de forme (sans effet sur le sens)
+
+- Fiche Alerte (01AC04) : « personne sourdes ».
+- 02FT04 : « , , » et « avants bras ».
+- 02FT05 et 02FT07 : « 15/2 » chez l'enfant et le nourrisson (02PR03) face à « environ 5 cm » (enfant) et « environ 4 cm » (nourrisson) : formulations compatibles, simple remarque.
+
 ## GTO Établissements et techniques d'extinction (DGSCGC) – 29 août 2018
 
 Relevés lors de la rédaction et de la vérification des lots incendie 01 et 02.
